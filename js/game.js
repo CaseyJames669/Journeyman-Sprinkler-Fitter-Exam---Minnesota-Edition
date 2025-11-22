@@ -137,10 +137,7 @@ function handleAnswer(btn, isCorrect, qData) {
 
         // Sudden Death Logic
         if (gameMode === 'sudden-death') {
-            bankBalance = 0; // You're fired
-            updateHUD();
-            face.src = "assets/foreman-fail.jpg";
-            finishGame("FIRED! One mistake is all it takes.");
+            playSuddenDeathVideo();
             return;
         }
 
@@ -166,6 +163,29 @@ function handleAnswer(btn, isCorrect, qData) {
 
     document.getElementById('next-btn').style.display = 'block';
     updateHUD();
+}
+
+function playSuddenDeathVideo() {
+    const overlay = document.getElementById('video-overlay');
+    const video = document.getElementById('sudden-death-video');
+
+    // Hide game UI to be clean
+    document.getElementById('quiz-card').style.display = 'none';
+    document.getElementById('hud').style.display = 'none';
+    document.getElementById('foreman-speech').style.display = 'none';
+
+    overlay.style.display = 'flex';
+    video.currentTime = 0;
+    video.play().catch(e => console.error("Video play failed:", e));
+
+    video.onended = () => {
+        // Fade out or just cut to menu
+        overlay.style.display = 'none';
+        // Reset to main menu
+        document.getElementById('main-menu').style.display = 'flex';
+        // Reset Foreman
+        document.getElementById('foreman-img').src = 'assets/foreman-loading.jpg';
+    };
 }
 
 function nextQuestion() {

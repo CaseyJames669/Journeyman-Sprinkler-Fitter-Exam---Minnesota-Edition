@@ -487,3 +487,24 @@ button[disabled] {
     filter: grayscale(1);
     border-color: #555;
 }
+
+/* Video Overlay */
+#video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 999;
+    /* On top of everything */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sudden-death-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
