@@ -1,0 +1,190 @@
+{
+  "files": [
+    {
+      "file": "Bonus File 33 - The 'Impossible' Questions.json",
+      "entries": 3
+    },
+    {
+      "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+      "entries": 22
+    },
+    {
+      "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+      "entries": 14
+    },
+    {
+      "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+      "entries": 14
+    },
+    {
+      "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+      "entries": 11
+    },
+    {
+      "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+      "entries": 11
+    },
+    {
+      "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+      "entries": 23
+    },
+    {
+      "file": "File 10 - The 'Math & Formula' Cheat Sheet.json",
+      "entries": 8
+    },
+    {
+      "file": "File 11 - The 'Minnesota Traps' & Common Mistakes.json",
+      "entries": 8
+    },
+    {
+      "file": "File 12 - Seismic Bracing & Sway.json",
+      "entries": 8
+    },
+    {
+      "file": "File 13 - Underground & Thrust Blocks (NFPA 24).json",
+      "entries": 6
+    },
+    {
+      "file": "File 14 - Fire Pumps Advanced (NFPA 20).json",
+      "entries": 6
+    },
+    {
+      "file": "File 15 - Plan Reading & Symbols (Field Knowledge).json",
+      "entries": 6
+    },
+    {
+      "file": "File 16 - Final 'Cram' Facts.json",
+      "entries": 5
+    },
+    {
+      "file": "File 17 - Storage & Special Hazards (NFPA 13).json",
+      "entries": 6
+    },
+    {
+      "file": "File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json",
+      "entries": 5
+    },
+    {
+      "file": "File 19 - System Acceptance & Flushing (NFPA 13&24).json",
+      "entries": 5
+    },
+    {
+      "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+      "entries": 15
+    },
+    {
+      "file": "File 20 - Fire Alarm & Detection Interface (NFPA 72&13).json",
+      "entries": 4
+    },
+    {
+      "file": "File 21 - Corrosion, MIC & Obstructions (The 'System Killer' Deck).json",
+      "entries": 5
+    },
+    {
+      "file": "File 22 - Vertical Shafts & Elevators (The 'High-Rise' Deck).json",
+      "entries": 5
+    },
+    {
+      "file": "File 23 - Pump Theory & Troubleshooting (The 'Engineer' Deck).json",
+      "entries": 5
+    },
+    {
+      "file": "File 24 - Exposure Protection & Special Spray (The 'Niche' Deck).json",
+      "entries": 5
+    },
+    {
+      "file": "File 25 - Residential Deep Dive (NFPA 13D & 13R).json",
+      "entries": 5
+    },
+    {
+      "file": "File 26 - Service Work & Modifications (The 'Retrofit' Deck).json",
+      "entries": 5
+    },
+    {
+      "file": "File 27 - System Mechanics & Hardware (How it Works).json",
+      "entries": 4
+    },
+    {
+      "file": "File 28 - The 'Final Boss' Scenarios (Complex Synthesis).json",
+      "entries": 5
+    },
+    {
+      "file": "File 29 - Standpipe System Types (NFPA 14).json",
+      "entries": 5
+    },
+    {
+      "file": "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",
+      "entries": 15
+    },
+    {
+      "file": "File 30 - Commodity Classification (NFPA 13).json",
+      "entries": 6
+    },
+    {
+      "file": "File 31 - Electrical & Controllers (NFPA 20&70).json",
+      "entries": 4
+    },
+    {
+      "file": "File 32 - Confined Space & Safety (OSHA).json",
+      "entries": 4
+    },
+    {
+      "file": "File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json",
+      "entries": 6
+    },
+    {
+      "file": "File 35 - Specialty Valves & Devices (Topic 12).json",
+      "entries": 5
+    },
+    {
+      "file": "File 36 - Sprinkler Logic & Fittings (Topics 9 & 13).json",
+      "entries": 6
+    },
+    {
+      "file": "File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json",
+      "entries": 5
+    },
+    {
+      "file": "File 38 - Materials Handling & Jobsite Safety (Topic 5).json",
+      "entries": 5
+    },
+    {
+      "file": "File 39 - The 'Day Before' Rapid Review (Numbers Only).json",
+      "entries": 16
+    },
+    {
+      "file": "File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",
+      "entries": 15
+    },
+    {
+      "file": "File 40 - The Break Room Deck.json",
+      "entries": 5
+    },
+    {
+      "file": "File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",
+      "entries": 15
+    },
+    {
+      "file": "File 6 -Advanced Installation & Special Components.json",
+      "entries": 12
+    },
+    {
+      "file": "File 7 - MN Rules, Safety & Final Details.json",
+      "entries": 12
+    },
+    {
+      "file": "File 8 - Hydraulics, C-Factors & Math.json",
+      "entries": 10
+    },
+    {
+      "file": "File 9 - Definitions & Tricky Details.json",
+      "entries": 11
+    },
+    {
+      "file": "file1.json",
+      "entries": 40
+    }
+  ],
+  "total_entries": 416,
+  "skipped": []
+}
