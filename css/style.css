@@ -1,6 +1,6 @@
 :root {
     --bg: #1a1a1a;
-    --card: rgba(37, 37, 37, 0.95);
+    --card: rgba(37, 37, 37, 0.80);
     --text: #e0e0e0;
     --accent: #fbc02d;
     --correct: #00e676;
@@ -23,16 +23,54 @@ body {
 }
 
 /* Main Game Container - 16:9 Aspect Ratio */
+#app-viewport {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    overflow: hidden;
+}
+
 #game-container {
-    position: absolute;
-    width: 100%;
-    max-width: 177.78vh;
-    aspect-ratio: 16 / 9;
-    height: auto;
-    max-height: 100vh;
+    /* Maintain a 16:9 ratio while fitting within the viewport */
+    width: min(100vw, calc(100vh * (16 / 9)));
+    height: min(100vh, calc(100vw * (9 / 16)));
+    /* max-width and max-height removed to fill screen */
+    position: relative;
+    margin: 0 auto;
     background: #000;
     overflow: hidden;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+}
+
+/* When viewport is portrait and narrow, show a dim overlay prompting rotation */
+.rotate-hint {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.rotate-hint.show {
+    display: flex;
+}
+
+.rotate-hint .box {
+    max-width: 520px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 1.25rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
 }
 
 /* Foreman Image (Background) */
@@ -53,13 +91,13 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2% 3%;
+    padding: 1.5% 2.5%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     z-index: 10;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
     pointer-events: none;
 }
 
@@ -89,39 +127,43 @@ body {
     left: 0;
     width: 100%;
     background: var(--card);
-    padding: 3%;
-    padding-bottom: 5%;
-    boxsizing: border-box;
+    padding: 2% 2.5%;
+    box-sizing: border-box;
     border-top: 4px solid var(--accent);
-    border-radius: 20px 20px 0 0;
-    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.45);
     z-index: 20;
     transform: translateY(0);
     transition: transform 0.3s ease-out;
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    max-height: 65vh;
+    overflow-y: auto;
+    padding-bottom: 3.5%;
 }
 
 /* Feedback Bubble - Transparent */
 .bubble {
     position: absolute;
-    top: 20%;
+    top: 16%;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.12);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
     color: #fff;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    padding: 2em;
-    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    padding: 1.2em 1.4em;
+    border-radius: 14px;
     text-align: center;
-    font-weight: bold;
-    font-size: clamp(1rem, 2.5vmin, 2rem);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    font-size: clamp(0.95rem, 2.2vmin, 1.6rem);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
     display: none;
-    animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    animation: popIn 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
     z-index: 15;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .bubble:after {
@@ -151,24 +193,111 @@ body {
 }
 
 .options {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-height: 35vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    max-height: 40vh;
     overflow-y: auto;
+    align-items: start;
 }
 
 .option-btn {
-    background: rgba(51, 51, 51, 0.8);
+    background: rgba(51, 51, 51, 0.78);
     border: 2px solid #444;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 12px;
+    border-radius: 6px;
     color: var(--text);
     text-align: left;
     cursor: pointer;
-    transition: 0.2s;
-    font-size: clamp(0.9rem, 2vmin, 1.2rem);
+    transition: 0.18s;
+    font-size: clamp(0.85rem, 1.8vmin, 1.05rem);
     font-weight: 500;
+    display: block;
+    width: 100%;
+}
+
+/* Entrance animations */
+@keyframes slideUp {
+    from {
+        transform: translateY(12px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        transform: translateY(8px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: slideUp 320ms cubic-bezier(0.2, 0.9, 0.2, 1) both;
+}
+
+.options .option-btn {
+    animation: fadeUp 360ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    will-change: transform, opacity;
+}
+
+/* Stagger a few children for a nicer entrance (covers common counts) */
+.options .option-btn:nth-child(1) {
+    animation-delay: 40ms;
+}
+
+.options .option-btn:nth-child(2) {
+    animation-delay: 80ms;
+}
+
+.options .option-btn:nth-child(3) {
+    animation-delay: 120ms;
+}
+
+.options .option-btn:nth-child(4) {
+    animation-delay: 160ms;
+}
+
+.options .option-btn:nth-child(5) {
+    animation-delay: 200ms;
+}
+
+.options .option-btn:nth-child(6) {
+    animation-delay: 240ms;
+}
+
+.options .option-btn:nth-child(7) {
+    animation-delay: 280ms;
+}
+
+.options .option-btn:nth-child(8) {
+    animation-delay: 320ms;
+}
+
+.option-btn:hover,
+.option-btn:focus {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+
+    .card,
+    .options .option-btn {
+        animation: none !important;
+        transition: none !important;
+    }
 }
 
 .option-btn:hover {
@@ -275,44 +404,59 @@ body {
 /* Main Menu Styles */
 .menu-card {
     position: absolute;
-    top: 50%;
+    bottom: 5%;
+    /* Move to bottom */
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    max-width: 500px;
-    background: rgba(37, 37, 37, 0.95);
+    transform: translateX(-50%);
+    /* Center horizontally only */
+    top: auto;
+    /* Remove top positioning */
+    width: 90%;
+    max-width: 1200px;
+    background: rgba(37, 37, 37, 0.90);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border: 2px solid var(--accent);
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    gap: 10px;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.8);
     z-index: 100;
 }
 
 .menu-card h1 {
     color: var(--accent);
     margin: 0;
-    font-size: clamp(1.5rem, 4vmin, 2.5rem);
+    font-size: clamp(1.2rem, 3vmin, 2rem);
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .menu-card h2 {
     margin: 0;
-    font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-size: clamp(0.8rem, 1.5vmin, 1.2rem);
     color: #aaa;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: normal;
 }
 
 .menu-options {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row;
+    /* Horizontal layout */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* Allow wrapping on small screens */
+}
+
+.menu-options .option-btn {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
 }
 
 .disabled {
@@ -328,8 +472,13 @@ body {
 }
 
 /* Hidden by default for HUD and quiz card; JS will show them when the game starts */
-#hud { display: none; }
-#quiz-card { display: none; }
+#hud {
+    display: none;
+}
+
+#quiz-card {
+    display: none;
+}
 
 /* real disabled state for buttons */
 button[disabled] {

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MN Fire Sprinkler Exam Prep: Journeyman Edition</title>
+    <title>Journeyman Sprinkler Fitter Exam: Minnesota Edition</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#00d4ff">
@@ -13,47 +13,57 @@
 
 <body>
 
-    <div id="game-container" role="main">
-        <!-- Background Image -->
-        <img src="assets/foreman-loading.jpg" alt="Foreman" id="foreman-img">
+    <div id="app-viewport">
+        <div id="game-container" role="main">
+            <!-- Background Image -->
+            <img src="assets/foreman-loading.jpg" alt="Foreman" id="foreman-img">
 
-        <!-- HUD Overlay (Hidden initially) -->
-        <div class="hud" id="hud">
-            <div class="level-badge" id="rank-badge">Green Helper</div>
-            <div class="bank-account" id="bank-display">$0.00</div>
-        </div>
-
-        <!-- Feedback Bubble -->
-        <div class="bubble" id="foreman-speech" aria-live="polite">
-            "Get to work. I'm watching you."
-        </div>
-
-        <!-- Main Menu Overlay -->
-        <div id="main-menu" class="menu-card">
-            <h1>MN Fire Sprinkler</h1>
-            <h2>Journeyman Exam Prep</h2>
-            <div class="menu-options">
-                <button class="option-btn" onclick="startGame()">Start Shift</button>
-                <button class="option-btn" disabled>Sudden Death <small>(Locked)</small></button>
-                <button class="option-btn" disabled>Endless Mode <small>(Locked)</small></button>
-            </div>
-        </div>
-
-        <!-- Question Card Overlay (Hidden initially) -->
-        <div class="card" id="quiz-card">
-            <span class="category-tag" id="cat-tag">Ready?</span>
-            <div class="question" id="q-text" tabindex="-1">Welcome to the job site. Try not to break anything.</div>
-
-            <div class="options" id="opt-container">
-                <!-- Options will be injected here -->
+            <!-- HUD Overlay (Hidden initially) -->
+            <div class="hud" id="hud">
+                <div class="level-badge" id="rank-badge">Green Helper</div>
+                <div class="bank-account" id="bank-display">$0.00</div>
             </div>
 
-            <div id="explanation">
-                <span id="code-text"></span>
-                <div id="citation-text"></div>
+            <!-- Feedback Bubble -->
+            <div class="bubble" id="foreman-speech" aria-live="polite">
+                "Get to work. I'm watching you."
             </div>
 
-            <button class="btn-next" id="next-btn" onclick="nextQuestion()">Next Job ➜</button>
+            <!-- Main Menu Overlay -->
+            <div id="main-menu" class="menu-card">
+                <h1>Journeyman Sprinkler Fitter Exam</h1>
+                <h2>Minnesota Edition</h2>
+                <div class="menu-options">
+                    <button class="option-btn" onclick="startGame('standard')">Start Shift (Standard)</button>
+                    <button class="option-btn" onclick="startGame('sudden-death')">Sudden Death <small>(One Strike &
+                            You're Out)</small></button>
+                    <button class="option-btn" onclick="startGame('endless')">Endless Mode <small>(Work Until You
+                            Drop)</small></button>
+                </div>
+            </div>
+
+            <!-- Question Card Overlay (Hidden initially) -->
+            <div class="card" id="quiz-card">
+                <!-- Category Tag Removed for Intro -->
+                <span class="category-tag" id="cat-tag" style="display: none;"></span>
+
+                <div class="question" id="q-text" tabindex="-1">Welcome to the job site. Try not to break anything.
+                </div>
+
+                <div class="options" id="opt-container">
+                    <!-- Options will be injected here -->
+                </div>
+
+                <div id="explanation">
+                    <span id="code-text"></span>
+                    <div id="citation-text"></div>
+                </div>
+
+                <!-- Continue Button for Story Mode -->
+                <button class="btn-next" id="continue-btn" onclick="startQuizFlow()">Continue ➜</button>
+
+                <button class="btn-next" id="next-btn" onclick="nextQuestion()">Next Question ➜</button>
+            </div>
         </div>
     </div>
 
@@ -68,10 +78,11 @@
         // Register service worker for offline support
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./sw.js')
-            .then(() => console.log('Service Worker registered'))
-            .catch(err => console.warn('SW registration failed:', err));
+                .then(() => console.log('Service Worker registered'))
+                .catch(err => console.warn('SW registration failed:', err));
         }
     </script>
 
 </body>
+
 </html>

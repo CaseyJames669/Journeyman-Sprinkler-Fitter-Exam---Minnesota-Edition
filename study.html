@@ -13,10 +13,10 @@
             --correct: #00ff88;
             --wrong: #ff4444;
         }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; height: 100vh; overflow: hidden; }
         h1 { color: var(--accent); text-transform: uppercase; letter-spacing: 2px; font-size: 1.5rem; text-align: center; }
         
-        .container { width: 100%; max-width: 600px; }
+        .container { width: 94%; max-width: 100%; margin: 0 auto; }
         
         /* Dashboard */
         #dashboard { display: flex; flex-direction: column; gap: 15px; }
@@ -64,7 +64,12 @@
 </head>
 <body>
 
-    <div class="container">
+    <div id="app-viewport">
+        <div id="game-container">
+            <!-- Foreman background image (matches other pages) -->
+            <img src="assets/foreman-neutral.jpg" alt="Foreman" id="foreman-img">
+            <div class="bubble" id="foreman-speech" aria-live="polite" style="display:none;">"Get to work."</div>
+            <div class="container">
         <h1>MN Fitter Master 2025</h1>
         
         <div id="dashboard">
@@ -93,6 +98,15 @@
                     <span class="citation" id="citation-text">...</span>
                 </div>
             </div>
+        </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rotate hint shown on narrow portrait devices when landscape UX is preferred -->
+    <div id="rotate-hint" class="rotate-hint" aria-hidden="true">
+        <div class="box">
+            This activity is best viewed in landscape. Please rotate your device or widen your window.
         </div>
     </div>
 
@@ -267,6 +281,10 @@
     function startQuiz(mode) {
         document.getElementById('dashboard').style.display = 'none';
         document.getElementById('quiz-area').style.display = 'block';
+        // Try to request a landscape lock when the user starts the quiz (user gesture)
+        if (window.requestLandscapeLock) {
+            try { window.requestLandscapeLock(); } catch(e) { /* ignore */ }
+        }
         
         // Filter Logic
         let filtered = [];
@@ -443,6 +461,42 @@
             [array[i], array[j]] = [array[j], array[i]];
         }
     }
+</body>
+</html>
+</script>
+<script>
+    (function(){
+        const hint = document.getElementById('rotate-hint');
+        if (!hint) return;
+        const update = () => {
+            const w = window.innerWidth;
+            const h = window.innerHeight;
+            if (h > w && w < 900) {
+                hint.classList.add('show');
+                hint.setAttribute('aria-hidden','false');
+            } else {
+                hint.classList.remove('show');
+                hint.setAttribute('aria-hidden','true');
+            }
+        };
+
+        async function tryLockLandscape(){
+            try {
+                if (screen.orientation && screen.orientation.lock) {
+                    await screen.orientation.lock('landscape');
+                }
+            } catch(e) {
+                // ignore — locking may be restricted
+            }
+        }
+
+        window.addEventListener('resize', update, { passive: true });
+        window.addEventListener('orientationchange', update, { passive: true });
+        document.addEventListener('DOMContentLoaded', update);
+
+        // Expose lock helper for user-gesture triggers
+        window.requestLandscapeLock = tryLockLandscape;
+    })();
 </script>
 </body>
 </html>

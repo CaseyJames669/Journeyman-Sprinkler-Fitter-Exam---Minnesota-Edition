@@ -5,6 +5,7 @@
 let bankBalance = 0;
 let currentIndex = 0;
 let currentQueue = [];
+let gameMode = 'standard'; // 'standard', 'sudden-death', 'endless'
 
 const roasts = [
     "My grandmother fits pipe better than that.",
@@ -26,20 +27,19 @@ const praises = [
     "That's the one."
 ];
 
-async function startGame() {
-    // Ensure `questions` is available. Prefer pre-bundled `js/questions.js` but
-    // fall back to fetching `all_questions.json` if the variable is not present.
-    if (typeof questions === 'undefined' || !Array.isArray(questions) || questions.length === 0) {
-        try {
-            const resp = await fetch('all_questions.json');
-            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-            window.questions = await resp.json();
-        } catch (err) {
-            console.error('Failed to load questions:', err);
-            alert('Unable to load question data. See console for details.');
-            return;
-        }
-    }
+const storyHooks = [
+    { text: "Fire Marshal's here. I hid the whiskey, you hide the incompetence. Don't get us red-tagged.", img: "assets/scene-inspector.jpg" },
+    { text: "The new guy fell down the elevator shaft. Don't look, just work. We're behind schedule.", img: "assets/scene-site.jpg" },
+    { text: "Someone hit a main. It's a swimming pool down there. Fix it before the insurance adjuster sees it.", img: "assets/scene-flood.jpg" },
+    { text: "Hangover wearing off? Good. Get out there and earn your paycheck before I fire you for breathing too loud.", img: "assets/scene-breakroom.jpg" },
+    { text: "I got five hundred riding on you passing this inspection. Don't make me break your legs.", img: "assets/scene-breakroom.jpg" },
+    { text: "State inspector is looking for a bribe or a violation. Give him neither.", img: "assets/scene-inspector.jpg" },
+    { text: "If you screw this up, you're cleaning the port-a-potties for a month.", img: "assets/scene-site.jpg" }
+];
+
+function startGame(mode = 'standard') {
+    gameMode = mode;
+
     // Hide Menu
     document.getElementById('main-menu').style.display = 'none';
 
@@ -47,21 +47,46 @@ async function startGame() {
     document.getElementById('hud').style.display = 'flex';
     document.getElementById('quiz-card').style.display = 'block';
 
-    // Switch to neutral foreman image
-    document.getElementById('foreman-img').src = 'assets/foreman-neutral.jpg';
-
+    // Reset State
     currentQueue = [...questions];
     shuffle(currentQueue);
     currentIndex = 0;
     bankBalance = 0;
     updateHUD();
+
+    // Visual Novel Intro
+    const hook = storyHooks[Math.floor(Math.random() * storyHooks.length)];
+    document.getElementById('q-text').innerText = `"${hook.text}"`;
+    document.getElementById('foreman-img').src = hook.img; // Load Scene Image
+
+    document.getElementById('cat-tag').style.display = 'none';
+    document.getElementById('opt-container').innerHTML = ''; // Clear options
+    document.getElementById('continue-btn').style.display = 'block'; // Show Continue
+    document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('foreman-speech').style.display = 'none';
+    document.getElementById('explanation').style.display = 'none';
+}
+
+function startQuizFlow() {
+    document.getElementById('continue-btn').style.display = 'none';
+    document.getElementById('cat-tag').style.display = 'block';
+    // Switch back to neutral foreman image
+    document.getElementById('foreman-img').src = 'assets/foreman-neutral.jpg';
     loadQuestion();
 }
 
 function loadQuestion() {
+    // Check for End of Queue
     if (currentIndex >= currentQueue.length) {
-        finishGame();
-        return;
+        if (gameMode === 'endless') {
+            // Endless Mode: Reshuffle and keep going
+            shuffle(currentQueue);
+            currentIndex = 0;
+        } else {
+            // Standard/Sudden Death: End Game
+            finishGame();
+            return;
+        }
     }
 
     const q = currentQueue[currentIndex];
@@ -74,11 +99,8 @@ function loadQuestion() {
     document.getElementById('foreman-img').src = "assets/foreman-neutral.jpg";
 
     // Set Text
-    document.getElementById('cat-tag').innerText = q.category;
+    document.getElementById('cat-tag').innerText = q.category + (gameMode === 'endless' ? ' (Endless)' : '');
     document.getElementById('q-text').innerText = q.question;
-    // Move focus to the question for keyboard / screen reader users
-    const qElem = document.getElementById('q-text');
-    if (qElem && typeof qElem.focus === 'function') qElem.focus();
 
     // Create Buttons
     const container = document.getElementById('opt-container');
@@ -112,6 +134,16 @@ function handleAnswer(btn, isCorrect, qData) {
         face.src = "assets/foreman-success.jpg";
     } else {
         btn.classList.add('wrong');
+
+        // Sudden Death Logic
+        if (gameMode === 'sudden-death') {
+            bankBalance = 0; // You're fired
+            updateHUD();
+            face.src = "assets/foreman-fail.jpg";
+            finishGame("FIRED! One mistake is all it takes.");
+            return;
+        }
+
         // Highlight correct
         document.querySelectorAll('.option-btn').forEach(b => {
             if (b.innerText === qData.answer) b.classList.add('missed');
@@ -134,9 +166,6 @@ function handleAnswer(btn, isCorrect, qData) {
 
     document.getElementById('next-btn').style.display = 'block';
     updateHUD();
-    // Move focus to the Next button so keyboard users can continue
-    const nextBtn = document.getElementById('next-btn');
-    if (nextBtn && typeof nextBtn.focus === 'function') nextBtn.focus();
 }
 
 function nextQuestion() {
@@ -156,18 +185,30 @@ function updateHUD() {
     else badge.innerText = "Journeyman";
 }
 
-function finishGame() {
-    document.getElementById('q-text').innerText = "Shift Over.";
+function finishGame(customMessage = null) {
+    document.getElementById('q-text').innerText = customMessage || "Shift Over.";
     document.getElementById('opt-container').innerHTML = "";
     document.getElementById('explanation').style.display = 'none';
     document.getElementById('next-btn').style.display = 'none';
-    document.getElementById('foreman-speech').innerText = bankBalance > 400 ? "Not bad. See you tomorrow." : "Don't quit your day job.";
+
+    if (customMessage) {
+        document.getElementById('foreman-speech').innerText = "Get off my job site.";
+        document.getElementById('foreman-speech').style.display = 'block';
+    } else {
+        document.getElementById('foreman-speech').innerText = bankBalance > 400 ? "Not bad. See you tomorrow." : "Don't quit your day job.";
+    }
 
     const restartBtn = document.createElement('button');
     restartBtn.className = 'btn-next';
     restartBtn.style.display = 'block';
-    restartBtn.innerText = "Start New Shift";
-    restartBtn.onclick = startGame;
+    restartBtn.innerText = "Back to Menu";
+    restartBtn.onclick = () => {
+        document.getElementById('main-menu').style.display = 'flex';
+        document.getElementById('hud').style.display = 'none';
+        document.getElementById('quiz-card').style.display = 'none';
+        document.getElementById('foreman-speech').style.display = 'none';
+        document.getElementById('foreman-img').src = "assets/foreman-loading.jpg";
+    };
     document.getElementById('quiz-card').appendChild(restartBtn);
 }
 
