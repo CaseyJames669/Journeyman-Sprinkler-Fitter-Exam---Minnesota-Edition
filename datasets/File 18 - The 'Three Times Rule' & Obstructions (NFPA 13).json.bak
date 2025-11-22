@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1501,
+    "category": "NFPA 13 - Obstructions",
+    "topic": "Three Times Rule",
+    "question": "To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?",
+    "answer": "At least 3 times the vertical distance down to the bottom of the obstruction",
+    "distractors": ["2 times the distance", "4 times the distance", "18 inches"],
+    "citation": "NFPA 13 (2016), Section 8.6.5.1.2",
+    "code_text": "Distance from the sprinkler... not less than three times the maximum vertical distance."
+  },
+  {
+    "id": 1502,
+    "category": "NFPA 13 - Obstructions",
+    "topic": "Vertical Obstructions",
+    "question": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?",
+    "answer": "18 inches",
+    "distractors": ["12 inches", "24 inches", "6 inches"],
+    "citation": "NFPA 13 (2016), Table 8.6.5.2.2",
+    "code_text": "Obstruction width 1 in to 4 in -> Min distance below deflector: 18 in."
+  },
+  {
+    "id": 1503,
+    "category": "NFPA 13 - Obstructions",
+    "topic": "Privacy Curtains",
+    "question": "In a hospital, do privacy curtains with a 70% open mesh at the top require sprinklers in the cubicle?",
+    "answer": "No, if the mesh extends 22 inches down from the ceiling",
+    "distractors": ["Yes, always", "No, curtains are ignored", "Only if curtains are fire retardant"],
+    "citation": "NFPA 13 (2016), Section 8.15.13",
+    "code_text": "Sprinklers shall not be required... where... mesh is 70 percent open... extends 22 in. down."
+  },
+  {
+    "id": 1504,
+    "category": "NFPA 13 - Obstructions",
+    "topic": "Soffits",
+    "question": "A soffit exceeds 12 inches in width. Do you need a sprinkler underneath it?",
+    "answer": "Yes, unless it is tight to the wall and the wall is combustible",
+    "distractors": ["No", "Only if it exceeds 24 inches", "Only in storage areas"],
+    "citation": "NFPA 13 (2016), Section 8.15.8",
+    "code_text": "Sprinklers shall be required under soffits exceeding 12 in. in width."
+  },
+  {
+    "id": 1505,
+    "category": "NFPA 13 - Obstructions",
+    "topic": "Truss Construction",
+    "question": "When installing sprinklers in open web trusses, how far must the deflector be from the web member?",
+    "answer": "6 inches",
+    "distractors": ["3 inches", "12 inches", "1 inch"],
+    "citation": "NFPA 13 (2016), Section 8.6.5.2.1.3",
+    "code_text": "Sprinklers... shall be located at least 6 in. from truss chords or web members."
+  }
+]

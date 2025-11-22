@@ -1,0 +1,141 @@
+[
+  {
+    "id": 4400501,
+    "category": "Hydraulics / Math",
+    "topic": "C-Factors",
+    "question": "What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?",
+    "answer": "120",
+    "distractors": [
+      "100",
+      "140",
+      "150"
+    ],
+    "citation": "NFPA 13 (2016), Table 23.4.3.1.1",
+    "code_text": "Steel (new) = 120."
+  },
+  {
+    "id": 4400502,
+    "category": "Hydraulics / Math",
+    "topic": "C-Factors",
+    "question": "What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?",
+    "answer": "100",
+    "distractors": [
+      "120",
+      "150",
+      "140"
+    ],
+    "citation": "NFPA 13 (2016), Table 23.4.3.1.1",
+    "code_text": "Steel (dry/preaction) = 100. (Lower because corrosion increases friction)."
+  },
+  {
+    "id": 4400503,
+    "category": "Hydraulics / Math",
+    "topic": "C-Factors",
+    "question": "What is the Hazen-Williams C-Factor for CPVC or Copper tube?",
+    "answer": "150",
+    "distractors": [
+      "120",
+      "100",
+      "130"
+    ],
+    "citation": "NFPA 13 (2016), Table 23.4.3.1.1",
+    "code_text": "Copper / Plastic = 150."
+  },
+  {
+    "id": 4400504,
+    "category": "Hydraulics / Math",
+    "topic": "Friction Loss",
+    "question": "When calculating friction loss, a fitting (like an elbow) is converted into feet of pipe. What is this called?",
+    "answer": "Equivalent Length",
+    "distractors": [
+      "Hydraulic Length",
+      "Actual Length",
+      "Friction Length"
+    ],
+    "citation": "NFPA 13 (2016), Section 23.4.3.1.2",
+    "code_text": "Friction loss... shall be calculated using the equivalent length."
+  },
+  {
+    "id": 4400505,
+    "category": "Hydraulics / Math",
+    "topic": "Pressure",
+    "question": "What is the pressure of a column of water 1 foot high (Head pressure)?",
+    "answer": "0.433 psi",
+    "distractors": [
+      "1 psi",
+      "2.31 psi",
+      "0.5 psi"
+    ],
+    "citation": "General Hydraulics Principle",
+    "code_text": "1 ft of head = 0.433 psi."
+  },
+  {
+    "id": 4400506,
+    "category": "Hydraulics / Math",
+    "topic": "Pressure",
+    "question": "How many feet of water column (Head) equal 1 psi?",
+    "answer": "2.31 feet",
+    "distractors": [
+      "1 foot",
+      "0.433 feet",
+      "10 feet"
+    ],
+    "citation": "General Hydraulics Principle",
+    "code_text": "1 psi = 2.31 ft of head."
+  },
+  {
+    "id": 4400507,
+    "category": "Hydraulics / Math",
+    "topic": "Calculations",
+    "question": "If a gauge at the bottom of a 100-foot riser reads 50 psi, and the gauge at the top reads 6.7 psi, is this normal? (Static pressure)",
+    "answer": "Yes (100 ft / 2.31 = 43.3 psi loss due to elevation)",
+    "distractors": [
+      "No, the gauge is broken",
+      "No, friction loss is too high"
+    ],
+    "citation": "General Hydraulics Principle",
+    "code_text": "Elevation loss: 0.433 psi per foot of elevation."
+  },
+  {
+    "id": 4400508,
+    "category": "Hydraulics / Math",
+    "topic": "Calculations",
+    "question": "What happens to friction loss if you double the flow (GPM) through the same size pipe?",
+    "answer": "It increases by a factor of 4 (approximately)",
+    "distractors": [
+      "It doubles",
+      "It stays the same",
+      "It decreases"
+    ],
+    "citation": "Hazen-Williams Formula",
+    "code_text": "Friction loss is proportional to the square of the flow rate (conceptually)."
+  },
+  {
+    "id": 4400509,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hydraulic Signs",
+    "question": "Which of the following is NOT required on a hydraulic information sign?",
+    "answer": "Date of system expiration",
+    "distractors": [
+      "Design density",
+      "System demand",
+      "Hose allowance"
+    ],
+    "citation": "NFPA 13 (2016), Section 25.5.2",
+    "code_text": "Required: Location, Density, Area, Hose Allowance, Supply data."
+  },
+  {
+    "id": 4400510,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Sizing",
+    "question": "A fire pump must be able to provide 150% of rated flow at what percent of rated pressure?",
+    "answer": "65%",
+    "distractors": [
+      "50%",
+      "100%",
+      "75%"
+    ],
+    "citation": "NFPA 20 (2016), Section 6.2",
+    "code_text": "No less than 65 percent of total rated head at 150 percent of rated flow."
+  }
+]

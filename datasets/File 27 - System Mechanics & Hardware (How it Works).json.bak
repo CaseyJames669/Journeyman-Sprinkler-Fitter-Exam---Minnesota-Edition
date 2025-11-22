@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2401,
+    "category": "System Mechanics",
+    "topic": "Dry Valves",
+    "question": "What allows a dry pipe valve to hold back 100 psi of water with only 20 psi of air?",
+    "answer": "Surface Area Differential (The air clapper is much larger than the water clapper)",
+    "distractors": ["A heavy spring", "A hydraulic lock", "An electric solenoid"],
+    "citation": "Industry Theory",
+    "code_text": "The surface area of the air side is roughly 5-6 times larger than the water side (Differential)."
+  },
+  {
+    "id": 2402,
+    "category": "System Mechanics",
+    "topic": "Accelerators",
+    "question": "What does an Accelerator do on a dry system?",
+    "answer": "It redirects air pressure to the intermediate chamber to force the clapper open faster",
+    "distractors": ["It sucks air out of the system", "It pumps water faster", "It increases air pressure"],
+    "citation": "NFPA 13 / Theory",
+    "code_text": "Quick Opening Device: Accelerates the trip point by equalizing/redirecting pressure."
+  },
+  {
+    "id": 2403,
+    "category": "System Mechanics",
+    "topic": "Exhausters",
+    "question": "What is the difference between an Accelerator and an Exhauster?",
+    "answer": "An Exhauster vents air to the atmosphere; an Accelerator pushes the valve open",
+    "distractors": ["They are the same", "Exhausters are for wet systems", "Accelerators are smaller"],
+    "citation": "Industry Theory",
+    "code_text": "Exhausters discharge system air to the atmosphere to lower pressure rapidly."
+  },
+  {
+    "id": 2404,
+    "category": "System Mechanics",
+    "topic": "Deluge",
+    "question": "Why are Deluge systems usually tripped by a separate detection system?",
+    "answer": "Because the sprinkler heads are open (no glass bulbs to break)",
+    "distractors": ["Because they hold too much water", "To save money", "Because they use antifreeze"],
+    "citation": "NFPA 13 (2016), Section 7.3.1",
+    "code_text": "Deluge systems... employing open sprinklers."
+  }
+]

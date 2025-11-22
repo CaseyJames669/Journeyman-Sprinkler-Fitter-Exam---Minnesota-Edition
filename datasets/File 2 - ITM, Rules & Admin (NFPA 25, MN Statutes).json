@@ -1,0 +1,215 @@
+[
+  {
+    "id": 1800201,
+    "category": "NFPA 25 - ITM",
+    "topic": "Hydrants",
+    "question": "How often do you inspect private fire hydrants?",
+    "answer": "Annually and after each operation",
+    "distractors": [
+      "Quarterly",
+      "Every 3 years",
+      "Every 5 years"
+    ],
+    "citation": "NFPA 25 (2011), Section 7.3.2",
+    "code_text": "Inspected annually and after each operation."
+  },
+  {
+    "id": 1800202,
+    "category": "NFPA 25 - ITM",
+    "topic": "Standpipes",
+    "question": "How often is a flow test conducted on a standpipe system?",
+    "answer": "Every 5 years",
+    "distractors": [
+      "Annually",
+      "Every 3 years",
+      "Quarterly"
+    ],
+    "citation": "NFPA 25 (2011), Section 6.3.1",
+    "code_text": "Flow test shall be conducted every 5 years."
+  },
+  {
+    "id": 1800203,
+    "category": "NFPA 25 - ITM",
+    "topic": "Tanks",
+    "question": "How often do you check water level and air pressure in a pressure tank?",
+    "answer": "Monthly",
+    "distractors": [
+      "Weekly",
+      "Quarterly",
+      "Annually"
+    ],
+    "citation": "NFPA 25 (2011), Section 9.2.2",
+    "code_text": "Inspected monthly."
+  },
+  {
+    "id": 1800204,
+    "category": "NFPA 25 - ITM",
+    "topic": "Tanks",
+    "question": "How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?",
+    "answer": "Every 3 years",
+    "distractors": [
+      "Every 5 years",
+      "Annually",
+      "Every 10 years"
+    ],
+    "citation": "NFPA 25 (2011), Section 9.2.6",
+    "code_text": "Every 3 years."
+  },
+  {
+    "id": 1800205,
+    "category": "NFPA 25 - ITM",
+    "topic": "Pumps",
+    "question": "How long must a diesel fire pump run during a weekly test?",
+    "answer": "30 minutes",
+    "distractors": [
+      "10 minutes",
+      "15 minutes",
+      "60 minutes"
+    ],
+    "citation": "NFPA 25 (2011), Section 8.3.3",
+    "code_text": "Run a minimum of 30 minutes."
+  },
+  {
+    "id": 1800206,
+    "category": "NFPA 25 - ITM",
+    "topic": "Pumps",
+    "question": "How long must an electric fire pump run during a weekly test?",
+    "answer": "10 minutes",
+    "distractors": [
+      "30 minutes",
+      "5 minutes",
+      "15 minutes"
+    ],
+    "citation": "NFPA 25 (2011), Section 8.3.3",
+    "code_text": "Run a minimum of 10 minutes."
+  },
+  {
+    "id": 1800207,
+    "category": "MN Statutes & Rules",
+    "topic": "Licensing",
+    "is_mn_amendment": true,
+    "question": "When does a MN Sprinkler Fitter journeyman license expire?",
+    "answer": "June 30th",
+    "distractors": [
+      "December 31st",
+      "January 1st",
+      "Date of Issue"
+    ],
+    "citation": "MN Rules 7512.0200",
+    "code_text": "Expire on June 30 of each year."
+  },
+  {
+    "id": 1800208,
+    "category": "MN Statutes & Rules",
+    "topic": "Licensing",
+    "is_mn_amendment": true,
+    "question": "How many hours of experience are required to take the MN Journeyman exam?",
+    "answer": "8000 hours",
+    "distractors": [
+      "4000 hours",
+      "6000 hours",
+      "10000 hours"
+    ],
+    "citation": "MN Statutes 299M.03",
+    "code_text": "Minimum of 8000 hours."
+  },
+  {
+    "id": 1800209,
+    "category": "MN Statutes & Rules",
+    "topic": "Penalties",
+    "is_mn_amendment": true,
+    "question": "What is the fine for working without a license in MN?",
+    "answer": "Misdemeanor ($1,000 / 90 days)",
+    "distractors": [
+      "Felony",
+      "Gross Misdemeanor",
+      "$500 fine"
+    ],
+    "citation": "MN Statutes 299M.08",
+    "code_text": "Guilty of a misdemeanor."
+  },
+  {
+    "id": 1800210,
+    "category": "MN Statutes & Rules",
+    "topic": "Installation Amendments",
+    "is_mn_amendment": true,
+    "question": "MN requires FDCs to be located between what heights?",
+    "answer": "18\" and 48\"",
+    "distractors": [
+      "18\" and 36\"",
+      "24\" and 48\"",
+      "12\" and 60\""
+    ],
+    "citation": "MN Fire Code (2020), Section 912.2.2",
+    "code_text": "Not less than 18 inches and not more than 48 inches."
+  },
+  {
+    "id": 1800211,
+    "category": "MN Statutes & Rules",
+    "topic": "Installation Amendments",
+    "is_mn_amendment": true,
+    "question": "Can a control valve in a public area be unmonitored if it serves <20 heads?",
+    "answer": "No (False)",
+    "distractors": [
+      "Yes (True)"
+    ],
+    "citation": "MN Fire Code (2020), Section 903.4",
+    "code_text": "MN deletes Exception 1. All valves must be monitored."
+  },
+  {
+    "id": 1800212,
+    "category": "NFPA 25 - ITM",
+    "topic": "Gauges",
+    "question": "How often are gauges on dry/preaction/deluge systems inspected?",
+    "answer": "Weekly",
+    "distractors": [
+      "Monthly",
+      "Quarterly",
+      "Daily"
+    ],
+    "citation": "NFPA 25 (2011), Section 5.2.4.2",
+    "code_text": "Gauges... shall be inspected weekly."
+  },
+  {
+    "id": 1800213,
+    "category": "NFPA 25 - ITM",
+    "topic": "Gauges",
+    "question": "How often are gauges on wet pipe systems inspected?",
+    "answer": "Monthly",
+    "distractors": [
+      "Weekly",
+      "Quarterly",
+      "Annually"
+    ],
+    "citation": "NFPA 25 (2011), Section 5.2.4.1",
+    "code_text": "Gauges... shall be inspected monthly."
+  },
+  {
+    "id": 1800214,
+    "category": "NFPA 25 - ITM",
+    "topic": "Sprinklers",
+    "question": "How often are sprinkler heads inspected from the floor level?",
+    "answer": "Annually",
+    "distractors": [
+      "Quarterly",
+      "Every 5 years",
+      "Monthly"
+    ],
+    "citation": "NFPA 25 (2011), Section 5.2.1",
+    "code_text": "Sprinklers shall be inspected... annually."
+  },
+  {
+    "id": 1800215,
+    "category": "NFPA 25 - ITM",
+    "topic": "Valves",
+    "question": "How often are supervisory alarm devices (tampers) tested?",
+    "answer": "Quarterly",
+    "distractors": [
+      "Annually",
+      "Semiannually",
+      "Monthly"
+    ],
+    "citation": "NFPA 25 (2011), Section 13.2.6",
+    "code_text": "Supervisory... devices shall be tested quarterly."
+  }
+]

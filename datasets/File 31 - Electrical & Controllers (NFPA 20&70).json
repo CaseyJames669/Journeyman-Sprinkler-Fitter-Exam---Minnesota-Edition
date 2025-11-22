@@ -1,0 +1,58 @@
+[
+  {
+    "id": 3102801,
+    "category": "NFPA 20 - Electrical",
+    "topic": "Disconnects",
+    "question": "A fire pump controller must be dedicated to?",
+    "answer": "Only the fire pump motor (No other loads)",
+    "distractors": [
+      "The pump and the jockey pump",
+      "The pump and the pump room lights",
+      "The entire building"
+    ],
+    "citation": "NFPA 20 (2016), Section 10.1.2.1",
+    "code_text": "Controllers shall be specifically listed... for fire pump service."
+  },
+  {
+    "id": 3102802,
+    "category": "NFPA 20 - Electrical",
+    "topic": "Phase Reversal",
+    "question": "What device protects the electric fire pump motor if the phases are reversed (causing backward rotation)?",
+    "answer": "Phase Reversal Monitor (in the Controller)",
+    "distractors": [
+      "A Check Valve",
+      "A Circuit Breaker",
+      "A Tachometer"
+    ],
+    "citation": "NFPA 20 (2016), Section 10.4.7",
+    "code_text": "Phase reversal... shall prevent starting of the motor."
+  },
+  {
+    "id": 3102803,
+    "category": "NFPA 20 - Electrical",
+    "topic": "Transfer Switch",
+    "question": "If a building has a backup generator for the fire pump, what device is required to switch from normal power to generator power?",
+    "answer": "Automatic Transfer Switch",
+    "distractors": [
+      "Manual Knife Switch",
+      "Circuit Breaker",
+      "Jockey Controller"
+    ],
+    "citation": "NFPA 20 (2016), Section 10.8",
+    "code_text": "Power transfer switch... shall be listed for fire pump service."
+  },
+  {
+    "id": 3102804,
+    "category": "NFPA 20 - Electrical",
+    "topic": "Location",
+    "question": "Fire pump controllers must be within sight of the motor. This typically means they are located within how many feet?",
+    "answer": "Sight is required (Code does not specify feet, but typically within 50 ft / same room)",
+    "distractors": [
+      "100 feet",
+      "200 feet",
+      "Anywhere in the building"
+    ],
+    "citation": "NFPA 20 (2016), Section 10.2.1",
+    "code_text": "Located as close as is practical to... and within sight of the motor."
+  }
+]

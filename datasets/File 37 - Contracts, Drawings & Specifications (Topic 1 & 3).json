@@ -1,0 +1,72 @@
+[
+  {
+    "id": 3603401,
+    "category": "Contract Documents",
+    "topic": "Hierarchy",
+    "question": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?",
+    "answer": "The Specifications (usually), or whichever is stricter (depending on contract language)",
+    "distractors": [
+      "The Drawings always",
+      "The verbal instructions",
+      "The NFPA code only"
+    ],
+    "citation": "General Construction Law / Trade Knowledge",
+    "code_text": "Specifications generally outline the quality and standards; Plans outline the quantity and location. Specs often govern in conflict."
+  },
+  {
+    "id": 3603402,
+    "category": "Construction Drawings",
+    "topic": "Scale",
+    "question": "If a plan is drawn to 1/4\" = 1'0\" scale, and a pipe measures 3 inches long on the paper, how long is the pipe in reality?",
+    "answer": "12 feet",
+    "distractors": [
+      "3 feet",
+      "4 feet",
+      "10 feet"
+    ],
+    "citation": "Plan Reading Math",
+    "code_text": "There are 4 quarters in an inch. 3 inches = 12 quarters. 12 x 1 ft = 12 ft."
+  },
+  {
+    "id": 3603403,
+    "category": "Construction Drawings",
+    "topic": "Symbols",
+    "question": "What does 'N.I.C.' usually stand for on a set of prints?",
+    "answer": "Not In Contract (Work not to be done by this trade)",
+    "distractors": [
+      "Not In Ceiling",
+      "No Internal Check",
+      "New Installation Code"
+    ],
+    "citation": "Blueprint Reading",
+    "code_text": "Standard abbreviation for scope of work limits."
+  },
+  {
+    "id": 3603404,
+    "category": "NFPA 13 - Documentation",
+    "topic": "Plans",
+    "question": "Which of the following is REQUIRED to be shown on the hydraulic calculation sheets?",
+    "answer": "A graph sheet (N1.85 graph)",
+    "distractors": [
+      "A photo of the pump",
+      "The contractor's license number",
+      "The price of the pipe"
+    ],
+    "citation": "NFPA 13 (2016), Section 23.1",
+    "code_text": "Hydraulic calculations shall be prepared... and shall include... a graph sheet."
+  },
+  {
+    "id": 3603405,
+    "category": "Construction Drawings",
+    "topic": "Layout",
+    "question": "On a reflected ceiling plan, what does 'AFF' mean?",
+    "answer": "Above Finished Floor",
+    "distractors": [
+      "After Final Finish",
+      "All Floors Finished",
+      "Above False Floor"
+    ],
+    "citation": "Blueprint Reading",
+    "code_text": "Standard elevation marker."
+  }
+]

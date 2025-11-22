@@ -1,0 +1,212 @@
+[
+  {
+    "id": 2900301,
+    "category": "NFPA 14 - Standpipes",
+    "topic": "Flows",
+    "question": "Minimum flow rate for the most remote standpipe in a Class I system?",
+    "answer": "500 gpm",
+    "distractors": [
+      "250 gpm",
+      "100 gpm",
+      "750 gpm"
+    ],
+    "citation": "NFPA 14 (2016), Section 7.10.1.1.5",
+    "code_text": "Minimum flow rate... shall be 500 gpm."
+  },
+  {
+    "id": 2900302,
+    "category": "NFPA 14 - Standpipes",
+    "topic": "Flows",
+    "question": "Minimum flow rate for each *additional* standpipe in a Class I system?",
+    "answer": "250 gpm",
+    "distractors": [
+      "500 gpm",
+      "100 gpm",
+      "150 gpm"
+    ],
+    "citation": "NFPA 14 (2016), Section 7.10.1.1.5",
+    "code_text": "Additional standpipes shall be 250 gpm."
+  },
+  {
+    "id": 2900303,
+    "category": "NFPA 14 - Standpipes",
+    "topic": "Pressure",
+    "question": "Minimum residual pressure at the most remote 2½\" outlet?",
+    "answer": "100 psi",
+    "distractors": [
+      "65 psi",
+      "175 psi",
+      "150 psi"
+    ],
+    "citation": "NFPA 14 (2016), Section 7.8.1",
+    "code_text": "Minimum residual pressure of 100 psi."
+  },
+  {
+    "id": 2900304,
+    "category": "NFPA 14 - Standpipes",
+    "topic": "Pressure",
+    "question": "Minimum residual pressure for a Class II (1½\") outlet?",
+    "answer": "65 psi",
+    "distractors": [
+      "100 psi",
+      "50 psi",
+      "175 psi"
+    ],
+    "citation": "NFPA 14 (2016), Section 7.8.1",
+    "code_text": "Class II... minimum residual pressure of 65 psi."
+  },
+  {
+    "id": 2900305,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Components",
+    "question": "What fitting is used on the suction side of a pump to prevent air pockets?",
+    "answer": "Eccentric Reducer",
+    "distractors": [
+      "Concentric Reducer",
+      "Tee",
+      "90 Elbow"
+    ],
+    "citation": "NFPA 20 (2016), Section 4.15.6.3",
+    "code_text": "Connected with an eccentric tapered reducer."
+  },
+  {
+    "id": 2900306,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Components",
+    "question": "What fitting is used on the discharge side of a fire pump?",
+    "answer": "Concentric Reducer",
+    "distractors": [
+      "Eccentric Reducer",
+      "Check Valve only",
+      "Elbow"
+    ],
+    "citation": "NFPA 20 (2016), Section 4.15.6.4",
+    "code_text": "Concentric tapered reducer or increaser."
+  },
+  {
+    "id": 2900307,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Installation",
+    "question": "What is the minimum size for a sensing line (jockey/controller)?",
+    "answer": "½ inch non-ferrous",
+    "distractors": [
+      "¼ inch",
+      "1 inch",
+      "¾ inch"
+    ],
+    "citation": "NFPA 20 (2016), Section 4.31",
+    "code_text": "1/2 in. nominal nonferrous metal piping."
+  },
+  {
+    "id": 2900308,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Installation",
+    "question": "How far above the floor must current-carrying parts of a controller be?",
+    "answer": "12 inches",
+    "distractors": [
+      "6 inches",
+      "18 inches",
+      "24 inches"
+    ],
+    "citation": "NFPA 20 (2016), Section 10.4.2",
+    "code_text": "Not less than 12 in. above the floor."
+  },
+  {
+    "id": 2900309,
+    "category": "NFPA 22 - Tanks",
+    "topic": "Heating",
+    "question": "What is the minimum water temperature maintained in a water tank?",
+    "answer": "40°F",
+    "distractors": [
+      "32°F",
+      "50°F",
+      "70°F"
+    ],
+    "citation": "NFPA 22 (2013), Section 16.1",
+    "code_text": "Maintain the temperature... at not less than 40°F."
+  },
+  {
+    "id": 2900310,
+    "category": "NFPA 22 - Tanks",
+    "topic": "Installation",
+    "question": "What is the minimum clearance under a tank?",
+    "answer": "2 feet",
+    "distractors": [
+      "1 foot",
+      "3 feet",
+      "4 feet"
+    ],
+    "citation": "NFPA 22 (2013), Section 15.1.5",
+    "code_text": "Distance between the floor and any part of the tank shall be at least 2 ft."
+  },
+  {
+    "id": 2900311,
+    "category": "NFPA 24 - Underground",
+    "topic": "Depth",
+    "question": "Private fire mains under driveways must be buried how deep?",
+    "answer": "36 inches (or 1' below frost)",
+    "distractors": [
+      "24 inches",
+      "48 inches",
+      "18 inches"
+    ],
+    "citation": "NFPA 24 (2016), Section 10.4.2",
+    "code_text": "Not less than 3 ft (36 in)."
+  },
+  {
+    "id": 2900312,
+    "category": "NFPA 24 - Underground",
+    "topic": "Hydrants",
+    "question": "How close can a post indicator valve be to a building?",
+    "answer": "40 feet",
+    "distractors": [
+      "20 feet",
+      "10 feet",
+      "50 feet"
+    ],
+    "citation": "NFPA 24 (2016), Section 6.2.11",
+    "code_text": "Not less than 40 ft from buildings."
+  },
+  {
+    "id": 2900313,
+    "category": "OSHA / Safety",
+    "topic": "Trenching",
+    "question": "At what depth is a ladder required in a trench?",
+    "answer": "4 feet",
+    "distractors": [
+      "5 feet",
+      "3 feet",
+      "6 feet"
+    ],
+    "citation": "OSHA 1926.651",
+    "code_text": "Trenches 4 feet or deeper."
+  },
+  {
+    "id": 2900314,
+    "category": "OSHA / Safety",
+    "topic": "Trenching",
+    "question": "What is the max travel distance to a ladder in a trench?",
+    "answer": "25 feet",
+    "distractors": [
+      "50 feet",
+      "15 feet",
+      "100 feet"
+    ],
+    "citation": "OSHA 1926.651",
+    "code_text": "No more than 25 feet of lateral travel."
+  },
+  {
+    "id": 2900315,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Relief Valves",
+    "question": "What size relief valve is required for a 2500 gpm pump?",
+    "answer": "¾ inch",
+    "distractors": [
+      "1 inch",
+      "½ inch",
+      "2 inch"
+    ],
+    "citation": "NFPA 20 (2016), Table 4.11.2",
+    "code_text": "2500 gpm -> 3/4 in."
+  }
+]

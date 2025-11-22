@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1901,
+    "category": "NFPA 13 - Installation",
+    "topic": "Elevators",
+    "question": "When is a sprinkler required at the BOTTOM of an elevator shaft?",
+    "answer": "When combustible debris or fluids can accumulate",
+    "distractors": ["Always", "Only in hydraulic elevators", "Never"],
+    "citation": "NFPA 13 (2016), Section 8.15.5.5",
+    "code_text": "Sidewall spray sprinkler... not more than 2 ft above the floor of the pit."
+  },
+  {
+    "id": 1902,
+    "category": "NFPA 13 - Installation",
+    "topic": "Elevators",
+    "question": "If a sprinkler is installed at the top of an elevator shaft, what else is required?",
+    "answer": "Shunt Trip (to cut power to the elevator before water flows)",
+    "distractors": ["A drain at the bottom", "A smoke detector only", "A stainless steel head"],
+    "citation": "ASME A17.1 / NFPA 13 (2016), Section 8.15.5.3",
+    "code_text": "The elevator power shutoff... shall be achieved prior to the application of water."
+  },
+  {
+    "id": 1903,
+    "category": "NFPA 13 - Installation",
+    "topic": "Chutes",
+    "question": "In a linen or trash chute, where are sprinklers required?",
+    "answer": "At the top and at alternate floor levels",
+    "distractors": ["At the top only", "At every floor level", "At the bottom only"],
+    "citation": "NFPA 13 (2016), Section 21.15.2.2",
+    "code_text": "Installed at the top... and at alternate floor levels."
+  },
+  {
+    "id": 1904,
+    "category": "NFPA 13 - Installation",
+    "topic": "Vertical Shafts",
+    "question": "Do non-combustible, non-accessible vertical shafts require sprinklers?",
+    "answer": "No",
+    "distractors": ["Yes, always", "Yes, if over 2 stories"],
+    "citation": "NFPA 13 (2016), Section 8.15.4",
+    "code_text": "Sprinklers shall not be required in noncombustible... shafts."
+  },
+  {
+    "id": 1905,
+    "category": "NFPA 13 - Installation",
+    "topic": "Stairways",
+    "question": "Where are sprinklers required in non-combustible stair shafts?",
+    "answer": "At the very top of the shaft and under the first landing above the bottom",
+    "distractors": ["Under every landing", "Only at the top", "Only at the bottom"],
+    "citation": "NFPA 13 (2016), Section 8.15.3.2",
+    "code_text": "Top of the shaft... and under the first landing above the bottom."
+  }
+]

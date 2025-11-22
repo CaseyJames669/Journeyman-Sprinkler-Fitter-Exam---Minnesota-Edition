@@ -1,0 +1,154 @@
+[
+  {
+    "id": 216,
+    "category": "NFPA 25 - ITM",
+    "topic": "Gauges",
+    "question": "How often should gauges be replaced or tested against a calibrated gauge?",
+    "answer": "Every 5 years",
+    "distractors": ["Annually", "Every 3 years", "Every 10 years"],
+    "citation": "NFPA 25 (2011), Section 5.3.2",
+    "code_text": "Gauges shall be replaced every 5 years or tested."
+  },
+  {
+    "id": 217,
+    "category": "NFPA 25 - ITM",
+    "topic": "Sprinklers",
+    "question": "How often must standard response sprinklers be tested or replaced (after initial service)?",
+    "answer": "50 years",
+    "distractors": ["20 years", "75 years", "10 years"],
+    "citation": "NFPA 25 (2011), Section 5.3.1.1.1",
+    "code_text": "Sprinklers... shall be replaced or representative samples tested... at 50 years."
+  },
+  {
+    "id": 218,
+    "category": "NFPA 25 - ITM",
+    "topic": "Sprinklers",
+    "question": "How often are Quick Response sprinklers tested (after initial 20 years)?",
+    "answer": "Every 10 years",
+    "distractors": ["Every 5 years", "Every 20 years", "Every 50 years"],
+    "citation": "NFPA 25 (2011), Section 5.3.1.1.1.3",
+    "code_text": "Tested at 10-year intervals."
+  },
+  {
+    "id": 219,
+    "category": "NFPA 25 - ITM",
+    "topic": "Sprinklers",
+    "question": "Dry sprinklers must be tested or replaced after how many years?",
+    "answer": "10 years",
+    "distractors": ["20 years", "5 years", "50 years"],
+    "citation": "NFPA 25 (2011), Section 5.3.1.1.1.6",
+    "code_text": "Dry sprinklers... tested or replaced after 10 years."
+  },
+  {
+    "id": 220,
+    "category": "NFPA 25 - ITM",
+    "topic": "Valves",
+    "question": "How often must you operate and clean a Dry Pipe Valve?",
+    "answer": "Annually",
+    "distractors": ["Quarterly", "Every 3 years", "Semi-Annually"],
+    "citation": "NFPA 25 (2011), Section 13.4.4.2",
+    "code_text": "Each dry pipe valve shall be trip tested annually."
+  },
+  {
+    "id": 221,
+    "category": "NFPA 25 - ITM",
+    "topic": "Valves",
+    "question": "How often is a full flow trip test required for a Dry Pipe Valve?",
+    "answer": "Every 3 years",
+    "distractors": ["Annually", "Every 5 years", "Every 10 years"],
+    "citation": "NFPA 25 (2011), Section 13.4.4.2.2",
+    "code_text": "A full flow trip test... shall be conducted at least once every 3 years."
+  },
+  {
+    "id": 222,
+    "category": "NFPA 25 - ITM",
+    "topic": "Internal Pipe Inspection",
+    "question": "How often is an internal assessment of piping required (for obstruction)?",
+    "answer": "Every 5 years",
+    "distractors": ["Every 3 years", "Annually", "Every 10 years"],
+    "citation": "NFPA 25 (2011), Section 14.2.1",
+    "code_text": "Assessment of the internal condition... shall be conducted... every 5 years."
+  },
+  {
+    "id": 223,
+    "category": "NFPA 25 - ITM",
+    "topic": "FDC",
+    "question": "How often is the interior of the FDC piping inspected (hydrostatic test)?",
+    "answer": "Every 5 years",
+    "distractors": ["Quarterly", "Annually", "Every 3 years"],
+    "citation": "NFPA 25 (2011), Section 13.7.4",
+    "code_text": "Piping... shall be hydrostatically tested at 150 psi... every 5 years."
+  },
+  {
+    "id": 224,
+    "category": "NFPA 25 - ITM",
+    "topic": "Backflow",
+    "question": "How often must a backflow preventer be forward flow tested?",
+    "answer": "Annually",
+    "distractors": ["Quarterly", "Every 5 years", "Every 3 years"],
+    "citation": "NFPA 25 (2011), Section 13.6.2",
+    "code_text": "All backflow preventers... shall be tested annually... under forward flow conditions."
+  },
+  {
+    "id": 225,
+    "category": "NFPA 25 - ITM",
+    "topic": "Antifreeze",
+    "question": "How often must antifreeze solution be tested?",
+    "answer": "Annually",
+    "distractors": ["Quarterly", "Before winter only", "Every 3 years"],
+    "citation": "NFPA 25 (2011), Section 5.3.4",
+    "code_text": "Antifreeze solutions shall be tested annually."
+  },
+  {
+    "id": 226,
+    "category": "NFPA 25 - ITM",
+    "topic": "Alarms",
+    "question": "How often are Vane-type (paddle) waterflow switches tested?",
+    "answer": "Semi-annually",
+    "distractors": ["Quarterly", "Annually", "Monthly"],
+    "citation": "NFPA 25 (2011), Section 5.3.3.2",
+    "code_text": "Vane-type and pressure switch-type... shall be tested semiannually."
+  },
+  {
+    "id": 227,
+    "category": "NFPA 25 - ITM",
+    "topic": "Alarms",
+    "question": "How often are Mechanical waterflow alarms (gongs) tested?",
+    "answer": "Quarterly",
+    "distractors": ["Semi-annually", "Annually", "Monthly"],
+    "citation": "NFPA 25 (2011), Section 5.3.3.1",
+    "code_text": "Mechanical waterflow... devices shall be tested quarterly."
+  },
+  {
+    "id": 228,
+    "category": "MN Rules - Licensing",
+    "topic": "Apprentices",
+    "is_mn_amendment": true,
+    "question": "How often must an apprentice renew their registration in MN?",
+    "answer": "Annually",
+    "distractors": ["Every 2 years", "Never", "Every 6 months"],
+    "citation": "MN Rules 7512.0200",
+    "code_text": "Registrations... expire on June 30 of each year."
+  },
+  {
+    "id": 229,
+    "category": "MN Rules - Licensing",
+    "topic": "Ratios",
+    "is_mn_amendment": true,
+    "question": "What is the maximum ratio of apprentices to journeymen allowed on a job site?",
+    "answer": "Depends on company size, but typically 1:1 for supervision",
+    "distractors": ["3:1", "No limit", "2:1"],
+    "citation": "MN Rules 7512",
+    "code_text": "Direct supervision required."
+  },
+  {
+    "id": 230,
+    "category": "NFPA 25 - ITM",
+    "topic": "Valves",
+    "question": "How often should control valves be operated through their full range of motion?",
+    "answer": "Annually",
+    "distractors": ["Quarterly", "Monthly", "Every 5 years"],
+    "citation": "NFPA 25 (2011), Section 13.3.3.1",
+    "code_text": "Each control valve shall be operated annually through its full range."
+  }
+]

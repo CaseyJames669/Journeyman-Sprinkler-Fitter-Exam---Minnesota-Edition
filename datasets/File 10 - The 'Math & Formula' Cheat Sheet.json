@@ -1,0 +1,114 @@
+[
+  {
+    "id": 800701,
+    "category": "Math & Formulas",
+    "topic": "Head Pressure",
+    "question": "Formula to convert Feet of Head to PSI?",
+    "answer": "Feet × 0.433 = PSI",
+    "distractors": [
+      "Feet × 2.31",
+      "Feet / 0.433",
+      "Feet × 0.5"
+    ],
+    "citation": "Hydraulics Basic",
+    "code_text": "1 ft of water column = 0.433 psi."
+  },
+  {
+    "id": 800702,
+    "category": "Math & Formulas",
+    "topic": "Head Pressure",
+    "question": "Formula to convert PSI to Feet of Head?",
+    "answer": "PSI × 2.31 = Feet",
+    "distractors": [
+      "PSI / 2.31",
+      "PSI × 0.433",
+      "PSI × 12"
+    ],
+    "citation": "Hydraulics Basic",
+    "code_text": "1 psi = 2.31 ft of water column."
+  },
+  {
+    "id": 800703,
+    "category": "Math & Formulas",
+    "topic": "Flow Formula",
+    "question": "What is the standard flow formula (K-Factor)?",
+    "answer": "Q = K × √P  (Flow = K-factor × Square Root of Pressure)",
+    "distractors": [
+      "Q = K × P",
+      "P = K × √Q",
+      "Q = P / K"
+    ],
+    "citation": "NFPA 13 (2016), Section 23.4.2.1",
+    "code_text": "The flow from a sprinkler... shall be calculated using the formula Q=K√P."
+  },
+  {
+    "id": 800704,
+    "category": "Math & Formulas",
+    "topic": "Friction Loss",
+    "question": "Hazen-Williams Formula: If pipe diameter DECREASES, what happens to friction loss?",
+    "answer": "Friction loss INCREASES drastically",
+    "distractors": [
+      "Friction loss decreases",
+      "Friction loss stays the same",
+      "Pressure increases"
+    ],
+    "citation": "Hydraulics Principle",
+    "code_text": "Smaller pipe = Higher velocity = Much higher friction loss."
+  },
+  {
+    "id": 800705,
+    "category": "Math & Formulas",
+    "topic": "Simple Math",
+    "question": "How many gallons are in 1 cubic foot of water?",
+    "answer": "7.48 gallons",
+    "distractors": [
+      "8.34 gallons",
+      "12 gallons",
+      "6.5 gallons"
+    ],
+    "citation": "General Knowledge",
+    "code_text": "1 cubic foot = 7.48 gallons."
+  },
+  {
+    "id": 800706,
+    "category": "Math & Formulas",
+    "topic": "Simple Math",
+    "question": "How much does 1 gallon of water weigh?",
+    "answer": "8.34 lbs",
+    "distractors": [
+      "10 lbs",
+      "7.48 lbs",
+      "6 lbs"
+    ],
+    "citation": "General Knowledge",
+    "code_text": "Standard weight of water."
+  },
+  {
+    "id": 800707,
+    "category": "Math & Formulas",
+    "topic": "Coverage",
+    "question": "Formula for Sprinkler Coverage Area (Spacing)?",
+    "answer": "S × L (Distance along branch line × Distance between branch lines)",
+    "distractors": [
+      "S + L",
+      "S × L / 2",
+      "S × S"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.5.2.1",
+    "code_text": "The protection area... shall be determined by multiplying S dimension by L dimension."
+  },
+  {
+    "id": 800708,
+    "category": "Math & Formulas",
+    "topic": "Calculations",
+    "question": "If the required density is 0.15 gpm/sq ft and the coverage area is 130 sq ft, what is the minimum flow (Q)?",
+    "answer": "19.5 gpm (0.15 × 130)",
+    "distractors": [
+      "25 gpm",
+      "15 gpm",
+      "13 gpm"
+    ],
+    "citation": "Hydraulics Basic",
+    "code_text": "Flow (Q) = Density × Area."
+  }
+]

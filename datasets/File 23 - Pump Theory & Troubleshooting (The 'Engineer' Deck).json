@@ -1,0 +1,72 @@
+[
+  {
+    "id": 2202001,
+    "category": "Pump Theory",
+    "topic": "Troubleshooting",
+    "question": "If a fire pump sounds like it is pumping gravel, what is happening?",
+    "answer": "Cavitation",
+    "distractors": [
+      "Water Hammer",
+      "Overheating",
+      "Overspeed"
+    ],
+    "citation": "General Pump Theory",
+    "code_text": "Cavitation: Formation and collapse of air bubbles due to low pressure/vacuum."
+  },
+  {
+    "id": 2202002,
+    "category": "Pump Theory",
+    "topic": "Physics",
+    "question": "What causes Cavitation?",
+    "answer": "The suction supply cannot keep up with the pump demand (Starvation)",
+    "distractors": [
+      "Discharge pressure is too high",
+      "Pump is running backward",
+      "Impeller is too large"
+    ],
+    "citation": "NFPA 20 (2016), Annex A",
+    "code_text": "Occurs when net positive suction head available is less than required."
+  },
+  {
+    "id": 2202003,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Definitions",
+    "question": "What is 'Churn' pressure?",
+    "answer": "The pressure created when the pump is running at rated speed with NO water flowing (0 gpm)",
+    "distractors": [
+      "The pressure at 150% flow",
+      "The minimum suction pressure",
+      "The pressure at the test header"
+    ],
+    "citation": "NFPA 20 (2016), Section 3.3",
+    "code_text": "Churn: Operation of the pump at no flow."
+  },
+  {
+    "id": 2202004,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Testing",
+    "question": "Why do we verify the pump RPM during a flow test?",
+    "answer": "To verify the engine/motor is not slipping and meets the manufacturer curve",
+    "distractors": [
+      "To check the battery voltage",
+      "To ensure the relief valve works",
+      "To calculate friction loss"
+    ],
+    "citation": "NFPA 25 (2011), Section 8.3.3",
+    "code_text": "Speed... shall be recorded."
+  },
+  {
+    "id": 2202005,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Logic",
+    "question": "If the pump starts but fails to build pressure, what is the most likely cause?",
+    "answer": "Pump is air-bound (needs venting) or rotating backwards",
+    "distractors": [
+      "Relief valve is closed",
+      "Discharge valve is closed",
+      "Jockey pump is off"
+    ],
+    "citation": "Troubleshooting Standard",
+    "code_text": "Air trapped in casing prevents centrifugal force from moving water."
+  }
+]

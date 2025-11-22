@@ -1,0 +1,72 @@
+[
+  {
+    "id": 2802601,
+    "category": "NFPA 14 - System Types",
+    "topic": "Definitions",
+    "question": "What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?",
+    "answer": "Automatic Wet",
+    "distractors": [
+      "Automatic Dry",
+      "Semiautomatic Dry",
+      "Manual Wet"
+    ],
+    "citation": "NFPA 14 (2016), Section 3.3.17.1",
+    "code_text": "Automatic Wet: Contains water at all times... capable of supplying the system demand."
+  },
+  {
+    "id": 2802602,
+    "category": "NFPA 14 - System Types",
+    "topic": "Definitions",
+    "question": "What is a standpipe system that contains air under pressure and admits water automatically when a hose valve is opened?",
+    "answer": "Automatic Dry",
+    "distractors": [
+      "Semiautomatic Dry",
+      "Manual Dry",
+      "Preaction"
+    ],
+    "citation": "NFPA 14 (2016), Section 3.3.17.2",
+    "code_text": "Automatic Dry: Contains air... admits water... when a hose valve is opened."
+  },
+  {
+    "id": 2802603,
+    "category": "NFPA 14 - System Types",
+    "topic": "Definitions",
+    "question": "What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?",
+    "answer": "Manual Dry",
+    "distractors": [
+      "Manual Wet",
+      "Semiautomatic",
+      "Class I"
+    ],
+    "citation": "NFPA 14 (2016), Section 3.3.17.4",
+    "code_text": "Manual Dry: Contains air... relies exclusively on the fire department connection."
+  },
+  {
+    "id": 2802604,
+    "category": "NFPA 14 - System Types",
+    "topic": "Definitions",
+    "question": "What is a 'Manual Wet' standpipe?",
+    "answer": "A system full of water to prevent freezing/leaks, but relies on the Fire Department for pressure/flow",
+    "distractors": [
+      "A system with a small jockey pump",
+      "A system connected to a city main only",
+      "A system with a bucket"
+    ],
+    "citation": "NFPA 14 (2016), Section 3.3.17.5",
+    "code_text": "Manual Wet: Contains water... relies exclusively on the fire department connection to supply the system demand."
+  },
+  {
+    "id": 2802605,
+    "category": "NFPA 14 - System Types",
+    "topic": "Devices",
+    "question": "What device allows water to flow into a Semiautomatic Dry standpipe?",
+    "answer": "Deluge Valve (activated by a remote device)",
+    "distractors": [
+      "Dry Pipe Valve",
+      "Check Valve",
+      "Butterfly Valve"
+    ],
+    "citation": "NFPA 14 (2016), Section 3.3.17.6",
+    "code_text": "Semiautomatic... admits water... when a remote control device activates a deluge valve."
+  }
+]

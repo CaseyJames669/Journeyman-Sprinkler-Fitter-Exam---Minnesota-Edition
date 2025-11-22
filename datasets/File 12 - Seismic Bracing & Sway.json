@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1000901,
+    "category": "NFPA 13 - Seismic",
+    "topic": "Bracing",
+    "question": "Lateral sway braces are spaced at a maximum of what distance?",
+    "answer": "40 feet",
+    "distractors": [
+      "20 feet",
+      "80 feet",
+      "50 feet"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.5.3.2",
+    "code_text": "Lateral sway bracing... shall be spaced at a maximum of 40 ft."
+  },
+  {
+    "id": 1000902,
+    "category": "NFPA 13 - Seismic",
+    "topic": "Bracing",
+    "question": "Longitudinal sway braces are spaced at a maximum of what distance?",
+    "answer": "80 feet",
+    "distractors": [
+      "40 feet",
+      "60 feet",
+      "100 feet"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.5.4",
+    "code_text": "Longitudinal sway bracing... spaced at a maximum of 80 ft."
+  },
+  {
+    "id": 1000903,
+    "category": "NFPA 13 - Seismic",
+    "topic": "Bracing",
+    "question": "A lateral brace must be within how many feet of the end of the pipe?",
+    "answer": "6 feet",
+    "distractors": [
+      "12 feet",
+      "4 feet",
+      "2 feet"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.5.3.2",
+    "code_text": "Distance between the last brace and the end of the pipe shall not exceed 6 ft."
+  },
+  {
+    "id": 1000904,
+    "category": "NFPA 13 - Seismic",
+    "topic": "Bracing",
+    "question": "A longitudinal brace must be within how many feet of the end of the pipe?",
+    "answer": "40 feet",
+    "distractors": [
+      "20 feet",
+      "80 feet",
+      "10 feet"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.5.4",
+    "code_text": "Distance between the last brace and the end of the pipe shall not exceed 40 ft."
+  },
+  {
+    "id": 1000905,
+    "category": "NFPA 13 - Seismic",
+    "topic": "4-Way Braces",
+    "question": "Where are 4-way sway braces required?",
+    "answer": "At the top of the riser",
+    "distractors": [
+      "At the bottom of the riser",
+      "Every 20 feet vertically",
+      "On all cross mains"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.5.5",
+    "code_text": "4-way sway braces shall be provided at the top of the riser."
+  },
+  {
+    "id": 1000906,
+    "category": "NFPA 13 - Seismic",
+    "topic": "Flexible Couplings",
+    "question": "On a riser, where should a flexible coupling be installed in a seismic zone?",
+    "answer": "Within 24 inches of the floor and within 12 inches of the ceiling",
+    "distractors": [
+      "Within 12 inches of floor only",
+      "Every 10 feet",
+      "At the midpoint only"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.2.3",
+    "code_text": "Flexible couplings shall be installed... within 24 in. of the floor... within 12 in. of the ceiling."
+  },
+  {
+    "id": 1000907,
+    "category": "NFPA 13 - Seismic",
+    "topic": "Clearance",
+    "question": "What is the required clearance for a pipe 4 inches or larger passing through a wall in a seismic zone?",
+    "answer": "2 inches",
+    "distractors": [
+      "1 inch",
+      "4 inches",
+      "1/2 inch"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.4",
+    "code_text": "Nominal pipe size 4 in. or larger... clearance of 2 in."
+  },
+  {
+    "id": 1000908,
+    "category": "NFPA 13 - Seismic",
+    "topic": "Restraint",
+    "question": "Branch lines need restraint (wraparound/clip) at the end if?",
+    "answer": "They move excessively or if wire/rod hangers are used in seismic zones",
+    "distractors": [
+      "Always",
+      "Only if > 2 inches",
+      "Never"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.6",
+    "code_text": "Restraint of branch lines... shall be provided."
+  }
+]

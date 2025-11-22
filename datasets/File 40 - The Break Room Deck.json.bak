@@ -1,0 +1,52 @@
+[
+  {
+    "id": 4001,
+    "category": "Jobsite Logic",
+    "topic": "Fittings",
+    "question": "You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it, or are you just hand-tightening it like a prom date?",
+    "answer": "Approximately 3 threads exposed (Standard makeup)",
+    "distractors": ["No threads, bury it to the hilt", "Half the threads, good enough for Friday", "Just one thread, I'm weak"],
+    "citation": "Trade Practice",
+    "code_text": "Proper thread engagement usually leaves ~3 threads exposed. Don't strip it."
+  },
+  {
+    "id": 4002,
+    "category": "Jobsite Logic",
+    "topic": "Valves",
+    "question": "What is the 'Ball Drip' actually for? (And no, it's not for what you think it is).",
+    "answer": "Draining the FDC so it doesn't freeze and crack",
+    "distractors": ["Lubricating the ball bearings", "Letting the air out of the system", "It's just a fancy name for a check valve"],
+    "citation": "NFPA 13 (2016), Section 8.17.2.6",
+    "code_text": "Automatic drip valve... to drain the piping."
+  },
+  {
+    "id": 4003,
+    "category": "Jobsite Logic",
+    "topic": "Lubrication",
+    "question": "When you're mating a gasket, what do you use? Don't say spit.",
+    "answer": "A listed lubricant compatible with the gasket",
+    "distractors": ["Spit and a prayer", "Grease from the truck axle", "Pipe Dope"],
+    "citation": "Manufacturer Instructions",
+    "code_text": "Use only lubricant supplied by the manufacturer."
+  },
+  {
+    "id": 4004,
+    "category": "Jobsite Logic",
+    "topic": "Slang",
+    "question": "The foreman tells you to grab a 'Widow Maker.' What is he asking for?",
+    "answer": "An extension ladder (or sometimes a specific dangerous electrical disconnect)",
+    "distractors": ["A pipe wrench with a cheater bar", "The biggest hammer in the truck", "A 220v cord with bare ends"],
+    "citation": "Jobsite Slang",
+    "code_text": "Slang varies, but usually refers to tools that kill you if you respect them least."
+  },
+  {
+    "id": 4005,
+    "category": "Jobsite Logic",
+    "topic": "Pipe Prep",
+    "question": "You just cut a piece of threaded pipe. If you don't ream the inside, what are you?",
+    "answer": "A turbulent flow creator (and a lazy fitter)",
+    "distractors": ["Efficient", "Saving time", "Ready for the weekend"],
+    "citation": "NFPA 13 (2016), Section 6.5.1.3",
+    "code_text": "Pipe ends shall be reamed or burrs removed."
+  }
+]

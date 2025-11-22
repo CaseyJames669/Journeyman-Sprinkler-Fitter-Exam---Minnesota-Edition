@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1701601,
+    "category": "NFPA 24 - Flushing",
+    "topic": "Flow Rates",
+    "question": "What flow rate is required to flush a 4-inch underground main?",
+    "answer": "390 gpm",
+    "distractors": [
+      "200 gpm",
+      "500 gpm",
+      "880 gpm"
+    ],
+    "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+    "code_text": "4-inch: 390 gpm (velocity 10 ft/s)."
+  },
+  {
+    "id": 1701602,
+    "category": "NFPA 24 - Flushing",
+    "topic": "Flow Rates",
+    "question": "What flow rate is required to flush a 6-inch underground main?",
+    "answer": "880 gpm",
+    "distractors": [
+      "500 gpm",
+      "1560 gpm",
+      "1000 gpm"
+    ],
+    "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+    "code_text": "6-inch: 880 gpm."
+  },
+  {
+    "id": 1701603,
+    "category": "NFPA 24 - Flushing",
+    "topic": "Flow Rates",
+    "question": "What flow rate is required to flush an 8-inch underground main?",
+    "answer": "1560 gpm",
+    "distractors": [
+      "2000 gpm",
+      "880 gpm",
+      "1200 gpm"
+    ],
+    "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+    "code_text": "8-inch: 1560 gpm."
+  },
+  {
+    "id": 1701604,
+    "category": "NFPA 13 - Acceptance",
+    "topic": "Hydrostatic Test",
+    "question": "What is the maximum allowable pressure drop during a 2-hour hydrostatic test?",
+    "answer": "0 psi (No visible leakage allowed)",
+    "distractors": [
+      "2 psi",
+      "5 psi",
+      "1.5 psi"
+    ],
+    "citation": "NFPA 13 (2016), Section 25.2.1.1",
+    "code_text": "No visible leakage... shall be permitted."
+  },
+  {
+    "id": 1701605,
+    "category": "NFPA 13 - Acceptance",
+    "topic": "Papers",
+    "question": "Who must sign the Contractor's Material and Test Certificate?",
+    "answer": "The Installing Contractor and the Owner's Representative",
+    "distractors": [
+      "The Fire Marshall",
+      "The Architect",
+      "The General Contractor"
+    ],
+    "citation": "NFPA 13 (2016), Section 25.1",
+    "code_text": "Signed by both the installing contractor and the owner."
+  }
+]

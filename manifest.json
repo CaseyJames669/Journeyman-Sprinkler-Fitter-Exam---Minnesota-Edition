@@ -1,0 +1,13 @@
+{
+  "name": "MN Sprinkler Quiz",
+  "short_name": "Fitter Quiz",
+  "start_url": "./study.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#00d4ff",
+  "description": "Practice questions for the Minnesota Sprinkler Journeyman exam. Offline-capable PWA.",
+  "icons": [
+    { "src": "assets/foreman-neutral.jpg", "sizes": "192x192", "type": "image/jpeg" },
+    { "src": "assets/foreman-success.jpg", "sizes": "512x512", "type": "image/jpeg" }
+  ]
+}

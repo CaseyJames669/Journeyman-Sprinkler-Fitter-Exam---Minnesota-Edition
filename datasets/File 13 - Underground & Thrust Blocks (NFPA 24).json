@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1101001,
+    "category": "NFPA 24 - Underground",
+    "topic": "Thrust Blocks",
+    "question": "Thrust blocks are required at which locations?",
+    "answer": "Changes in direction (elbows/tees), dead ends, and reducers",
+    "distractors": [
+      "Every joint",
+      "Every 10 feet",
+      "Only at the riser flange"
+    ],
+    "citation": "NFPA 24 (2016), Section 10.8.1",
+    "code_text": "Thrust blocks... shall be required at all changes in direction... reducers... and dead ends."
+  },
+  {
+    "id": 1101002,
+    "category": "NFPA 24 - Underground",
+    "topic": "Thrust Blocks",
+    "question": "Can concrete for a thrust block cover the bolts of the fitting?",
+    "answer": "No, bolts and joints must remain accessible",
+    "distractors": [
+      "Yes, to protect them",
+      "Yes, if wrapped in plastic",
+      "Only the bottom bolts"
+    ],
+    "citation": "NFPA 24 (2016), Section 10.8.2",
+    "code_text": "Thrust blocks shall be constructed so that joints and bolts are accessible."
+  },
+  {
+    "id": 1101003,
+    "category": "NFPA 24 - Underground",
+    "topic": "Rodding",
+    "question": "When using threaded rod for restraining underground pipe, what size rod is required for pipe 4\" to 8\"?",
+    "answer": "5/8 inch",
+    "distractors": [
+      "1/2 inch",
+      "3/4 inch",
+      "1 inch"
+    ],
+    "citation": "NFPA 24 (2016), Section 10.8.3",
+    "code_text": "(Standard industry practice & table data often references 5/8\" for mid-range sizes)."
+  },
+  {
+    "id": 1101004,
+    "category": "NFPA 24 - Underground",
+    "topic": "Flushing",
+    "question": "What is the minimum flow rate required to flush a 4-inch underground main?",
+    "answer": "390 gpm (or 10 ft/sec velocity)",
+    "distractors": [
+      "200 gpm",
+      "500 gpm",
+      "880 gpm"
+    ],
+    "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+    "code_text": "4 in pipe -> 390 gpm (to achieve 10 ft/sec)."
+  },
+  {
+    "id": 1101005,
+    "category": "NFPA 24 - Underground",
+    "topic": "Flushing",
+    "question": "What is the minimum flow rate required to flush a 6-inch underground main?",
+    "answer": "880 gpm",
+    "distractors": [
+      "500 gpm",
+      "1560 gpm",
+      "1000 gpm"
+    ],
+    "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+    "code_text": "6 in pipe -> 880 gpm."
+  },
+  {
+    "id": 1101006,
+    "category": "NFPA 24 - Underground",
+    "topic": "Testing",
+    "question": "Underground piping must be hydrostatically tested at what pressure?",
+    "answer": "200 psi or 50 psi in excess of working pressure",
+    "distractors": [
+      "150 psi",
+      "100 psi",
+      "250 psi"
+    ],
+    "citation": "NFPA 24 (2016), Section 10.10.2.2",
+    "code_text": "Test pressure shall be at least 200 psi."
+  }
+]

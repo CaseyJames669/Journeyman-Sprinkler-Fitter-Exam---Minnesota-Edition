@@ -1,0 +1,32 @@
+[
+  {
+    "id": 3001,
+    "category": "Advanced Trivia",
+    "topic": "Anti-Freeze",
+    "question": "In NEW systems (post-2012), can you use pure glycerin and mix it with water on site?",
+    "answer": "No, it must be a Factory Premixed Listed Solution",
+    "distractors": ["Yes, if you have a hydrometer", "Yes, if you test specific gravity", "Yes, if approved by the owner"],
+    "citation": "NFPA 13 (2016), Section 7.6.2.1",
+    "code_text": "Antifreeze solutions... shall be listed."
+  },
+  {
+    "id": 3002,
+    "category": "Advanced Trivia",
+    "topic": "Backflow",
+    "question": "Where does the Forward Flow Test of a backflow preventer take place?",
+    "answer": "At a test header located downstream of the backflow preventer (or the bypass)",
+    "distractors": ["At the Main Drain", "Through the FDC", "At the Inspectors Test"],
+    "citation": "NFPA 13 (2016), Section 8.17.4.6",
+    "code_text": "Means shall be provided downstream... to forward flow test... at system demand."
+  },
+  {
+    "id": 3003,
+    "category": "Advanced Trivia",
+    "topic": "Hangers",
+    "question": "Can you drive a lag screw into the side of a wood beam (horizontal)?",
+    "answer": "Yes, but you cannot use the side of a wood beam to support a C-Clamp without a retaining strap",
+    "distractors": ["No, never", "Yes, always", "Only for pipe 1 inch or less"],
+    "citation": "NFPA 13 (2016), Section 9.1.5.3",
+    "code_text": "Coach screws... shall not be used for support of pipes larger than 4 in... (Side beam requires specific strap logic)."
+  }
+]

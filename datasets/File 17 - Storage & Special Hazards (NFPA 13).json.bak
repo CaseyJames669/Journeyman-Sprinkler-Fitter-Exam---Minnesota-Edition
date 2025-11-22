@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1401,
+    "category": "NFPA 13 - Storage",
+    "topic": "Flue Space",
+    "question": "In rack storage, what is the minimum required width for a transverse flue space?",
+    "answer": "6 inches",
+    "distractors": ["3 inches", "12 inches", "4 inches"],
+    "citation": "NFPA 13 (2016), Section 16.1.9",
+    "code_text": "Nominal 6 in. transverse flue spaces... shall be provided."
+  },
+  {
+    "id": 1402,
+    "category": "NFPA 13 - Storage",
+    "topic": "ESFR",
+    "question": "What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?",
+    "answer": "35 feet (with 40 ft roof height, varies by pressure)",
+    "distractors": ["20 feet", "50 feet", "45 feet"],
+    "citation": "NFPA 13 (2016), Table 8.12.2.2.1",
+    "code_text": "Max. Ceiling/Roof Height: 35 ft for K-14."
+  },
+  {
+    "id": 1403,
+    "category": "NFPA 13 - Storage",
+    "topic": "In-Rack Sprinklers",
+    "question": "When installing in-rack sprinklers, what must be installed above the sprinkler to protect it from water discharge above?",
+    "answer": "A Water Shield",
+    "distractors": ["A Heat Collector", "A Wire Guard", "A Baffle"],
+    "citation": "NFPA 13 (2016), Section 8.15.17.3",
+    "code_text": "In-rack sprinklers... shall be equipped with water shields."
+  },
+  {
+    "id": 1404,
+    "category": "NFPA 13 - Storage",
+    "topic": "Pallet Storage",
+    "question": "Idle wood pallets stored indoors cannot exceed what height without sprinkler protection?",
+    "answer": "6 feet",
+    "distractors": ["12 feet", "4 feet", "10 feet"],
+    "citation": "NFPA 13 (2016), Section 12.12.1.1",
+    "code_text": "Pallets shall not be stored higher than 6 ft."
+  },
+  {
+    "id": 1405,
+    "category": "NFPA 13 - Storage",
+    "topic": "Commodity Classes",
+    "question": "Which commodity class includes wood, paper, and natural fibers?",
+    "answer": "Class II or III (depending on packaging)",
+    "distractors": ["Class I", "Class IV", "Group A Plastics"],
+    "citation": "NFPA 13 (2016), Section 5.6.3",
+    "code_text": "Class II commodities... wood crates... paper."
+  },
+  {
+    "id": 1406,
+    "category": "NFPA 13 - Storage",
+    "topic": "Plastics",
+    "question": "Expanded polystyrene (Styrofoam) is classified as what type of commodity?",
+    "answer": "Group A Plastic (Expanded)",
+    "distractors": ["Class IV", "Class III", "Group B Plastic"],
+    "citation": "NFPA 13 (2016), Section 5.6.4.1",
+    "code_text": "Group A plastics... Expanded."
+  }
+]

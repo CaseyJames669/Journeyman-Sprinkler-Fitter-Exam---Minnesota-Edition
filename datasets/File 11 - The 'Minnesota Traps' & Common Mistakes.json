@@ -1,0 +1,115 @@
+[
+  {
+    "id": 900801,
+    "category": "MN Traps",
+    "topic": "FDC Height",
+    "question": "MN TRAP: What is the max height of an FDC in Minnesota?",
+    "answer": "48 inches (NFPA says 'per AHJ', MN says strictly 48\")",
+    "distractors": [
+      "60 inches",
+      "54 inches",
+      "42 inches"
+    ],
+    "citation": "MN Fire Code (2020) 912.2.2",
+    "code_text": "Max height 48 inches.",
+    "is_mn_amendment": true
+  },
+  {
+    "id": 900802,
+    "category": "MN Traps",
+    "topic": "Valve Supervision",
+    "question": "MN TRAP: Does a small system (under 20 heads) require valve monitoring?",
+    "answer": "YES. (MN deletes the NFPA exception for small systems)",
+    "distractors": [
+      "No, if locked",
+      "No, if sealed open"
+    ],
+    "citation": "MN Fire Code (2020) 903.4",
+    "code_text": "MN Amendment deletes exception 1.",
+    "is_mn_amendment": true
+  },
+  {
+    "id": 900803,
+    "category": "MN Traps",
+    "topic": "13R vs 13",
+    "question": "Common Mistake: Can you use NFPA 13R for a 4-story building with a basement sticking 50% out of the ground?",
+    "answer": "Maybe not - 'Grade Plane' definition is strict. 4 stories TOTAL.",
+    "distractors": [
+      "Yes, always",
+      "No, 13R is only for 3 stories"
+    ],
+    "citation": "NFPA 13R / IBC / MN Code",
+    "code_text": "13R limited to 4 stories above grade plane.",
+    "is_mn_amendment": false
+  },
+  {
+    "id": 900804,
+    "category": "MN Traps",
+    "topic": "Bathrooms",
+    "question": "Common Mistake: Do you need sprinklers in a 50 sq ft bathroom in an NFPA 13 (Commercial) Hotel?",
+    "answer": "YES. (NFPA 13 requires them. NFPA 13R allows omission)",
+    "distractors": [
+      "No, it's small",
+      "Only if it has a shower"
+    ],
+    "citation": "NFPA 13 vs 13R",
+    "code_text": "NFPA 13 requires bathroom sprinklers. NFPA 13R permits omission if <55 sq ft.",
+    "mnemonic": "Commercial (13) = Cover everything. Residential (13R) = Relaxed."
+  },
+  {
+    "id": 900805,
+    "category": "MN Traps",
+    "topic": "License Renewal",
+    "question": "MN TRAP: If you fail to renew your license by June 30th, can you still work?",
+    "answer": "No, you are unlicensed immediately",
+    "distractors": [
+      "Yes, there is a 30 day grace period",
+      "Yes, if you pay a late fee"
+    ],
+    "citation": "MN Rules 7512",
+    "code_text": "License expires. No grace period for performing work.",
+    "is_mn_amendment": true
+  },
+  {
+    "id": 900806,
+    "category": "MN Traps",
+    "topic": "Color Codes",
+    "question": "Common Mistake: What color are frame arms for 'High' temp (250-300)?",
+    "answer": "Blue (Same as the bulb)",
+    "distractors": [
+      "White",
+      "Red",
+      "Green"
+    ],
+    "citation": "NFPA 13 (2016) Table 6.2.5.1",
+    "code_text": "High Temp: Blue bulb / Blue frame."
+  },
+  {
+    "id": 900807,
+    "category": "MN Traps",
+    "topic": "Color Codes",
+    "question": "Common Mistake: What color are frame arms for 'Extra High' temp (325-375)?",
+    "answer": "Red (Bulb is Purple)",
+    "distractors": [
+      "Purple",
+      "Black",
+      "Blue"
+    ],
+    "citation": "NFPA 13 (2016) Table 6.2.5.1",
+    "code_text": "Extra High: Purple bulb / Red frame. (This is the only one where bulb/frame don't match or aren't intuitive).",
+    "mnemonic": "Extra High = Red Alert (Frame)."
+  },
+  {
+    "id": 900808,
+    "category": "MN Traps",
+    "topic": "Obstructions",
+    "question": "Common Mistake: Can you install a sprinkler 2 inches from a wall?",
+    "answer": "No, Minimum 4 inches",
+    "distractors": [
+      "Yes, allowed",
+      "Yes, if using a baffle"
+    ],
+    "citation": "NFPA 13 (2016) 8.6.3.2.3",
+    "code_text": "Minimum of 4 in. from a wall."
+  }
+]

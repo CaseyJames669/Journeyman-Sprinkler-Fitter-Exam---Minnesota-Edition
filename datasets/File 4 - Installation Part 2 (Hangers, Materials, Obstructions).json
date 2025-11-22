@@ -1,0 +1,212 @@
+[
+  {
+    "id": 3900124,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers - Copper",
+    "question": "What is the maximum distance between hangers on 1\" copper tube?",
+    "answer": "8 feet",
+    "distractors": [
+      "12 feet",
+      "6 feet",
+      "10 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(b)",
+    "code_text": "1 in. Copper: 8 ft."
+  },
+  {
+    "id": 3900125,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers - Copper",
+    "question": "What is the maximum distance between hangers on 1½\" copper tube?",
+    "answer": "10 feet",
+    "distractors": [
+      "12 feet",
+      "8 feet",
+      "15 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(b)",
+    "code_text": "1-1/2 in. Copper: 10 ft."
+  },
+  {
+    "id": 3900126,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers - CPVC",
+    "question": "What is the maximum distance between hangers on ¾\" CPVC?",
+    "answer": "5 ft 6 in",
+    "distractors": [
+      "6 feet",
+      "4 feet",
+      "5 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(c)",
+    "code_text": "3/4 in. CPVC: 5 ft 6 in."
+  },
+  {
+    "id": 3900127,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers - CPVC",
+    "question": "What is the maximum distance between hangers on 1\" CPVC?",
+    "answer": "6 feet",
+    "distractors": [
+      "5 ft 6 in",
+      "7 feet",
+      "8 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(c)",
+    "code_text": "1 in. CPVC: 6 ft."
+  },
+  {
+    "id": 3900128,
+    "category": "NFPA 13 - Installation",
+    "topic": "Trapeze Hangers",
+    "question": "What is the minimum size pipe allowed for a trapeze member spanning 5 feet or less?",
+    "answer": "1 inch",
+    "distractors": [
+      "¾ inch",
+      "1¼ inch",
+      "½ inch"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.1.1.7",
+    "code_text": "Trapeze members... 1 in. nominal or larger."
+  },
+  {
+    "id": 3900129,
+    "category": "NFPA 13 - Installation",
+    "topic": "Obstructions",
+    "question": "How large must a ceiling fan be to be considered an obstruction requiring a sprinkler above/below?",
+    "answer": "60 inches diameter",
+    "distractors": [
+      "48 inches",
+      "36 inches",
+      "72 inches"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.5.5.3",
+    "code_text": "HVLS fans... greater than 60 in. in diameter."
+  },
+  {
+    "id": 3900130,
+    "category": "NFPA 13 - Installation",
+    "topic": "Obstructions",
+    "question": "Standard sprinklers must be located at least how far from a continuous obstruction (like a beam) to avoid 'skipping'?",
+    "answer": "3 times the depth of the obstruction",
+    "distractors": [
+      "2 times the depth",
+      "4 times the depth",
+      "18 inches"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.5.1.2",
+    "code_text": "Beam rule: Horizontal distance... not less than three times the vertical distance."
+  },
+  {
+    "id": 3900131,
+    "category": "NFPA 13 - Installation",
+    "topic": "Obstructions",
+    "question": "What is the maximum distance a sprinkler deflector can be located above the bottom of a solid obstruction (Beam Rule)?",
+    "answer": "Zero (Maximum distance is defined by distance away)",
+    "distractors": [
+      "4 inches",
+      "6 inches",
+      "12 inches"
+    ],
+    "citation": "NFPA 13 (2016), Figure 8.6.5.1.2(a)",
+    "code_text": "The 'Beam Rule' defines max distance above bottom of beam based on horizontal distance away."
+  },
+  {
+    "id": 3900132,
+    "category": "NFPA 13 - Installation",
+    "topic": "System Components",
+    "question": "When are return bends required for pendant sprinklers?",
+    "answer": "In dry systems or systems with raw water",
+    "distractors": [
+      "In all wet systems",
+      "In light hazard systems",
+      "When pressure exceeds 100 psi"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.15.18.2",
+    "code_text": "Installed on return bends where... raw water source... or Dry systems."
+  },
+  {
+    "id": 3900133,
+    "category": "NFPA 13 - Installation",
+    "topic": "Seismic",
+    "question": "In a seismic zone, what is the maximum clearance allowed around a pipe penetrating a wall (without a flexible coupling)?",
+    "answer": "Large enough to avoid contact (1-2 inches depending on size)",
+    "distractors": [
+      "Seal tight with caulk",
+      "No clearance needed",
+      "6 inches"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.3.4",
+    "code_text": "1 in. clearance for pipe 1in-3.5in; 2 in. clearance for pipe 4in+."
+  },
+  {
+    "id": 3900134,
+    "category": "NFPA 13 - Installation",
+    "topic": "Dry Systems",
+    "question": "A quick-opening device (QOD) is required on a dry system when the capacity exceeds?",
+    "answer": "500 gallons",
+    "distractors": [
+      "750 gallons",
+      "300 gallons",
+      "1000 gallons"
+    ],
+    "citation": "NFPA 13 (2016), Section 7.2.3.4",
+    "code_text": "A quick-opening device shall be provided for dry pipe systems having a capacity of more than 500 gal."
+  },
+  {
+    "id": 3900135,
+    "category": "NFPA 13 - Installation",
+    "topic": "System Types",
+    "question": "Which system requires a supplemental detection system to activate?",
+    "answer": "Preaction",
+    "distractors": [
+      "Dry Pipe",
+      "Wet Pipe",
+      "Antifreeze"
+    ],
+    "citation": "NFPA 13 (2016), Section 7.3.2.1",
+    "code_text": "The preaction valve shall be actuated by... a supplemental fire detection system."
+  },
+  {
+    "id": 3900136,
+    "category": "NFPA 13 - Installation",
+    "topic": "Antifreeze",
+    "question": "What is the maximum capacity of an antifreeze system piping loop?",
+    "answer": "40 gallons",
+    "distractors": [
+      "50 gallons",
+      "100 gallons",
+      "20 gallons"
+    ],
+    "citation": "NFPA 13 (2016), Section 7.6.2.3",
+    "code_text": "Capacity... shall not exceed 40 gal."
+  },
+  {
+    "id": 3900137,
+    "category": "NFPA 13 - Installation",
+    "topic": "Valves",
+    "question": "Post Indicator Valves (PIV) must be set so the top of the post is how high above grade?",
+    "answer": "32 to 40 inches",
+    "distractors": [
+      "24 to 36 inches",
+      "36 to 48 inches",
+      "18 to 24 inches"
+    ],
+    "citation": "NFPA 24 (2016), Section 6.3.3",
+    "code_text": "32 in. to 40 in. above final grade."
+  },
+  {
+    "id": 3900138,
+    "category": "NFPA 13 - Installation",
+    "topic": "Safety/Signs",
+    "question": "What is the minimum letter height for hydraulic design information signs?",
+    "answer": "¼ inch (Title: 1 inch)",
+    "distractors": [
+      "½ inch",
+      "1 inch",
+      "1/8 inch"
+    ],
+    "citation": "NFPA 13 (2016), Section 25.5.2",
+    "code_text": "Data on the sign... shall be a minimum of 1/4 in. high."
+  }
+]

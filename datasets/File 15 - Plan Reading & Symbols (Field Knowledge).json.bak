@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1201,
+    "category": "Plan Reading",
+    "topic": "Symbols",
+    "question": "What does the symbol of a circle with a 'T' in the center typically represent?",
+    "answer": "Inspector's Test Connection",
+    "distractors": ["Tee fitting", "Thermostat", "Transformer"],
+    "citation": "Trade Standard (NFPA 170)",
+    "code_text": "Standard fire safety symbols."
+  },
+  {
+    "id": 1202,
+    "category": "Plan Reading",
+    "topic": "Scales",
+    "question": "If a drawing is scaled at 1/8\" = 1'0\", what does a line measuring 2 inches on paper represent in reality?",
+    "answer": "16 feet",
+    "distractors": ["8 feet", "2 feet", "32 feet"],
+    "citation": "Math Logic",
+    "code_text": "There are 8 eighths in an inch. 2 inches = 16 eighths. 16 x 1 ft = 16 ft."
+  },
+  {
+    "id": 1203,
+    "category": "Plan Reading",
+    "topic": "Views",
+    "question": "Which view shows the building as if you were looking down from above, with the roof removed?",
+    "answer": "Plan View",
+    "distractors": ["Elevation View", "Section View", "Isometric View"],
+    "citation": "Trade Standard",
+    "code_text": "Plan View = Top down."
+  },
+  {
+    "id": 1204,
+    "category": "Plan Reading",
+    "topic": "Views",
+    "question": "Which view shows a vertical slice through the building to show heights of pipes?",
+    "answer": "Section View",
+    "distractors": ["Plan View", "Detail View", "Reflected Ceiling Plan"],
+    "citation": "Trade Standard",
+    "code_text": "Section View = Slice through."
+  },
+  {
+    "id": 1205,
+    "category": "Plan Reading",
+    "topic": "Symbols",
+    "question": "On a sprinkler head symbol, what does 'SSU' stand for?",
+    "answer": "Standard Spray Upright",
+    "distractors": ["Stainless Steel Unit", "Side Spray Upward", "Standard Sidewall Unit"],
+    "citation": "Trade Standard",
+    "code_text": "SSU = Standard Spray Upright."
+  },
+  {
+    "id": 1206,
+    "category": "Plan Reading",
+    "topic": "Symbols",
+    "question": "On a sprinkler head symbol, what does 'SSP' stand for?",
+    "answer": "Standard Spray Pendant",
+    "distractors": ["Stainless Steel Pipe", "Standard Spray Pressure", "Side Spray Pendant"],
+    "citation": "Trade Standard",
+    "code_text": "SSP = Standard Spray Pendent."
+  }
+]

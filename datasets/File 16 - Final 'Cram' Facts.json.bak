@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1301,
+    "category": "General Knowledge",
+    "topic": "Materials",
+    "question": "What is the melting point of the solder in an ordinary temperature fusible link?",
+    "answer": "135°F to 170°F",
+    "distractors": ["100°F", "212°F", "300°F"],
+    "citation": "NFPA 13 (2016), Table 6.2.5.1",
+    "code_text": "Ordinary classification range."
+  },
+  {
+    "id": 1302,
+    "category": "General Knowledge",
+    "topic": "Freezing",
+    "question": "Water filled piping must be maintained at a minimum temperature of?",
+    "answer": "40°F",
+    "distractors": ["32°F", "50°F", "0°F"],
+    "citation": "NFPA 13 (2016), Section 8.16.4.1.1",
+    "code_text": "Maintained at or above 40°F."
+  },
+  {
+    "id": 1303,
+    "category": "Safety - NFPA 10",
+    "topic": "Extinguishers",
+    "question": "What is the maximum travel distance to a Class A fire extinguisher?",
+    "answer": "75 feet",
+    "distractors": ["50 feet", "100 feet", "25 feet"],
+    "citation": "NFPA 10",
+    "code_text": "75 ft travel distance for Class A."
+  },
+  {
+    "id": 1304,
+    "category": "Safety - NFPA 10",
+    "topic": "Extinguishers",
+    "question": "How often must fire extinguishers be visually inspected?",
+    "answer": "Monthly",
+    "distractors": ["Annually", "Weekly", "Daily"],
+    "citation": "NFPA 10",
+    "code_text": "Inspection... at least monthly."
+  },
+  {
+    "id": 1305,
+    "category": "Safety",
+    "topic": "Electrical",
+    "question": "What is the minimum distance a ladder must be kept from energized power lines?",
+    "answer": "10 feet",
+    "distractors": ["5 feet", "2 feet", "20 feet"],
+    "citation": "OSHA",
+    "code_text": "Minimum clearance distance of 10 feet."
+  }
+]

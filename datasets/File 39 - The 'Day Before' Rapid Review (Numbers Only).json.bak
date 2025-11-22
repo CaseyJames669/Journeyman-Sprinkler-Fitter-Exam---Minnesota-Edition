@@ -1,0 +1,130 @@
+[
+  {
+    "id": 3601,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Distance between hangers (1\" Steel)?",
+    "answer": "12 feet",
+    "citation": "NFPA 13 Table 9.2.2.1(a)"
+  },
+  {
+    "id": 3602,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Distance between hangers (1-1/4\" Steel)?",
+    "answer": "12 feet",
+    "citation": "NFPA 13 Table 9.2.2.1(a)"
+  },
+  {
+    "id": 3603,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Distance between hangers (1-1/2\" Steel)?",
+    "answer": "15 feet",
+    "citation": "NFPA 13 Table 9.2.2.1(a)"
+  },
+  {
+    "id": 3604,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Max distance from wall (Standard Head)?",
+    "answer": "7.5 feet (1/2 of 15)",
+    "citation": "NFPA 13 (Light Hazard SSU/SSP)"
+  },
+  {
+    "id": 3605,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Max distance from wall (Extended Coverage)?",
+    "answer": "10 feet (1/2 of 20) - Check Listing",
+    "citation": "NFPA 13"
+  },
+  {
+    "id": 3606,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "MN FDC Height?",
+    "answer": "18\" to 48\"",
+    "citation": "MSFC 912.2.2"
+  },
+  {
+    "id": 3607,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Friction Loss C-Factor (Steel Wet)?",
+    "answer": "120",
+    "citation": "NFPA 13"
+  },
+  {
+    "id": 3608,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Friction Loss C-Factor (Steel Dry)?",
+    "answer": "100",
+    "citation": "NFPA 13"
+  },
+  {
+    "id": 3609,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Max time for water to reach inspector's test (Dry)?",
+    "answer": "60 seconds",
+    "citation": "NFPA 13"
+  },
+  {
+    "id": 3610,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Hydrostatic Test Pressure?",
+    "answer": "200 psi (or +50)",
+    "citation": "NFPA 13"
+  },
+  {
+    "id": 3611,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Air Test Pressure (24 hour)?",
+    "answer": "40 psi",
+    "citation": "NFPA 13"
+  },
+  {
+    "id": 3612,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Weekly Pump Run (Electric)?",
+    "answer": "10 minutes",
+    "citation": "NFPA 25"
+  },
+  {
+    "id": 3613,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Weekly Pump Run (Diesel)?",
+    "answer": "30 minutes",
+    "citation": "NFPA 25"
+  },
+  {
+    "id": 3614,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Main Drain Test Frequency?",
+    "answer": "Annually",
+    "citation": "NFPA 25"
+  },
+  {
+    "id": 3615,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Flow Test Standpipe Frequency?",
+    "answer": "5 Years",
+    "citation": "NFPA 25"
+  },
+  {
+    "id": 3616,
+    "category": "Rapid Review",
+    "topic": "Numbers",
+    "question": "Deflector distance below beam (if 6\" away)?",
+    "answer": "1\" max above bottom (consult table)",
+    "citation": "NFPA 13 Beam Rule"
+  }
+]

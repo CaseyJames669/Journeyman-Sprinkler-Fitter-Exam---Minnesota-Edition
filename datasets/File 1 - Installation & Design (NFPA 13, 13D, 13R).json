@@ -1,0 +1,326 @@
+[
+  {
+    "id": 700101,
+    "category": "NFPA 13 - Installation",
+    "topic": "Coverage",
+    "question": "What is the coverage area for Light Hazard heads (Standard Spray)?",
+    "answer": "225 square feet",
+    "distractors": [
+      "130 sq ft",
+      "200 sq ft",
+      "400 sq ft"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.6.2.2.1(a)",
+    "code_text": "Light Hazard Protection Area: 225 ft2."
+  },
+  {
+    "id": 700102,
+    "category": "NFPA 13 - Installation",
+    "topic": "Coverage",
+    "question": "What is the coverage area for Ordinary Hazard heads?",
+    "answer": "130 square feet",
+    "distractors": [
+      "100 sq ft",
+      "225 sq ft",
+      "196 sq ft"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.6.2.2.1(b)",
+    "code_text": "Ordinary Hazard Protection Area: 130 ft2."
+  },
+  {
+    "id": 700103,
+    "category": "NFPA 13 - Installation",
+    "topic": "Coverage",
+    "question": "What is the coverage area for Extra Hazard heads?",
+    "answer": "100 square feet",
+    "distractors": [
+      "130 sq ft",
+      "90 sq ft",
+      "64 sq ft"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.6.2.2.1(c)",
+    "code_text": "Extra Hazard Protection Area: 100 ft2."
+  },
+  {
+    "id": 700104,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "What is the maximum distance between hangers on 1\" schedule 40 pipe?",
+    "answer": "12 feet",
+    "distractors": [
+      "10 feet",
+      "15 feet",
+      "8 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+    "code_text": "1 in: 12 ft."
+  },
+  {
+    "id": 700105,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "What is the maximum distance between hangers on 1¼\" schedule 40 pipe?",
+    "answer": "12 feet",
+    "distractors": [
+      "15 feet",
+      "10 feet",
+      "14 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+    "code_text": "1-1/4 in: 12 ft."
+  },
+  {
+    "id": 700106,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "What is the maximum distance between hangers on 1½\" schedule 40 pipe?",
+    "answer": "15 feet",
+    "distractors": [
+      "12 feet",
+      "10 feet",
+      "20 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+    "code_text": "1-1/2 in: 15 ft."
+  },
+  {
+    "id": 700107,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "Maximum unsupported length of pipe from end of 1\" pipe to last hanger?",
+    "answer": "36 inches",
+    "distractors": [
+      "48 inches",
+      "24 inches",
+      "12 inches"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.3.4",
+    "code_text": "1 in: 36 inches."
+  },
+  {
+    "id": 700108,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "Maximum unsupported length of pipe from end of 1¼\" pipe to last hanger?",
+    "answer": "48 inches",
+    "distractors": [
+      "36 inches",
+      "60 inches",
+      "24 inches"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.3.4",
+    "code_text": "1-1/4 in: 48 inches."
+  },
+  {
+    "id": 700109,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "Maximum unsupported length of pipe from end of 1½\" pipe to last hanger?",
+    "answer": "60 inches",
+    "distractors": [
+      "48 inches",
+      "36 inches",
+      "72 inches"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.3.4",
+    "code_text": "1-1/2 in or larger: 60 inches."
+  },
+  {
+    "id": 700110,
+    "category": "NFPA 13 - Installation",
+    "topic": "Calculations",
+    "question": "In Ordinary Hazard (130 sq ft), if heads are 12’6\" apart on the line, what is the max distance between lines?",
+    "answer": "10.4 feet",
+    "math_logic": "130 / 12.5 = 10.4",
+    "distractors": [
+      "12.5 feet",
+      "15 feet",
+      "10 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.6.2.2.1(b)",
+    "code_text": "S x L = Area."
+  },
+  {
+    "id": 700111,
+    "category": "NFPA 13 - Installation",
+    "topic": "Components",
+    "question": "What color is the glass bulb for Ordinary Temperature (135-170°F)?",
+    "answer": "Orange or Red",
+    "distractors": [
+      "Yellow",
+      "Blue",
+      "Green"
+    ],
+    "citation": "NFPA 13 (2016), Table 6.2.5.1",
+    "code_text": "135-170 F: Orange/Red."
+  },
+  {
+    "id": 700112,
+    "category": "NFPA 13 - Installation",
+    "topic": "Components",
+    "question": "What color is the glass bulb for Intermediate Temperature (175-225°F)?",
+    "answer": "Yellow or Green",
+    "distractors": [
+      "Blue",
+      "Red",
+      "Purple"
+    ],
+    "citation": "NFPA 13 (2016), Table 6.2.5.1",
+    "code_text": "175-225 F: Yellow/Green."
+  },
+  {
+    "id": 700113,
+    "category": "NFPA 13 - Installation",
+    "topic": "Components",
+    "question": "What color is the glass bulb for High Temperature (250-300°F)?",
+    "answer": "Blue",
+    "distractors": [
+      "Green",
+      "Purple",
+      "Red"
+    ],
+    "citation": "NFPA 13 (2016), Table 6.2.5.1",
+    "code_text": "250-300 F: Blue.",
+    "mnemonic": "Blue flame is hot."
+  },
+  {
+    "id": 700114,
+    "category": "NFPA 13 - Installation",
+    "topic": "Components",
+    "question": "What color is the glass bulb for Extra High Temperature (325-375°F)?",
+    "answer": "Purple",
+    "distractors": [
+      "Black",
+      "Blue",
+      "Red"
+    ],
+    "citation": "NFPA 13 (2016), Table 6.2.5.1",
+    "code_text": "325-375 F: Purple."
+  },
+  {
+    "id": 700115,
+    "category": "NFPA 13 - Installation",
+    "topic": "Pipe Schedule",
+    "question": "In Light Hazard, how many sprinklers can be fed by a 1\" pipe?",
+    "answer": "2 heads",
+    "distractors": [
+      "1 head",
+      "3 heads",
+      "5 heads"
+    ],
+    "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
+    "code_text": "1 in: 2 sprinklers."
+  },
+  {
+    "id": 700116,
+    "category": "NFPA 13 - Installation",
+    "topic": "Pipe Schedule",
+    "question": "In Light Hazard, how many sprinklers can be fed by a 1½\" pipe?",
+    "answer": "5 heads",
+    "distractors": [
+      "3 heads",
+      "10 heads",
+      "2 heads"
+    ],
+    "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
+    "code_text": "1-1/2 in: 5 sprinklers."
+  },
+  {
+    "id": 700117,
+    "category": "NFPA 13 - Installation",
+    "topic": "Clearance",
+    "question": "Minimum distance between a standard sprinkler deflector and the top of storage?",
+    "answer": "18 inches",
+    "distractors": [
+      "12 inches",
+      "24 inches",
+      "36 inches"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.5.6",
+    "code_text": "Minimum of 18 in. clearance."
+  },
+  {
+    "id": 700118,
+    "category": "NFPA 13 - Installation",
+    "topic": "Obstructions",
+    "question": "Minimum distance a standard sprinkler must be from a wall?",
+    "answer": "4 inches",
+    "distractors": [
+      "6 inches",
+      "3 inches",
+      "1 inch"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.3.2.3",
+    "code_text": "Minimum of 4 in. from a wall."
+  },
+  {
+    "id": 700119,
+    "category": "NFPA 13 - Installation",
+    "topic": "Spacing",
+    "question": "Minimum distance between two standard sprinklers?",
+    "answer": "6 feet",
+    "distractors": [
+      "8 feet",
+      "4 feet",
+      "10 feet"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.3.4",
+    "code_text": "Spaced not less than 6 ft on center."
+  },
+  {
+    "id": 700120,
+    "category": "NFPA 13 - Installation",
+    "topic": "Dry Systems",
+    "question": "Pitch required for branch lines in a dry system?",
+    "answer": "¼\" per 10 feet",
+    "distractors": [
+      "½\" per 10 feet",
+      "1/8\" per 10 feet",
+      "Level"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.16.2.3",
+    "code_text": "At least 1/4 in. per 10 ft for branch lines."
+  },
+  {
+    "id": 700121,
+    "category": "NFPA 13 - Installation",
+    "topic": "Dry Systems",
+    "question": "Pitch required for mains in a dry system?",
+    "answer": "½\" per 10 feet",
+    "distractors": [
+      "¼\" per 10 feet",
+      "¾\" per 10 feet",
+      "1\" per 10 feet"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.16.2.3",
+    "code_text": "At least 1/2 in. per 10 ft for cross mains."
+  },
+  {
+    "id": 700122,
+    "category": "NFPA 13R - Residential",
+    "topic": "Scope",
+    "question": "NFPA 13R applies to residential buildings up to what height?",
+    "answer": "4 Stories",
+    "distractors": [
+      "3 Stories",
+      "6 Stories",
+      "High Rise"
+    ],
+    "citation": "NFPA 13R (2016), Section 1.1",
+    "code_text": "Up to and including four stories in height."
+  },
+  {
+    "id": 700123,
+    "category": "NFPA 13D - Residential",
+    "topic": "Design",
+    "question": "What is the water supply duration requirement for NFPA 13D?",
+    "answer": "10 minutes",
+    "distractors": [
+      "30 minutes",
+      "7 minutes",
+      "60 minutes"
+    ],
+    "citation": "NFPA 13D (2016), Section 6.1.2",
+    "code_text": "Water demand rate times 10 minutes."
+  }
+]

@@ -1,0 +1,870 @@
+{
+  "duplicates": {
+    "101": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 0,
+        "question_preview": "What is the coverage area for Light Hazard heads (Standard Spray)?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 0,
+        "question_preview": "What is the coverage area for Light Hazard heads (Standard Spray)?"
+      }
+    ],
+    "102": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 1,
+        "question_preview": "What is the coverage area for Ordinary Hazard heads?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 1,
+        "question_preview": "What is the coverage area for Ordinary Hazard heads?"
+      }
+    ],
+    "103": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 2,
+        "question_preview": "What is the coverage area for Extra Hazard heads?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 2,
+        "question_preview": "What is the coverage area for Extra Hazard heads?"
+      }
+    ],
+    "104": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 3,
+        "question_preview": "What is the maximum distance between hangers on 1\" schedule 40 pipe?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 3,
+        "question_preview": "What is the maximum distance between hangers on 1\" schedule 40 pipe?"
+      }
+    ],
+    "105": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 4,
+        "question_preview": "What is the maximum distance between hangers on 1¼\" schedule 40 pipe?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 4,
+        "question_preview": "What is the maximum distance between hangers on 1¼\" schedule 40 pipe?"
+      }
+    ],
+    "106": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 5,
+        "question_preview": "What is the maximum distance between hangers on 1½\" schedule 40 pipe?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 5,
+        "question_preview": "What is the maximum distance between hangers on 1½\" schedule 40 pipe?"
+      }
+    ],
+    "107": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 6,
+        "question_preview": "Maximum unsupported length of pipe from end of 1\" pipe to last hanger?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 6,
+        "question_preview": "Maximum unsupported length of pipe from end of 1\" pipe to last hanger?"
+      }
+    ],
+    "108": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 7,
+        "question_preview": "Maximum unsupported length of pipe from end of 1¼\" pipe to last hanger?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 7,
+        "question_preview": "Maximum unsupported length of pipe from end of 1¼\" pipe to last hanger?"
+      }
+    ],
+    "109": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 8,
+        "question_preview": "Maximum unsupported length of pipe from end of 1½\" pipe to last hanger?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 8,
+        "question_preview": "Maximum unsupported length of pipe from end of 1½\" pipe to last hanger?"
+      }
+    ],
+    "115": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 9,
+        "question_preview": "In Light Hazard, how many sprinklers can be fed by a 1\" pipe?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 14,
+        "question_preview": "In Light Hazard, how many sprinklers can be fed by a 1\" pipe?"
+      }
+    ],
+    "116": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 10,
+        "question_preview": "In Light Hazard, how many sprinklers can be fed by a 1½\" pipe?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 15,
+        "question_preview": "In Light Hazard, how many sprinklers can be fed by a 1½\" pipe?"
+      }
+    ],
+    "117": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 11,
+        "question_preview": "Minimum distance between a standard sprinkler deflector and the top of storage?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 16,
+        "question_preview": "Minimum distance between a standard sprinkler deflector and the top of storage?"
+      }
+    ],
+    "118": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 12,
+        "question_preview": "Minimum distance a standard sprinkler must be from a wall?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 17,
+        "question_preview": "Minimum distance a standard sprinkler must be from a wall?"
+      }
+    ],
+    "119": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 13,
+        "question_preview": "Minimum distance between two standard sprinklers?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 18,
+        "question_preview": "Minimum distance between two standard sprinklers?"
+      }
+    ],
+    "122": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 14,
+        "question_preview": "NFPA 13R applies to residential buildings up to what height?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 21,
+        "question_preview": "NFPA 13R applies to residential buildings up to what height?"
+      }
+    ],
+    "123": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 15,
+        "question_preview": "What is the water supply duration requirement for NFPA 13D?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 22,
+        "question_preview": "What is the water supply duration requirement for NFPA 13D?"
+      }
+    ],
+    "1501": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 16,
+        "question_preview": "To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?"
+      },
+      {
+        "file": "File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json",
+        "index": 0,
+        "question_preview": "To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?"
+      }
+    ],
+    "1502": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 17,
+        "question_preview": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?"
+      },
+      {
+        "file": "File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json",
+        "index": 1,
+        "question_preview": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?"
+      }
+    ],
+    "2701": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 18,
+        "question_preview": "A Restaurant Seating Area is classified as what hazard?"
+      },
+      {
+        "file": "File 30 - Commodity Classification (NFPA 13).json",
+        "index": 0,
+        "question_preview": "A Restaurant Seating Area is classified as what hazard?"
+      }
+    ],
+    "2702": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 19,
+        "question_preview": "A Restaurant Service Area (Kitchen) is classified as what hazard?"
+      },
+      {
+        "file": "File 30 - Commodity Classification (NFPA 13).json",
+        "index": 1,
+        "question_preview": "A Restaurant Service Area (Kitchen) is classified as what hazard?"
+      }
+    ],
+    "1401": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 20,
+        "question_preview": "In rack storage, what is the minimum required width for a transverse flue space?"
+      },
+      {
+        "file": "File 17 - Storage & Special Hazards (NFPA 13).json",
+        "index": 0,
+        "question_preview": "In rack storage, what is the minimum required width for a transverse flue space?"
+      }
+    ],
+    "1402": [
+      {
+        "file": "Data Block 1 - Installation (NFPA 13, 13D, 13R).json",
+        "index": 21,
+        "question_preview": "What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?"
+      },
+      {
+        "file": "File 17 - Storage & Special Hazards (NFPA 13).json",
+        "index": 1,
+        "question_preview": "What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?"
+      }
+    ],
+    "201": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 0,
+        "question_preview": "How often do you inspect private fire hydrants?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 0,
+        "question_preview": "How often do you inspect private fire hydrants?"
+      }
+    ],
+    "202": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 1,
+        "question_preview": "How often is a flow test conducted on a standpipe system?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 1,
+        "question_preview": "How often is a flow test conducted on a standpipe system?"
+      }
+    ],
+    "203": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 2,
+        "question_preview": "How often do you check water level and air pressure in a pressure tank?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 2,
+        "question_preview": "How often do you check water level and air pressure in a pressure tank?"
+      }
+    ],
+    "204": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 3,
+        "question_preview": "How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 3,
+        "question_preview": "How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?"
+      }
+    ],
+    "205": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 4,
+        "question_preview": "How long must a diesel fire pump run during a weekly test?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 4,
+        "question_preview": "How long must a diesel fire pump run during a weekly test?"
+      }
+    ],
+    "206": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 5,
+        "question_preview": "How long must an electric fire pump run during a weekly test?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 5,
+        "question_preview": "How long must an electric fire pump run during a weekly test?"
+      }
+    ],
+    "212": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 6,
+        "question_preview": "How often are gauges on dry/preaction/deluge systems inspected?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 11,
+        "question_preview": "How often are gauges on dry/preaction/deluge systems inspected?"
+      }
+    ],
+    "213": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 7,
+        "question_preview": "How often are gauges on wet pipe systems inspected?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 12,
+        "question_preview": "How often are gauges on wet pipe systems inspected?"
+      }
+    ],
+    "220": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 8,
+        "question_preview": "How often must you operate and clean a Dry Pipe Valve?"
+      },
+      {
+        "file": "File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",
+        "index": 4,
+        "question_preview": "How often must you operate and clean a Dry Pipe Valve?"
+      }
+    ],
+    "221": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 9,
+        "question_preview": "How often is a full flow trip test required for a Dry Pipe Valve?"
+      },
+      {
+        "file": "File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",
+        "index": 5,
+        "question_preview": "How often is a full flow trip test required for a Dry Pipe Valve?"
+      }
+    ],
+    "223": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 10,
+        "question_preview": "How often is the interior of the FDC piping inspected (hydrostatic test)?"
+      },
+      {
+        "file": "File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",
+        "index": 7,
+        "question_preview": "How often is the interior of the FDC piping inspected (hydrostatic test)?"
+      }
+    ],
+    "224": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 11,
+        "question_preview": "How often must a backflow preventer be forward flow tested?"
+      },
+      {
+        "file": "File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",
+        "index": 8,
+        "question_preview": "How often must a backflow preventer be forward flow tested?"
+      }
+    ],
+    "3101": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 12,
+        "question_preview": "What is the primary purpose of the main drain test?"
+      },
+      {
+        "file": "File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json",
+        "index": 0,
+        "question_preview": "What is the primary purpose of the main drain test?"
+      }
+    ],
+    "3106": [
+      {
+        "file": "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",
+        "index": 13,
+        "question_preview": "If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?"
+      },
+      {
+        "file": "File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json",
+        "index": 5,
+        "question_preview": "If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?"
+      }
+    ],
+    "301": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 0,
+        "question_preview": "Minimum flow rate for the most remote standpipe in a Class I system?"
+      },
+      {
+        "file": "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",
+        "index": 0,
+        "question_preview": "Minimum flow rate for the most remote standpipe in a Class I system?"
+      }
+    ],
+    "302": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 1,
+        "question_preview": "Minimum flow rate for each *additional* standpipe in a Class I system?"
+      },
+      {
+        "file": "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",
+        "index": 1,
+        "question_preview": "Minimum flow rate for each *additional* standpipe in a Class I system?"
+      }
+    ],
+    "303": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 2,
+        "question_preview": "Minimum residual pressure at the most remote 2½\" outlet?"
+      },
+      {
+        "file": "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",
+        "index": 2,
+        "question_preview": "Minimum residual pressure at the most remote 2½\" outlet?"
+      }
+    ],
+    "2601": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 3,
+        "question_preview": "What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?"
+      },
+      {
+        "file": "File 29 - Standpipe System Types (NFPA 14).json",
+        "index": 0,
+        "question_preview": "What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?"
+      }
+    ],
+    "2603": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 4,
+        "question_preview": "What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?"
+      },
+      {
+        "file": "File 29 - Standpipe System Types (NFPA 14).json",
+        "index": 2,
+        "question_preview": "What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?"
+      }
+    ],
+    "305": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 5,
+        "question_preview": "What fitting is used on the suction side of a pump to prevent air pockets?"
+      },
+      {
+        "file": "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",
+        "index": 4,
+        "question_preview": "What fitting is used on the suction side of a pump to prevent air pockets?"
+      }
+    ],
+    "1101": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 6,
+        "question_preview": "What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?"
+      },
+      {
+        "file": "File 14 - Fire Pumps Advanced (NFPA 20).json",
+        "index": 0,
+        "question_preview": "What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?"
+      }
+    ],
+    "1103": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 7,
+        "question_preview": "Fuel tanks for diesel fire pumps must be elevated so the supply connection is?"
+      },
+      {
+        "file": "File 14 - Fire Pumps Advanced (NFPA 20).json",
+        "index": 2,
+        "question_preview": "Fuel tanks for diesel fire pumps must be elevated so the supply connection is?"
+      }
+    ],
+    "311": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 8,
+        "question_preview": "Private fire mains under driveways must be buried how deep?"
+      },
+      {
+        "file": "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",
+        "index": 10,
+        "question_preview": "Private fire mains under driveways must be buried how deep?"
+      }
+    ],
+    "1001": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 9,
+        "question_preview": "Thrust blocks are required at which locations?"
+      },
+      {
+        "file": "File 13 - Underground & Thrust Blocks (NFPA 24).json",
+        "index": 0,
+        "question_preview": "Thrust blocks are required at which locations?"
+      }
+    ],
+    "1004": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 10,
+        "question_preview": "What is the minimum flow rate required to flush a 4-inch underground main?"
+      },
+      {
+        "file": "File 13 - Underground & Thrust Blocks (NFPA 24).json",
+        "index": 3,
+        "question_preview": "What is the minimum flow rate required to flush a 4-inch underground main?"
+      }
+    ],
+    "3201": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 11,
+        "question_preview": "What is 'Columning' in a dry pipe valve?"
+      },
+      {
+        "file": "File 35 - Specialty Valves & Devices (Topic 12).json",
+        "index": 0,
+        "question_preview": "What is 'Columning' in a dry pipe valve?"
+      }
+    ],
+    "3202": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 12,
+        "question_preview": "In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?"
+      },
+      {
+        "file": "File 35 - Specialty Valves & Devices (Topic 12).json",
+        "index": 1,
+        "question_preview": "In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?"
+      }
+    ],
+    "3203": [
+      {
+        "file": "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",
+        "index": 13,
+        "question_preview": "What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?"
+      },
+      {
+        "file": "File 35 - Specialty Valves & Devices (Topic 12).json",
+        "index": 2,
+        "question_preview": "What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?"
+      }
+    ],
+    "207": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 0,
+        "question_preview": "When does a MN Sprinkler Fitter journeyman license expire?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 6,
+        "question_preview": "When does a MN Sprinkler Fitter journeyman license expire?"
+      }
+    ],
+    "208": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 1,
+        "question_preview": "How many hours of experience are required to take the MN Journeyman exam?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 7,
+        "question_preview": "How many hours of experience are required to take the MN Journeyman exam?"
+      }
+    ],
+    "209": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 2,
+        "question_preview": "What is the fine for working without a license in MN?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 8,
+        "question_preview": "What is the fine for working without a license in MN?"
+      }
+    ],
+    "210": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 3,
+        "question_preview": "MN requires FDCs to be located between what heights?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 9,
+        "question_preview": "MN requires FDCs to be located between what heights?"
+      }
+    ],
+    "211": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 4,
+        "question_preview": "Can a control valve in a public area be unmonitored if it serves <20 heads?"
+      },
+      {
+        "file": "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",
+        "index": 10,
+        "question_preview": "Can a control valve in a public area be unmonitored if it serves <20 heads?"
+      }
+    ],
+    "401": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 5,
+        "question_preview": "Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?"
+      },
+      {
+        "file": "File 7 - MN Rules, Safety & Final Details.json",
+        "index": 0,
+        "question_preview": "Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?"
+      }
+    ],
+    "313": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 6,
+        "question_preview": "At what depth is a ladder required in a trench?"
+      },
+      {
+        "file": "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",
+        "index": 12,
+        "question_preview": "At what depth is a ladder required in a trench?"
+      }
+    ],
+    "314": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 7,
+        "question_preview": "What is the max travel distance to a ladder in a trench?"
+      },
+      {
+        "file": "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",
+        "index": 13,
+        "question_preview": "What is the max travel distance to a ladder in a trench?"
+      }
+    ],
+    "404": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 8,
+        "question_preview": "What is the proper ratio for leaning an extension ladder against a wall?"
+      },
+      {
+        "file": "File 7 - MN Rules, Safety & Final Details.json",
+        "index": 3,
+        "question_preview": "What is the proper ratio for leaning an extension ladder against a wall?"
+      }
+    ],
+    "3401": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 9,
+        "question_preview": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?"
+      },
+      {
+        "file": "File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json",
+        "index": 0,
+        "question_preview": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?"
+      }
+    ],
+    "3403": [
+      {
+        "file": "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",
+        "index": 10,
+        "question_preview": "What does 'N.I.C.' usually stand for on a set of prints?"
+      },
+      {
+        "file": "File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json",
+        "index": 2,
+        "question_preview": "What does 'N.I.C.' usually stand for on a set of prints?"
+      }
+    ],
+    "110": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 0,
+        "question_preview": "In Ordinary Hazard (130 sq ft), if heads are 12’6\" apart on the line, what is the max distance between lines?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 9,
+        "question_preview": "In Ordinary Hazard (130 sq ft), if heads are 12’6\" apart on the line, what is the max distance between lines?"
+      }
+    ],
+    "111": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 1,
+        "question_preview": "What color is the glass bulb for Ordinary Temperature (135-170°F)?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 10,
+        "question_preview": "What color is the glass bulb for Ordinary Temperature (135-170°F)?"
+      }
+    ],
+    "113": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 2,
+        "question_preview": "What color is the glass bulb for High Temperature (250-300°F)?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 12,
+        "question_preview": "What color is the glass bulb for High Temperature (250-300°F)?"
+      }
+    ],
+    "114": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 3,
+        "question_preview": "What color is the glass bulb for Extra High Temperature (325-375°F)?"
+      },
+      {
+        "file": "File 1 - Installation & Design (NFPA 13, 13D, 13R).json",
+        "index": 13,
+        "question_preview": "What color is the glass bulb for Extra High Temperature (325-375°F)?"
+      }
+    ],
+    "501": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 4,
+        "question_preview": "What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?"
+      },
+      {
+        "file": "File 8 - Hydraulics, C-Factors & Math.json",
+        "index": 0,
+        "question_preview": "What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?"
+      }
+    ],
+    "502": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 5,
+        "question_preview": "What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?"
+      },
+      {
+        "file": "File 8 - Hydraulics, C-Factors & Math.json",
+        "index": 1,
+        "question_preview": "What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?"
+      }
+    ],
+    "505": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 6,
+        "question_preview": "What is the pressure of a column of water 1 foot high (Head pressure)?"
+      },
+      {
+        "file": "File 8 - Hydraulics, C-Factors & Math.json",
+        "index": 4,
+        "question_preview": "What is the pressure of a column of water 1 foot high (Head pressure)?"
+      }
+    ],
+    "506": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 7,
+        "question_preview": "How many feet of water column (Head) equal 1 psi?"
+      },
+      {
+        "file": "File 8 - Hydraulics, C-Factors & Math.json",
+        "index": 5,
+        "question_preview": "How many feet of water column (Head) equal 1 psi?"
+      }
+    ],
+    "1801": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 8,
+        "question_preview": "What does Microbiologically Influenced Corrosion (MIC) typically smell like?"
+      },
+      {
+        "file": "File 21 - Corrosion, MIC & Obstructions (The 'System Killer' Deck).json",
+        "index": 0,
+        "question_preview": "What does Microbiologically Influenced Corrosion (MIC) typically smell like?"
+      }
+    ],
+    "4001": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 9,
+        "question_preview": "You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it?"
+      },
+      {
+        "file": "File 40 - The Break Room Deck.json",
+        "index": 0,
+        "question_preview": "You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it, or are you just hand-tightening it like a prom date?"
+      }
+    ],
+    "4002": [
+      {
+        "file": "Data Block 5 - Math, Physics & Jobsite Logic.json",
+        "index": 10,
+        "question_preview": "What is the 'Ball Drip' actually for?"
+      },
+      {
+        "file": "File 40 - The Break Room Deck.json",
+        "index": 1,
+        "question_preview": "What is the 'Ball Drip' actually for? (And no, it's not for what you think it is)."
+      }
+    ]
+  },
+  "missing_id": [],
+  "load_errors": []
+}

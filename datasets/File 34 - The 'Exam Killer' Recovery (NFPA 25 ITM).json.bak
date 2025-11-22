@@ -1,0 +1,62 @@
+[
+  {
+    "id": 3101,
+    "category": "NFPA 25 - ITM",
+    "topic": "Main Drain",
+    "question": "What is the primary purpose of the main drain test?",
+    "answer": "To determine if there is a change in the water supply (obstruction or closed valve)",
+    "distractors": ["To flush the riser", "To test the flow switch", "To drain the system for service"],
+    "citation": "NFPA 25 (2011), Section 13.2.5",
+    "code_text": "A main drain test shall be conducted... to determine whether there has been a change in the condition of the water supply piping."
+  },
+  {
+    "id": 3102,
+    "category": "NFPA 25 - ITM",
+    "topic": "Gauges",
+    "question": "If a gauge is reading 0 psi on the system side of a check valve, what does this likely indicate?",
+    "answer": "The gauge is defective or the valve is closed/plugged (Deficiency)",
+    "distractors": ["Normal operation", "The pump is off", "The system is drained"],
+    "citation": "NFPA 25 (2011), Section 13.2.7.1",
+    "code_text": "Gauges shall be inspected... to verify that they are in good condition and that normal water supply pressure is being maintained."
+  },
+  {
+    "id": 3103,
+    "category": "NFPA 25 - ITM",
+    "topic": "Sprinklers",
+    "question": "During an annual floor level inspection, you see a sprinkler heavily loaded with dust. What is the required action?",
+    "answer": "Replace the sprinkler (Cleaning is only allowed if the head is NOT painted/coated)",
+    "distractors": ["Clean it with compressed air immediately", "Clean it with water", "Note it but do nothing"],
+    "citation": "NFPA 25 (2011), Section 5.2.1.1.1",
+    "code_text": "Sprinklers that are heavily loaded... shall be replaced or... cleaned [if not damaging]."
+  },
+  {
+    "id": 3104,
+    "category": "NFPA 25 - ITM",
+    "topic": "Valves",
+    "question": "How soon must a preaction/deluge valve be trip tested after installation?",
+    "answer": "Annually (Full flow)",
+    "distractors": ["Every 3 years", "Quarterly", "Monthly"],
+    "citation": "NFPA 25 (2011), Section 13.4.3.2.2",
+    "code_text": "Each deluge valve shall be trip tested annually at full flow."
+  },
+  {
+    "id": 3105,
+    "category": "NFPA 25 - ITM",
+    "topic": "FDC",
+    "question": "You inspect an FDC and find the swivel caps are missing. Is this a deficiency?",
+    "answer": "Yes, caps must be in place to prevent debris entry",
+    "distractors": ["No, caps are optional", "Only if inside the building", "No, providing the swivel turns"],
+    "citation": "NFPA 25 (2011), Section 13.7.1",
+    "code_text": "Fire department connections... shall be inspected... [to ensure] plugs or caps are in place."
+  },
+  {
+    "id": 3106,
+    "category": "NFPA 25 - ITM",
+    "topic": "Antifreeze",
+    "question": "If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?",
+    "answer": "Drain and replace with new factory-premixed solution",
+    "distractors": ["Add pure glycerin concentrate", "Add water", "Adjust the loop pressure"],
+    "citation": "NFPA 25 (2011), Section 5.3.4",
+    "code_text": "If the [solution] does not meet the requirements... the system shall be drained and filled with a factory premixed solution."
+  }
+]

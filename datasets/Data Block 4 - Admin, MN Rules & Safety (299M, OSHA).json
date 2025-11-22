@@ -1,0 +1,160 @@
+[
+  {
+    "id": 500207,
+    "category": "MN Statutes & Rules",
+    "topic": "Licensing",
+    "is_mn_amendment": true,
+    "question": "When does a MN Sprinkler Fitter journeyman license expire?",
+    "answer": "June 30th",
+    "distractors": [
+      "December 31st",
+      "January 1st",
+      "Date of Issue"
+    ],
+    "citation": "MN Rules 7512.0200",
+    "code_text": "Expire on June 30 of each year."
+  },
+  {
+    "id": 500208,
+    "category": "MN Statutes & Rules",
+    "topic": "Licensing",
+    "is_mn_amendment": true,
+    "question": "How many hours of experience are required to take the MN Journeyman exam?",
+    "answer": "8000 hours",
+    "distractors": [
+      "4000 hours",
+      "6000 hours",
+      "10000 hours"
+    ],
+    "citation": "MN Statutes 299M.03",
+    "code_text": "Minimum of 8000 hours."
+  },
+  {
+    "id": 500209,
+    "category": "MN Statutes & Rules",
+    "topic": "Penalties",
+    "is_mn_amendment": true,
+    "question": "What is the fine for working without a license in MN?",
+    "answer": "Misdemeanor ($1,000 / 90 days)",
+    "distractors": [
+      "Felony",
+      "Gross Misdemeanor",
+      "$500 fine"
+    ],
+    "citation": "MN Statutes 299M.08",
+    "code_text": "Guilty of a misdemeanor."
+  },
+  {
+    "id": 500210,
+    "category": "MN Statutes & Rules",
+    "topic": "Installation Amendments",
+    "is_mn_amendment": true,
+    "question": "MN requires FDCs to be located between what heights?",
+    "answer": "18\" and 48\"",
+    "distractors": [
+      "18\" and 36\"",
+      "24\" and 48\"",
+      "12\" and 60\""
+    ],
+    "citation": "MN Fire Code (2020), Section 912.2.2",
+    "code_text": "Not less than 18 inches and not more than 48 inches."
+  },
+  {
+    "id": 500211,
+    "category": "MN Statutes & Rules",
+    "topic": "Installation Amendments",
+    "is_mn_amendment": true,
+    "question": "Can a control valve in a public area be unmonitored if it serves <20 heads?",
+    "answer": "No (False)",
+    "distractors": [
+      "Yes (True)"
+    ],
+    "citation": "MN Fire Code (2020), Section 903.4",
+    "code_text": "MN deletes Exception 1. All valves must be monitored."
+  },
+  {
+    "id": 500401,
+    "category": "MN Statutes & Rules",
+    "topic": "Licensing",
+    "is_mn_amendment": true,
+    "question": "Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?",
+    "answer": "No, they must work for a licensed Contractor",
+    "distractors": [
+      "Yes, if insured",
+      "Yes, for small jobs",
+      "Yes, if they have a Master license"
+    ],
+    "citation": "MN Statutes 299M",
+    "code_text": "Only a licensed Fire Protection Contractor may contract to perform work."
+  },
+  {
+    "id": 500313,
+    "category": "OSHA / Safety",
+    "topic": "Trenching",
+    "question": "At what depth is a ladder required in a trench?",
+    "answer": "4 feet",
+    "distractors": [
+      "5 feet",
+      "3 feet",
+      "6 feet"
+    ],
+    "citation": "OSHA 1926.651",
+    "code_text": "Trenches 4 feet or deeper."
+  },
+  {
+    "id": 500314,
+    "category": "OSHA / Safety",
+    "topic": "Trenching",
+    "question": "What is the max travel distance to a ladder in a trench?",
+    "answer": "25 feet",
+    "distractors": [
+      "50 feet",
+      "15 feet",
+      "100 feet"
+    ],
+    "citation": "OSHA 1926.651",
+    "code_text": "No more than 25 feet of lateral travel."
+  },
+  {
+    "id": 500404,
+    "category": "OSHA / Safety",
+    "topic": "Ladders",
+    "question": "What is the proper ratio for leaning an extension ladder against a wall?",
+    "answer": "4:1 (1 foot out for every 4 feet up)",
+    "distractors": [
+      "2:1",
+      "1:1",
+      "3:1"
+    ],
+    "citation": "OSHA 1926.1053",
+    "code_text": "Angle of inclination... one-quarter of the working length."
+  },
+  {
+    "id": 503401,
+    "category": "Contract Documents",
+    "topic": "Hierarchy",
+    "question": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?",
+    "answer": "The Specifications (usually), or whichever is stricter",
+    "distractors": [
+      "The Drawings always",
+      "The verbal instructions",
+      "The NFPA code only"
+    ],
+    "citation": "General Construction Law / Trade Knowledge",
+    "code_text": "Specifications generally outline the quality and standards; Plans outline the quantity and location. Specs often govern in conflict."
+  },
+  {
+    "id": 503403,
+    "category": "Construction Drawings",
+    "topic": "Symbols",
+    "question": "What does 'N.I.C.' usually stand for on a set of prints?",
+    "answer": "Not In Contract (Work not to be done by this trade)",
+    "distractors": [
+      "Not In Ceiling",
+      "No Internal Check",
+      "New Installation Code"
+    ],
+    "citation": "Blueprint Reading",
+    "code_text": "Standard abbreviation for scope of work limits."
+  }
+]

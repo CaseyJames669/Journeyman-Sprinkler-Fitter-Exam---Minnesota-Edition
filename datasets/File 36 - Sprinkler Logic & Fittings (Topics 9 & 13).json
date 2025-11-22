@@ -1,0 +1,86 @@
+[
+  {
+    "id": 3503301,
+    "category": "NFPA 13 - Installation",
+    "topic": "Fittings",
+    "question": "When reducing pipe size, which fitting type is prohibited for drain ability?",
+    "answer": "Hex bushings (face-to-face bushings are banned; one-piece reducers preferred)",
+    "distractors": [
+      "Grooved reducers",
+      "Threaded elbows",
+      "Reducing tees"
+    ],
+    "citation": "NFPA 13 (2016), Section 6.5.4",
+    "code_text": "Bushings shall not be used... [unless standard fittings not available]."
+  },
+  {
+    "id": 3503302,
+    "category": "NFPA 13 - Installation",
+    "topic": "Fittings",
+    "question": "Are you allowed to weld a tab onto a sprinkler pipe to hang it?",
+    "answer": "No, field welding is generally prohibited unless strictly certified",
+    "distractors": [
+      "Yes, always",
+      "Yes, on pipe larger than 2 inches",
+      "Yes, if galvanized"
+    ],
+    "citation": "NFPA 13 (2016), Section 6.5.2",
+    "code_text": "Field welding... shall not be permitted [without specific listing/procedures]."
+  },
+  {
+    "id": 3503303,
+    "category": "NFPA 13 - Sprinklers",
+    "topic": "Positioning",
+    "question": "You are installing upright sprinklers on a pitched roof (4/12 pitch). How should the deflector be oriented?",
+    "answer": "Parallel to the roof pitch",
+    "distractors": [
+      "Horizontal to the floor",
+      "Perpendicular to the beam",
+      "Vertical"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.4.1.3",
+    "code_text": "Deflectors of sprinklers shall be... parallel to the ceiling, roof, or deck."
+  },
+  {
+    "id": 3503304,
+    "category": "NFPA 13 - Sprinklers",
+    "topic": "Obstructions",
+    "question": "A pendant sprinkler is 5 inches from a wall. The wall has a 2-inch deep cabinet mounted on it. Is this allowed?",
+    "answer": "Yes, if the obstruction (cabinet) is below the deflector or meets the beam rule",
+    "distractors": [
+      "No, 4 inch rule applies to obstructions too",
+      "No, cabinets are not allowed",
+      "Yes, always"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.5.2",
+    "code_text": "Obstructions... against the wall... shall be permitted."
+  },
+  {
+    "id": 3503305,
+    "category": "NFPA 13 - Sprinklers",
+    "topic": "Temperature",
+    "question": "What temperature sprinkler is required in an unventilated attic?",
+    "answer": "Intermediate (175-225°F)",
+    "distractors": [
+      "Ordinary (135-170°F)",
+      "High (250-300°F)",
+      "Extra High"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.3.2.5",
+    "code_text": "Sprinklers in unventilated attic spaces... shall be of the intermediate temperature classification."
+  },
+  {
+    "id": 3503306,
+    "category": "NFPA 13 - Commissioning",
+    "topic": "Acceptance",
+    "question": "During the hydrostatic test, the pressure drops 2 psi in 2 hours due to temperature fluctuation. Is this a fail?",
+    "answer": "No, minor fluctuation due to temp is allowed, but NO visible leakage",
+    "distractors": [
+      "Yes, must be 0 psi drop",
+      "Yes, fail immediately",
+      "No, up to 10 psi is allowed"
+    ],
+    "citation": "NFPA 13 (2016), Section 25.2.1.1",
+    "code_text": "No visible leakage... (Pressure drop alone isn't always a fail, but visible water is)."
+  }
+]

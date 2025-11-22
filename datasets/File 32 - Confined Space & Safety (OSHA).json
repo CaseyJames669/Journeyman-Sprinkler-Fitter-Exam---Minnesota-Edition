@@ -1,0 +1,58 @@
+[
+  {
+    "id": 3202901,
+    "category": "OSHA - Safety",
+    "topic": "Confined Space",
+    "question": "A valve pit or water tank is considered what type of space?",
+    "answer": "Confined Space (Permit-Required if hazards exist)",
+    "distractors": [
+      "Open Air Space",
+      "Restricted Area",
+      "Standard Work Zone"
+    ],
+    "citation": "OSHA 1910.146",
+    "code_text": "Confined space: Large enough to enter, limited means of entry, not designed for continuous occupancy."
+  },
+  {
+    "id": 3202902,
+    "category": "OSHA - Safety",
+    "topic": "Confined Space",
+    "question": "Before entering a Permit-Required Confined Space (like an empty pressure tank), what must be tested first?",
+    "answer": "Oxygen Content",
+    "distractors": [
+      "Flammability",
+      "Toxicity",
+      "Water Level"
+    ],
+    "citation": "OSHA 1910.146",
+    "code_text": "Atmospheric testing order: 1. Oxygen, 2. Flammable gases, 3. Toxic vapors."
+  },
+  {
+    "id": 3202903,
+    "category": "OSHA - Safety",
+    "topic": "Excavation",
+    "question": "Spoil piles (dirt) must be kept how far back from the edge of a trench?",
+    "answer": "2 feet",
+    "distractors": [
+      "1 foot",
+      "4 feet",
+      "6 inches"
+    ],
+    "citation": "OSHA 1926.651",
+    "code_text": "Keep materials... at least 2 feet from the edge of excavations."
+  },
+  {
+    "id": 3202904,
+    "category": "OSHA - Safety",
+    "topic": "PPE",
+    "question": "When is a 'Safety Monitor' (a person watching) allowed as the only fall protection?",
+    "answer": "Only on Low-Slope Roofs (and usually for roofing work, not fitters)",
+    "distractors": [
+      "Always",
+      "On steel erection",
+      "In trenches"
+    ],
+    "citation": "OSHA 1926.502",
+    "code_text": "Safety monitor systems... low-slope roofs."
+  }
+]

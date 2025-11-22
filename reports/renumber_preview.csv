@@ -1,0 +1,417 @@
+file,index,orig_id,new_id,question_preview
+Bonus File 33 - The 'Impossible' Questions.json,0,3001,103001,"In NEW systems (post-2012), can you use pure glycerin and mix it with water on site?"
+Bonus File 33 - The 'Impossible' Questions.json,1,3002,103002,Where does the Forward Flow Test of a backflow preventer take place?
+Bonus File 33 - The 'Impossible' Questions.json,2,3003,103003,Can you drive a lag screw into the side of a wood beam (horizontal)?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",0,101,200101,What is the coverage area for Light Hazard heads (Standard Spray)?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",1,102,200102,What is the coverage area for Ordinary Hazard heads?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",2,103,200103,What is the coverage area for Extra Hazard heads?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",3,104,200104,"What is the maximum distance between hangers on 1"" schedule 40 pipe?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",4,105,200105,"What is the maximum distance between hangers on 1¼"" schedule 40 pipe?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",5,106,200106,"What is the maximum distance between hangers on 1½"" schedule 40 pipe?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",6,107,200107,"Maximum unsupported length of pipe from end of 1"" pipe to last hanger?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",7,108,200108,"Maximum unsupported length of pipe from end of 1¼"" pipe to last hanger?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",8,109,200109,"Maximum unsupported length of pipe from end of 1½"" pipe to last hanger?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",9,115,200115,"In Light Hazard, how many sprinklers can be fed by a 1"" pipe?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",10,116,200116,"In Light Hazard, how many sprinklers can be fed by a 1½"" pipe?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",11,117,200117,Minimum distance between a standard sprinkler deflector and the top of storage?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",12,118,200118,Minimum distance a standard sprinkler must be from a wall?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",13,119,200119,Minimum distance between two standard sprinklers?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",14,122,200122,NFPA 13R applies to residential buildings up to what height?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",15,123,200123,What is the water supply duration requirement for NFPA 13D?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",16,1501,201501,"To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",17,1502,201502,"If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",18,2701,202701,A Restaurant Seating Area is classified as what hazard?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",19,2702,202702,A Restaurant Service Area (Kitchen) is classified as what hazard?
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",20,1401,201401,"In rack storage, what is the minimum required width for a transverse flue space?"
+"Data Block 1 - Installation (NFPA 13, 13D, 13R).json",21,1402,201402,What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",0,201,300201,How often do you inspect private fire hydrants?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",1,202,300202,How often is a flow test conducted on a standpipe system?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",2,203,300203,How often do you check water level and air pressure in a pressure tank?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",3,204,300204,How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",4,205,300205,How long must a diesel fire pump run during a weekly test?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",5,206,300206,How long must an electric fire pump run during a weekly test?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",6,212,300212,How often are gauges on dry/preaction/deluge systems inspected?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",7,213,300213,How often are gauges on wet pipe systems inspected?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",8,220,300220,How often must you operate and clean a Dry Pipe Valve?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",9,221,300221,How often is a full flow trip test required for a Dry Pipe Valve?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",10,223,300223,How often is the interior of the FDC piping inspected (hydrostatic test)?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",11,224,300224,How often must a backflow preventer be forward flow tested?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",12,3101,303101,What is the primary purpose of the main drain test?
+"Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json",13,3106,303106,"If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?"
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",0,301,400301,Minimum flow rate for the most remote standpipe in a Class I system?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",1,302,400302,Minimum flow rate for each *additional* standpipe in a Class I system?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",2,303,400303,"Minimum residual pressure at the most remote 2½"" outlet?"
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",3,2601,402601,What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",4,2603,402603,What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",5,305,400305,What fitting is used on the suction side of a pump to prevent air pockets?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",6,1101,401101,What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",7,1103,401103,Fuel tanks for diesel fire pumps must be elevated so the supply connection is?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",8,311,400311,Private fire mains under driveways must be buried how deep?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",9,1001,401001,Thrust blocks are required at which locations?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",10,1004,401004,What is the minimum flow rate required to flush a 4-inch underground main?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",11,3201,403201,What is 'Columning' in a dry pipe valve?
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",12,3202,403202,"In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?"
+"Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json",13,3203,403203,What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",0,207,500207,When does a MN Sprinkler Fitter journeyman license expire?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",1,208,500208,How many hours of experience are required to take the MN Journeyman exam?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",2,209,500209,What is the fine for working without a license in MN?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",3,210,500210,MN requires FDCs to be located between what heights?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",4,211,500211,Can a control valve in a public area be unmonitored if it serves <20 heads?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",5,401,500401,Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",6,313,500313,At what depth is a ladder required in a trench?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",7,314,500314,What is the max travel distance to a ladder in a trench?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",8,404,500404,What is the proper ratio for leaning an extension ladder against a wall?
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",9,3401,503401,"If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?"
+"Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json",10,3403,503403,What does 'N.I.C.' usually stand for on a set of prints?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",0,110,600110,"In Ordinary Hazard (130 sq ft), if heads are 12’6"" apart on the line, what is the max distance between lines?"
+"Data Block 5 - Math, Physics & Jobsite Logic.json",1,111,600111,What color is the glass bulb for Ordinary Temperature (135-170°F)?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",2,113,600113,What color is the glass bulb for High Temperature (250-300°F)?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",3,114,600114,What color is the glass bulb for Extra High Temperature (325-375°F)?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",4,501,600501,What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",5,502,600502,What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",6,505,600505,What is the pressure of a column of water 1 foot high (Head pressure)?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",7,506,600506,How many feet of water column (Head) equal 1 psi?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",8,1801,601801,What does Microbiologically Influenced Corrosion (MIC) typically smell like?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",9,4001,604001,You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it?
+"Data Block 5 - Math, Physics & Jobsite Logic.json",10,4002,604002,What is the 'Ball Drip' actually for?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",0,101,700101,What is the coverage area for Light Hazard heads (Standard Spray)?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",1,102,700102,What is the coverage area for Ordinary Hazard heads?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",2,103,700103,What is the coverage area for Extra Hazard heads?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",3,104,700104,"What is the maximum distance between hangers on 1"" schedule 40 pipe?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",4,105,700105,"What is the maximum distance between hangers on 1¼"" schedule 40 pipe?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",5,106,700106,"What is the maximum distance between hangers on 1½"" schedule 40 pipe?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",6,107,700107,"Maximum unsupported length of pipe from end of 1"" pipe to last hanger?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",7,108,700108,"Maximum unsupported length of pipe from end of 1¼"" pipe to last hanger?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",8,109,700109,"Maximum unsupported length of pipe from end of 1½"" pipe to last hanger?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",9,110,700110,"In Ordinary Hazard (130 sq ft), if heads are 12’6"" apart on the line, what is the max distance between lines?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",10,111,700111,What color is the glass bulb for Ordinary Temperature (135-170°F)?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",11,112,700112,What color is the glass bulb for Intermediate Temperature (175-225°F)?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",12,113,700113,What color is the glass bulb for High Temperature (250-300°F)?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",13,114,700114,What color is the glass bulb for Extra High Temperature (325-375°F)?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",14,115,700115,"In Light Hazard, how many sprinklers can be fed by a 1"" pipe?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",15,116,700116,"In Light Hazard, how many sprinklers can be fed by a 1½"" pipe?"
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",16,117,700117,Minimum distance between a standard sprinkler deflector and the top of storage?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",17,118,700118,Minimum distance a standard sprinkler must be from a wall?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",18,119,700119,Minimum distance between two standard sprinklers?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",19,120,700120,Pitch required for branch lines in a dry system?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",20,121,700121,Pitch required for mains in a dry system?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",21,122,700122,NFPA 13R applies to residential buildings up to what height?
+"File 1 - Installation & Design (NFPA 13, 13D, 13R).json",22,123,700123,What is the water supply duration requirement for NFPA 13D?
+File 10 - The 'Math & Formula' Cheat Sheet.json,0,701,800701,Formula to convert Feet of Head to PSI?
+File 10 - The 'Math & Formula' Cheat Sheet.json,1,702,800702,Formula to convert PSI to Feet of Head?
+File 10 - The 'Math & Formula' Cheat Sheet.json,2,703,800703,What is the standard flow formula (K-Factor)?
+File 10 - The 'Math & Formula' Cheat Sheet.json,3,704,800704,"Hazen-Williams Formula: If pipe diameter DECREASES, what happens to friction loss?"
+File 10 - The 'Math & Formula' Cheat Sheet.json,4,705,800705,How many gallons are in 1 cubic foot of water?
+File 10 - The 'Math & Formula' Cheat Sheet.json,5,706,800706,How much does 1 gallon of water weigh?
+File 10 - The 'Math & Formula' Cheat Sheet.json,6,707,800707,Formula for Sprinkler Coverage Area (Spacing)?
+File 10 - The 'Math & Formula' Cheat Sheet.json,7,708,800708,"If the required density is 0.15 gpm/sq ft and the coverage area is 130 sq ft, what is the minimum flow (Q)?"
+File 11 - The 'Minnesota Traps' & Common Mistakes.json,0,801,900801,MN TRAP: What is the max height of an FDC in Minnesota?
+File 11 - The 'Minnesota Traps' & Common Mistakes.json,1,802,900802,MN TRAP: Does a small system (under 20 heads) require valve monitoring?
+File 11 - The 'Minnesota Traps' & Common Mistakes.json,2,803,900803,Common Mistake: Can you use NFPA 13R for a 4-story building with a basement sticking 50% out of the ground?
+File 11 - The 'Minnesota Traps' & Common Mistakes.json,3,804,900804,Common Mistake: Do you need sprinklers in a 50 sq ft bathroom in an NFPA 13 (Commercial) Hotel?
+File 11 - The 'Minnesota Traps' & Common Mistakes.json,4,805,900805,"MN TRAP: If you fail to renew your license by June 30th, can you still work?"
+File 11 - The 'Minnesota Traps' & Common Mistakes.json,5,806,900806,Common Mistake: What color are frame arms for 'High' temp (250-300)?
+File 11 - The 'Minnesota Traps' & Common Mistakes.json,6,807,900807,Common Mistake: What color are frame arms for 'Extra High' temp (325-375)?
+File 11 - The 'Minnesota Traps' & Common Mistakes.json,7,808,900808,Common Mistake: Can you install a sprinkler 2 inches from a wall?
+File 12 - Seismic Bracing & Sway.json,0,901,1000901,Lateral sway braces are spaced at a maximum of what distance?
+File 12 - Seismic Bracing & Sway.json,1,902,1000902,Longitudinal sway braces are spaced at a maximum of what distance?
+File 12 - Seismic Bracing & Sway.json,2,903,1000903,A lateral brace must be within how many feet of the end of the pipe?
+File 12 - Seismic Bracing & Sway.json,3,904,1000904,A longitudinal brace must be within how many feet of the end of the pipe?
+File 12 - Seismic Bracing & Sway.json,4,905,1000905,Where are 4-way sway braces required?
+File 12 - Seismic Bracing & Sway.json,5,906,1000906,"On a riser, where should a flexible coupling be installed in a seismic zone?"
+File 12 - Seismic Bracing & Sway.json,6,907,1000907,What is the required clearance for a pipe 4 inches or larger passing through a wall in a seismic zone?
+File 12 - Seismic Bracing & Sway.json,7,908,1000908,Branch lines need restraint (wraparound/clip) at the end if?
+File 13 - Underground & Thrust Blocks (NFPA 24).json,0,1001,1101001,Thrust blocks are required at which locations?
+File 13 - Underground & Thrust Blocks (NFPA 24).json,1,1002,1101002,Can concrete for a thrust block cover the bolts of the fitting?
+File 13 - Underground & Thrust Blocks (NFPA 24).json,2,1003,1101003,"When using threaded rod for restraining underground pipe, what size rod is required for pipe 4"" to 8""?"
+File 13 - Underground & Thrust Blocks (NFPA 24).json,3,1004,1101004,What is the minimum flow rate required to flush a 4-inch underground main?
+File 13 - Underground & Thrust Blocks (NFPA 24).json,4,1005,1101005,What is the minimum flow rate required to flush a 6-inch underground main?
+File 13 - Underground & Thrust Blocks (NFPA 24).json,5,1006,1101006,Underground piping must be hydrostatically tested at what pressure?
+File 14 - Fire Pumps Advanced (NFPA 20).json,0,1101,1201101,What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?
+File 14 - Fire Pumps Advanced (NFPA 20).json,1,1102,1201102,The Jockey Pump stop point should be set equal to what?
+File 14 - Fire Pumps Advanced (NFPA 20).json,2,1103,1201103,Fuel tanks for diesel fire pumps must be elevated so the supply connection is?
+File 14 - Fire Pumps Advanced (NFPA 20).json,3,1104,1201104,How much fuel must a diesel fire pump tank hold?
+File 14 - Fire Pumps Advanced (NFPA 20).json,4,1105,1201105,What is the minimum pipe size for the relief valve discharge on a 1000 gpm pump?
+File 14 - Fire Pumps Advanced (NFPA 20).json,5,1106,1201106,Does a jockey pump require a test header/hose valves?
+File 15 - Plan Reading & Symbols (Field Knowledge).json,0,1201,1301201,What does the symbol of a circle with a 'T' in the center typically represent?
+File 15 - Plan Reading & Symbols (Field Knowledge).json,1,1202,1301202,"If a drawing is scaled at 1/8"" = 1'0"", what does a line measuring 2 inches on paper represent in reality?"
+File 15 - Plan Reading & Symbols (Field Knowledge).json,2,1203,1301203,"Which view shows the building as if you were looking down from above, with the roof removed?"
+File 15 - Plan Reading & Symbols (Field Knowledge).json,3,1204,1301204,Which view shows a vertical slice through the building to show heights of pipes?
+File 15 - Plan Reading & Symbols (Field Knowledge).json,4,1205,1301205,"On a sprinkler head symbol, what does 'SSU' stand for?"
+File 15 - Plan Reading & Symbols (Field Knowledge).json,5,1206,1301206,"On a sprinkler head symbol, what does 'SSP' stand for?"
+File 16 - Final 'Cram' Facts.json,0,1301,1401301,What is the melting point of the solder in an ordinary temperature fusible link?
+File 16 - Final 'Cram' Facts.json,1,1302,1401302,Water filled piping must be maintained at a minimum temperature of?
+File 16 - Final 'Cram' Facts.json,2,1303,1401303,What is the maximum travel distance to a Class A fire extinguisher?
+File 16 - Final 'Cram' Facts.json,3,1304,1401304,How often must fire extinguishers be visually inspected?
+File 16 - Final 'Cram' Facts.json,4,1305,1401305,What is the minimum distance a ladder must be kept from energized power lines?
+File 17 - Storage & Special Hazards (NFPA 13).json,0,1401,1501401,"In rack storage, what is the minimum required width for a transverse flue space?"
+File 17 - Storage & Special Hazards (NFPA 13).json,1,1402,1501402,What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?
+File 17 - Storage & Special Hazards (NFPA 13).json,2,1403,1501403,"When installing in-rack sprinklers, what must be installed above the sprinkler to protect it from water discharge above?"
+File 17 - Storage & Special Hazards (NFPA 13).json,3,1404,1501404,Idle wood pallets stored indoors cannot exceed what height without sprinkler protection?
+File 17 - Storage & Special Hazards (NFPA 13).json,4,1405,1501405,"Which commodity class includes wood, paper, and natural fibers?"
+File 17 - Storage & Special Hazards (NFPA 13).json,5,1406,1501406,Expanded polystyrene (Styrofoam) is classified as what type of commodity?
+File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json,0,1501,1601501,"To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?"
+File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json,1,1502,1601502,"If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?"
+File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json,2,1503,1601503,"In a hospital, do privacy curtains with a 70% open mesh at the top require sprinklers in the cubicle?"
+File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json,3,1504,1601504,A soffit exceeds 12 inches in width. Do you need a sprinkler underneath it?
+File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json,4,1505,1601505,"When installing sprinklers in open web trusses, how far must the deflector be from the web member?"
+File 19 - System Acceptance & Flushing (NFPA 13&24).json,0,1601,1701601,What flow rate is required to flush a 4-inch underground main?
+File 19 - System Acceptance & Flushing (NFPA 13&24).json,1,1602,1701602,What flow rate is required to flush a 6-inch underground main?
+File 19 - System Acceptance & Flushing (NFPA 13&24).json,2,1603,1701603,What flow rate is required to flush an 8-inch underground main?
+File 19 - System Acceptance & Flushing (NFPA 13&24).json,3,1604,1701604,What is the maximum allowable pressure drop during a 2-hour hydrostatic test?
+File 19 - System Acceptance & Flushing (NFPA 13&24).json,4,1605,1701605,Who must sign the Contractor's Material and Test Certificate?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",0,201,1800201,How often do you inspect private fire hydrants?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",1,202,1800202,How often is a flow test conducted on a standpipe system?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",2,203,1800203,How often do you check water level and air pressure in a pressure tank?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",3,204,1800204,How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",4,205,1800205,How long must a diesel fire pump run during a weekly test?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",5,206,1800206,How long must an electric fire pump run during a weekly test?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",6,207,1800207,When does a MN Sprinkler Fitter journeyman license expire?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",7,208,1800208,How many hours of experience are required to take the MN Journeyman exam?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",8,209,1800209,What is the fine for working without a license in MN?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",9,210,1800210,MN requires FDCs to be located between what heights?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",10,211,1800211,Can a control valve in a public area be unmonitored if it serves <20 heads?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",11,212,1800212,How often are gauges on dry/preaction/deluge systems inspected?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",12,213,1800213,How often are gauges on wet pipe systems inspected?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",13,214,1800214,How often are sprinkler heads inspected from the floor level?
+"File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json",14,215,1800215,How often are supervisory alarm devices (tampers) tested?
+File 20 - Fire Alarm & Detection Interface (NFPA 72&13).json,0,1701,1901701,"According to NFPA 72, a waterflow switch must initiate an alarm signal within how many seconds?"
+File 20 - Fire Alarm & Detection Interface (NFPA 72&13).json,1,1702,1901702,Solenoid valves for preaction systems must be rated for what pressure?
+File 20 - Fire Alarm & Detection Interface (NFPA 72&13).json,2,1703,1901703,A supervisory switch (tamper) must signal if the valve is closed how many turns?
+File 20 - Fire Alarm & Detection Interface (NFPA 72&13).json,3,1704,1901704,Can a sprinkler air compressor be wired into a light circuit?
+"File 21 - Corrosion, MIC & Obstructions (The 'System Killer' Deck).json",0,1801,2001801,What does Microbiologically Influenced Corrosion (MIC) typically smell like?
+"File 21 - Corrosion, MIC & Obstructions (The 'System Killer' Deck).json",1,1802,2001802,Which of the following is a 'trigger' requiring a comprehensive obstruction investigation?
+"File 21 - Corrosion, MIC & Obstructions (The 'System Killer' Deck).json",2,1803,2001803,Pin-hole leaks at the 6 o'clock position on a horizontal main usually indicate what?
+"File 21 - Corrosion, MIC & Obstructions (The 'System Killer' Deck).json",3,1804,2001804,What type of reaction occurs when Copper pipe touches Steel pipe without a dielectric union?
+"File 21 - Corrosion, MIC & Obstructions (The 'System Killer' Deck).json",4,1805,2001805,Why is a single air vent required on wet systems (2016 edition update)?
+File 22 - Vertical Shafts & Elevators (The 'High-Rise' Deck).json,0,1901,2101901,When is a sprinkler required at the BOTTOM of an elevator shaft?
+File 22 - Vertical Shafts & Elevators (The 'High-Rise' Deck).json,1,1902,2101902,"If a sprinkler is installed at the top of an elevator shaft, what else is required?"
+File 22 - Vertical Shafts & Elevators (The 'High-Rise' Deck).json,2,1903,2101903,"In a linen or trash chute, where are sprinklers required?"
+File 22 - Vertical Shafts & Elevators (The 'High-Rise' Deck).json,3,1904,2101904,"Do non-combustible, non-accessible vertical shafts require sprinklers?"
+File 22 - Vertical Shafts & Elevators (The 'High-Rise' Deck).json,4,1905,2101905,Where are sprinklers required in non-combustible stair shafts?
+File 23 - Pump Theory & Troubleshooting (The 'Engineer' Deck).json,0,2001,2202001,"If a fire pump sounds like it is pumping gravel, what is happening?"
+File 23 - Pump Theory & Troubleshooting (The 'Engineer' Deck).json,1,2002,2202002,What causes Cavitation?
+File 23 - Pump Theory & Troubleshooting (The 'Engineer' Deck).json,2,2003,2202003,What is 'Churn' pressure?
+File 23 - Pump Theory & Troubleshooting (The 'Engineer' Deck).json,3,2004,2202004,Why do we verify the pump RPM during a flow test?
+File 23 - Pump Theory & Troubleshooting (The 'Engineer' Deck).json,4,2005,2202005,"If the pump starts but fails to build pressure, what is the most likely cause?"
+File 24 - Exposure Protection & Special Spray (The 'Niche' Deck).json,0,2101,2302101,"When using sprinklers to protect a glass window (Exposure Protection), how far from the glass must the head be?"
+File 24 - Exposure Protection & Special Spray (The 'Niche' Deck).json,1,2102,2302102,What is the maximum spacing between sprinklers protecting a window/cornice?
+File 24 - Exposure Protection & Special Spray (The 'Niche' Deck).json,2,2103,2302103,"If using 'Specific Application Attic Sprinklers', what is the advantage?"
+File 24 - Exposure Protection & Special Spray (The 'Niche' Deck).json,3,2104,2302104,"When sprinklers are spaced closer than 6 feet, what must be installed?"
+File 24 - Exposure Protection & Special Spray (The 'Niche' Deck).json,4,2105,2302105,Dimensions of a baffle?
+File 25 - Residential Deep Dive (NFPA 13D & 13R).json,0,2201,2402201,"In a single-family home (13D), are sprinklers required in the garage?"
+File 25 - Residential Deep Dive (NFPA 13D & 13R).json,1,2202,2402202,Does an NFPA 13D system require a water flow alarm notification on the exterior of the house?
+File 25 - Residential Deep Dive (NFPA 13D & 13R).json,2,2203,2402203,"In NFPA 13R, what is the maximum 'shadow area' (dry spot) allowed in a compartment?"
+File 25 - Residential Deep Dive (NFPA 13D & 13R).json,3,2204,2402204,How many spare sprinklers are required for an NFPA 13D system?
+File 25 - Residential Deep Dive (NFPA 13D & 13R).json,4,2205,2402205,Does NFPA 13R require sprinklers in a combustible attic (without storage/living space)?
+File 26 - Service Work & Modifications (The 'Retrofit' Deck).json,0,2301,2502301,"When adding heads to an existing hydraulically calculated system, what must you verify?"
+File 26 - Service Work & Modifications (The 'Retrofit' Deck).json,1,2302,2502302,"If you replace a control valve on a system, what test must be performed?"
+File 26 - Service Work & Modifications (The 'Retrofit' Deck).json,2,2303,2502303,Can you mix Standard Response and Quick Response sprinklers in the same compartment?
+File 26 - Service Work & Modifications (The 'Retrofit' Deck).json,3,2304,2502304,"When revamping a pipe schedule system, you remove a 1"" plug and extend the line. How many heads can be on that 1"" line in Light Hazard?"
+File 26 - Service Work & Modifications (The 'Retrofit' Deck).json,4,2305,2502305,"If you find a frozen pipe that has cracked, this is classified as what type of issue?"
+File 27 - System Mechanics & Hardware (How it Works).json,0,2401,2602401,What allows a dry pipe valve to hold back 100 psi of water with only 20 psi of air?
+File 27 - System Mechanics & Hardware (How it Works).json,1,2402,2602402,What does an Accelerator do on a dry system?
+File 27 - System Mechanics & Hardware (How it Works).json,2,2403,2602403,What is the difference between an Accelerator and an Exhauster?
+File 27 - System Mechanics & Hardware (How it Works).json,3,2404,2602404,Why are Deluge systems usually tripped by a separate detection system?
+File 28 - The 'Final Boss' Scenarios (Complex Synthesis).json,0,2501,2702501,Scenario: You are hydro-testing a new Class I standpipe in a 4-story building. The working pressure is 160 psi. What pressure do you test at?
+File 28 - The 'Final Boss' Scenarios (Complex Synthesis).json,1,2502,2702502,Scenario: A diesel pump room is 30°F. Is this a deficiency?
+File 28 - The 'Final Boss' Scenarios (Complex Synthesis).json,2,2503,2702503,Scenario: You are installing heads in a room with a 20-foot ceiling. The room contains high-piled plastic storage. Can you use a Standard Spray Upright?
+File 28 - The 'Final Boss' Scenarios (Complex Synthesis).json,3,2504,2702504,Scenario: An apprentice has worked 9000 hours but hasn't taken the test. Are they allowed to run a job site?
+File 28 - The 'Final Boss' Scenarios (Complex Synthesis).json,4,2505,2702505,Scenario: You are installing a pendant head. A 4-inch wide light fixture is 6 inches away from the head. How high above the bottom of the light must the deflector be?
+File 29 - Standpipe System Types (NFPA 14).json,0,2601,2802601,What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?
+File 29 - Standpipe System Types (NFPA 14).json,1,2602,2802602,What is a standpipe system that contains air under pressure and admits water automatically when a hose valve is opened?
+File 29 - Standpipe System Types (NFPA 14).json,2,2603,2802603,What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?
+File 29 - Standpipe System Types (NFPA 14).json,3,2604,2802604,What is a 'Manual Wet' standpipe?
+File 29 - Standpipe System Types (NFPA 14).json,4,2605,2802605,What device allows water to flow into a Semiautomatic Dry standpipe?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",0,301,2900301,Minimum flow rate for the most remote standpipe in a Class I system?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",1,302,2900302,Minimum flow rate for each *additional* standpipe in a Class I system?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",2,303,2900303,"Minimum residual pressure at the most remote 2½"" outlet?"
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",3,304,2900304,"Minimum residual pressure for a Class II (1½"") outlet?"
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",4,305,2900305,What fitting is used on the suction side of a pump to prevent air pockets?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",5,306,2900306,What fitting is used on the discharge side of a fire pump?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",6,307,2900307,What is the minimum size for a sensing line (jockey/controller)?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",7,308,2900308,How far above the floor must current-carrying parts of a controller be?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",8,309,2900309,What is the minimum water temperature maintained in a water tank?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",9,310,2900310,What is the minimum clearance under a tank?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",10,311,2900311,Private fire mains under driveways must be buried how deep?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",11,312,2900312,How close can a post indicator valve be to a building?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",12,313,2900313,At what depth is a ladder required in a trench?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",13,314,2900314,What is the max travel distance to a ladder in a trench?
+"File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json",14,315,2900315,What size relief valve is required for a 2500 gpm pump?
+File 30 - Commodity Classification (NFPA 13).json,0,2701,3002701,A Restaurant Seating Area is classified as what hazard?
+File 30 - Commodity Classification (NFPA 13).json,1,2702,3002702,A Restaurant Service Area (Kitchen) is classified as what hazard?
+File 30 - Commodity Classification (NFPA 13).json,2,2703,3002703,A Parking Garage (Automobile Parking) is classified as what hazard?
+File 30 - Commodity Classification (NFPA 13).json,3,2704,3002704,A Mercantile (Department Store) is classified as what hazard?
+File 30 - Commodity Classification (NFPA 13).json,4,2705,3002705,Printing and Publishing plants are classified as what hazard?
+File 30 - Commodity Classification (NFPA 13).json,5,2706,3002706,Plastics processing (solvent based) is classified as what hazard?
+File 31 - Electrical & Controllers (NFPA 20&70).json,0,2801,3102801,A fire pump controller must be dedicated to?
+File 31 - Electrical & Controllers (NFPA 20&70).json,1,2802,3102802,What device protects the electric fire pump motor if the phases are reversed (causing backward rotation)?
+File 31 - Electrical & Controllers (NFPA 20&70).json,2,2803,3102803,"If a building has a backup generator for the fire pump, what device is required to switch from normal power to generator power?"
+File 31 - Electrical & Controllers (NFPA 20&70).json,3,2804,3102804,Fire pump controllers must be within sight of the motor. This typically means they are located within how many feet?
+File 32 - Confined Space & Safety (OSHA).json,0,2901,3202901,A valve pit or water tank is considered what type of space?
+File 32 - Confined Space & Safety (OSHA).json,1,2902,3202902,"Before entering a Permit-Required Confined Space (like an empty pressure tank), what must be tested first?"
+File 32 - Confined Space & Safety (OSHA).json,2,2903,3202903,Spoil piles (dirt) must be kept how far back from the edge of a trench?
+File 32 - Confined Space & Safety (OSHA).json,3,2904,3202904,When is a 'Safety Monitor' (a person watching) allowed as the only fall protection?
+File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json,0,3101,3303101,What is the primary purpose of the main drain test?
+File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json,1,3102,3303102,"If a gauge is reading 0 psi on the system side of a check valve, what does this likely indicate?"
+File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json,2,3103,3303103,"During an annual floor level inspection, you see a sprinkler heavily loaded with dust. What is the required action?"
+File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json,3,3104,3303104,How soon must a preaction/deluge valve be trip tested after installation?
+File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json,4,3105,3303105,You inspect an FDC and find the swivel caps are missing. Is this a deficiency?
+File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json,5,3106,3303106,"If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?"
+File 35 - Specialty Valves & Devices (Topic 12).json,0,3201,3403201,What is 'Columning' in a dry pipe valve?
+File 35 - Specialty Valves & Devices (Topic 12).json,1,3202,3403202,"In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?"
+File 35 - Specialty Valves & Devices (Topic 12).json,2,3203,3403203,What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?
+File 35 - Specialty Valves & Devices (Topic 12).json,3,3204,3403204,"If a dry pipe valve trips but water does not reach the inspector's test within 60 seconds, what is the issue?"
+File 35 - Specialty Valves & Devices (Topic 12).json,4,3205,3403205,Where is a check valve required in the FDC piping?
+File 36 - Sprinkler Logic & Fittings (Topics 9 & 13).json,0,3301,3503301,"When reducing pipe size, which fitting type is prohibited for drain ability?"
+File 36 - Sprinkler Logic & Fittings (Topics 9 & 13).json,1,3302,3503302,Are you allowed to weld a tab onto a sprinkler pipe to hang it?
+File 36 - Sprinkler Logic & Fittings (Topics 9 & 13).json,2,3303,3503303,You are installing upright sprinklers on a pitched roof (4/12 pitch). How should the deflector be oriented?
+File 36 - Sprinkler Logic & Fittings (Topics 9 & 13).json,3,3304,3503304,A pendant sprinkler is 5 inches from a wall. The wall has a 2-inch deep cabinet mounted on it. Is this allowed?
+File 36 - Sprinkler Logic & Fittings (Topics 9 & 13).json,4,3305,3503305,What temperature sprinkler is required in an unventilated attic?
+File 36 - Sprinkler Logic & Fittings (Topics 9 & 13).json,5,3306,3503306,"During the hydrostatic test, the pressure drops 2 psi in 2 hours due to temperature fluctuation. Is this a fail?"
+"File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json",0,3401,3603401,"If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?"
+"File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json",1,3402,3603402,"If a plan is drawn to 1/4"" = 1'0"" scale, and a pipe measures 3 inches long on the paper, how long is the pipe in reality?"
+"File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json",2,3403,3603403,What does 'N.I.C.' usually stand for on a set of prints?
+"File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json",3,3404,3603404,Which of the following is REQUIRED to be shown on the hydraulic calculation sheets?
+"File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json",4,3405,3603405,"On a reflected ceiling plan, what does 'AFF' mean?"
+File 38 - Materials Handling & Jobsite Safety (Topic 5).json,0,3501,3703501,How should CPVC pipe be stored at the job site?
+File 38 - Materials Handling & Jobsite Safety (Topic 5).json,1,3502,3703502,"When storing threaded steel pipe, what should be done to the threads?"
+File 38 - Materials Handling & Jobsite Safety (Topic 5).json,2,3503,3703503,"When lifting a bundle of pipe with a crane, what knot or hitch prevents the pipe from sliding out of the sling?"
+File 38 - Materials Handling & Jobsite Safety (Topic 5).json,3,3504,3703504,Solvent cement and primers are generally classified as?
+File 38 - Materials Handling & Jobsite Safety (Topic 5).json,4,3505,3703505,"If a glass bulb sprinkler is dropped on the floor during installation but looks fine, what must you do?"
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,0,3601,3803601,"Distance between hangers (1"" Steel)?"
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,1,3602,3803602,"Distance between hangers (1-1/4"" Steel)?"
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,2,3603,3803603,"Distance between hangers (1-1/2"" Steel)?"
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,3,3604,3803604,Max distance from wall (Standard Head)?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,4,3605,3803605,Max distance from wall (Extended Coverage)?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,5,3606,3803606,MN FDC Height?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,6,3607,3803607,Friction Loss C-Factor (Steel Wet)?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,7,3608,3803608,Friction Loss C-Factor (Steel Dry)?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,8,3609,3803609,Max time for water to reach inspector's test (Dry)?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,9,3610,3803610,Hydrostatic Test Pressure?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,10,3611,3803611,Air Test Pressure (24 hour)?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,11,3612,3803612,Weekly Pump Run (Electric)?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,12,3613,3803613,Weekly Pump Run (Diesel)?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,13,3614,3803614,Main Drain Test Frequency?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,14,3615,3803615,Flow Test Standpipe Frequency?
+File 39 - The 'Day Before' Rapid Review (Numbers Only).json,15,3616,3803616,"Deflector distance below beam (if 6"" away)?"
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",0,124,3900124,"What is the maximum distance between hangers on 1"" copper tube?"
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",1,125,3900125,"What is the maximum distance between hangers on 1½"" copper tube?"
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",2,126,3900126,"What is the maximum distance between hangers on ¾"" CPVC?"
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",3,127,3900127,"What is the maximum distance between hangers on 1"" CPVC?"
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",4,128,3900128,What is the minimum size pipe allowed for a trapeze member spanning 5 feet or less?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",5,129,3900129,How large must a ceiling fan be to be considered an obstruction requiring a sprinkler above/below?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",6,130,3900130,Standard sprinklers must be located at least how far from a continuous obstruction (like a beam) to avoid 'skipping'?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",7,131,3900131,What is the maximum distance a sprinkler deflector can be located above the bottom of a solid obstruction (Beam Rule)?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",8,132,3900132,When are return bends required for pendant sprinklers?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",9,133,3900133,"In a seismic zone, what is the maximum clearance allowed around a pipe penetrating a wall (without a flexible coupling)?"
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",10,134,3900134,A quick-opening device (QOD) is required on a dry system when the capacity exceeds?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",11,135,3900135,Which system requires a supplemental detection system to activate?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",12,136,3900136,What is the maximum capacity of an antifreeze system piping loop?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",13,137,3900137,Post Indicator Valves (PIV) must be set so the top of the post is how high above grade?
+"File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json",14,138,3900138,What is the minimum letter height for hydraulic design information signs?
+File 40 - The Break Room Deck.json,0,4001,4004001,"You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it, or are you just hand-tightening it like a prom date?"
+File 40 - The Break Room Deck.json,1,4002,4004002,"What is the 'Ball Drip' actually for? (And no, it's not for what you think it is)."
+File 40 - The Break Room Deck.json,2,4003,4004003,"When you're mating a gasket, what do you use? Don't say spit."
+File 40 - The Break Room Deck.json,3,4004,4004004,The foreman tells you to grab a 'Widow Maker.' What is he asking for?
+File 40 - The Break Room Deck.json,4,4005,4004005,"You just cut a piece of threaded pipe. If you don't ream the inside, what are you?"
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",0,216,4100216,How often should gauges be replaced or tested against a calibrated gauge?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",1,217,4100217,How often must standard response sprinklers be tested or replaced (after initial service)?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",2,218,4100218,How often are Quick Response sprinklers tested (after initial 20 years)?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",3,219,4100219,Dry sprinklers must be tested or replaced after how many years?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",4,220,4100220,How often must you operate and clean a Dry Pipe Valve?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",5,221,4100221,How often is a full flow trip test required for a Dry Pipe Valve?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",6,222,4100222,How often is an internal assessment of piping required (for obstruction)?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",7,223,4100223,How often is the interior of the FDC piping inspected (hydrostatic test)?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",8,224,4100224,How often must a backflow preventer be forward flow tested?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",9,225,4100225,How often must antifreeze solution be tested?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",10,226,4100226,How often are Vane-type (paddle) waterflow switches tested?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",11,227,4100227,How often are Mechanical waterflow alarms (gongs) tested?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",12,228,4100228,How often must an apprentice renew their registration in MN?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",13,229,4100229,What is the maximum ratio of apprentices to journeymen allowed on a job site?
+"File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json",14,230,4100230,How often should control valves be operated through their full range of motion?
+File 6 -Advanced Installation & Special Components.json,0,139,4200139,"How much weight does water add to 4"" schedule 40 pipe (approx per foot)?"
+File 6 -Advanced Installation & Special Components.json,1,140,4200140,Where must the list of spare sprinklers be stored?
+File 6 -Advanced Installation & Special Components.json,2,141,4200141,Are heat collectors (plates to catch heat) allowed to be used to lower the sprinkler activation time?
+File 6 -Advanced Installation & Special Components.json,3,142,4200142,What is the maximum length of a flexible sprinkler hose fitting (drop) before it must be supported?
+File 6 -Advanced Installation & Special Components.json,4,143,4200143,Where must the Inspector's Test Connection be located on a wet system?
+File 6 -Advanced Installation & Special Components.json,5,144,4200144,Where must the Inspector's Test Connection be located on a dry system?
+File 6 -Advanced Installation & Special Components.json,6,145,4200145,"If a system's working pressure is 200 psi, what pressure must it be hydrostatically tested at?"
+File 6 -Advanced Installation & Special Components.json,7,146,4200146,"How do you size the main drain for a 3"" riser?"
+File 6 -Advanced Installation & Special Components.json,8,147,4200147,What is the minimum clearance between a hanger and an upright sprinkler?
+File 6 -Advanced Installation & Special Components.json,9,148,4200148,What is the typical water-to-air ratio of a differential dry pipe valve?
+File 6 -Advanced Installation & Special Components.json,10,149,4200149,"If a sprinkler is installed less than 1 foot from a heat source (unit heater), what temperature rating is required?"
+File 6 -Advanced Installation & Special Components.json,11,150,4200150,What is the name of the plate installed at the bottom of a suction tank to prevent air from entering the pump?
+"File 7 - MN Rules, Safety & Final Details.json",0,401,4300401,Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?
+"File 7 - MN Rules, Safety & Final Details.json",1,402,4300402,Where must the Contractor's license number be displayed?
+"File 7 - MN Rules, Safety & Final Details.json",2,403,4300403,When is hearing protection required by OSHA?
+"File 7 - MN Rules, Safety & Final Details.json",3,404,4300404,What is the proper ratio for leaning an extension ladder against a wall?
+"File 7 - MN Rules, Safety & Final Details.json",4,405,4300405,At what height is fall protection generally required in construction?
+"File 7 - MN Rules, Safety & Final Details.json",5,406,4300406,Where must the hydraulic design information sign be placed?
+"File 7 - MN Rules, Safety & Final Details.json",6,407,4300407,"When joining pipe with threaded unions, what is the maximum pipe size allowed?"
+"File 7 - MN Rules, Safety & Final Details.json",7,408,4300408,"If rust or scale is found during an internal inspection, what is the next required step?"
+"File 7 - MN Rules, Safety & Final Details.json",8,409,4300409,"What must be installed on sprinklers subject to mechanical injury (e.g., low gym ceilings)?"
+"File 7 - MN Rules, Safety & Final Details.json",9,410,4300410,How much clearance is required around a pipe penetrating a platform/floor (non-seismic)?
+"File 7 - MN Rules, Safety & Final Details.json",10,411,4300411,What is the maximum distance from the end of the pipe to the last lateral sway brace?
+"File 7 - MN Rules, Safety & Final Details.json",11,412,4300412,Can a Journeyman license be transferred to another person?
+"File 8 - Hydraulics, C-Factors & Math.json",0,501,4400501,What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?
+"File 8 - Hydraulics, C-Factors & Math.json",1,502,4400502,What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?
+"File 8 - Hydraulics, C-Factors & Math.json",2,503,4400503,What is the Hazen-Williams C-Factor for CPVC or Copper tube?
+"File 8 - Hydraulics, C-Factors & Math.json",3,504,4400504,"When calculating friction loss, a fitting (like an elbow) is converted into feet of pipe. What is this called?"
+"File 8 - Hydraulics, C-Factors & Math.json",4,505,4400505,What is the pressure of a column of water 1 foot high (Head pressure)?
+"File 8 - Hydraulics, C-Factors & Math.json",5,506,4400506,How many feet of water column (Head) equal 1 psi?
+"File 8 - Hydraulics, C-Factors & Math.json",6,507,4400507,"If a gauge at the bottom of a 100-foot riser reads 50 psi, and the gauge at the top reads 6.7 psi, is this normal? (Static pressure)"
+"File 8 - Hydraulics, C-Factors & Math.json",7,508,4400508,What happens to friction loss if you double the flow (GPM) through the same size pipe?
+"File 8 - Hydraulics, C-Factors & Math.json",8,509,4400509,Which of the following is NOT required on a hydraulic information sign?
+"File 8 - Hydraulics, C-Factors & Math.json",9,510,4400510,A fire pump must be able to provide 150% of rated flow at what percent of rated pressure?
+File 9 - Definitions & Tricky Details.json,0,601,4500601,What is a valve that has components that show if the valve is open or closed?
+File 9 - Definitions & Tricky Details.json,1,602,4500602,What is a sprinkler where the frame arms are mounted above the deflector called?
+File 9 - Definitions & Tricky Details.json,2,603,4500603,What is a sprinkler designed to be installed on the wall and discharge water horizontally?
+File 9 - Definitions & Tricky Details.json,3,604,4500604,How far can a sprinkler deflector be located down from the peak of a pitched roof?
+File 9 - Definitions & Tricky Details.json,4,605,4500605,If a system is out of service for more than how many hours must the Fire Department be notified?
+File 9 - Definitions & Tricky Details.json,5,606,4500606,"During a hydrostatic test, if the weather is freezing, can air be used?"
+File 9 - Definitions & Tricky Details.json,6,607,4500607,When can you use 'bushings' to change pipe size?
+File 9 - Definitions & Tricky Details.json,7,608,4500608,What happens if you paint a sprinkler head?
+File 9 - Definitions & Tricky Details.json,8,609,4500609,"If installing sprinklers under a garage door in the open position, what type of sprinkler is often used?"
+File 9 - Definitions & Tricky Details.json,9,610,4500610,How often is the hydraulic design information sign inspected?
+File 9 - Definitions & Tricky Details.json,10,611,4500611,Where do all sprinkler system drains discharge to?
+file1.json,0,1,4600001,How often do you inspect private fire hydrants?
+file1.json,1,2,4600002,What is NFPA 13R used for?
+file1.json,2,3,4600003,What is the coverage area for Ordinary Hazard heads (Standard Spray)?
+file1.json,3,4,4600004,What is the coverage area for Light Hazard heads (Standard Spray)?
+file1.json,4,5,4600005,"In Ordinary Hazard, if heads are 12’6"" apart along the branch line, what is the max distance between lines?"
+file1.json,5,6,4600006,What are the GLASS BULB colors for Extra High temperature rating (325-375°F)?
+file1.json,6,7,4600007,What color FRAME ARMS are on extra high temp sprinkler heads (Fusible Link)?
+file1.json,7,8,4600008,True or False: Control valves in public areas with 20 or fewer sprinklers do NOT need to be monitored or locked.
+file1.json,8,9,4600009,How often is the interior of a pressure tank inspected?
+file1.json,9,10,4600010,"What pipe sizes can feed 1½"" hose lines for runs over 80 feet?"
+file1.json,10,11,4600011,"What is the maximum unsupported length of pipe from the end of a 1¼"" pipe to the last hanger?"
+file1.json,11,12,4600012,What is the required duration of water supply for NFPA 13D systems?
+file1.json,12,13,4600013,"Why must a check valve with a 3/32"" hole in the Clapper be installed in the riser below the test valve in freezer spaces?"
+file1.json,13,14,4600014,What is the maximum time allowed for mechanical water flow alarms to sound?
+file1.json,14,15,4600015,What are the flow requirements for the most remote standpipe in a Class I system?
+file1.json,15,16,4600016,A tank fill bypass must be capable of filling the tank in how many hours?
+file1.json,16,17,4600017,What is the fine for working in Minnesota without a journeyman's license?
+file1.json,17,18,4600018,"What is the maximum distance between hangers on 1"" schedule 40 steel pipe?"
+file1.json,18,19,4600019,"In Minnesota, FDCs must be located between what heights above grade?"
+file1.json,19,20,4600020,How long must a diesel fire pump run during a weekly test?
+file1.json,20,21,4600021,What is the required pitch for branch lines in a dry system?
+file1.json,21,22,4600022,What is the maximum pipe size a toggle hanger can support?
+file1.json,22,23,4600023,How many heads are allowed on branch lines on either side of a cross main (Light Hazard Schedule)?
+file1.json,23,24,4600024,What is the minimum distance a standard sprinkler head can be from the wall?
+file1.json,24,25,4600025,"In a trench 4 feet or deeper, what is the maximum spacing between exit ladders?"
+file1.json,25,26,4600026,"What is the required main drain size for a 4"" riser?"
+file1.json,26,27,4600027,What is the standard hydrostatic test pressure for a system with normal working pressure?
+file1.json,27,28,4600028,How many heads can a system have before an FDC is required?
+file1.json,28,29,4600029,What fitting is used on the suction side of a fire pump to prevent air pockets?
+file1.json,29,30,4600030,What is the maximum square footage of a light hazard zone?
+file1.json,30,31,4600031,How often do you check air and water levels on a pressure tank?
+file1.json,31,32,4600032,What is the allowable air leakage rate for a new dry system during the 24-hour test?
+file1.json,32,33,4600033,How many hours of practical experience are required for the MN Journeyman test?
+file1.json,33,34,4600034,What is the minimum amount of time a control valve should take to close?
+file1.json,34,35,4600035,What size rod is required for hanging 10-inch and 12-inch pipe?
+file1.json,35,36,4600036,How many spare sprinklers are required for a system with 400 heads?
+file1.json,36,37,4600037,What is the minimum bury depth for private fire service mains under driveways?
+file1.json,37,38,4600038,Components in an aboveground system shall be rated for what minimum pressure?
+file1.json,38,39,4600039,Fire pump controllers must be mounted at least how far above the floor?
+file1.json,39,40,4600040,What is the maximum coverage area per sprinkler for ESFR heads?

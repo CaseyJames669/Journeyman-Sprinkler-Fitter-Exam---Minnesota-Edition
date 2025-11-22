@@ -1,0 +1,112 @@
+[
+  {
+    "id": 601,
+    "category": "Definitions",
+    "topic": "Valves",
+    "question": "What is a valve that has components that show if the valve is open or closed?",
+    "answer": "Indicating Valve",
+    "distractors": ["Check Valve", "Control Valve", "Relief Valve"],
+    "citation": "NFPA 13 (2016), Section 3.6.4 (Definitions)",
+    "code_text": "A valve that has components that show... the open or closed position (e.g., OS&Y, Butterfly)."
+  },
+  {
+    "id": 602,
+    "category": "Definitions",
+    "topic": "Heads",
+    "question": "What is a sprinkler where the frame arms are mounted above the deflector called?",
+    "answer": "Pendant",
+    "distractors": ["Upright", "Sidewall", "Concealed"],
+    "citation": "NFPA 13 (2016), Section 3.6.2",
+    "code_text": "Pendent: A sprinkler designed to be installed... so that the water stream is directed downward."
+  },
+  {
+    "id": 603,
+    "category": "Definitions",
+    "topic": "Heads",
+    "question": "What is a sprinkler designed to be installed on the wall and discharge water horizontally?",
+    "answer": "Sidewall",
+    "distractors": ["Extended Coverage", "Pendant", "Upright"],
+    "citation": "NFPA 13 (2016), Section 3.6.2",
+    "code_text": "Sidewall: A sprinkler having special deflectors... to discharge... outward from the wall."
+  },
+  {
+    "id": 604,
+    "category": "NFPA 13 - Installation",
+    "topic": "Positioning",
+    "question": "How far can a sprinkler deflector be located down from the peak of a pitched roof?",
+    "answer": "36 inches (3 feet)",
+    "distractors": ["12 inches", "24 inches", "48 inches"],
+    "citation": "NFPA 13 (2016), Section 8.6.4.1.4",
+    "code_text": "Not more than 3 ft vertically down from the peak."
+  },
+  {
+    "id": 605,
+    "category": "NFPA 25 - ITM",
+    "topic": "Impairments",
+    "question": "If a system is out of service for more than how many hours must the Fire Department be notified?",
+    "answer": "8 hours (in a 24 hour period)",
+    "distractors": ["4 hours", "24 hours", "48 hours"],
+    "citation": "NFPA 25 (2011), Section 15.5.2",
+    "code_text": "Where a... system is out of service for more than 10 hours (NOTE: MN Fire Code often amends this to 8 or 4 hours depending on local AHJ, stick to standard or MN amendment if listed). Standard 2011 NFPA 25 says 10 hours, MN FC 901.7 says 'Where required'."
+  },
+  {
+    "id": 606,
+    "category": "NFPA 13 - Installation",
+    "topic": "Testing",
+    "question": "During a hydrostatic test, if the weather is freezing, can air be used?",
+    "answer": "Yes, an interim air test at 40 psi is allowed until weather permits hydro",
+    "distractors": ["No, never", "Yes, at 200 psi air pressure", "Yes, using nitrogen"],
+    "citation": "NFPA 13 (2016), Section 25.2.1.3",
+    "code_text": "Interim air test... permitted... 40 psi."
+  },
+  {
+    "id": 607,
+    "category": "NFPA 13 - Installation",
+    "topic": "Piping",
+    "question": "When can you use 'bushings' to change pipe size?",
+    "answer": "Only when standard fittings are not available (and never face-to-face)",
+    "distractors": ["Always", "Never", "On drains only"],
+    "citation": "NFPA 13 (2016), Section 6.5.4",
+    "code_text": "Bushings shall not be used... exceptions exist but are restrictive."
+  },
+  {
+    "id": 608,
+    "category": "NFPA 13 - Installation",
+    "topic": "Heads",
+    "question": "What happens if you paint a sprinkler head?",
+    "answer": "It must be replaced",
+    "distractors": ["Clean it with solvent", "Test it", "Leave it if paint is thin"],
+    "citation": "NFPA 13 (2016), Section 6.2.6.2.2",
+    "code_text": "Sprinklers... painted... shall be replaced."
+  },
+  {
+    "id": 609,
+    "category": "NFPA 13 - Installation",
+    "topic": "Obstructions",
+    "question": "If installing sprinklers under a garage door in the open position, what type of sprinkler is often used?",
+    "answer": "Sidewall or specific application",
+    "distractors": ["Upright", "Pendant", "ESFR"],
+    "citation": "NFPA 13 (2016), Section 8.5.5.3.4",
+    "code_text": "Garage doors... sprinklers shall be permitted to be located under."
+  },
+  {
+    "id": 610,
+    "category": "NFPA 25 - ITM",
+    "topic": "Signage",
+    "question": "How often is the hydraulic design information sign inspected?",
+    "answer": "Annually",
+    "distractors": ["Quarterly", "Every 5 years", "Never"],
+    "citation": "NFPA 25 (2011), Section 5.2.7",
+    "code_text": "Hydraulic nameplate... shall be inspected annually."
+  },
+  {
+    "id": 611,
+    "category": "NFPA 13 - Installation",
+    "topic": "Drains",
+    "question": "Where do all sprinkler system drains discharge to?",
+    "answer": "To the exterior or to a drain connection capable of handling the flow",
+    "distractors": ["To the sanitary sewer", "To the floor", "To the FDC"],
+    "citation": "NFPA 13 (2016), Section 8.16.2.6",
+    "code_text": "Discharge... to outside or to a drain connection."
+  }
+]

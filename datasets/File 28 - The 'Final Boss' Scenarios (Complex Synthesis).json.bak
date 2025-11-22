@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2501,
+    "category": "Synthesis Scenario",
+    "topic": "Standpipes",
+    "question": "Scenario: You are hydro-testing a new Class I standpipe in a 4-story building. The working pressure is 160 psi. What pressure do you test at?",
+    "answer": "210 psi (50 psi over working pressure)",
+    "distractors": ["200 psi", "160 psi", "250 psi"],
+    "citation": "NFPA 14 (2016), Section 11.4",
+    "code_text": "200 psi or 50 psi in excess of the working pressure, whichever is greater."
+  },
+  {
+    "id": 2502,
+    "category": "Synthesis Scenario",
+    "topic": "Pump Room",
+    "question": "Scenario: A diesel pump room is 30°F. Is this a deficiency?",
+    "answer": "Yes, it must be maintained at 40°F minimum (70°F is recommended for diesel engines)",
+    "distractors": ["No, 30°F is safe from freezing flowing water", "No, only electric pumps need heat", "Yes, it must be 80°F"],
+    "citation": "NFPA 20 (2016), Section 11.6.5",
+    "code_text": "Temperature... shall be maintained at... 40°F (often 70°F for engine starting)."
+  },
+  {
+    "id": 2503,
+    "category": "Synthesis Scenario",
+    "topic": "Design",
+    "question": "Scenario: You are installing heads in a room with a 20-foot ceiling. The room contains high-piled plastic storage. Can you use a Standard Spray Upright?",
+    "answer": "No, you likely need a CMSA or ESFR head (Standard spray is limited in high storage)",
+    "distractors": ["Yes, always", "Yes, if spaced 6 feet apart"],
+    "citation": "NFPA 13 (2016), Storage Chapters",
+    "code_text": "Standard spray sprinklers have severe density/area penalties for high storage; Special Application heads are required."
+  },
+  {
+    "id": 2504,
+    "category": "Synthesis Scenario",
+    "topic": "MN Rules",
+    "question": "Scenario: An apprentice has worked 9000 hours but hasn't taken the test. Are they allowed to run a job site?",
+    "answer": "No, they are still an apprentice until they PASS the exam and get the license",
+    "distractors": ["Yes, after 8000 hours they are effectively Journeymen", "Yes, if the boss allows it"],
+    "citation": "MN Rules 7512",
+    "code_text": "Must hold a Journeyman certificate to perform work without direct supervision."
+  },
+  {
+    "id": 2505,
+    "category": "Synthesis Scenario",
+    "topic": "Obstruction",
+    "question": "Scenario: You are installing a pendant head. A 4-inch wide light fixture is 6 inches away from the head. How high above the bottom of the light must the deflector be?",
+    "answer": "1 inch or less (Beam Rule: 6 inches away / 3 = 2 inches max down?? No, check table)",
+    "distractors": ["3 inches", "Level with the bottom", "4 inches"],
+    "citation": "NFPA 13 (2016), Figure 8.6.5.1.2(a)",
+    "code_text": "Logic: If you are 6 inches away, the 'Beam Rule' table dictates your vertical position. (Typically above the bottom)."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 3201,
+    "category": "Specialty Valves",
+    "topic": "Dry Pipe Valve",
+    "question": "What is 'Columning' in a dry pipe valve?",
+    "answer": "When priming water level is too high, creating pressure that prevents the clapper from opening",
+    "distractors": ["When the air pressure is too low", "When the valve trips accidentally", "When the accelerator fails"],
+    "citation": "Industry Theory / NFPA 13",
+    "code_text": "High priming water exerts hydraulic pressure on the top of the clapper, locking it shut."
+  },
+  {
+    "id": 3202,
+    "category": "Specialty Valves",
+    "topic": "Preaction",
+    "question": "In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?",
+    "answer": "Activation of a detection device AND loss of air pressure (sprinkler opening)",
+    "distractors": ["Detection only", "Loss of air only", "Manual release only"],
+    "citation": "NFPA 13 (2016), Section 7.3.2.2",
+    "code_text": "Double interlock... admits water... only when... detection device [activates]... AND... automatic sprinkler [activates]."
+  },
+  {
+    "id": 3203,
+    "category": "Specialty Valves",
+    "topic": "Trim",
+    "question": "What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?",
+    "answer": "To drain water between the check valve and the FDC to prevent freezing",
+    "distractors": ["To drain the main riser", "To test the pump", "To allow air into the system"],
+    "citation": "NFPA 13 (2016), Section 8.17.2.6",
+    "code_text": "An automatic drip valve... shall be installed... to drain the piping between the check valve and the fire department connection."
+  },
+  {
+    "id": 3204,
+    "category": "Specialty Valves",
+    "topic": "Dry Systems",
+    "question": "If a dry pipe valve trips but water does not reach the inspector's test within 60 seconds, what is the issue?",
+    "answer": "System volume is too large for the air/water supply (Needs an Accelerator)",
+    "distractors": ["Water pressure is too high", "Air pressure is too low", "The valve is installed backward"],
+    "citation": "NFPA 13 (2016), Section 7.2.3.6",
+    "code_text": "Water must be delivered... in not more than 60 seconds. (If not, use QOD)."
+  },
+  {
+    "id": 3205,
+    "category": "Specialty Valves",
+    "topic": "Check Valves",
+    "question": "Where is a check valve required in the FDC piping?",
+    "answer": "At the connection to the system piping (to keep system water from flowing out the FDC)",
+    "distractors": ["Inside the FDC itself", "It is not required", "At the city main"],
+    "citation": "NFPA 13 (2016), Section 8.17.2.5",
+    "code_text": "A listed check valve shall be installed in each fire department connection."
+  }
+]

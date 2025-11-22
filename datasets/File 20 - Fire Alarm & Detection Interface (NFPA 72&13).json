@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1901701,
+    "category": "NFPA 72 - Alarms",
+    "topic": "Waterflow",
+    "question": "According to NFPA 72, a waterflow switch must initiate an alarm signal within how many seconds?",
+    "answer": "90 seconds",
+    "distractors": [
+      "60 seconds",
+      "5 minutes",
+      "30 seconds"
+    ],
+    "citation": "NFPA 72 (2016) / NFPA 13",
+    "code_text": "Waterflow... shall result in an alarm... within 90 seconds."
+  },
+  {
+    "id": 1901702,
+    "category": "NFPA 13 - Electrical",
+    "topic": "Solenoid Valves",
+    "question": "Solenoid valves for preaction systems must be rated for what pressure?",
+    "answer": "175 psi (or the maximum system pressure)",
+    "distractors": [
+      "100 psi",
+      "150 psi",
+      "300 psi"
+    ],
+    "citation": "NFPA 13 (2016), Section 7.3.2.1.2",
+    "code_text": "Rated for the system pressure... typically 175 psi."
+  },
+  {
+    "id": 1901703,
+    "category": "NFPA 25 - Electrical",
+    "topic": "Tamper Switches",
+    "question": "A supervisory switch (tamper) must signal if the valve is closed how many turns?",
+    "answer": "2 turns (or 1/5th of the travel)",
+    "distractors": [
+      "3 turns",
+      "1 turn",
+      "Half closed"
+    ],
+    "citation": "NFPA 72 / NFPA 25",
+    "code_text": "Off-normal signal... during the first two revolutions."
+  },
+  {
+    "id": 1901704,
+    "category": "NFPA 13 - Electrical",
+    "topic": "Compressors",
+    "question": "Can a sprinkler air compressor be wired into a light circuit?",
+    "answer": "No, it requires a dedicated circuit",
+    "distractors": [
+      "Yes, if labeled",
+      "Yes, if 120V",
+      "Yes, in residential"
+    ],
+    "citation": "NFPA 70 (NEC) / Manufacturer Specs",
+    "code_text": "Permanent equipment usually requires dedicated circuits to prevent accidental disconnect."
+  }
+]

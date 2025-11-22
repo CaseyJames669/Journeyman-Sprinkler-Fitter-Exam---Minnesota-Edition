@@ -1,0 +1,310 @@
+[
+  {
+    "id": 200101,
+    "category": "NFPA 13 - Installation",
+    "topic": "Coverage",
+    "question": "What is the coverage area for Light Hazard heads (Standard Spray)?",
+    "answer": "225 square feet",
+    "distractors": [
+      "130 sq ft",
+      "200 sq ft",
+      "400 sq ft"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.6.2.2.1(a)",
+    "code_text": "Light Hazard Protection Area: 225 ft2."
+  },
+  {
+    "id": 200102,
+    "category": "NFPA 13 - Installation",
+    "topic": "Coverage",
+    "question": "What is the coverage area for Ordinary Hazard heads?",
+    "answer": "130 square feet",
+    "distractors": [
+      "100 sq ft",
+      "225 sq ft",
+      "196 sq ft"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.6.2.2.1(b)",
+    "code_text": "Ordinary Hazard Protection Area: 130 ft2."
+  },
+  {
+    "id": 200103,
+    "category": "NFPA 13 - Installation",
+    "topic": "Coverage",
+    "question": "What is the coverage area for Extra Hazard heads?",
+    "answer": "100 square feet",
+    "distractors": [
+      "130 sq ft",
+      "90 sq ft",
+      "64 sq ft"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.6.2.2.1(c)",
+    "code_text": "Extra Hazard Protection Area: 100 ft2."
+  },
+  {
+    "id": 200104,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "What is the maximum distance between hangers on 1\" schedule 40 pipe?",
+    "answer": "12 feet",
+    "distractors": [
+      "10 feet",
+      "15 feet",
+      "8 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+    "code_text": "1 in: 12 ft."
+  },
+  {
+    "id": 200105,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "What is the maximum distance between hangers on 1¼\" schedule 40 pipe?",
+    "answer": "12 feet",
+    "distractors": [
+      "15 feet",
+      "10 feet",
+      "14 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+    "code_text": "1-1/4 in: 12 ft."
+  },
+  {
+    "id": 200106,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "What is the maximum distance between hangers on 1½\" schedule 40 pipe?",
+    "answer": "15 feet",
+    "distractors": [
+      "12 feet",
+      "10 feet",
+      "20 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+    "code_text": "1-1/2 in: 15 ft."
+  },
+  {
+    "id": 200107,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "Maximum unsupported length of pipe from end of 1\" pipe to last hanger?",
+    "answer": "36 inches",
+    "distractors": [
+      "48 inches",
+      "24 inches",
+      "12 inches"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.3.4",
+    "code_text": "1 in: 36 inches."
+  },
+  {
+    "id": 200108,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "Maximum unsupported length of pipe from end of 1¼\" pipe to last hanger?",
+    "answer": "48 inches",
+    "distractors": [
+      "36 inches",
+      "60 inches",
+      "24 inches"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.3.4",
+    "code_text": "1-1/4 in: 48 inches."
+  },
+  {
+    "id": 200109,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "Maximum unsupported length of pipe from end of 1½\" pipe to last hanger?",
+    "answer": "60 inches",
+    "distractors": [
+      "48 inches",
+      "36 inches",
+      "72 inches"
+    ],
+    "citation": "NFPA 13 (2016), Table 9.2.3.4",
+    "code_text": "1-1/2 in or larger: 60 inches."
+  },
+  {
+    "id": 200115,
+    "category": "NFPA 13 - Installation",
+    "topic": "Pipe Schedule",
+    "question": "In Light Hazard, how many sprinklers can be fed by a 1\" pipe?",
+    "answer": "2 heads",
+    "distractors": [
+      "1 head",
+      "3 heads",
+      "5 heads"
+    ],
+    "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
+    "code_text": "1 in: 2 sprinklers."
+  },
+  {
+    "id": 200116,
+    "category": "NFPA 13 - Installation",
+    "topic": "Pipe Schedule",
+    "question": "In Light Hazard, how many sprinklers can be fed by a 1½\" pipe?",
+    "answer": "5 heads",
+    "distractors": [
+      "3 heads",
+      "10 heads",
+      "2 heads"
+    ],
+    "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
+    "code_text": "1-1/2 in: 5 sprinklers."
+  },
+  {
+    "id": 200117,
+    "category": "NFPA 13 - Installation",
+    "topic": "Clearance",
+    "question": "Minimum distance between a standard sprinkler deflector and the top of storage?",
+    "answer": "18 inches",
+    "distractors": [
+      "12 inches",
+      "24 inches",
+      "36 inches"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.5.6",
+    "code_text": "Minimum of 18 in. clearance."
+  },
+  {
+    "id": 200118,
+    "category": "NFPA 13 - Installation",
+    "topic": "Obstructions",
+    "question": "Minimum distance a standard sprinkler must be from a wall?",
+    "answer": "4 inches",
+    "distractors": [
+      "6 inches",
+      "3 inches",
+      "1 inch"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.3.2.3",
+    "code_text": "Minimum of 4 in. from a wall."
+  },
+  {
+    "id": 200119,
+    "category": "NFPA 13 - Installation",
+    "topic": "Spacing",
+    "question": "Minimum distance between two standard sprinklers?",
+    "answer": "6 feet",
+    "distractors": [
+      "8 feet",
+      "4 feet",
+      "10 feet"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.3.4",
+    "code_text": "Spaced not less than 6 ft on center."
+  },
+  {
+    "id": 200122,
+    "category": "NFPA 13R - Residential",
+    "topic": "Scope",
+    "question": "NFPA 13R applies to residential buildings up to what height?",
+    "answer": "4 Stories",
+    "distractors": [
+      "3 Stories",
+      "6 Stories",
+      "High Rise"
+    ],
+    "citation": "NFPA 13R (2016), Section 1.1",
+    "code_text": "Up to and including four stories in height."
+  },
+  {
+    "id": 200123,
+    "category": "NFPA 13D - Residential",
+    "topic": "Design",
+    "question": "What is the water supply duration requirement for NFPA 13D?",
+    "answer": "10 minutes",
+    "distractors": [
+      "30 minutes",
+      "7 minutes",
+      "60 minutes"
+    ],
+    "citation": "NFPA 13D (2016), Section 6.1.2",
+    "code_text": "Water demand rate times 10 minutes."
+  },
+  {
+    "id": 201501,
+    "category": "NFPA 13 - Obstructions",
+    "topic": "Three Times Rule",
+    "question": "To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?",
+    "answer": "At least 3 times the vertical distance down to the bottom of the obstruction",
+    "distractors": [
+      "2 times the distance",
+      "4 times the distance",
+      "18 inches"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.5.1.2",
+    "code_text": "Distance from the sprinkler... not less than three times the maximum vertical distance."
+  },
+  {
+    "id": 201502,
+    "category": "NFPA 13 - Obstructions",
+    "topic": "Vertical Obstructions",
+    "question": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?",
+    "answer": "18 inches",
+    "distractors": [
+      "12 inches",
+      "24 inches",
+      "6 inches"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.6.5.2.2",
+    "code_text": "Obstruction width 1 in to 4 in -> Min distance below deflector: 18 in."
+  },
+  {
+    "id": 202701,
+    "category": "NFPA 13 - Design",
+    "topic": "Hazards",
+    "question": "A Restaurant Seating Area is classified as what hazard?",
+    "answer": "Light Hazard",
+    "distractors": [
+      "Ordinary Hazard Group 1",
+      "Ordinary Hazard Group 2",
+      "Extra Hazard"
+    ],
+    "citation": "NFPA 13 (2016), Section A.5.3.1",
+    "code_text": "Light Hazard occupancies include... Restaurant seating areas."
+  },
+  {
+    "id": 202702,
+    "category": "NFPA 13 - Design",
+    "topic": "Hazards",
+    "question": "A Restaurant Service Area (Kitchen) is classified as what hazard?",
+    "answer": "Ordinary Hazard Group 1",
+    "distractors": [
+      "Light Hazard",
+      "Ordinary Hazard Group 2",
+      "Extra Hazard"
+    ],
+    "citation": "NFPA 13 (2016), Section A.5.3.2",
+    "code_text": "Ordinary Hazard Group 1... Restaurant service areas."
+  },
+  {
+    "id": 201401,
+    "category": "NFPA 13 - Storage",
+    "topic": "Flue Space",
+    "question": "In rack storage, what is the minimum required width for a transverse flue space?",
+    "answer": "6 inches",
+    "distractors": [
+      "3 inches",
+      "12 inches",
+      "4 inches"
+    ],
+    "citation": "NFPA 13 (2016), Section 16.1.9",
+    "code_text": "Nominal 6 in. transverse flue spaces... shall be provided."
+  },
+  {
+    "id": 201402,
+    "category": "NFPA 13 - Storage",
+    "topic": "ESFR",
+    "question": "What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?",
+    "answer": "35 feet",
+    "distractors": [
+      "20 feet",
+      "50 feet",
+      "45 feet"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.12.2.2.1",
+    "code_text": "Max. Ceiling/Roof Height: 35 ft for K-14."
+  }
+]

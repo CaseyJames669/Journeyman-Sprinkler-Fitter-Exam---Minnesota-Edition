@@ -1,0 +1,72 @@
+[
+  {
+    "id": 3703501,
+    "category": "Materials Handling",
+    "topic": "CPVC",
+    "question": "How should CPVC pipe be stored at the job site?",
+    "answer": "Covered (protected from direct sunlight/UV) and flat to prevent warping",
+    "distractors": [
+      "In the sun to keep warm",
+      "Vertically leaning against a wall",
+      "Next to the diesel fuel"
+    ],
+    "citation": "Manufacturer Specs / NFPA 13",
+    "code_text": "UV exposure degrades plastic pipe over time."
+  },
+  {
+    "id": 3703502,
+    "category": "Materials Handling",
+    "topic": "Steel Pipe",
+    "question": "When storing threaded steel pipe, what should be done to the threads?",
+    "answer": "Keep protective caps on or protect from impact damage",
+    "distractors": [
+      "Sand them down",
+      "Paint them immediately",
+      "Leave them exposed"
+    ],
+    "citation": "Trade Practice",
+    "code_text": "Damaged threads are the #1 cause of leaks in threaded systems."
+  },
+  {
+    "id": 3703503,
+    "category": "Materials Handling",
+    "topic": "Rigging",
+    "question": "When lifting a bundle of pipe with a crane, what knot or hitch prevents the pipe from sliding out of the sling?",
+    "answer": "Double Wrap Choker Hitch",
+    "distractors": [
+      "Single vertical hitch",
+      "Square knot",
+      "Basket hitch"
+    ],
+    "citation": "OSHA / Rigging Basic",
+    "code_text": "Choker hitches tighten as the load is lifted; double wrap provides surface contact."
+  },
+  {
+    "id": 3703504,
+    "category": "Materials Handling",
+    "topic": "Solvent Cement",
+    "question": "Solvent cement and primers are generally classified as?",
+    "answer": "Flammable and Volatile (Require ventilation)",
+    "distractors": [
+      "Inert",
+      "Non-toxic",
+      "Water-based"
+    ],
+    "citation": "SDS / Safety",
+    "code_text": "Vapors are heavier than air and flammable."
+  },
+  {
+    "id": 3703505,
+    "category": "Materials Handling",
+    "topic": "Sprinklers",
+    "question": "If a glass bulb sprinkler is dropped on the floor during installation but looks fine, what must you do?",
+    "answer": "Discard and replace it (Invisible hairline cracks can cause failure later)",
+    "distractors": [
+      "Install it if it looks okay",
+      "Test it with a lighter",
+      "Use it as a spare"
+    ],
+    "citation": "NFPA 13 (2016), Section 6.2.6.4",
+    "code_text": "Sprinklers that have been dropped... shall not be returned to storage or installed."
+  }
+]

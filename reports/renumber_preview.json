@@ -1,0 +1,2728 @@
+{
+  "Bonus File 33 - The 'Impossible' Questions.json": {
+    "offset": 100000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 3001,
+        "new_id": 103001,
+        "question_preview": "In NEW systems (post-2012), can you use pure glycerin and mix it with water on site?"
+      },
+      {
+        "index": 1,
+        "orig_id": 3002,
+        "new_id": 103002,
+        "question_preview": "Where does the Forward Flow Test of a backflow preventer take place?"
+      },
+      {
+        "index": 2,
+        "orig_id": 3003,
+        "new_id": 103003,
+        "question_preview": "Can you drive a lag screw into the side of a wood beam (horizontal)?"
+      }
+    ]
+  },
+  "Data Block 1 - Installation (NFPA 13, 13D, 13R).json": {
+    "offset": 200000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 101,
+        "new_id": 200101,
+        "question_preview": "What is the coverage area for Light Hazard heads (Standard Spray)?"
+      },
+      {
+        "index": 1,
+        "orig_id": 102,
+        "new_id": 200102,
+        "question_preview": "What is the coverage area for Ordinary Hazard heads?"
+      },
+      {
+        "index": 2,
+        "orig_id": 103,
+        "new_id": 200103,
+        "question_preview": "What is the coverage area for Extra Hazard heads?"
+      },
+      {
+        "index": 3,
+        "orig_id": 104,
+        "new_id": 200104,
+        "question_preview": "What is the maximum distance between hangers on 1\" schedule 40 pipe?"
+      },
+      {
+        "index": 4,
+        "orig_id": 105,
+        "new_id": 200105,
+        "question_preview": "What is the maximum distance between hangers on 1¼\" schedule 40 pipe?"
+      },
+      {
+        "index": 5,
+        "orig_id": 106,
+        "new_id": 200106,
+        "question_preview": "What is the maximum distance between hangers on 1½\" schedule 40 pipe?"
+      },
+      {
+        "index": 6,
+        "orig_id": 107,
+        "new_id": 200107,
+        "question_preview": "Maximum unsupported length of pipe from end of 1\" pipe to last hanger?"
+      },
+      {
+        "index": 7,
+        "orig_id": 108,
+        "new_id": 200108,
+        "question_preview": "Maximum unsupported length of pipe from end of 1¼\" pipe to last hanger?"
+      },
+      {
+        "index": 8,
+        "orig_id": 109,
+        "new_id": 200109,
+        "question_preview": "Maximum unsupported length of pipe from end of 1½\" pipe to last hanger?"
+      },
+      {
+        "index": 9,
+        "orig_id": 115,
+        "new_id": 200115,
+        "question_preview": "In Light Hazard, how many sprinklers can be fed by a 1\" pipe?"
+      },
+      {
+        "index": 10,
+        "orig_id": 116,
+        "new_id": 200116,
+        "question_preview": "In Light Hazard, how many sprinklers can be fed by a 1½\" pipe?"
+      },
+      {
+        "index": 11,
+        "orig_id": 117,
+        "new_id": 200117,
+        "question_preview": "Minimum distance between a standard sprinkler deflector and the top of storage?"
+      },
+      {
+        "index": 12,
+        "orig_id": 118,
+        "new_id": 200118,
+        "question_preview": "Minimum distance a standard sprinkler must be from a wall?"
+      },
+      {
+        "index": 13,
+        "orig_id": 119,
+        "new_id": 200119,
+        "question_preview": "Minimum distance between two standard sprinklers?"
+      },
+      {
+        "index": 14,
+        "orig_id": 122,
+        "new_id": 200122,
+        "question_preview": "NFPA 13R applies to residential buildings up to what height?"
+      },
+      {
+        "index": 15,
+        "orig_id": 123,
+        "new_id": 200123,
+        "question_preview": "What is the water supply duration requirement for NFPA 13D?"
+      },
+      {
+        "index": 16,
+        "orig_id": 1501,
+        "new_id": 201501,
+        "question_preview": "To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?"
+      },
+      {
+        "index": 17,
+        "orig_id": 1502,
+        "new_id": 201502,
+        "question_preview": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?"
+      },
+      {
+        "index": 18,
+        "orig_id": 2701,
+        "new_id": 202701,
+        "question_preview": "A Restaurant Seating Area is classified as what hazard?"
+      },
+      {
+        "index": 19,
+        "orig_id": 2702,
+        "new_id": 202702,
+        "question_preview": "A Restaurant Service Area (Kitchen) is classified as what hazard?"
+      },
+      {
+        "index": 20,
+        "orig_id": 1401,
+        "new_id": 201401,
+        "question_preview": "In rack storage, what is the minimum required width for a transverse flue space?"
+      },
+      {
+        "index": 21,
+        "orig_id": 1402,
+        "new_id": 201402,
+        "question_preview": "What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?"
+      }
+    ]
+  },
+  "Data Block 2 - Inspection, Testing & Maintenance (NFPA 25).json": {
+    "offset": 300000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 201,
+        "new_id": 300201,
+        "question_preview": "How often do you inspect private fire hydrants?"
+      },
+      {
+        "index": 1,
+        "orig_id": 202,
+        "new_id": 300202,
+        "question_preview": "How often is a flow test conducted on a standpipe system?"
+      },
+      {
+        "index": 2,
+        "orig_id": 203,
+        "new_id": 300203,
+        "question_preview": "How often do you check water level and air pressure in a pressure tank?"
+      },
+      {
+        "index": 3,
+        "orig_id": 204,
+        "new_id": 300204,
+        "question_preview": "How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?"
+      },
+      {
+        "index": 4,
+        "orig_id": 205,
+        "new_id": 300205,
+        "question_preview": "How long must a diesel fire pump run during a weekly test?"
+      },
+      {
+        "index": 5,
+        "orig_id": 206,
+        "new_id": 300206,
+        "question_preview": "How long must an electric fire pump run during a weekly test?"
+      },
+      {
+        "index": 6,
+        "orig_id": 212,
+        "new_id": 300212,
+        "question_preview": "How often are gauges on dry/preaction/deluge systems inspected?"
+      },
+      {
+        "index": 7,
+        "orig_id": 213,
+        "new_id": 300213,
+        "question_preview": "How often are gauges on wet pipe systems inspected?"
+      },
+      {
+        "index": 8,
+        "orig_id": 220,
+        "new_id": 300220,
+        "question_preview": "How often must you operate and clean a Dry Pipe Valve?"
+      },
+      {
+        "index": 9,
+        "orig_id": 221,
+        "new_id": 300221,
+        "question_preview": "How often is a full flow trip test required for a Dry Pipe Valve?"
+      },
+      {
+        "index": 10,
+        "orig_id": 223,
+        "new_id": 300223,
+        "question_preview": "How often is the interior of the FDC piping inspected (hydrostatic test)?"
+      },
+      {
+        "index": 11,
+        "orig_id": 224,
+        "new_id": 300224,
+        "question_preview": "How often must a backflow preventer be forward flow tested?"
+      },
+      {
+        "index": 12,
+        "orig_id": 3101,
+        "new_id": 303101,
+        "question_preview": "What is the primary purpose of the main drain test?"
+      },
+      {
+        "index": 13,
+        "orig_id": 3106,
+        "new_id": 303106,
+        "question_preview": "If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?"
+      }
+    ]
+  },
+  "Data Block 3 - Equipment & Specialty Valves (NFPA 14, 20, 22, 24).json": {
+    "offset": 400000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 301,
+        "new_id": 400301,
+        "question_preview": "Minimum flow rate for the most remote standpipe in a Class I system?"
+      },
+      {
+        "index": 1,
+        "orig_id": 302,
+        "new_id": 400302,
+        "question_preview": "Minimum flow rate for each *additional* standpipe in a Class I system?"
+      },
+      {
+        "index": 2,
+        "orig_id": 303,
+        "new_id": 400303,
+        "question_preview": "Minimum residual pressure at the most remote 2½\" outlet?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2601,
+        "new_id": 402601,
+        "question_preview": "What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?"
+      },
+      {
+        "index": 4,
+        "orig_id": 2603,
+        "new_id": 402603,
+        "question_preview": "What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?"
+      },
+      {
+        "index": 5,
+        "orig_id": 305,
+        "new_id": 400305,
+        "question_preview": "What fitting is used on the suction side of a pump to prevent air pockets?"
+      },
+      {
+        "index": 6,
+        "orig_id": 1101,
+        "new_id": 401101,
+        "question_preview": "What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?"
+      },
+      {
+        "index": 7,
+        "orig_id": 1103,
+        "new_id": 401103,
+        "question_preview": "Fuel tanks for diesel fire pumps must be elevated so the supply connection is?"
+      },
+      {
+        "index": 8,
+        "orig_id": 311,
+        "new_id": 400311,
+        "question_preview": "Private fire mains under driveways must be buried how deep?"
+      },
+      {
+        "index": 9,
+        "orig_id": 1001,
+        "new_id": 401001,
+        "question_preview": "Thrust blocks are required at which locations?"
+      },
+      {
+        "index": 10,
+        "orig_id": 1004,
+        "new_id": 401004,
+        "question_preview": "What is the minimum flow rate required to flush a 4-inch underground main?"
+      },
+      {
+        "index": 11,
+        "orig_id": 3201,
+        "new_id": 403201,
+        "question_preview": "What is 'Columning' in a dry pipe valve?"
+      },
+      {
+        "index": 12,
+        "orig_id": 3202,
+        "new_id": 403202,
+        "question_preview": "In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?"
+      },
+      {
+        "index": 13,
+        "orig_id": 3203,
+        "new_id": 403203,
+        "question_preview": "What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?"
+      }
+    ]
+  },
+  "Data Block 4 - Admin, MN Rules & Safety (299M, OSHA).json": {
+    "offset": 500000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 207,
+        "new_id": 500207,
+        "question_preview": "When does a MN Sprinkler Fitter journeyman license expire?"
+      },
+      {
+        "index": 1,
+        "orig_id": 208,
+        "new_id": 500208,
+        "question_preview": "How many hours of experience are required to take the MN Journeyman exam?"
+      },
+      {
+        "index": 2,
+        "orig_id": 209,
+        "new_id": 500209,
+        "question_preview": "What is the fine for working without a license in MN?"
+      },
+      {
+        "index": 3,
+        "orig_id": 210,
+        "new_id": 500210,
+        "question_preview": "MN requires FDCs to be located between what heights?"
+      },
+      {
+        "index": 4,
+        "orig_id": 211,
+        "new_id": 500211,
+        "question_preview": "Can a control valve in a public area be unmonitored if it serves <20 heads?"
+      },
+      {
+        "index": 5,
+        "orig_id": 401,
+        "new_id": 500401,
+        "question_preview": "Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?"
+      },
+      {
+        "index": 6,
+        "orig_id": 313,
+        "new_id": 500313,
+        "question_preview": "At what depth is a ladder required in a trench?"
+      },
+      {
+        "index": 7,
+        "orig_id": 314,
+        "new_id": 500314,
+        "question_preview": "What is the max travel distance to a ladder in a trench?"
+      },
+      {
+        "index": 8,
+        "orig_id": 404,
+        "new_id": 500404,
+        "question_preview": "What is the proper ratio for leaning an extension ladder against a wall?"
+      },
+      {
+        "index": 9,
+        "orig_id": 3401,
+        "new_id": 503401,
+        "question_preview": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?"
+      },
+      {
+        "index": 10,
+        "orig_id": 3403,
+        "new_id": 503403,
+        "question_preview": "What does 'N.I.C.' usually stand for on a set of prints?"
+      }
+    ]
+  },
+  "Data Block 5 - Math, Physics & Jobsite Logic.json": {
+    "offset": 600000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 110,
+        "new_id": 600110,
+        "question_preview": "In Ordinary Hazard (130 sq ft), if heads are 12’6\" apart on the line, what is the max distance between lines?"
+      },
+      {
+        "index": 1,
+        "orig_id": 111,
+        "new_id": 600111,
+        "question_preview": "What color is the glass bulb for Ordinary Temperature (135-170°F)?"
+      },
+      {
+        "index": 2,
+        "orig_id": 113,
+        "new_id": 600113,
+        "question_preview": "What color is the glass bulb for High Temperature (250-300°F)?"
+      },
+      {
+        "index": 3,
+        "orig_id": 114,
+        "new_id": 600114,
+        "question_preview": "What color is the glass bulb for Extra High Temperature (325-375°F)?"
+      },
+      {
+        "index": 4,
+        "orig_id": 501,
+        "new_id": 600501,
+        "question_preview": "What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?"
+      },
+      {
+        "index": 5,
+        "orig_id": 502,
+        "new_id": 600502,
+        "question_preview": "What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?"
+      },
+      {
+        "index": 6,
+        "orig_id": 505,
+        "new_id": 600505,
+        "question_preview": "What is the pressure of a column of water 1 foot high (Head pressure)?"
+      },
+      {
+        "index": 7,
+        "orig_id": 506,
+        "new_id": 600506,
+        "question_preview": "How many feet of water column (Head) equal 1 psi?"
+      },
+      {
+        "index": 8,
+        "orig_id": 1801,
+        "new_id": 601801,
+        "question_preview": "What does Microbiologically Influenced Corrosion (MIC) typically smell like?"
+      },
+      {
+        "index": 9,
+        "orig_id": 4001,
+        "new_id": 604001,
+        "question_preview": "You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it?"
+      },
+      {
+        "index": 10,
+        "orig_id": 4002,
+        "new_id": 604002,
+        "question_preview": "What is the 'Ball Drip' actually for?"
+      }
+    ]
+  },
+  "File 1 - Installation & Design (NFPA 13, 13D, 13R).json": {
+    "offset": 700000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 101,
+        "new_id": 700101,
+        "question_preview": "What is the coverage area for Light Hazard heads (Standard Spray)?"
+      },
+      {
+        "index": 1,
+        "orig_id": 102,
+        "new_id": 700102,
+        "question_preview": "What is the coverage area for Ordinary Hazard heads?"
+      },
+      {
+        "index": 2,
+        "orig_id": 103,
+        "new_id": 700103,
+        "question_preview": "What is the coverage area for Extra Hazard heads?"
+      },
+      {
+        "index": 3,
+        "orig_id": 104,
+        "new_id": 700104,
+        "question_preview": "What is the maximum distance between hangers on 1\" schedule 40 pipe?"
+      },
+      {
+        "index": 4,
+        "orig_id": 105,
+        "new_id": 700105,
+        "question_preview": "What is the maximum distance between hangers on 1¼\" schedule 40 pipe?"
+      },
+      {
+        "index": 5,
+        "orig_id": 106,
+        "new_id": 700106,
+        "question_preview": "What is the maximum distance between hangers on 1½\" schedule 40 pipe?"
+      },
+      {
+        "index": 6,
+        "orig_id": 107,
+        "new_id": 700107,
+        "question_preview": "Maximum unsupported length of pipe from end of 1\" pipe to last hanger?"
+      },
+      {
+        "index": 7,
+        "orig_id": 108,
+        "new_id": 700108,
+        "question_preview": "Maximum unsupported length of pipe from end of 1¼\" pipe to last hanger?"
+      },
+      {
+        "index": 8,
+        "orig_id": 109,
+        "new_id": 700109,
+        "question_preview": "Maximum unsupported length of pipe from end of 1½\" pipe to last hanger?"
+      },
+      {
+        "index": 9,
+        "orig_id": 110,
+        "new_id": 700110,
+        "question_preview": "In Ordinary Hazard (130 sq ft), if heads are 12’6\" apart on the line, what is the max distance between lines?"
+      },
+      {
+        "index": 10,
+        "orig_id": 111,
+        "new_id": 700111,
+        "question_preview": "What color is the glass bulb for Ordinary Temperature (135-170°F)?"
+      },
+      {
+        "index": 11,
+        "orig_id": 112,
+        "new_id": 700112,
+        "question_preview": "What color is the glass bulb for Intermediate Temperature (175-225°F)?"
+      },
+      {
+        "index": 12,
+        "orig_id": 113,
+        "new_id": 700113,
+        "question_preview": "What color is the glass bulb for High Temperature (250-300°F)?"
+      },
+      {
+        "index": 13,
+        "orig_id": 114,
+        "new_id": 700114,
+        "question_preview": "What color is the glass bulb for Extra High Temperature (325-375°F)?"
+      },
+      {
+        "index": 14,
+        "orig_id": 115,
+        "new_id": 700115,
+        "question_preview": "In Light Hazard, how many sprinklers can be fed by a 1\" pipe?"
+      },
+      {
+        "index": 15,
+        "orig_id": 116,
+        "new_id": 700116,
+        "question_preview": "In Light Hazard, how many sprinklers can be fed by a 1½\" pipe?"
+      },
+      {
+        "index": 16,
+        "orig_id": 117,
+        "new_id": 700117,
+        "question_preview": "Minimum distance between a standard sprinkler deflector and the top of storage?"
+      },
+      {
+        "index": 17,
+        "orig_id": 118,
+        "new_id": 700118,
+        "question_preview": "Minimum distance a standard sprinkler must be from a wall?"
+      },
+      {
+        "index": 18,
+        "orig_id": 119,
+        "new_id": 700119,
+        "question_preview": "Minimum distance between two standard sprinklers?"
+      },
+      {
+        "index": 19,
+        "orig_id": 120,
+        "new_id": 700120,
+        "question_preview": "Pitch required for branch lines in a dry system?"
+      },
+      {
+        "index": 20,
+        "orig_id": 121,
+        "new_id": 700121,
+        "question_preview": "Pitch required for mains in a dry system?"
+      },
+      {
+        "index": 21,
+        "orig_id": 122,
+        "new_id": 700122,
+        "question_preview": "NFPA 13R applies to residential buildings up to what height?"
+      },
+      {
+        "index": 22,
+        "orig_id": 123,
+        "new_id": 700123,
+        "question_preview": "What is the water supply duration requirement for NFPA 13D?"
+      }
+    ]
+  },
+  "File 10 - The 'Math & Formula' Cheat Sheet.json": {
+    "offset": 800000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 701,
+        "new_id": 800701,
+        "question_preview": "Formula to convert Feet of Head to PSI?"
+      },
+      {
+        "index": 1,
+        "orig_id": 702,
+        "new_id": 800702,
+        "question_preview": "Formula to convert PSI to Feet of Head?"
+      },
+      {
+        "index": 2,
+        "orig_id": 703,
+        "new_id": 800703,
+        "question_preview": "What is the standard flow formula (K-Factor)?"
+      },
+      {
+        "index": 3,
+        "orig_id": 704,
+        "new_id": 800704,
+        "question_preview": "Hazen-Williams Formula: If pipe diameter DECREASES, what happens to friction loss?"
+      },
+      {
+        "index": 4,
+        "orig_id": 705,
+        "new_id": 800705,
+        "question_preview": "How many gallons are in 1 cubic foot of water?"
+      },
+      {
+        "index": 5,
+        "orig_id": 706,
+        "new_id": 800706,
+        "question_preview": "How much does 1 gallon of water weigh?"
+      },
+      {
+        "index": 6,
+        "orig_id": 707,
+        "new_id": 800707,
+        "question_preview": "Formula for Sprinkler Coverage Area (Spacing)?"
+      },
+      {
+        "index": 7,
+        "orig_id": 708,
+        "new_id": 800708,
+        "question_preview": "If the required density is 0.15 gpm/sq ft and the coverage area is 130 sq ft, what is the minimum flow (Q)?"
+      }
+    ]
+  },
+  "File 11 - The 'Minnesota Traps' & Common Mistakes.json": {
+    "offset": 900000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 801,
+        "new_id": 900801,
+        "question_preview": "MN TRAP: What is the max height of an FDC in Minnesota?"
+      },
+      {
+        "index": 1,
+        "orig_id": 802,
+        "new_id": 900802,
+        "question_preview": "MN TRAP: Does a small system (under 20 heads) require valve monitoring?"
+      },
+      {
+        "index": 2,
+        "orig_id": 803,
+        "new_id": 900803,
+        "question_preview": "Common Mistake: Can you use NFPA 13R for a 4-story building with a basement sticking 50% out of the ground?"
+      },
+      {
+        "index": 3,
+        "orig_id": 804,
+        "new_id": 900804,
+        "question_preview": "Common Mistake: Do you need sprinklers in a 50 sq ft bathroom in an NFPA 13 (Commercial) Hotel?"
+      },
+      {
+        "index": 4,
+        "orig_id": 805,
+        "new_id": 900805,
+        "question_preview": "MN TRAP: If you fail to renew your license by June 30th, can you still work?"
+      },
+      {
+        "index": 5,
+        "orig_id": 806,
+        "new_id": 900806,
+        "question_preview": "Common Mistake: What color are frame arms for 'High' temp (250-300)?"
+      },
+      {
+        "index": 6,
+        "orig_id": 807,
+        "new_id": 900807,
+        "question_preview": "Common Mistake: What color are frame arms for 'Extra High' temp (325-375)?"
+      },
+      {
+        "index": 7,
+        "orig_id": 808,
+        "new_id": 900808,
+        "question_preview": "Common Mistake: Can you install a sprinkler 2 inches from a wall?"
+      }
+    ]
+  },
+  "File 12 - Seismic Bracing & Sway.json": {
+    "offset": 1000000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 901,
+        "new_id": 1000901,
+        "question_preview": "Lateral sway braces are spaced at a maximum of what distance?"
+      },
+      {
+        "index": 1,
+        "orig_id": 902,
+        "new_id": 1000902,
+        "question_preview": "Longitudinal sway braces are spaced at a maximum of what distance?"
+      },
+      {
+        "index": 2,
+        "orig_id": 903,
+        "new_id": 1000903,
+        "question_preview": "A lateral brace must be within how many feet of the end of the pipe?"
+      },
+      {
+        "index": 3,
+        "orig_id": 904,
+        "new_id": 1000904,
+        "question_preview": "A longitudinal brace must be within how many feet of the end of the pipe?"
+      },
+      {
+        "index": 4,
+        "orig_id": 905,
+        "new_id": 1000905,
+        "question_preview": "Where are 4-way sway braces required?"
+      },
+      {
+        "index": 5,
+        "orig_id": 906,
+        "new_id": 1000906,
+        "question_preview": "On a riser, where should a flexible coupling be installed in a seismic zone?"
+      },
+      {
+        "index": 6,
+        "orig_id": 907,
+        "new_id": 1000907,
+        "question_preview": "What is the required clearance for a pipe 4 inches or larger passing through a wall in a seismic zone?"
+      },
+      {
+        "index": 7,
+        "orig_id": 908,
+        "new_id": 1000908,
+        "question_preview": "Branch lines need restraint (wraparound/clip) at the end if?"
+      }
+    ]
+  },
+  "File 13 - Underground & Thrust Blocks (NFPA 24).json": {
+    "offset": 1100000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1001,
+        "new_id": 1101001,
+        "question_preview": "Thrust blocks are required at which locations?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1002,
+        "new_id": 1101002,
+        "question_preview": "Can concrete for a thrust block cover the bolts of the fitting?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1003,
+        "new_id": 1101003,
+        "question_preview": "When using threaded rod for restraining underground pipe, what size rod is required for pipe 4\" to 8\"?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1004,
+        "new_id": 1101004,
+        "question_preview": "What is the minimum flow rate required to flush a 4-inch underground main?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1005,
+        "new_id": 1101005,
+        "question_preview": "What is the minimum flow rate required to flush a 6-inch underground main?"
+      },
+      {
+        "index": 5,
+        "orig_id": 1006,
+        "new_id": 1101006,
+        "question_preview": "Underground piping must be hydrostatically tested at what pressure?"
+      }
+    ]
+  },
+  "File 14 - Fire Pumps Advanced (NFPA 20).json": {
+    "offset": 1200000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1101,
+        "new_id": 1201101,
+        "question_preview": "What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1102,
+        "new_id": 1201102,
+        "question_preview": "The Jockey Pump stop point should be set equal to what?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1103,
+        "new_id": 1201103,
+        "question_preview": "Fuel tanks for diesel fire pumps must be elevated so the supply connection is?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1104,
+        "new_id": 1201104,
+        "question_preview": "How much fuel must a diesel fire pump tank hold?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1105,
+        "new_id": 1201105,
+        "question_preview": "What is the minimum pipe size for the relief valve discharge on a 1000 gpm pump?"
+      },
+      {
+        "index": 5,
+        "orig_id": 1106,
+        "new_id": 1201106,
+        "question_preview": "Does a jockey pump require a test header/hose valves?"
+      }
+    ]
+  },
+  "File 15 - Plan Reading & Symbols (Field Knowledge).json": {
+    "offset": 1300000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1201,
+        "new_id": 1301201,
+        "question_preview": "What does the symbol of a circle with a 'T' in the center typically represent?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1202,
+        "new_id": 1301202,
+        "question_preview": "If a drawing is scaled at 1/8\" = 1'0\", what does a line measuring 2 inches on paper represent in reality?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1203,
+        "new_id": 1301203,
+        "question_preview": "Which view shows the building as if you were looking down from above, with the roof removed?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1204,
+        "new_id": 1301204,
+        "question_preview": "Which view shows a vertical slice through the building to show heights of pipes?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1205,
+        "new_id": 1301205,
+        "question_preview": "On a sprinkler head symbol, what does 'SSU' stand for?"
+      },
+      {
+        "index": 5,
+        "orig_id": 1206,
+        "new_id": 1301206,
+        "question_preview": "On a sprinkler head symbol, what does 'SSP' stand for?"
+      }
+    ]
+  },
+  "File 16 - Final 'Cram' Facts.json": {
+    "offset": 1400000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1301,
+        "new_id": 1401301,
+        "question_preview": "What is the melting point of the solder in an ordinary temperature fusible link?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1302,
+        "new_id": 1401302,
+        "question_preview": "Water filled piping must be maintained at a minimum temperature of?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1303,
+        "new_id": 1401303,
+        "question_preview": "What is the maximum travel distance to a Class A fire extinguisher?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1304,
+        "new_id": 1401304,
+        "question_preview": "How often must fire extinguishers be visually inspected?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1305,
+        "new_id": 1401305,
+        "question_preview": "What is the minimum distance a ladder must be kept from energized power lines?"
+      }
+    ]
+  },
+  "File 17 - Storage & Special Hazards (NFPA 13).json": {
+    "offset": 1500000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1401,
+        "new_id": 1501401,
+        "question_preview": "In rack storage, what is the minimum required width for a transverse flue space?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1402,
+        "new_id": 1501402,
+        "question_preview": "What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1403,
+        "new_id": 1501403,
+        "question_preview": "When installing in-rack sprinklers, what must be installed above the sprinkler to protect it from water discharge above?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1404,
+        "new_id": 1501404,
+        "question_preview": "Idle wood pallets stored indoors cannot exceed what height without sprinkler protection?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1405,
+        "new_id": 1501405,
+        "question_preview": "Which commodity class includes wood, paper, and natural fibers?"
+      },
+      {
+        "index": 5,
+        "orig_id": 1406,
+        "new_id": 1501406,
+        "question_preview": "Expanded polystyrene (Styrofoam) is classified as what type of commodity?"
+      }
+    ]
+  },
+  "File 18 - The 'Three Times Rule' & Obstructions (NFPA 13).json": {
+    "offset": 1600000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1501,
+        "new_id": 1601501,
+        "question_preview": "To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1502,
+        "new_id": 1601502,
+        "question_preview": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1503,
+        "new_id": 1601503,
+        "question_preview": "In a hospital, do privacy curtains with a 70% open mesh at the top require sprinklers in the cubicle?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1504,
+        "new_id": 1601504,
+        "question_preview": "A soffit exceeds 12 inches in width. Do you need a sprinkler underneath it?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1505,
+        "new_id": 1601505,
+        "question_preview": "When installing sprinklers in open web trusses, how far must the deflector be from the web member?"
+      }
+    ]
+  },
+  "File 19 - System Acceptance & Flushing (NFPA 13&24).json": {
+    "offset": 1700000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1601,
+        "new_id": 1701601,
+        "question_preview": "What flow rate is required to flush a 4-inch underground main?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1602,
+        "new_id": 1701602,
+        "question_preview": "What flow rate is required to flush a 6-inch underground main?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1603,
+        "new_id": 1701603,
+        "question_preview": "What flow rate is required to flush an 8-inch underground main?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1604,
+        "new_id": 1701604,
+        "question_preview": "What is the maximum allowable pressure drop during a 2-hour hydrostatic test?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1605,
+        "new_id": 1701605,
+        "question_preview": "Who must sign the Contractor's Material and Test Certificate?"
+      }
+    ]
+  },
+  "File 2 - ITM, Rules & Admin (NFPA 25, MN Statutes).json": {
+    "offset": 1800000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 201,
+        "new_id": 1800201,
+        "question_preview": "How often do you inspect private fire hydrants?"
+      },
+      {
+        "index": 1,
+        "orig_id": 202,
+        "new_id": 1800202,
+        "question_preview": "How often is a flow test conducted on a standpipe system?"
+      },
+      {
+        "index": 2,
+        "orig_id": 203,
+        "new_id": 1800203,
+        "question_preview": "How often do you check water level and air pressure in a pressure tank?"
+      },
+      {
+        "index": 3,
+        "orig_id": 204,
+        "new_id": 1800204,
+        "question_preview": "How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?"
+      },
+      {
+        "index": 4,
+        "orig_id": 205,
+        "new_id": 1800205,
+        "question_preview": "How long must a diesel fire pump run during a weekly test?"
+      },
+      {
+        "index": 5,
+        "orig_id": 206,
+        "new_id": 1800206,
+        "question_preview": "How long must an electric fire pump run during a weekly test?"
+      },
+      {
+        "index": 6,
+        "orig_id": 207,
+        "new_id": 1800207,
+        "question_preview": "When does a MN Sprinkler Fitter journeyman license expire?"
+      },
+      {
+        "index": 7,
+        "orig_id": 208,
+        "new_id": 1800208,
+        "question_preview": "How many hours of experience are required to take the MN Journeyman exam?"
+      },
+      {
+        "index": 8,
+        "orig_id": 209,
+        "new_id": 1800209,
+        "question_preview": "What is the fine for working without a license in MN?"
+      },
+      {
+        "index": 9,
+        "orig_id": 210,
+        "new_id": 1800210,
+        "question_preview": "MN requires FDCs to be located between what heights?"
+      },
+      {
+        "index": 10,
+        "orig_id": 211,
+        "new_id": 1800211,
+        "question_preview": "Can a control valve in a public area be unmonitored if it serves <20 heads?"
+      },
+      {
+        "index": 11,
+        "orig_id": 212,
+        "new_id": 1800212,
+        "question_preview": "How often are gauges on dry/preaction/deluge systems inspected?"
+      },
+      {
+        "index": 12,
+        "orig_id": 213,
+        "new_id": 1800213,
+        "question_preview": "How often are gauges on wet pipe systems inspected?"
+      },
+      {
+        "index": 13,
+        "orig_id": 214,
+        "new_id": 1800214,
+        "question_preview": "How often are sprinkler heads inspected from the floor level?"
+      },
+      {
+        "index": 14,
+        "orig_id": 215,
+        "new_id": 1800215,
+        "question_preview": "How often are supervisory alarm devices (tampers) tested?"
+      }
+    ]
+  },
+  "File 20 - Fire Alarm & Detection Interface (NFPA 72&13).json": {
+    "offset": 1900000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1701,
+        "new_id": 1901701,
+        "question_preview": "According to NFPA 72, a waterflow switch must initiate an alarm signal within how many seconds?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1702,
+        "new_id": 1901702,
+        "question_preview": "Solenoid valves for preaction systems must be rated for what pressure?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1703,
+        "new_id": 1901703,
+        "question_preview": "A supervisory switch (tamper) must signal if the valve is closed how many turns?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1704,
+        "new_id": 1901704,
+        "question_preview": "Can a sprinkler air compressor be wired into a light circuit?"
+      }
+    ]
+  },
+  "File 21 - Corrosion, MIC & Obstructions (The 'System Killer' Deck).json": {
+    "offset": 2000000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1801,
+        "new_id": 2001801,
+        "question_preview": "What does Microbiologically Influenced Corrosion (MIC) typically smell like?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1802,
+        "new_id": 2001802,
+        "question_preview": "Which of the following is a 'trigger' requiring a comprehensive obstruction investigation?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1803,
+        "new_id": 2001803,
+        "question_preview": "Pin-hole leaks at the 6 o'clock position on a horizontal main usually indicate what?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1804,
+        "new_id": 2001804,
+        "question_preview": "What type of reaction occurs when Copper pipe touches Steel pipe without a dielectric union?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1805,
+        "new_id": 2001805,
+        "question_preview": "Why is a single air vent required on wet systems (2016 edition update)?"
+      }
+    ]
+  },
+  "File 22 - Vertical Shafts & Elevators (The 'High-Rise' Deck).json": {
+    "offset": 2100000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1901,
+        "new_id": 2101901,
+        "question_preview": "When is a sprinkler required at the BOTTOM of an elevator shaft?"
+      },
+      {
+        "index": 1,
+        "orig_id": 1902,
+        "new_id": 2101902,
+        "question_preview": "If a sprinkler is installed at the top of an elevator shaft, what else is required?"
+      },
+      {
+        "index": 2,
+        "orig_id": 1903,
+        "new_id": 2101903,
+        "question_preview": "In a linen or trash chute, where are sprinklers required?"
+      },
+      {
+        "index": 3,
+        "orig_id": 1904,
+        "new_id": 2101904,
+        "question_preview": "Do non-combustible, non-accessible vertical shafts require sprinklers?"
+      },
+      {
+        "index": 4,
+        "orig_id": 1905,
+        "new_id": 2101905,
+        "question_preview": "Where are sprinklers required in non-combustible stair shafts?"
+      }
+    ]
+  },
+  "File 23 - Pump Theory & Troubleshooting (The 'Engineer' Deck).json": {
+    "offset": 2200000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2001,
+        "new_id": 2202001,
+        "question_preview": "If a fire pump sounds like it is pumping gravel, what is happening?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2002,
+        "new_id": 2202002,
+        "question_preview": "What causes Cavitation?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2003,
+        "new_id": 2202003,
+        "question_preview": "What is 'Churn' pressure?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2004,
+        "new_id": 2202004,
+        "question_preview": "Why do we verify the pump RPM during a flow test?"
+      },
+      {
+        "index": 4,
+        "orig_id": 2005,
+        "new_id": 2202005,
+        "question_preview": "If the pump starts but fails to build pressure, what is the most likely cause?"
+      }
+    ]
+  },
+  "File 24 - Exposure Protection & Special Spray (The 'Niche' Deck).json": {
+    "offset": 2300000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2101,
+        "new_id": 2302101,
+        "question_preview": "When using sprinklers to protect a glass window (Exposure Protection), how far from the glass must the head be?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2102,
+        "new_id": 2302102,
+        "question_preview": "What is the maximum spacing between sprinklers protecting a window/cornice?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2103,
+        "new_id": 2302103,
+        "question_preview": "If using 'Specific Application Attic Sprinklers', what is the advantage?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2104,
+        "new_id": 2302104,
+        "question_preview": "When sprinklers are spaced closer than 6 feet, what must be installed?"
+      },
+      {
+        "index": 4,
+        "orig_id": 2105,
+        "new_id": 2302105,
+        "question_preview": "Dimensions of a baffle?"
+      }
+    ]
+  },
+  "File 25 - Residential Deep Dive (NFPA 13D & 13R).json": {
+    "offset": 2400000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2201,
+        "new_id": 2402201,
+        "question_preview": "In a single-family home (13D), are sprinklers required in the garage?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2202,
+        "new_id": 2402202,
+        "question_preview": "Does an NFPA 13D system require a water flow alarm notification on the exterior of the house?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2203,
+        "new_id": 2402203,
+        "question_preview": "In NFPA 13R, what is the maximum 'shadow area' (dry spot) allowed in a compartment?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2204,
+        "new_id": 2402204,
+        "question_preview": "How many spare sprinklers are required for an NFPA 13D system?"
+      },
+      {
+        "index": 4,
+        "orig_id": 2205,
+        "new_id": 2402205,
+        "question_preview": "Does NFPA 13R require sprinklers in a combustible attic (without storage/living space)?"
+      }
+    ]
+  },
+  "File 26 - Service Work & Modifications (The 'Retrofit' Deck).json": {
+    "offset": 2500000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2301,
+        "new_id": 2502301,
+        "question_preview": "When adding heads to an existing hydraulically calculated system, what must you verify?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2302,
+        "new_id": 2502302,
+        "question_preview": "If you replace a control valve on a system, what test must be performed?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2303,
+        "new_id": 2502303,
+        "question_preview": "Can you mix Standard Response and Quick Response sprinklers in the same compartment?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2304,
+        "new_id": 2502304,
+        "question_preview": "When revamping a pipe schedule system, you remove a 1\" plug and extend the line. How many heads can be on that 1\" line in Light Hazard?"
+      },
+      {
+        "index": 4,
+        "orig_id": 2305,
+        "new_id": 2502305,
+        "question_preview": "If you find a frozen pipe that has cracked, this is classified as what type of issue?"
+      }
+    ]
+  },
+  "File 27 - System Mechanics & Hardware (How it Works).json": {
+    "offset": 2600000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2401,
+        "new_id": 2602401,
+        "question_preview": "What allows a dry pipe valve to hold back 100 psi of water with only 20 psi of air?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2402,
+        "new_id": 2602402,
+        "question_preview": "What does an Accelerator do on a dry system?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2403,
+        "new_id": 2602403,
+        "question_preview": "What is the difference between an Accelerator and an Exhauster?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2404,
+        "new_id": 2602404,
+        "question_preview": "Why are Deluge systems usually tripped by a separate detection system?"
+      }
+    ]
+  },
+  "File 28 - The 'Final Boss' Scenarios (Complex Synthesis).json": {
+    "offset": 2700000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2501,
+        "new_id": 2702501,
+        "question_preview": "Scenario: You are hydro-testing a new Class I standpipe in a 4-story building. The working pressure is 160 psi. What pressure do you test at?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2502,
+        "new_id": 2702502,
+        "question_preview": "Scenario: A diesel pump room is 30°F. Is this a deficiency?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2503,
+        "new_id": 2702503,
+        "question_preview": "Scenario: You are installing heads in a room with a 20-foot ceiling. The room contains high-piled plastic storage. Can you use a Standard Spray Upright?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2504,
+        "new_id": 2702504,
+        "question_preview": "Scenario: An apprentice has worked 9000 hours but hasn't taken the test. Are they allowed to run a job site?"
+      },
+      {
+        "index": 4,
+        "orig_id": 2505,
+        "new_id": 2702505,
+        "question_preview": "Scenario: You are installing a pendant head. A 4-inch wide light fixture is 6 inches away from the head. How high above the bottom of the light must the deflector be?"
+      }
+    ]
+  },
+  "File 29 - Standpipe System Types (NFPA 14).json": {
+    "offset": 2800000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2601,
+        "new_id": 2802601,
+        "question_preview": "What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2602,
+        "new_id": 2802602,
+        "question_preview": "What is a standpipe system that contains air under pressure and admits water automatically when a hose valve is opened?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2603,
+        "new_id": 2802603,
+        "question_preview": "What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2604,
+        "new_id": 2802604,
+        "question_preview": "What is a 'Manual Wet' standpipe?"
+      },
+      {
+        "index": 4,
+        "orig_id": 2605,
+        "new_id": 2802605,
+        "question_preview": "What device allows water to flow into a Semiautomatic Dry standpipe?"
+      }
+    ]
+  },
+  "File 3 - Equipment (Pumps, Standpipes, Underground, Safety).json": {
+    "offset": 2900000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 301,
+        "new_id": 2900301,
+        "question_preview": "Minimum flow rate for the most remote standpipe in a Class I system?"
+      },
+      {
+        "index": 1,
+        "orig_id": 302,
+        "new_id": 2900302,
+        "question_preview": "Minimum flow rate for each *additional* standpipe in a Class I system?"
+      },
+      {
+        "index": 2,
+        "orig_id": 303,
+        "new_id": 2900303,
+        "question_preview": "Minimum residual pressure at the most remote 2½\" outlet?"
+      },
+      {
+        "index": 3,
+        "orig_id": 304,
+        "new_id": 2900304,
+        "question_preview": "Minimum residual pressure for a Class II (1½\") outlet?"
+      },
+      {
+        "index": 4,
+        "orig_id": 305,
+        "new_id": 2900305,
+        "question_preview": "What fitting is used on the suction side of a pump to prevent air pockets?"
+      },
+      {
+        "index": 5,
+        "orig_id": 306,
+        "new_id": 2900306,
+        "question_preview": "What fitting is used on the discharge side of a fire pump?"
+      },
+      {
+        "index": 6,
+        "orig_id": 307,
+        "new_id": 2900307,
+        "question_preview": "What is the minimum size for a sensing line (jockey/controller)?"
+      },
+      {
+        "index": 7,
+        "orig_id": 308,
+        "new_id": 2900308,
+        "question_preview": "How far above the floor must current-carrying parts of a controller be?"
+      },
+      {
+        "index": 8,
+        "orig_id": 309,
+        "new_id": 2900309,
+        "question_preview": "What is the minimum water temperature maintained in a water tank?"
+      },
+      {
+        "index": 9,
+        "orig_id": 310,
+        "new_id": 2900310,
+        "question_preview": "What is the minimum clearance under a tank?"
+      },
+      {
+        "index": 10,
+        "orig_id": 311,
+        "new_id": 2900311,
+        "question_preview": "Private fire mains under driveways must be buried how deep?"
+      },
+      {
+        "index": 11,
+        "orig_id": 312,
+        "new_id": 2900312,
+        "question_preview": "How close can a post indicator valve be to a building?"
+      },
+      {
+        "index": 12,
+        "orig_id": 313,
+        "new_id": 2900313,
+        "question_preview": "At what depth is a ladder required in a trench?"
+      },
+      {
+        "index": 13,
+        "orig_id": 314,
+        "new_id": 2900314,
+        "question_preview": "What is the max travel distance to a ladder in a trench?"
+      },
+      {
+        "index": 14,
+        "orig_id": 315,
+        "new_id": 2900315,
+        "question_preview": "What size relief valve is required for a 2500 gpm pump?"
+      }
+    ]
+  },
+  "File 30 - Commodity Classification (NFPA 13).json": {
+    "offset": 3000000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2701,
+        "new_id": 3002701,
+        "question_preview": "A Restaurant Seating Area is classified as what hazard?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2702,
+        "new_id": 3002702,
+        "question_preview": "A Restaurant Service Area (Kitchen) is classified as what hazard?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2703,
+        "new_id": 3002703,
+        "question_preview": "A Parking Garage (Automobile Parking) is classified as what hazard?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2704,
+        "new_id": 3002704,
+        "question_preview": "A Mercantile (Department Store) is classified as what hazard?"
+      },
+      {
+        "index": 4,
+        "orig_id": 2705,
+        "new_id": 3002705,
+        "question_preview": "Printing and Publishing plants are classified as what hazard?"
+      },
+      {
+        "index": 5,
+        "orig_id": 2706,
+        "new_id": 3002706,
+        "question_preview": "Plastics processing (solvent based) is classified as what hazard?"
+      }
+    ]
+  },
+  "File 31 - Electrical & Controllers (NFPA 20&70).json": {
+    "offset": 3100000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2801,
+        "new_id": 3102801,
+        "question_preview": "A fire pump controller must be dedicated to?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2802,
+        "new_id": 3102802,
+        "question_preview": "What device protects the electric fire pump motor if the phases are reversed (causing backward rotation)?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2803,
+        "new_id": 3102803,
+        "question_preview": "If a building has a backup generator for the fire pump, what device is required to switch from normal power to generator power?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2804,
+        "new_id": 3102804,
+        "question_preview": "Fire pump controllers must be within sight of the motor. This typically means they are located within how many feet?"
+      }
+    ]
+  },
+  "File 32 - Confined Space & Safety (OSHA).json": {
+    "offset": 3200000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 2901,
+        "new_id": 3202901,
+        "question_preview": "A valve pit or water tank is considered what type of space?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2902,
+        "new_id": 3202902,
+        "question_preview": "Before entering a Permit-Required Confined Space (like an empty pressure tank), what must be tested first?"
+      },
+      {
+        "index": 2,
+        "orig_id": 2903,
+        "new_id": 3202903,
+        "question_preview": "Spoil piles (dirt) must be kept how far back from the edge of a trench?"
+      },
+      {
+        "index": 3,
+        "orig_id": 2904,
+        "new_id": 3202904,
+        "question_preview": "When is a 'Safety Monitor' (a person watching) allowed as the only fall protection?"
+      }
+    ]
+  },
+  "File 34 - The 'Exam Killer' Recovery (NFPA 25 ITM).json": {
+    "offset": 3300000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 3101,
+        "new_id": 3303101,
+        "question_preview": "What is the primary purpose of the main drain test?"
+      },
+      {
+        "index": 1,
+        "orig_id": 3102,
+        "new_id": 3303102,
+        "question_preview": "If a gauge is reading 0 psi on the system side of a check valve, what does this likely indicate?"
+      },
+      {
+        "index": 2,
+        "orig_id": 3103,
+        "new_id": 3303103,
+        "question_preview": "During an annual floor level inspection, you see a sprinkler heavily loaded with dust. What is the required action?"
+      },
+      {
+        "index": 3,
+        "orig_id": 3104,
+        "new_id": 3303104,
+        "question_preview": "How soon must a preaction/deluge valve be trip tested after installation?"
+      },
+      {
+        "index": 4,
+        "orig_id": 3105,
+        "new_id": 3303105,
+        "question_preview": "You inspect an FDC and find the swivel caps are missing. Is this a deficiency?"
+      },
+      {
+        "index": 5,
+        "orig_id": 3106,
+        "new_id": 3303106,
+        "question_preview": "If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?"
+      }
+    ]
+  },
+  "File 35 - Specialty Valves & Devices (Topic 12).json": {
+    "offset": 3400000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 3201,
+        "new_id": 3403201,
+        "question_preview": "What is 'Columning' in a dry pipe valve?"
+      },
+      {
+        "index": 1,
+        "orig_id": 3202,
+        "new_id": 3403202,
+        "question_preview": "In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?"
+      },
+      {
+        "index": 2,
+        "orig_id": 3203,
+        "new_id": 3403203,
+        "question_preview": "What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?"
+      },
+      {
+        "index": 3,
+        "orig_id": 3204,
+        "new_id": 3403204,
+        "question_preview": "If a dry pipe valve trips but water does not reach the inspector's test within 60 seconds, what is the issue?"
+      },
+      {
+        "index": 4,
+        "orig_id": 3205,
+        "new_id": 3403205,
+        "question_preview": "Where is a check valve required in the FDC piping?"
+      }
+    ]
+  },
+  "File 36 - Sprinkler Logic & Fittings (Topics 9 & 13).json": {
+    "offset": 3500000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 3301,
+        "new_id": 3503301,
+        "question_preview": "When reducing pipe size, which fitting type is prohibited for drain ability?"
+      },
+      {
+        "index": 1,
+        "orig_id": 3302,
+        "new_id": 3503302,
+        "question_preview": "Are you allowed to weld a tab onto a sprinkler pipe to hang it?"
+      },
+      {
+        "index": 2,
+        "orig_id": 3303,
+        "new_id": 3503303,
+        "question_preview": "You are installing upright sprinklers on a pitched roof (4/12 pitch). How should the deflector be oriented?"
+      },
+      {
+        "index": 3,
+        "orig_id": 3304,
+        "new_id": 3503304,
+        "question_preview": "A pendant sprinkler is 5 inches from a wall. The wall has a 2-inch deep cabinet mounted on it. Is this allowed?"
+      },
+      {
+        "index": 4,
+        "orig_id": 3305,
+        "new_id": 3503305,
+        "question_preview": "What temperature sprinkler is required in an unventilated attic?"
+      },
+      {
+        "index": 5,
+        "orig_id": 3306,
+        "new_id": 3503306,
+        "question_preview": "During the hydrostatic test, the pressure drops 2 psi in 2 hours due to temperature fluctuation. Is this a fail?"
+      }
+    ]
+  },
+  "File 37 - Contracts, Drawings & Specifications (Topic 1 & 3).json": {
+    "offset": 3600000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 3401,
+        "new_id": 3603401,
+        "question_preview": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?"
+      },
+      {
+        "index": 1,
+        "orig_id": 3402,
+        "new_id": 3603402,
+        "question_preview": "If a plan is drawn to 1/4\" = 1'0\" scale, and a pipe measures 3 inches long on the paper, how long is the pipe in reality?"
+      },
+      {
+        "index": 2,
+        "orig_id": 3403,
+        "new_id": 3603403,
+        "question_preview": "What does 'N.I.C.' usually stand for on a set of prints?"
+      },
+      {
+        "index": 3,
+        "orig_id": 3404,
+        "new_id": 3603404,
+        "question_preview": "Which of the following is REQUIRED to be shown on the hydraulic calculation sheets?"
+      },
+      {
+        "index": 4,
+        "orig_id": 3405,
+        "new_id": 3603405,
+        "question_preview": "On a reflected ceiling plan, what does 'AFF' mean?"
+      }
+    ]
+  },
+  "File 38 - Materials Handling & Jobsite Safety (Topic 5).json": {
+    "offset": 3700000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 3501,
+        "new_id": 3703501,
+        "question_preview": "How should CPVC pipe be stored at the job site?"
+      },
+      {
+        "index": 1,
+        "orig_id": 3502,
+        "new_id": 3703502,
+        "question_preview": "When storing threaded steel pipe, what should be done to the threads?"
+      },
+      {
+        "index": 2,
+        "orig_id": 3503,
+        "new_id": 3703503,
+        "question_preview": "When lifting a bundle of pipe with a crane, what knot or hitch prevents the pipe from sliding out of the sling?"
+      },
+      {
+        "index": 3,
+        "orig_id": 3504,
+        "new_id": 3703504,
+        "question_preview": "Solvent cement and primers are generally classified as?"
+      },
+      {
+        "index": 4,
+        "orig_id": 3505,
+        "new_id": 3703505,
+        "question_preview": "If a glass bulb sprinkler is dropped on the floor during installation but looks fine, what must you do?"
+      }
+    ]
+  },
+  "File 39 - The 'Day Before' Rapid Review (Numbers Only).json": {
+    "offset": 3800000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 3601,
+        "new_id": 3803601,
+        "question_preview": "Distance between hangers (1\" Steel)?"
+      },
+      {
+        "index": 1,
+        "orig_id": 3602,
+        "new_id": 3803602,
+        "question_preview": "Distance between hangers (1-1/4\" Steel)?"
+      },
+      {
+        "index": 2,
+        "orig_id": 3603,
+        "new_id": 3803603,
+        "question_preview": "Distance between hangers (1-1/2\" Steel)?"
+      },
+      {
+        "index": 3,
+        "orig_id": 3604,
+        "new_id": 3803604,
+        "question_preview": "Max distance from wall (Standard Head)?"
+      },
+      {
+        "index": 4,
+        "orig_id": 3605,
+        "new_id": 3803605,
+        "question_preview": "Max distance from wall (Extended Coverage)?"
+      },
+      {
+        "index": 5,
+        "orig_id": 3606,
+        "new_id": 3803606,
+        "question_preview": "MN FDC Height?"
+      },
+      {
+        "index": 6,
+        "orig_id": 3607,
+        "new_id": 3803607,
+        "question_preview": "Friction Loss C-Factor (Steel Wet)?"
+      },
+      {
+        "index": 7,
+        "orig_id": 3608,
+        "new_id": 3803608,
+        "question_preview": "Friction Loss C-Factor (Steel Dry)?"
+      },
+      {
+        "index": 8,
+        "orig_id": 3609,
+        "new_id": 3803609,
+        "question_preview": "Max time for water to reach inspector's test (Dry)?"
+      },
+      {
+        "index": 9,
+        "orig_id": 3610,
+        "new_id": 3803610,
+        "question_preview": "Hydrostatic Test Pressure?"
+      },
+      {
+        "index": 10,
+        "orig_id": 3611,
+        "new_id": 3803611,
+        "question_preview": "Air Test Pressure (24 hour)?"
+      },
+      {
+        "index": 11,
+        "orig_id": 3612,
+        "new_id": 3803612,
+        "question_preview": "Weekly Pump Run (Electric)?"
+      },
+      {
+        "index": 12,
+        "orig_id": 3613,
+        "new_id": 3803613,
+        "question_preview": "Weekly Pump Run (Diesel)?"
+      },
+      {
+        "index": 13,
+        "orig_id": 3614,
+        "new_id": 3803614,
+        "question_preview": "Main Drain Test Frequency?"
+      },
+      {
+        "index": 14,
+        "orig_id": 3615,
+        "new_id": 3803615,
+        "question_preview": "Flow Test Standpipe Frequency?"
+      },
+      {
+        "index": 15,
+        "orig_id": 3616,
+        "new_id": 3803616,
+        "question_preview": "Deflector distance below beam (if 6\" away)?"
+      }
+    ]
+  },
+  "File 4 - Installation Part 2 (Hangers, Materials, Obstructions).json": {
+    "offset": 3900000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 124,
+        "new_id": 3900124,
+        "question_preview": "What is the maximum distance between hangers on 1\" copper tube?"
+      },
+      {
+        "index": 1,
+        "orig_id": 125,
+        "new_id": 3900125,
+        "question_preview": "What is the maximum distance between hangers on 1½\" copper tube?"
+      },
+      {
+        "index": 2,
+        "orig_id": 126,
+        "new_id": 3900126,
+        "question_preview": "What is the maximum distance between hangers on ¾\" CPVC?"
+      },
+      {
+        "index": 3,
+        "orig_id": 127,
+        "new_id": 3900127,
+        "question_preview": "What is the maximum distance between hangers on 1\" CPVC?"
+      },
+      {
+        "index": 4,
+        "orig_id": 128,
+        "new_id": 3900128,
+        "question_preview": "What is the minimum size pipe allowed for a trapeze member spanning 5 feet or less?"
+      },
+      {
+        "index": 5,
+        "orig_id": 129,
+        "new_id": 3900129,
+        "question_preview": "How large must a ceiling fan be to be considered an obstruction requiring a sprinkler above/below?"
+      },
+      {
+        "index": 6,
+        "orig_id": 130,
+        "new_id": 3900130,
+        "question_preview": "Standard sprinklers must be located at least how far from a continuous obstruction (like a beam) to avoid 'skipping'?"
+      },
+      {
+        "index": 7,
+        "orig_id": 131,
+        "new_id": 3900131,
+        "question_preview": "What is the maximum distance a sprinkler deflector can be located above the bottom of a solid obstruction (Beam Rule)?"
+      },
+      {
+        "index": 8,
+        "orig_id": 132,
+        "new_id": 3900132,
+        "question_preview": "When are return bends required for pendant sprinklers?"
+      },
+      {
+        "index": 9,
+        "orig_id": 133,
+        "new_id": 3900133,
+        "question_preview": "In a seismic zone, what is the maximum clearance allowed around a pipe penetrating a wall (without a flexible coupling)?"
+      },
+      {
+        "index": 10,
+        "orig_id": 134,
+        "new_id": 3900134,
+        "question_preview": "A quick-opening device (QOD) is required on a dry system when the capacity exceeds?"
+      },
+      {
+        "index": 11,
+        "orig_id": 135,
+        "new_id": 3900135,
+        "question_preview": "Which system requires a supplemental detection system to activate?"
+      },
+      {
+        "index": 12,
+        "orig_id": 136,
+        "new_id": 3900136,
+        "question_preview": "What is the maximum capacity of an antifreeze system piping loop?"
+      },
+      {
+        "index": 13,
+        "orig_id": 137,
+        "new_id": 3900137,
+        "question_preview": "Post Indicator Valves (PIV) must be set so the top of the post is how high above grade?"
+      },
+      {
+        "index": 14,
+        "orig_id": 138,
+        "new_id": 3900138,
+        "question_preview": "What is the minimum letter height for hydraulic design information signs?"
+      }
+    ]
+  },
+  "File 40 - The Break Room Deck.json": {
+    "offset": 4000000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 4001,
+        "new_id": 4004001,
+        "question_preview": "You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it, or are you just hand-tightening it like a prom date?"
+      },
+      {
+        "index": 1,
+        "orig_id": 4002,
+        "new_id": 4004002,
+        "question_preview": "What is the 'Ball Drip' actually for? (And no, it's not for what you think it is)."
+      },
+      {
+        "index": 2,
+        "orig_id": 4003,
+        "new_id": 4004003,
+        "question_preview": "When you're mating a gasket, what do you use? Don't say spit."
+      },
+      {
+        "index": 3,
+        "orig_id": 4004,
+        "new_id": 4004004,
+        "question_preview": "The foreman tells you to grab a 'Widow Maker.' What is he asking for?"
+      },
+      {
+        "index": 4,
+        "orig_id": 4005,
+        "new_id": 4004005,
+        "question_preview": "You just cut a piece of threaded pipe. If you don't ream the inside, what are you?"
+      }
+    ]
+  },
+  "File 5 - ITM Part 2 (Testing, Maintenance, & Frequencies).json": {
+    "offset": 4100000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 216,
+        "new_id": 4100216,
+        "question_preview": "How often should gauges be replaced or tested against a calibrated gauge?"
+      },
+      {
+        "index": 1,
+        "orig_id": 217,
+        "new_id": 4100217,
+        "question_preview": "How often must standard response sprinklers be tested or replaced (after initial service)?"
+      },
+      {
+        "index": 2,
+        "orig_id": 218,
+        "new_id": 4100218,
+        "question_preview": "How often are Quick Response sprinklers tested (after initial 20 years)?"
+      },
+      {
+        "index": 3,
+        "orig_id": 219,
+        "new_id": 4100219,
+        "question_preview": "Dry sprinklers must be tested or replaced after how many years?"
+      },
+      {
+        "index": 4,
+        "orig_id": 220,
+        "new_id": 4100220,
+        "question_preview": "How often must you operate and clean a Dry Pipe Valve?"
+      },
+      {
+        "index": 5,
+        "orig_id": 221,
+        "new_id": 4100221,
+        "question_preview": "How often is a full flow trip test required for a Dry Pipe Valve?"
+      },
+      {
+        "index": 6,
+        "orig_id": 222,
+        "new_id": 4100222,
+        "question_preview": "How often is an internal assessment of piping required (for obstruction)?"
+      },
+      {
+        "index": 7,
+        "orig_id": 223,
+        "new_id": 4100223,
+        "question_preview": "How often is the interior of the FDC piping inspected (hydrostatic test)?"
+      },
+      {
+        "index": 8,
+        "orig_id": 224,
+        "new_id": 4100224,
+        "question_preview": "How often must a backflow preventer be forward flow tested?"
+      },
+      {
+        "index": 9,
+        "orig_id": 225,
+        "new_id": 4100225,
+        "question_preview": "How often must antifreeze solution be tested?"
+      },
+      {
+        "index": 10,
+        "orig_id": 226,
+        "new_id": 4100226,
+        "question_preview": "How often are Vane-type (paddle) waterflow switches tested?"
+      },
+      {
+        "index": 11,
+        "orig_id": 227,
+        "new_id": 4100227,
+        "question_preview": "How often are Mechanical waterflow alarms (gongs) tested?"
+      },
+      {
+        "index": 12,
+        "orig_id": 228,
+        "new_id": 4100228,
+        "question_preview": "How often must an apprentice renew their registration in MN?"
+      },
+      {
+        "index": 13,
+        "orig_id": 229,
+        "new_id": 4100229,
+        "question_preview": "What is the maximum ratio of apprentices to journeymen allowed on a job site?"
+      },
+      {
+        "index": 14,
+        "orig_id": 230,
+        "new_id": 4100230,
+        "question_preview": "How often should control valves be operated through their full range of motion?"
+      }
+    ]
+  },
+  "File 6 -Advanced Installation & Special Components.json": {
+    "offset": 4200000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 139,
+        "new_id": 4200139,
+        "question_preview": "How much weight does water add to 4\" schedule 40 pipe (approx per foot)?"
+      },
+      {
+        "index": 1,
+        "orig_id": 140,
+        "new_id": 4200140,
+        "question_preview": "Where must the list of spare sprinklers be stored?"
+      },
+      {
+        "index": 2,
+        "orig_id": 141,
+        "new_id": 4200141,
+        "question_preview": "Are heat collectors (plates to catch heat) allowed to be used to lower the sprinkler activation time?"
+      },
+      {
+        "index": 3,
+        "orig_id": 142,
+        "new_id": 4200142,
+        "question_preview": "What is the maximum length of a flexible sprinkler hose fitting (drop) before it must be supported?"
+      },
+      {
+        "index": 4,
+        "orig_id": 143,
+        "new_id": 4200143,
+        "question_preview": "Where must the Inspector's Test Connection be located on a wet system?"
+      },
+      {
+        "index": 5,
+        "orig_id": 144,
+        "new_id": 4200144,
+        "question_preview": "Where must the Inspector's Test Connection be located on a dry system?"
+      },
+      {
+        "index": 6,
+        "orig_id": 145,
+        "new_id": 4200145,
+        "question_preview": "If a system's working pressure is 200 psi, what pressure must it be hydrostatically tested at?"
+      },
+      {
+        "index": 7,
+        "orig_id": 146,
+        "new_id": 4200146,
+        "question_preview": "How do you size the main drain for a 3\" riser?"
+      },
+      {
+        "index": 8,
+        "orig_id": 147,
+        "new_id": 4200147,
+        "question_preview": "What is the minimum clearance between a hanger and an upright sprinkler?"
+      },
+      {
+        "index": 9,
+        "orig_id": 148,
+        "new_id": 4200148,
+        "question_preview": "What is the typical water-to-air ratio of a differential dry pipe valve?"
+      },
+      {
+        "index": 10,
+        "orig_id": 149,
+        "new_id": 4200149,
+        "question_preview": "If a sprinkler is installed less than 1 foot from a heat source (unit heater), what temperature rating is required?"
+      },
+      {
+        "index": 11,
+        "orig_id": 150,
+        "new_id": 4200150,
+        "question_preview": "What is the name of the plate installed at the bottom of a suction tank to prevent air from entering the pump?"
+      }
+    ]
+  },
+  "File 7 - MN Rules, Safety & Final Details.json": {
+    "offset": 4300000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 401,
+        "new_id": 4300401,
+        "question_preview": "Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?"
+      },
+      {
+        "index": 1,
+        "orig_id": 402,
+        "new_id": 4300402,
+        "question_preview": "Where must the Contractor's license number be displayed?"
+      },
+      {
+        "index": 2,
+        "orig_id": 403,
+        "new_id": 4300403,
+        "question_preview": "When is hearing protection required by OSHA?"
+      },
+      {
+        "index": 3,
+        "orig_id": 404,
+        "new_id": 4300404,
+        "question_preview": "What is the proper ratio for leaning an extension ladder against a wall?"
+      },
+      {
+        "index": 4,
+        "orig_id": 405,
+        "new_id": 4300405,
+        "question_preview": "At what height is fall protection generally required in construction?"
+      },
+      {
+        "index": 5,
+        "orig_id": 406,
+        "new_id": 4300406,
+        "question_preview": "Where must the hydraulic design information sign be placed?"
+      },
+      {
+        "index": 6,
+        "orig_id": 407,
+        "new_id": 4300407,
+        "question_preview": "When joining pipe with threaded unions, what is the maximum pipe size allowed?"
+      },
+      {
+        "index": 7,
+        "orig_id": 408,
+        "new_id": 4300408,
+        "question_preview": "If rust or scale is found during an internal inspection, what is the next required step?"
+      },
+      {
+        "index": 8,
+        "orig_id": 409,
+        "new_id": 4300409,
+        "question_preview": "What must be installed on sprinklers subject to mechanical injury (e.g., low gym ceilings)?"
+      },
+      {
+        "index": 9,
+        "orig_id": 410,
+        "new_id": 4300410,
+        "question_preview": "How much clearance is required around a pipe penetrating a platform/floor (non-seismic)?"
+      },
+      {
+        "index": 10,
+        "orig_id": 411,
+        "new_id": 4300411,
+        "question_preview": "What is the maximum distance from the end of the pipe to the last lateral sway brace?"
+      },
+      {
+        "index": 11,
+        "orig_id": 412,
+        "new_id": 4300412,
+        "question_preview": "Can a Journeyman license be transferred to another person?"
+      }
+    ]
+  },
+  "File 8 - Hydraulics, C-Factors & Math.json": {
+    "offset": 4400000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 501,
+        "new_id": 4400501,
+        "question_preview": "What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?"
+      },
+      {
+        "index": 1,
+        "orig_id": 502,
+        "new_id": 4400502,
+        "question_preview": "What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?"
+      },
+      {
+        "index": 2,
+        "orig_id": 503,
+        "new_id": 4400503,
+        "question_preview": "What is the Hazen-Williams C-Factor for CPVC or Copper tube?"
+      },
+      {
+        "index": 3,
+        "orig_id": 504,
+        "new_id": 4400504,
+        "question_preview": "When calculating friction loss, a fitting (like an elbow) is converted into feet of pipe. What is this called?"
+      },
+      {
+        "index": 4,
+        "orig_id": 505,
+        "new_id": 4400505,
+        "question_preview": "What is the pressure of a column of water 1 foot high (Head pressure)?"
+      },
+      {
+        "index": 5,
+        "orig_id": 506,
+        "new_id": 4400506,
+        "question_preview": "How many feet of water column (Head) equal 1 psi?"
+      },
+      {
+        "index": 6,
+        "orig_id": 507,
+        "new_id": 4400507,
+        "question_preview": "If a gauge at the bottom of a 100-foot riser reads 50 psi, and the gauge at the top reads 6.7 psi, is this normal? (Static pressure)"
+      },
+      {
+        "index": 7,
+        "orig_id": 508,
+        "new_id": 4400508,
+        "question_preview": "What happens to friction loss if you double the flow (GPM) through the same size pipe?"
+      },
+      {
+        "index": 8,
+        "orig_id": 509,
+        "new_id": 4400509,
+        "question_preview": "Which of the following is NOT required on a hydraulic information sign?"
+      },
+      {
+        "index": 9,
+        "orig_id": 510,
+        "new_id": 4400510,
+        "question_preview": "A fire pump must be able to provide 150% of rated flow at what percent of rated pressure?"
+      }
+    ]
+  },
+  "File 9 - Definitions & Tricky Details.json": {
+    "offset": 4500000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 601,
+        "new_id": 4500601,
+        "question_preview": "What is a valve that has components that show if the valve is open or closed?"
+      },
+      {
+        "index": 1,
+        "orig_id": 602,
+        "new_id": 4500602,
+        "question_preview": "What is a sprinkler where the frame arms are mounted above the deflector called?"
+      },
+      {
+        "index": 2,
+        "orig_id": 603,
+        "new_id": 4500603,
+        "question_preview": "What is a sprinkler designed to be installed on the wall and discharge water horizontally?"
+      },
+      {
+        "index": 3,
+        "orig_id": 604,
+        "new_id": 4500604,
+        "question_preview": "How far can a sprinkler deflector be located down from the peak of a pitched roof?"
+      },
+      {
+        "index": 4,
+        "orig_id": 605,
+        "new_id": 4500605,
+        "question_preview": "If a system is out of service for more than how many hours must the Fire Department be notified?"
+      },
+      {
+        "index": 5,
+        "orig_id": 606,
+        "new_id": 4500606,
+        "question_preview": "During a hydrostatic test, if the weather is freezing, can air be used?"
+      },
+      {
+        "index": 6,
+        "orig_id": 607,
+        "new_id": 4500607,
+        "question_preview": "When can you use 'bushings' to change pipe size?"
+      },
+      {
+        "index": 7,
+        "orig_id": 608,
+        "new_id": 4500608,
+        "question_preview": "What happens if you paint a sprinkler head?"
+      },
+      {
+        "index": 8,
+        "orig_id": 609,
+        "new_id": 4500609,
+        "question_preview": "If installing sprinklers under a garage door in the open position, what type of sprinkler is often used?"
+      },
+      {
+        "index": 9,
+        "orig_id": 610,
+        "new_id": 4500610,
+        "question_preview": "How often is the hydraulic design information sign inspected?"
+      },
+      {
+        "index": 10,
+        "orig_id": 611,
+        "new_id": 4500611,
+        "question_preview": "Where do all sprinkler system drains discharge to?"
+      }
+    ]
+  },
+  "file1.json": {
+    "offset": 4600000,
+    "mappings": [
+      {
+        "index": 0,
+        "orig_id": 1,
+        "new_id": 4600001,
+        "question_preview": "How often do you inspect private fire hydrants?"
+      },
+      {
+        "index": 1,
+        "orig_id": 2,
+        "new_id": 4600002,
+        "question_preview": "What is NFPA 13R used for?"
+      },
+      {
+        "index": 2,
+        "orig_id": 3,
+        "new_id": 4600003,
+        "question_preview": "What is the coverage area for Ordinary Hazard heads (Standard Spray)?"
+      },
+      {
+        "index": 3,
+        "orig_id": 4,
+        "new_id": 4600004,
+        "question_preview": "What is the coverage area for Light Hazard heads (Standard Spray)?"
+      },
+      {
+        "index": 4,
+        "orig_id": 5,
+        "new_id": 4600005,
+        "question_preview": "In Ordinary Hazard, if heads are 12’6\" apart along the branch line, what is the max distance between lines?"
+      },
+      {
+        "index": 5,
+        "orig_id": 6,
+        "new_id": 4600006,
+        "question_preview": "What are the GLASS BULB colors for Extra High temperature rating (325-375°F)?"
+      },
+      {
+        "index": 6,
+        "orig_id": 7,
+        "new_id": 4600007,
+        "question_preview": "What color FRAME ARMS are on extra high temp sprinkler heads (Fusible Link)?"
+      },
+      {
+        "index": 7,
+        "orig_id": 8,
+        "new_id": 4600008,
+        "question_preview": "True or False: Control valves in public areas with 20 or fewer sprinklers do NOT need to be monitored or locked."
+      },
+      {
+        "index": 8,
+        "orig_id": 9,
+        "new_id": 4600009,
+        "question_preview": "How often is the interior of a pressure tank inspected?"
+      },
+      {
+        "index": 9,
+        "orig_id": 10,
+        "new_id": 4600010,
+        "question_preview": "What pipe sizes can feed 1½\" hose lines for runs over 80 feet?"
+      },
+      {
+        "index": 10,
+        "orig_id": 11,
+        "new_id": 4600011,
+        "question_preview": "What is the maximum unsupported length of pipe from the end of a 1¼\" pipe to the last hanger?"
+      },
+      {
+        "index": 11,
+        "orig_id": 12,
+        "new_id": 4600012,
+        "question_preview": "What is the required duration of water supply for NFPA 13D systems?"
+      },
+      {
+        "index": 12,
+        "orig_id": 13,
+        "new_id": 4600013,
+        "question_preview": "Why must a check valve with a 3/32\" hole in the Clapper be installed in the riser below the test valve in freezer spaces?"
+      },
+      {
+        "index": 13,
+        "orig_id": 14,
+        "new_id": 4600014,
+        "question_preview": "What is the maximum time allowed for mechanical water flow alarms to sound?"
+      },
+      {
+        "index": 14,
+        "orig_id": 15,
+        "new_id": 4600015,
+        "question_preview": "What are the flow requirements for the most remote standpipe in a Class I system?"
+      },
+      {
+        "index": 15,
+        "orig_id": 16,
+        "new_id": 4600016,
+        "question_preview": "A tank fill bypass must be capable of filling the tank in how many hours?"
+      },
+      {
+        "index": 16,
+        "orig_id": 17,
+        "new_id": 4600017,
+        "question_preview": "What is the fine for working in Minnesota without a journeyman's license?"
+      },
+      {
+        "index": 17,
+        "orig_id": 18,
+        "new_id": 4600018,
+        "question_preview": "What is the maximum distance between hangers on 1\" schedule 40 steel pipe?"
+      },
+      {
+        "index": 18,
+        "orig_id": 19,
+        "new_id": 4600019,
+        "question_preview": "In Minnesota, FDCs must be located between what heights above grade?"
+      },
+      {
+        "index": 19,
+        "orig_id": 20,
+        "new_id": 4600020,
+        "question_preview": "How long must a diesel fire pump run during a weekly test?"
+      },
+      {
+        "index": 20,
+        "orig_id": 21,
+        "new_id": 4600021,
+        "question_preview": "What is the required pitch for branch lines in a dry system?"
+      },
+      {
+        "index": 21,
+        "orig_id": 22,
+        "new_id": 4600022,
+        "question_preview": "What is the maximum pipe size a toggle hanger can support?"
+      },
+      {
+        "index": 22,
+        "orig_id": 23,
+        "new_id": 4600023,
+        "question_preview": "How many heads are allowed on branch lines on either side of a cross main (Light Hazard Schedule)?"
+      },
+      {
+        "index": 23,
+        "orig_id": 24,
+        "new_id": 4600024,
+        "question_preview": "What is the minimum distance a standard sprinkler head can be from the wall?"
+      },
+      {
+        "index": 24,
+        "orig_id": 25,
+        "new_id": 4600025,
+        "question_preview": "In a trench 4 feet or deeper, what is the maximum spacing between exit ladders?"
+      },
+      {
+        "index": 25,
+        "orig_id": 26,
+        "new_id": 4600026,
+        "question_preview": "What is the required main drain size for a 4\" riser?"
+      },
+      {
+        "index": 26,
+        "orig_id": 27,
+        "new_id": 4600027,
+        "question_preview": "What is the standard hydrostatic test pressure for a system with normal working pressure?"
+      },
+      {
+        "index": 27,
+        "orig_id": 28,
+        "new_id": 4600028,
+        "question_preview": "How many heads can a system have before an FDC is required?"
+      },
+      {
+        "index": 28,
+        "orig_id": 29,
+        "new_id": 4600029,
+        "question_preview": "What fitting is used on the suction side of a fire pump to prevent air pockets?"
+      },
+      {
+        "index": 29,
+        "orig_id": 30,
+        "new_id": 4600030,
+        "question_preview": "What is the maximum square footage of a light hazard zone?"
+      },
+      {
+        "index": 30,
+        "orig_id": 31,
+        "new_id": 4600031,
+        "question_preview": "How often do you check air and water levels on a pressure tank?"
+      },
+      {
+        "index": 31,
+        "orig_id": 32,
+        "new_id": 4600032,
+        "question_preview": "What is the allowable air leakage rate for a new dry system during the 24-hour test?"
+      },
+      {
+        "index": 32,
+        "orig_id": 33,
+        "new_id": 4600033,
+        "question_preview": "How many hours of practical experience are required for the MN Journeyman test?"
+      },
+      {
+        "index": 33,
+        "orig_id": 34,
+        "new_id": 4600034,
+        "question_preview": "What is the minimum amount of time a control valve should take to close?"
+      },
+      {
+        "index": 34,
+        "orig_id": 35,
+        "new_id": 4600035,
+        "question_preview": "What size rod is required for hanging 10-inch and 12-inch pipe?"
+      },
+      {
+        "index": 35,
+        "orig_id": 36,
+        "new_id": 4600036,
+        "question_preview": "How many spare sprinklers are required for a system with 400 heads?"
+      },
+      {
+        "index": 36,
+        "orig_id": 37,
+        "new_id": 4600037,
+        "question_preview": "What is the minimum bury depth for private fire service mains under driveways?"
+      },
+      {
+        "index": 37,
+        "orig_id": 38,
+        "new_id": 4600038,
+        "question_preview": "Components in an aboveground system shall be rated for what minimum pressure?"
+      },
+      {
+        "index": 38,
+        "orig_id": 39,
+        "new_id": 4600039,
+        "question_preview": "Fire pump controllers must be mounted at least how far above the floor?"
+      },
+      {
+        "index": 39,
+        "orig_id": 40,
+        "new_id": 4600040,
+        "question_preview": "What is the maximum coverage area per sprinkler for ESFR heads?"
+      }
+    ]
+  }
+}

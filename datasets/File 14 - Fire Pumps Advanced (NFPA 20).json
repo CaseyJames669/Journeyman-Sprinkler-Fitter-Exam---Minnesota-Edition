@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1201101,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Jockey Pump",
+    "question": "What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?",
+    "answer": "To make up for minor leaks and maintain pressure without running the main pump",
+    "distractors": [
+      "To help the main pump during a fire",
+      "To test the system",
+      "To prevent freezing"
+    ],
+    "citation": "NFPA 20 (2016), Section 4.25",
+    "code_text": "Pressure maintenance pumps... make up for allowable leakage."
+  },
+  {
+    "id": 1201102,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Settings",
+    "question": "The Jockey Pump stop point should be set equal to what?",
+    "answer": "The pump churn pressure plus the minimum static supply pressure",
+    "distractors": [
+      "175 psi",
+      "The main pump start point",
+      "10 psi below churn"
+    ],
+    "citation": "NFPA 20 (2016), Annex A.14.2.6",
+    "code_text": "The stop point should equal the pump churn pressure plus the minimum static supply pressure."
+  },
+  {
+    "id": 1201103,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Diesel Engines",
+    "question": "Fuel tanks for diesel fire pumps must be elevated so the supply connection is?",
+    "answer": "Not lower than the fuel pump on the engine",
+    "distractors": [
+      "Below the engine",
+      "At least 5 feet high",
+      "Buried underground"
+    ],
+    "citation": "NFPA 20 (2016), Section 11.4.1",
+    "code_text": "Located... so that the fuel supply connection... is not lower than the fuel transfer pump."
+  },
+  {
+    "id": 1201104,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Diesel Engines",
+    "question": "How much fuel must a diesel fire pump tank hold?",
+    "answer": "1 gallon per horsepower + 5% expansion + 5% sump",
+    "distractors": [
+      "500 gallons minimum",
+      "2 gallons per HP",
+      "Enough for 24 hours"
+    ],
+    "citation": "NFPA 20 (2016), Section 11.4.3",
+    "code_text": "1 gal per hp, plus 5 percent volume for expansion and 5 percent volume for sump."
+  },
+  {
+    "id": 1201105,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Pipe Sizing",
+    "question": "What is the minimum pipe size for the relief valve discharge on a 1000 gpm pump?",
+    "answer": "6 inch",
+    "distractors": [
+      "4 inch",
+      "8 inch",
+      "2 inch"
+    ],
+    "citation": "NFPA 20 (2016), Table 4.26(a)",
+    "code_text": "1000 gpm -> Relief Valve Discharge 6 in."
+  },
+  {
+    "id": 1201106,
+    "category": "NFPA 20 - Pumps",
+    "topic": "Testing",
+    "question": "Does a jockey pump require a test header/hose valves?",
+    "answer": "No",
+    "distractors": [
+      "Yes",
+      "Only if over 20 gpm"
+    ],
+    "citation": "NFPA 20 (2016), Section 4.25",
+    "code_text": "Pressure maintenance pumps... shall not be required to have a test header."
+  }
+]

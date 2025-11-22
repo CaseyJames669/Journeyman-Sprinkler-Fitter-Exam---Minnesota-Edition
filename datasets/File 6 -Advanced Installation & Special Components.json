@@ -1,0 +1,170 @@
+[
+  {
+    "id": 4200139,
+    "category": "NFPA 13 - Installation",
+    "topic": "Calculations",
+    "question": "How much weight does water add to 4\" schedule 40 pipe (approx per foot)?",
+    "answer": "10.8 lbs/ft (Pipe + Water is approx 16 lbs/ft)",
+    "distractors": [
+      "5 lbs/ft",
+      "20 lbs/ft",
+      "8 lbs/ft"
+    ],
+    "citation": "General Industry Standard / NFPA 13 Tables",
+    "code_text": "Standard calculation: 4-inch pipe holds approx 0.66 gallons per foot x 8.34 lbs/gal."
+  },
+  {
+    "id": 4200140,
+    "category": "NFPA 13 - Installation",
+    "topic": "Spare Heads",
+    "question": "Where must the list of spare sprinklers be stored?",
+    "answer": "In the spare sprinkler cabinet",
+    "distractors": [
+      "At the main control valve",
+      "In the fire alarm panel",
+      "With the building owner"
+    ],
+    "citation": "NFPA 13 (2016), Section 6.2.9.7",
+    "code_text": "A list of the sprinklers installed... shall be posted in the sprinkler cabinet."
+  },
+  {
+    "id": 4200141,
+    "category": "NFPA 13 - Installation",
+    "topic": "System Components",
+    "question": "Are heat collectors (plates to catch heat) allowed to be used to lower the sprinkler activation time?",
+    "answer": "No (Not Allowed)",
+    "distractors": [
+      "Yes, if listed",
+      "Yes, in high bays",
+      "Only on uprights"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.6.3.2.1",
+    "code_text": "Heat collectors... shall not be used."
+  },
+  {
+    "id": 4200142,
+    "category": "NFPA 13 - Installation",
+    "topic": "Flexible Drops",
+    "question": "What is the maximum length of a flexible sprinkler hose fitting (drop) before it must be supported?",
+    "answer": "6 feet",
+    "distractors": [
+      "4 feet",
+      "8 feet",
+      "3 feet"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.2.1.3.3",
+    "code_text": "Flexible hose... shall not exceed 6 ft in length."
+  },
+  {
+    "id": 4200143,
+    "category": "NFPA 13 - Installation",
+    "topic": "Valves",
+    "question": "Where must the Inspector's Test Connection be located on a wet system?",
+    "answer": "At the most remote point (or where it tests the flow switch)",
+    "distractors": [
+      "At the riser",
+      "Immediately after the check valve",
+      "At the lowest point"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.17.4.2",
+    "code_text": "The test connection shall be arranged to test the waterflow alarm."
+  },
+  {
+    "id": 4200144,
+    "category": "NFPA 13 - Installation",
+    "topic": "Valves",
+    "question": "Where must the Inspector's Test Connection be located on a dry system?",
+    "answer": "At the most remote point of the system",
+    "distractors": [
+      "At the riser",
+      "At the compressor",
+      "Anywhere on the main"
+    ],
+    "citation": "NFPA 13 (2016), Section 8.17.4.3",
+    "code_text": "On dry pipe systems... the test connection shall be located at the most remote point of the most remote branch line."
+  },
+  {
+    "id": 4200145,
+    "category": "NFPA 13 - Installation",
+    "topic": "Pressure",
+    "question": "If a system's working pressure is 200 psi, what pressure must it be hydrostatically tested at?",
+    "answer": "250 psi",
+    "distractors": [
+      "200 psi",
+      "225 psi",
+      "300 psi"
+    ],
+    "citation": "NFPA 13 (2016), Section 25.2.1.2",
+    "code_text": "Tested at... 50 psi in excess of the normal working pressure."
+  },
+  {
+    "id": 4200146,
+    "category": "NFPA 13 - Installation",
+    "topic": "Drains",
+    "question": "How do you size the main drain for a 3\" riser?",
+    "answer": "1¼ inch",
+    "distractors": [
+      "¾ inch",
+      "2 inch",
+      "1 inch"
+    ],
+    "citation": "NFPA 13 (2016), Table 16.10.4.2",
+    "code_text": "2-1/2 to 3-1/2 in riser -> 1-1/4 in drain."
+  },
+  {
+    "id": 4200147,
+    "category": "NFPA 13 - Installation",
+    "topic": "Hangers",
+    "question": "What is the minimum clearance between a hanger and an upright sprinkler?",
+    "answer": "3 inches",
+    "distractors": [
+      "6 inches",
+      "12 inches",
+      "1 inch"
+    ],
+    "citation": "NFPA 13 (2016), Section 9.2.3.2.2",
+    "code_text": "Minimum distance... shall be 3 in."
+  },
+  {
+    "id": 4200148,
+    "category": "NFPA 13 - Installation",
+    "topic": "Components",
+    "question": "What is the typical water-to-air ratio of a differential dry pipe valve?",
+    "answer": "5:1 or 6:1",
+    "distractors": [
+      "1:1",
+      "10:1",
+      "2:1"
+    ],
+    "citation": "General Industry Knowledge / Manufacturer Specs",
+    "code_text": "Differential valves typically operate on a 5:1 or 6:1 ratio (Air pressure is lower than water pressure)."
+  },
+  {
+    "id": 4200149,
+    "category": "NFPA 13 - Installation",
+    "topic": "Obstructions",
+    "question": "If a sprinkler is installed less than 1 foot from a heat source (unit heater), what temperature rating is required?",
+    "answer": "High Temperature",
+    "distractors": [
+      "Intermediate",
+      "Ordinary",
+      "Extra High"
+    ],
+    "citation": "NFPA 13 (2016), Table 8.3.2.5(c)",
+    "code_text": "Unit heater... 7 ft or less -> High Temp."
+  },
+  {
+    "id": 4200150,
+    "category": "NFPA 22 - Tanks",
+    "topic": "Components",
+    "question": "What is the name of the plate installed at the bottom of a suction tank to prevent air from entering the pump?",
+    "answer": "Anti-vortex plate",
+    "distractors": [
+      "Deflector plate",
+      "Baffle plate",
+      "Splash plate"
+    ],
+    "citation": "NFPA 22 (2013), Section 14.2.13",
+    "code_text": "Anti-vortex plate assembly... located at a distance above the bottom of the tank."
+  }
+]

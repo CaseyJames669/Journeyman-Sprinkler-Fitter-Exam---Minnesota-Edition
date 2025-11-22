@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2301,
+    "category": "NFPA 13 - Retrofit",
+    "topic": "Hydraulics",
+    "question": "When adding heads to an existing hydraulically calculated system, what must you verify?",
+    "answer": "That the new demand does not exceed the original system design limits",
+    "distractors": ["You must always install a new riser", "You must switch to pipe schedule", "You must increase pipe size by one"],
+    "citation": "NFPA 13 (2016), Section 23.2",
+    "code_text": "Calculations... verification that the new work does not exceed the hydraulic limits."
+  },
+  {
+    "id": 2302,
+    "category": "NFPA 25 - Service",
+    "topic": "Testing",
+    "question": "If you replace a control valve on a system, what test must be performed?",
+    "answer": "A hydrostatic test at 200 psi (or working pressure) for 2 hours",
+    "distractors": ["Just an operational test", "A flow test", "No test needed"],
+    "citation": "NFPA 25 (2011), Section 13.3.3.4",
+    "code_text": "Component replacement... shall be hydrostatically tested."
+  },
+  {
+    "id": 2303,
+    "category": "NFPA 13 - Retrofit",
+    "topic": "Compatibility",
+    "question": "Can you mix Standard Response and Quick Response sprinklers in the same compartment?",
+    "answer": "No",
+    "distractors": ["Yes, if same temp", "Yes, if same K-factor", "Yes, if listed"],
+    "citation": "NFPA 13 (2016), Section 8.3.3.2",
+    "code_text": "Sprinklers... shall not be mixed within a compartment."
+  },
+  {
+    "id": 2304,
+    "category": "NFPA 13 - Retrofit",
+    "topic": "Revamps",
+    "question": "When revamping a pipe schedule system, you remove a 1\" plug and extend the line. How many heads can be on that 1\" line in Light Hazard?",
+    "answer": "2 heads",
+    "distractors": ["3 heads", "1 head", "5 heads"],
+    "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
+    "code_text": "1 in: 2 sprinklers."
+  },
+  {
+    "id": 2305,
+    "category": "NFPA 25 - Service",
+    "topic": "Emergency",
+    "question": "If you find a frozen pipe that has cracked, this is classified as what type of issue?",
+    "answer": "Impairment (Emergency)",
+    "distractors": ["Deficiency (Critical)", "Deficiency (Non-Critical)", "Maintenance Item"],
+    "citation": "NFPA 25 (2011), Section 3.3.17",
+    "code_text": "Impairment: A condition where a... system... is out of order."
+  }
+]

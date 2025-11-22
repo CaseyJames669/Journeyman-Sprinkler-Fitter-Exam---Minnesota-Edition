@@ -1,0 +1,72 @@
+[
+  {
+    "id": 2402201,
+    "category": "NFPA 13D - Residential",
+    "topic": "Garages",
+    "question": "In a single-family home (13D), are sprinklers required in the garage?",
+    "answer": "No (unless living space is above it or specific local amendment requires it)",
+    "distractors": [
+      "Yes, always",
+      "Only if heated",
+      "Only if attached"
+    ],
+    "citation": "NFPA 13D (2016), Section 8.3.4",
+    "code_text": "Sprinklers shall not be required in garages, open attached porches, carports, and similar structures."
+  },
+  {
+    "id": 2402202,
+    "category": "NFPA 13D - Residential",
+    "topic": "Alarms",
+    "question": "Does an NFPA 13D system require a water flow alarm notification on the exterior of the house?",
+    "answer": "No (Unlike 13 and 13R)",
+    "distractors": [
+      "Yes, always",
+      "Yes, if over 20 heads",
+      "Yes, a strobe is required"
+    ],
+    "citation": "NFPA 13D (2016), Section 7.6",
+    "code_text": "Local waterflow alarms shall be provided... [Interior only is the standard minimum, though local AHJ may differ]."
+  },
+  {
+    "id": 2402203,
+    "category": "NFPA 13R - Residential",
+    "topic": "Shadow Areas",
+    "question": "In NFPA 13R, what is the maximum 'shadow area' (dry spot) allowed in a compartment?",
+    "answer": "0 sq ft (The concept of allowable shadow area applies to 13D, not 13R)",
+    "distractors": [
+      "6 sq ft",
+      "12 sq ft",
+      "24 sq ft"
+    ],
+    "citation": "NFPA 13R vs 13D",
+    "code_text": "NFPA 13D allows small dry spots (shadows) up to specific limits. NFPA 13R generally requires full coverage similar to 13."
+  },
+  {
+    "id": 2402204,
+    "category": "NFPA 13D - Residential",
+    "topic": "Spare Heads",
+    "question": "How many spare sprinklers are required for an NFPA 13D system?",
+    "answer": "2 sprinklers (minimum)",
+    "distractors": [
+      "6 sprinklers",
+      "12 sprinklers",
+      "None"
+    ],
+    "citation": "NFPA 13D (2016), Section 5.4",
+    "code_text": "A supply of at least two spare sprinklers... shall be available."
+  },
+  {
+    "id": 2402205,
+    "category": "NFPA 13R - Residential",
+    "topic": "Attics",
+    "question": "Does NFPA 13R require sprinklers in a combustible attic (without storage/living space)?",
+    "answer": "No",
+    "distractors": [
+      "Yes, always",
+      "Yes, if the roof is wood",
+      "Only if draft stopped"
+    ],
+    "citation": "NFPA 13R (2016), Section 6.6.6",
+    "code_text": "Sprinklers shall not be required in attics... [provided conditions are met]."
+  }
+]

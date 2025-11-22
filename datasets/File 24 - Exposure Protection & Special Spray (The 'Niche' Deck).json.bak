@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2101,
+    "category": "NFPA 13 - Installation",
+    "topic": "Exposure Protection",
+    "question": "When using sprinklers to protect a glass window (Exposure Protection), how far from the glass must the head be?",
+    "answer": "Not more than 12 inches",
+    "distractors": ["24 inches", "6 inches", "18 inches"],
+    "citation": "NFPA 13 (2016), Section 11.1.2",
+    "code_text": "Vertical distance... max 12 in."
+  },
+  {
+    "id": 2102,
+    "category": "NFPA 13 - Installation",
+    "topic": "Exposure Protection",
+    "question": "What is the maximum spacing between sprinklers protecting a window/cornice?",
+    "answer": "8 feet",
+    "distractors": ["6 feet", "10 feet", "12 feet"],
+    "citation": "NFPA 13 (2016), Section 11.1.2",
+    "code_text": "Sprinklers shall be spaced not more than 8 ft apart."
+  },
+  {
+    "id": 2103,
+    "category": "NFPA 13 - Installation",
+    "topic": "Attics",
+    "question": "If using 'Specific Application Attic Sprinklers', what is the advantage?",
+    "answer": "They can cover wider spans and difficult roof pitches without extensive branch lines",
+    "distractors": ["They are cheaper", "They use less water", "They don't require calc plates"],
+    "citation": "NFPA 13 (2016), Section 8.4.9",
+    "code_text": "Specific application... permitted to be installed... in accordance with their listing."
+  },
+  {
+    "id": 2104,
+    "category": "NFPA 13 - Installation",
+    "topic": "Baffles",
+    "question": "When sprinklers are spaced closer than 6 feet, what must be installed?",
+    "answer": "A Baffle",
+    "distractors": ["A check valve", "A heat collector", "A lower temp head"],
+    "citation": "NFPA 13 (2016), Section 8.6.3.4.2",
+    "code_text": "Baffles shall be installed... to prevent cold soldering."
+  },
+  {
+    "id": 2105,
+    "category": "NFPA 13 - Installation",
+    "topic": "Baffles",
+    "question": "Dimensions of a baffle?",
+    "answer": "8 inches wide, 6 inches high",
+    "distractors": ["12x12 inches", "4x4 inches", "Round disk"],
+    "citation": "NFPA 13 (2016), Section 8.6.3.4.2",
+    "code_text": "8 in. wide and 6 in. high."
+  }
+]

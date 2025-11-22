@@ -1,0 +1,20 @@
+{
+  "name": "mn-sprinkler-quiz",
+  "version": "1.0.0",
+  "description": "Offline-capable MN Sprinkler Journeyman quiz — PWA + Capacitor-ready",
+  "scripts": {
+    "start": "npx serve -s .",
+    "validate:data": "python scripts/validate_datasets.py",
+    "build:www": "echo 'Static site - no build step required; ensure files are in repo root or set up a bundler'",
+    "cap:add:android": "npx cap add android",
+    "cap:add:ios": "npx cap add ios",
+    "cap:open:android": "npx cap open android",
+    "cap:open:ios": "npx cap open ios",
+    "cap:copy": "npx cap copy",
+    "cap:sync": "npx cap sync"
+  },
+  "keywords": ["pwa","capacitor","quiz","mn","sprinkler"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}
