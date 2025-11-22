@@ -26,7 +26,20 @@ const praises = [
     "That's the one."
 ];
 
-function startGame() {
+async function startGame() {
+    // Ensure `questions` is available. Prefer pre-bundled `js/questions.js` but
+    // fall back to fetching `all_questions.json` if the variable is not present.
+    if (typeof questions === 'undefined' || !Array.isArray(questions) || questions.length === 0) {
+        try {
+            const resp = await fetch('all_questions.json');
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            window.questions = await resp.json();
+        } catch (err) {
+            console.error('Failed to load questions:', err);
+            alert('Unable to load question data. See console for details.');
+            return;
+        }
+    }
     // Hide Menu
     document.getElementById('main-menu').style.display = 'none';
 
