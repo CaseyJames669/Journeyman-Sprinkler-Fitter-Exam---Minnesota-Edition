@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MN Sprinkler Journeyman Master</title>
+    <style>
+        :root {
+            --bg: #121212;
+            --card: #1e1e1e;
+            --text: #e0e0e0;
+            --accent: #00d4ff;
+            --correct: #00ff88;
+            --wrong: #ff4444;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .container {
+            width: 94%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        /* Dashboard */
+        #dashboard {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .mode-btn {
+            background: var(--card);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.2s;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .mode-btn:hover {
+            background: var(--accent);
+            color: var(--bg);
+        }
+
+        /* Quiz Area */
+        #quiz-area {
+            display: none;
+        }
+
+        .card {
+            background: var(--card);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .category-tag {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 0.7rem;
+            background: #333;
+            padding: 4px 8px;
+            border-radius: 4px;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        .question {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            line-height: 1.4;
+            font-weight: 500;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .option-btn {
+            background: #2c2c2c;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            color: var(--text);
+            text-align: left;
+            cursor: pointer;
+            transition: 0.2s;
+            font-size: 1rem;
+        }
+
+        .option-btn:hover {
+            background: #3a3a3a;
+        }
+
+        /* Feedback States */
+        .option-btn.correct {
+            background: var(--correct);
+            color: black;
+            font-weight: bold;
+        }
+
+        .option-btn.wrong {
+            background: var(--wrong);
+            color: white;
+            opacity: 0.5;
+        }
+
+        .option-btn.missed {
+            border: 2px solid var(--correct);
+        }
+
+        /* Explanation Box */
+        #explanation {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            background: #2a2a2a;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        #explanation h4 {
+            margin: 0 0 5px 0;
+            color: var(--accent);
+        }
+
+        #explanation p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #bbb;
+        }
+
+        .citation {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Controls */
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-next {
+            background: var(--accent);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            color: var(--bg);
+            cursor: pointer;
+            display: none;
+        }
+
+        .score-track {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .btn-mute {
+            background: transparent;
+            border: 1px solid #444;
+            color: var(--text);
+            padding: 8px 12px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .btn-mute.active {
+            background: #333;
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* Foreman feedback (moved from inline) */
+        #foreman-feedback {
+            font-style: italic;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        /* Sound toggle button */
+        .sound-btn {
+            background: transparent;
+            border: 1px solid #444;
+            color: var(--text);
+            padding: 6px 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .sound-btn:hover {
+            background: #333;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app-viewport">
+        <div id="game-container">
+            <!-- Foreman background image (matches other pages) -->
+            <img src="assets/foreman-neutral.jpg" alt="Foreman" id="foreman-img">
+            <div class="bubble" id="foreman-speech" aria-live="polite" style="display:none;">"Get to work."</div>
+            <div class="container">
+                <h1>MN Fitter Master 2025</h1>
+
+                <div id="dashboard">
+                    <div class="mode-btn" onclick="startQuiz('all')">💀 Full Exam Simulation (Random 50)</div>
+                    <div class="mode-btn" onclick="startQuiz('weak')">🚑 Emergency Room (ITM & Valves Only)</div>
+                    <div class="mode-btn" onclick="startQuiz('math')">📐 Hydraulics & Math</div>
+                    <div class="mode-btn" onclick="startQuiz('mn')">🌲 MN Rules & Statutes</div>
+                </div>
+
+                <div id="quiz-area">
+                    <div class="controls">
+                        <div class="score-track">Score: <span id="score">0</span> / <span id="total">0</span></div>
+                        <button class="btn-mute" id="mute-btn" onclick="toggleMute()" title="Toggle sound">🔊</button>
+                        <button class="btn-next" id="next-btn" onclick="nextQuestion()">Next Question ➜</button>
+                    </div>
+                    <div class="card">
+                        <div class="category-tag" id="cat-tag">Category</div>
+                        <div class="question" id="q-text">Question goes here...</div>
+                        <div class="options" id="opt-container">
+                            <!-- Buttons generated here -->
+                        </div>
+                        <div id="foreman-feedback"></div>
+                        <div id="explanation">
+                            <h4>Code Reference:</h4>
+                            <p id="code-text">...</p>
+                            <span class="citation" id="citation-text">...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rotate hint shown on narrow portrait devices when landscape UX is preferred -->
+    <div id="rotate-hint" class="rotate-hint" aria-hidden="true">
+        <div class="box">
+            This activity is best viewed in landscape. Please rotate your device or widen your window.
+        </div>
+    </div>
+
+    <script>
+        // ==========================================
+        // 1. DATA INJECTION
+        // Paste the contents of the JSON files inside these brackets [ ... ]
+        // I have put a sample set here. Replace this with the HUGE list we generated.
+        // ==========================================
+        const allQuestions = [
+            {
+                "id": 3101,
+                "category": "NFPA 25 - ITM",
+                "topic": "Main Drain",
+                "question": "What is the primary purpose of the main drain test?",
+                "answer": "To determine if there is a change in the water supply (obstruction or closed valve)",
+                "distractors": ["To flush the riser", "To test the flow switch", "To drain the system for service"],
+                "citation": "NFPA 25 (2011), Section 13.2.5",
+                "code_text": "A main drain test shall be conducted... to determine whether there has been a change in the condition of the water supply piping."
+            },
+            {
+                "id": 3201,
+                "category": "Specialty Valves",
+                "topic": "Dry Pipe Valve",
+                "question": "What is 'Columning' in a dry pipe valve?",
+                "answer": "When priming water level is too high, creating pressure that prevents the clapper from opening",
+                "distractors": ["When the air pressure is too low", "When the valve trips accidentally", "When the accelerator fails"],
+                "citation": "Industry Theory / NFPA 13",
+                "code_text": "High priming water exerts hydraulic pressure on the top of the clapper, locking it shut."
+            },
+            {
+                "id": 207,
+                "category": "MN Statutes & Rules",
+                "topic": "Licensing",
+                "question": "When does a MN Sprinkler Fitter journeyman license expire?",
+                "answer": "June 30th",
+                "distractors": ["December 31st", "January 1st", "Date of Issue"],
+                "citation": "MN Rules 7512.0200",
+                "code_text": "Expire on June 30 of each year."
+            },
+            {
+                "id": 122,
+                "category": "NFPA 13R - Residential",
+                "topic": "Scope",
+                "question": "NFPA 13R applies to residential buildings up to what height?",
+                "answer": "4 Stories",
+                "distractors": ["3 Stories", "6 Stories", "High Rise"],
+                "citation": "NFPA 13R (2016), Section 1.1",
+                "code_text": "Up to and including four stories in height."
+            },
+            {
+                "id": 501,
+                "category": "Hydraulics / Math",
+                "topic": "C-Factors",
+                "question": "What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?",
+                "answer": "120",
+                "distractors": ["100", "140", "150"],
+                "citation": "NFPA 13 (2016), Table 23.4.3.1.1",
+                "code_text": "Steel (new) = 120."
+            }
+            // COPY AND PASTE THE REST OF THE JSON DATA HERE (Use commas between objects)
+        ];
+
+        // ==========================================
+        // 2. APP LOGIC
+        // ==========================================
+        let currentQueue = [];
+        let currentIndex = 0;
+        let score = 0;
+        let quizActive = false;
+        let answerLocked = false;
+        // Audio hooks: try to use small local MP3 files in /audio/, fallback to Web Audio synthesis.
+        // NOTE: Do NOT include copyrighted clips here. If you have licensed clips, place them
+        // as `audio/correct.mp3` and `audio/wrong.mp3` relative to this HTML file.
+        const audioCorrect = new Audio('audio/correct.mp3');
+        const audioWrong = new Audio('audio/wrong.mp3');
+        let audioCorrectReady = true;
+        let audioWrongReady = true;
+
+        // Mute state persisted across sessions
+        let isMuted = localStorage.getItem('mfsmuted') === 'true';
+
+        audioCorrect.addEventListener('error', () => { audioCorrectReady = false; });
+        audioWrong.addEventListener('error', () => { audioWrongReady = false; });
+
+        // Web Audio API fallback synth
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        const audioCtx = AudioCtx ? new AudioCtx() : null;
+
+        function synthChime() {
+            if (!audioCtx) return;
+            const now = audioCtx.currentTime;
+            const o = audioCtx.createOscillator();
+            const g = audioCtx.createGain();
+            o.type = 'sine';
+            o.frequency.setValueAtTime(880, now);
+            g.gain.setValueAtTime(0, now);
+            g.gain.linearRampToValueAtTime(0.25, now + 0.01);
+            g.gain.exponentialRampToValueAtTime(0.001, now + 0.8);
+            o.connect(g);
+            g.connect(audioCtx.destination);
+            o.start(now);
+            o.stop(now + 0.9);
+        }
+
+        function synthBuzz() {
+            if (!audioCtx) return;
+            const now = audioCtx.currentTime;
+            const o = audioCtx.createOscillator();
+            const g = audioCtx.createGain();
+            o.type = 'square';
+            o.frequency.setValueAtTime(120, now);
+            g.gain.setValueAtTime(0.0001, now);
+            g.gain.linearRampToValueAtTime(0.18, now + 0.01);
+            g.gain.exponentialRampToValueAtTime(0.0001, now + 0.6);
+            o.connect(g);
+            g.connect(audioCtx.destination);
+            o.start(now);
+            o.stop(now + 0.7);
+        }
+
+        function playCorrect() {
+            if (isMuted) return;
+            // User interaction (click) should allow playback; try files first, then synth.
+            if (audioCorrectReady) {
+                audioCorrect.currentTime = 0;
+                audioCorrect.play().catch(() => synthChime());
+            } else {
+                synthChime();
+            }
+        }
+
+        function playWrong() {
+            if (isMuted) return;
+            if (audioWrongReady) {
+                audioWrong.currentTime = 0;
+                audioWrong.play().catch(() => synthBuzz());
+            } else {
+                synthBuzz();
+            }
+        }
+
+        function setMuted(val) {
+            isMuted = !!val;
+            localStorage.setItem('mfsmuted', isMuted ? 'true' : 'false');
+            updateMuteButton();
+        }
+
+        function toggleMute() {
+            setMuted(!isMuted);
+        }
+
+        function updateMuteButton() {
+            const b = document.getElementById('mute-btn');
+            if (!b) return;
+            if (isMuted) {
+                b.classList.add('active');
+                b.innerText = '🔇';
+                b.title = 'Muted (click to unmute)';
+                b.setAttribute('aria-pressed', 'true');
+            } else {
+                b.classList.remove('active');
+                b.innerText = '🔊';
+                b.title = 'Sound on (click to mute)';
+                b.setAttribute('aria-pressed', 'false');
+            }
+        }
+
+        // initialize mute button look
+        updateMuteButton();
+
+        function startQuiz(mode) {
+            document.getElementById('dashboard').style.display = 'none';
+            document.getElementById('quiz-area').style.display = 'block';
+            // Try to request a landscape lock when the user starts the quiz (user gesture)
+            if (window.requestLandscapeLock) {
+                try { window.requestLandscapeLock(); } catch (e) { /* ignore */ }
+            }
+
+            // Filter Logic
+            let filtered = [];
+            if (mode === 'all') {
+                filtered = [...allQuestions];
+                shuffle(filtered);
+                filtered = filtered.slice(0, 50); // Exam mode limit
+            } else if (mode === 'weak') {
+                // Targets your specific failure points from Score Report
+                filtered = allQuestions.filter(q =>
+                    q.category.includes("ITM") ||
+                    q.category.includes("Specialty") ||
+                    q.category.includes("Valves")
+                );
+                shuffle(filtered);
+            } else if (mode === 'math') {
+                filtered = allQuestions.filter(q => q.category.includes("Math") || q.category.includes("Hydraulics"));
+                shuffle(filtered);
+            } else if (mode === 'mn') {
+                filtered = allQuestions.filter(q => q.category.includes("MN") || q.is_mn_amendment);
+                shuffle(filtered);
+            }
+
+            if (filtered.length === 0) {
+                alert("No questions found for this category (Paste more JSON data!)");
+                location.reload();
+                return;
+            }
+
+            currentQueue = filtered;
+            currentIndex = 0;
+            score = 0;
+            updateScore();
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            if (currentIndex >= currentQueue.length) {
+                finishQuiz();
+                return;
+            }
+
+            // Unlock answer processing for the new question
+            answerLocked = false;
+
+            const q = currentQueue[currentIndex];
+            document.getElementById('q-text').innerText = q.question;
+            document.getElementById('cat-tag').innerText = `${q.category} • ${q.topic}`;
+            document.getElementById('explanation').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'none';
+
+            // Setup Options (Correct + Distractors)
+            let opts = [q.answer, ...q.distractors];
+            shuffle(opts);
+
+            const container = document.getElementById('opt-container');
+            container.innerHTML = '';
+
+            opts.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerText = opt;
+                btn.onclick = () => checkAnswer(btn, opt === q.answer, q);
+                container.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(btn, isCorrect, qData) {
+            // Ignore if an answer is already being processed (debounce)
+            if (answerLocked) return;
+            answerLocked = true;
+
+            const buttons = document.querySelectorAll('.option-btn');
+            buttons.forEach(b => b.disabled = true);
+
+            // The Foreman's Feedback Database (merged: original spicy + Phase 2 Jobsite Insult Pack)
+            const roastList = [
+                // Original 'Spicy' roasts (kept)
+                "You call yourself a fitter? My dog knows that one.",
+                "Pack your tools, kid. You're dragging up.",
+                "Wrong. Go get the pipe stretcher and think about what you did.",
+                "Jesus, did you even open the book or did you just eat the pages?",
+                "That answer is uglier than a bucket of smashed crabs.",
+                "I've seen better heads on a pimple.",
+
+                // Phase 2: Jobsite Insult Pack (appended)
+                "I’ve seen helpers with a hangover work smarter than that.",
+                "Did you guess? Be honest. You guessed. And you missed.",
+                "If you pipe the building like you answer questions, we're all gonna drown.",
+                "Wrong. Go sit in the truck. I can't look at you right now.",
+                "You’re finding new and creative ways to disappoint me.",
+                "My 4-year-old niece knows that code, and she can't even read yet.",
+                "That answer is about as useful as a screen door on a submarine.",
+                "Are you trying to fail? Is this a joke to you?",
+                "Jesus. If brains were dynamite, you wouldn't have enough to blow your nose.",
+                "You just cost me money. I can feel the money leaving my wallet.",
+                "I'd fire you, but I don't want to do the paperwork.",
+                "Wrong. Just... wrong. Go sweep the floor.",
+                "You're tightening that bolt to the left, aren't you?",
+                "I asked for a Fitter, they sent me a warmer body.",
+                "Stop thinking. You're gonna hurt yourself.",
+                "That answer smells like wet drywall and regret.",
+                "Wrong. Now go find me the pipe stretcher.",
+                "You're ten pounds of stupid in a five-pound bag today, son."
+            ];
+
+            const praiseList = [
+                // Original praises (kept)
+                "Not bad. Now get back to work.",
+                "Finally, a right answer. Don't let it go to your head.",
+                "You might actually pass this thing. Maybe.",
+                "Correct. Beer's on me... if you pass the next one.",
+
+                // Phase 2 praises (appended)
+                "Alright, not terrible. Keep moving.",
+                "Well look at you, actually reading the book.",
+                "Correct. Don't expect a raise though.",
+                "Finally. I was starting to lose hope.",
+                "Good. Now do it again, faster.",
+                "You got it right. Even a blind squirrel finds a nut sometimes.",
+                "Not bad, kid. Not bad.",
+                "That's the one. Grab a wrench."
+            ];
+
+            const randomRoast = roastList[Math.floor(Math.random() * roastList.length)];
+            const randomPraise = praiseList[Math.floor(Math.random() * praiseList.length)];
+
+            if (isCorrect) {
+                btn.classList.add('correct');
+                score++;
+                // Play a "Ca-ching" or "Ratchet" sound here if you want
+                playCorrect();
+                document.getElementById('foreman-feedback').innerText = `FOREMAN SAYS: "${randomPraise}"`;
+                document.getElementById('foreman-feedback').style.color = "#00ff88";
+            } else {
+                btn.classList.add('wrong');
+                buttons.forEach(b => {
+                    if (b.innerText === qData.answer) b.classList.add('missed');
+                });
+                // Play a "Buzzer" or "Grunt" sound
+                playWrong();
+                document.getElementById('foreman-feedback').innerText = `FOREMAN SAYS: "${randomRoast}"`;
+                document.getElementById('foreman-feedback').style.color = "#ff4444";
+            }
+
+            document.getElementById('explanation').style.display = 'block';
+            document.getElementById('code-text').innerText = qData.code_text;
+            document.getElementById('citation-text').innerText = qData.citation;
+            document.getElementById('next-btn').style.display = 'block';
+            updateScore();
+        }
+
+        function nextQuestion() {
+            currentIndex++;
+            loadQuestion();
+        }
+
+        function updateScore() {
+            document.getElementById('score').innerText = score;
+            document.getElementById('total').innerText = currentQueue.length;
+        }
+
+        function finishQuiz() {
+            const pct = Math.round((score / currentQueue.length) * 100);
+            let msg = pct >= 70 ? "PASS! You are ready." : "FAIL. Review your weak spots.";
+            alert(`Quiz Complete!\nScore: ${score}/${currentQueue.length} (${pct}%)\n${msg}`);
+            location.reload();
+        }
+
+        // Fisher-Yates Shuffle
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+    </script>
+    <script>
+        (function () {
+            const hint = document.getElementById('rotate-hint');
+            if (!hint) return;
+            const update = () => {
+                const w = window.innerWidth;
+                const h = window.innerHeight;
+                if (h > w && w < 900) {
+                    hint.classList.add('show');
+                    hint.setAttribute('aria-hidden', 'false');
+                } else {
+                    hint.classList.remove('show');
+                    hint.setAttribute('aria-hidden', 'true');
+                }
+            };
+
+            async function tryLockLandscape() {
+                try {
+                    if (screen.orientation && screen.orientation.lock) {
+                        await screen.orientation.lock('landscape');
+                    }
+                } catch (e) {
+                    // ignore — locking may be restricted
+                }
+            }
+
+            window.addEventListener('resize', update, { passive: true });
+            window.addEventListener('orientationchange', update, { passive: true });
+            document.addEventListener('DOMContentLoaded', update);
+
+            // Expose lock helper for user-gesture triggers
+            window.requestLandscapeLock = tryLockLandscape;
+        })();
+    </script>
+</body>
+
+</html>

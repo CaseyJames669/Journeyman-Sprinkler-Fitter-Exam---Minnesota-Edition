@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Center - MN Sprinkler Exam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Resource Center Specific Styles */
+        .resource-container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.2rem;
+            background: #333;
+            border: 2px solid #555;
+            border-radius: 8px;
+            color: white;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        .search-box:focus {
+            border-color: var(--accent);
+            outline: none;
+        }
+
+        .result-card {
+            background: #1e1e1e;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #555;
+        }
+
+        .result-card h3 {
+            margin: 0 0 10px 0;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+
+        .result-card .citation {
+            color: #888;
+            font-style: italic;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        .result-card .code-text {
+            background: #252525;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-family: monospace;
+            color: #ddd;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="app-viewport">
+        <div class="resource-container">
+            <a href="index.html" class="back-btn">← Back to Menu</a>
+            <h1>Resource Center</h1>
+            <p>Search the code database for rules, citations, and answers.</p>
+            
+            <input type="text" id="search-input" class="search-box" placeholder="Search for 'deflector', 'spacing', 'NFPA 13'...">
+            
+            <div id="results-area"></div>
+        </div>
+    </div>
+
+    <!-- Load Data -->
+    <script src="js/questions.js"></script>
+    
+    <script>
+        const searchInput = document.getElementById('search-input');
+        const resultsArea = document.getElementById('results-area');
+
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            if (term.length < 2) {
+                resultsArea.innerHTML = '';
+                return;
+            }
+            
+            const matches = questions.filter(q => 
+                q.question.toLowerCase().includes(term) || 
+                q.answer.toLowerCase().includes(term) ||
+                q.citation.toLowerCase().includes(term) ||
+                (q.code_text && q.code_text.toLowerCase().includes(term))
+            ).slice(0, 50); // Limit to 50 results
+
+            renderResults(matches);
+        });
+
+        function renderResults(items) {
+            if (items.length === 0) {
+                resultsArea.innerHTML = '<p style="color: #888; text-align: center;">No matches found.</p>';
+                return;
+            }
+
+            resultsArea.innerHTML = items.map(item => `
+                <div class="result-card">
+                    <h3>${item.category} - ${item.topic}</h3>
+                    <div style="margin-bottom: 8px;"><strong>Q:</strong> ${item.question}</div>
+                    <div style="color: var(--correct);"><strong>A:</strong> ${item.answer}</div>
+                    ${item.code_text ? `<div class="code-text">${item.code_text}</div>` : ''}
+                    <div class="citation">${item.citation}</div>
+                </div>
+            `).join('');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+	"appId": "com.example.mnsprinklerquiz",
+	"appName": "MN Sprinkler Quiz",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"packageClassList": []
+}

@@ -19,66 +19,87 @@
             <img src="assets/foreman-loading.jpg" alt="Foreman" id="foreman-img">
 
             <!-- HUD Overlay (Hidden initially) -->
-            <div class="hud" id="hud">
-                <div class="level-badge" id="rank-badge">Green Helper</div>
+            <div class="hud" id="hud" style="display: none;">
+                <div class="level-badge" id="rank-badge">Green Horn</div>
                 <div class="bank-account" id="bank-display">$0.00</div>
             </div>
 
-            <!-- Video Overlay (Hidden initially) -->
+            <!-- Main Menu (New) -->
+            <div id="main-menu" class="menu-card">
+                <h1>Journeyman Sprinkler Fitter Exam</h1>
+                <h2>Minnesota Edition</h2>
+                <div class="menu-options">
+                    <button class="option-btn" onclick="showShiftSelection()">Standard Shift</button>
+                    <button class="option-btn" onclick="startGame('sudden-death')">Sudden Death</button>
+                    <button class="option-btn" onclick="startGame('endless')">Endless Mode</button>
+                    <button class="option-btn" onclick="window.location.href='resources.html'">Resource Center</button>
+                </div>
+            </div>
+
+            <!-- Shift Selection (New) -->
+            <div id="shift-selection" class="menu-card" style="display: none;">
+                <h1>Select Shift Length</h1>
+                <div class="menu-options">
+                    <button class="option-btn" onclick="startGame('standard', 10)">10 Questions <small>(Quick
+                            Fix)</small></button>
+                    <button class="option-btn" onclick="startGame('standard', 25)">25 Questions <small>(Service
+                            Call)</small></button>
+                    <button class="option-btn" onclick="startGame('standard', 50)">50 Questions
+                        <small>(Rough-in)</small></button>
+                    <button class="option-btn" onclick="startGame('standard', 100)">100 Questions <small>(Full
+                            Exam)</small></button>
+                </div>
+                <button class="option-btn" onclick="hideShiftSelection()"
+                    style="margin-top: 20px; background: #555;">Back</button>
+            </div>
+
+            <!-- Video Overlay (Cleaned up) -->
             <div id="video-overlay" style="display: none;">
                 <video id="sudden-death-video" playsinline>
                     <source src="assets/Sudden Death is no joke.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <button class="option-btn" onclick="startGame('standard', 10)">10 Questions <small>(Quick
-                        Fix)</small></button>
-                <button class="option-btn" onclick="startGame('standard', 25)">25 Questions <small>(Service
-                        Call)</small></button>
-                <button class="option-btn" onclick="startGame('standard', 50)">50 Questions
-                    <small>(Rough-in)</small></button>
-                <button class="option-btn" onclick="startGame('standard', 100)">100 Questions <small>(Full
-                        Exam)</small></button>
-                <button class="option-btn" onclick="hideShiftSelection()" style="background: #555;">Back</button>
-            </div>
-        </div>
-
-        <!-- Question Card Overlay (Hidden initially) -->
-        <div class="card" id="quiz-card">
-            <div style="position: absolute; top: 10px; right: 10px; z-index: 100;">
-                <button id="mute-btn" onclick="toggleMute()"
-                    style="background:none; border:none; font-size: 1.5rem; cursor: pointer;">🔊</button>
             </div>
 
-            <!-- Category Tag -->
-            <span class="category-tag" id="cat-tag" style="display: none;"></span>
+            <!-- Question Card Overlay (Hidden initially) -->
+            <div class="card" id="quiz-card" style="display: none;">
+                <div style="position: absolute; top: 10px; right: 10px; z-index: 100;">
+                    <button id="mute-btn" onclick="toggleMute()"
+                        style="background:none; border:none; font-size: 1.5rem; cursor: pointer;">🔊</button>
+                </div>
 
-            <div class="question" id="q-text" tabindex="-1">Welcome to the job site. Try not to break anything.
-            </div>
+                <!-- Category Tag -->
+                <span class="category-tag" id="cat-tag" style="display: none;"></span>
 
-            <div class="options" id="opt-container">
-                <!-- Options will be injected here -->
-            </div>
+                <div class="question" id="q-text" tabindex="-1">Welcome to the job site. Try not to break anything.
+                </div>
 
-            <div class="quiz-footer">
-                <!-- Continue Button for Story Mode -->
-                <button class="btn-next" id="continue-btn" onclick="startQuizFlow()">Continue ➜</button>
+                <div class="options" id="opt-container">
+                    <!-- Options will be injected here -->
+                </div>
 
-                <!-- Merged Next Button, Feedback & Explanation -->
-                <div class="explanation-controls">
-                    <div id="explanation" style="display: none;">
-                        <div id="foreman-speech" class="feedback-text"></div>
-                        <div id="explanation-content">
-                            <span id="code-text"></span>
-                            <div id="citation-text"></div>
+                <div class="quiz-footer">
+                    <!-- Merged Next Button, Feedback & Explanation -->
+                    <div class="explanation-controls">
+                        <div id="explanation" style="display: none;">
+                            <div id="foreman-speech" class="feedback-text"></div>
+                            <div id="explanation-content">
+                                <span id="code-text"></span>
+                                <div id="citation-text"></div>
+                            </div>
                         </div>
+                        <!-- Intro Transition Button -->
+                        <button class="btn-next" id="start-shift-btn" onclick="startQuizFlow()" style="display: none;">
+                            <div class="next-label">GET TO WORK ➜</div>
+                        </button>
+                        <!-- Next Question Button -->
+                        <button class="btn-next" id="next-btn" onclick="nextQuestion()" style="display: none;">
+                            <div class="next-label">NEXT QUESTION ➜</div>
+                        </button>
                     </div>
-                    <button class="btn-next" id="next-btn" onclick="nextQuestion()" style="display: none;">
-                        <div class="next-label">NEXT QUESTION ➜</div>
-                    </button>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <!-- Load Data First -->

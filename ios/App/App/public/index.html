@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journeyman Sprinkler Fitter Exam: Minnesota Edition</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00d4ff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+
+    <div id="app-viewport">
+        <div id="game-container" role="main">
+            <!-- Background Image -->
+            <img src="assets/foreman-loading.jpg" alt="Foreman" id="foreman-img">
+
+            <!-- HUD Overlay (Hidden initially) -->
+            <div class="hud" id="hud" style="display: none;">
+                <div class="level-badge" id="rank-badge">Green Helper</div>
+                <div class="bank-account" id="bank-display">$0.00</div>
+            </div>
+
+            <!-- Video Overlay (Hidden initially) -->
+            <div id="video-overlay" style="display: none;">
+                <video id="sudden-death-video" playsinline>
+                    <source src="assets/Sudden Death is no joke.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- Question Card Overlay (Hidden initially) -->
+        <div class="card" id="quiz-card">
+            <div style="position: absolute; top: 10px; right: 10px; z-index: 100;">
+                <button id="mute-btn" onclick="toggleMute()"
+                    style="background:none; border:none; font-size: 1.5rem; cursor: pointer;">🔊</button>
+            </div>
+
+            <!-- Category Tag -->
+            <span class="category-tag" id="cat-tag" style="display: none;"></span>
+
+            <div class="question" id="q-text" tabindex="-1">Welcome to the job site. Try not to break anything.
+            </div>
+
+            <div class="options" id="opt-container">
+                <!-- Options will be injected here -->
+            </div>
+
+            <div class="quiz-footer">
+                <!-- Continue Button for Story Mode -->
+                <button class="btn-next" id="continue-btn" onclick="startQuizFlow()">Continue ➜</button>
+
+                <!-- Merged Next Button, Feedback & Explanation -->
+                <div class="explanation-controls">
+                    <div id="explanation" style="display: none;">
+                        <div id="foreman-speech" class="feedback-text"></div>
+                        <div id="explanation-content">
+                            <span id="code-text"></span>
+                            <div id="citation-text"></div>
+                        </div>
+                    </div>
+                    <button class="btn-next" id="next-btn" onclick="nextQuestion()" style="display: none;">
+                        <div class="next-label">NEXT QUESTION ➜</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Menu (Hidden initially) -->
+        <div id="main-menu" style="display: flex;">
+            <div class="menu-title">MN Sprinkler Exam Prep</div>
+            <div id="main-menu-options" class="menu-options">
+                <button class="menu-btn" onclick="showShiftSelection()">Standard Shift (Exam Sim)</button>
+                <button class="menu-btn" onclick="startGame('sudden-death')">Sudden Death</button>
+                <button class="menu-btn" onclick="startGame('endless')">Endless Mode</button>
+                <button class="menu-btn" onclick="window.location.href='resources.html'">Resource Center</button>
+            </div>
+        </div>
+
+        <!-- Shift Selection (Hidden initially) -->
+        <div id="shift-selection" style="display: none;">
+            <div class="shift-title">Choose Your Shift</div>
+            <div class="shift-options">
+                <button class="option-btn" onclick="startGame('standard', 10)">10 Questions <small>(Quick
+                        Fix)</small></button>
+                <button class="option-btn" onclick="startGame('standard', 25)">25 Questions <small>(Service
+                        Call)</small></button>
+                <button class="option-btn" onclick="startGame('standard', 50)">50 Questions
+                    <small>(Rough-in)</small></button>
+                <button class="option-btn" onclick="startGame('standard', 100)">100 Questions <small>(Full
+                        Exam)</small></button>
+                <button class="option-btn" onclick="hideShiftSelection()" style="background: #555;">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load Data First -->
+    <script src="js/questions.js"></script>
+    <!-- Load Game Logic -->
+    <script src="js/game.js"></script>
+
+    <script>
+        // Register service worker for offline support
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+                .then(() => console.log('Service Worker registered'))
+                .catch(err => console.warn('SW registration failed:', err));
+        }
+    </script>
+
+</body>
+
+</html>

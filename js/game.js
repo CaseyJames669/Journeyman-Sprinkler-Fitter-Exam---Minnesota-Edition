@@ -57,6 +57,12 @@ const storyHooks = [
 
 function init() {
     updateMuteIcon();
+    // Ensure correct initial state
+    document.getElementById('main-menu').style.display = 'flex';
+    document.getElementById('shift-selection').style.display = 'none';
+    document.getElementById('hud').style.display = 'none';
+    document.getElementById('quiz-card').style.display = 'none';
+    document.getElementById('video-overlay').style.display = 'none';
 }
 
 function toggleMute() {
@@ -92,13 +98,13 @@ function playSound(type) {
 }
 
 function showShiftSelection() {
-    document.getElementById('main-menu-options').style.display = 'none';
-    document.getElementById('shift-selection').style.display = 'block';
+    document.getElementById('main-menu').style.display = 'none';
+    document.getElementById('shift-selection').style.display = 'flex';
 }
 
 function hideShiftSelection() {
     document.getElementById('shift-selection').style.display = 'none';
-    document.getElementById('main-menu-options').style.display = 'block';
+    document.getElementById('main-menu').style.display = 'flex';
 }
 
 function startGame(mode = 'standard', length = 50) {
@@ -111,8 +117,9 @@ function startGame(mode = 'standard', length = 50) {
         shiftLength = 9999; // Endless / Sudden Death
     }
 
-    // Hide Menu
+    // Hide Menu & Shift Selection
     document.getElementById('main-menu').style.display = 'none';
+    document.getElementById('shift-selection').style.display = 'none';
 
     // Show Game UI
     document.getElementById('hud').style.display = 'flex';
@@ -126,18 +133,19 @@ function startGame(mode = 'standard', length = 50) {
     if (mode === 'standard') {
         currentQueue = currentQueue.slice(0, shiftLength);
 
-        // Pilot Questions Logic (Only for 100 Q mode)
+        // Pilot Questions Logic (20% of questions are pilot)
         pilotIndices = [];
-        if (shiftLength === 100) {
-            while (pilotIndices.length < 20) {
-                let r = Math.floor(Math.random() * 100);
+        const pilotCount = Math.floor(shiftLength * 0.2);
+
+        if (pilotCount > 0) {
+            while (pilotIndices.length < pilotCount) {
+                let r = Math.floor(Math.random() * shiftLength);
                 if (!pilotIndices.includes(r)) pilotIndices.push(r);
             }
-            console.log("Pilot Questions (Indices):", pilotIndices);
+            console.log(`Pilot Questions (${pilotCount}):`, pilotIndices);
         }
 
-        // Timer Setup (2 hours for 100 Qs, scaled)
-        // 100 Q = 120 min -> 1.2 min/question
+        // Timer Setup (1.2 min/question)
         timeRemaining = shiftLength * 1.2 * 60;
         startTimer();
     }
@@ -339,7 +347,7 @@ function updateHUD() {
     if (gameMode !== 'standard') {
         const badge = document.getElementById('rank-badge');
         if (bankBalance < 0) badge.innerText = "Liability";
-        else if (bankBalance < 200) badge.innerText = "Green Helper";
+        else if (bankBalance < 200) badge.innerText = "Green Horn";
         else if (bankBalance < 500) badge.innerText = "Apprentice";
         else badge.innerText = "Journeyman";
     }
