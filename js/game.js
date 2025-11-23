@@ -8,7 +8,7 @@ let currentQueue = [];
 let gameMode = 'standard'; // 'standard', 'sudden-death', 'endless'
 let shiftLength = 50; // Default
 let correctCount = 0;
-let pilotIndices = []; // Indices of questions that don't count (100 Q mode only)
+let pilotIndices = []; // Indices of questions that don't count
 let timerInterval = null;
 let timeRemaining = 0; // Seconds
 
@@ -63,6 +63,9 @@ function init() {
     document.getElementById('hud').style.display = 'none';
     document.getElementById('quiz-card').style.display = 'none';
     document.getElementById('video-overlay').style.display = 'none';
+
+    // Log version
+    console.log("Foreman Logic v3.0 Loaded");
 }
 
 function toggleMute() {
@@ -121,8 +124,8 @@ function startGame(mode = 'standard', length = 50) {
     document.getElementById('main-menu').style.display = 'none';
     document.getElementById('shift-selection').style.display = 'none';
 
-    // Show Game UI
-    document.getElementById('hud').style.display = 'flex';
+    // Show Game UI (But hide HUD until work starts)
+    document.getElementById('hud').style.display = 'none';
     document.getElementById('quiz-card').style.display = 'block';
 
     // Reset State
@@ -133,7 +136,7 @@ function startGame(mode = 'standard', length = 50) {
     if (mode === 'standard') {
         currentQueue = currentQueue.slice(0, shiftLength);
 
-        // Pilot Questions Logic (20% of questions are pilot)
+        // Pilot Questions Logic (20% of questions are pilot for ALL standard shifts)
         pilotIndices = [];
         const pilotCount = Math.floor(shiftLength * 0.2);
 
@@ -147,12 +150,16 @@ function startGame(mode = 'standard', length = 50) {
 
         // Timer Setup (1.2 min/question)
         timeRemaining = shiftLength * 1.2 * 60;
-        startTimer();
+        // Don't start timer yet, wait for "Get to Work"
     }
 
     currentIndex = 0;
     bankBalance = 0;
     correctCount = 0;
+
+    // Reset HUD text
+    document.getElementById('rank-badge').innerText = "Green Horn";
+    document.getElementById('rank-badge').style.color = "#fff"; // Reset color
     updateHUD();
 
     // Visual Novel Intro
@@ -162,7 +169,11 @@ function startGame(mode = 'standard', length = 50) {
 
     document.getElementById('cat-tag').style.display = 'none';
     document.getElementById('opt-container').innerHTML = ''; // Clear options
-    document.getElementById('continue-btn').style.display = 'block'; // Show Continue
+
+    // Show "Get to Work" button, hide others
+    const startBtn = document.getElementById('start-shift-btn');
+    if (startBtn) startBtn.style.display = 'block';
+
     document.getElementById('next-btn').style.display = 'none';
     document.getElementById('foreman-speech').style.display = 'none';
     document.getElementById('explanation').style.display = 'none';
@@ -172,12 +183,11 @@ function startTimer() {
     if (timerInterval) clearInterval(timerInterval);
     const display = document.getElementById('rank-badge'); // Reuse badge area for timer in Standard Mode
 
+    updateTimerDisplay(); // Initial show
+
     timerInterval = setInterval(() => {
         timeRemaining--;
-
-        let mins = Math.floor(timeRemaining / 60);
-        let secs = Math.floor(timeRemaining % 60);
-        display.innerText = `Time: ${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        updateTimerDisplay();
 
         if (timeRemaining <= 0) {
             clearInterval(timerInterval);
@@ -186,11 +196,51 @@ function startTimer() {
     }, 1000);
 }
 
+function updateTimerDisplay() {
+    const display = document.getElementById('rank-badge');
+
+    let hours = Math.floor(timeRemaining / 3600);
+    let mins = Math.floor((timeRemaining % 3600) / 60);
+    let secs = Math.floor(timeRemaining % 60);
+
+    let timeString = "";
+
+    if (hours > 0) {
+        // H:MM format
+        timeString = `${hours}:${mins < 10 ? '0' : ''}${mins}`;
+    } else {
+        // MM:SS format
+        timeString = `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    }
+
+    display.innerText = `Time: ${timeString}`;
+
+    // Red warning if under 5 minutes (300 seconds)
+    if (timeRemaining < 300) {
+        display.style.color = "var(--wrong)";
+        // Optional: Add blinking effect class here if desired
+    } else {
+        display.style.color = "#fff";
+    }
+}
+
 function startQuizFlow() {
-    document.getElementById('continue-btn').style.display = 'none';
+    // Hide Intro Button
+    const startBtn = document.getElementById('start-shift-btn');
+    if (startBtn) startBtn.style.display = 'none';
+
+    // Show HUD now
+    document.getElementById('hud').style.display = 'flex';
+
     document.getElementById('cat-tag').style.display = 'block';
     // Switch back to neutral foreman image
     document.getElementById('foreman-img').src = 'assets/foreman-neutral.jpg';
+
+    // Start Timer if Standard Mode
+    if (gameMode === 'standard') {
+        startTimer();
+    }
+
     loadQuestion();
 }
 
@@ -219,10 +269,7 @@ function loadQuestion() {
 
     // Set Text
     let catText = q.category;
-    if (gameMode === 'standard' && shiftLength === 100 && pilotIndices.includes(currentIndex)) {
-        // Debug: Mark pilot questions? No, user shouldn't know.
-        // catText += " [PILOT]"; 
-    }
+    // Pilot questions are hidden from user view
 
     document.getElementById('cat-tag').innerText = `${catText} (${currentIndex + 1}/${shiftLength})`;
     document.getElementById('q-text').innerText = q.question;
@@ -250,8 +297,8 @@ function handleAnswer(btn, isCorrect, qData) {
     const speechBubble = document.getElementById('foreman-speech');
     const face = document.getElementById('foreman-img');
 
-    // Check if this is a pilot question (Standard Mode 100Q only)
-    const isPilot = (gameMode === 'standard' && shiftLength === 100 && pilotIndices.includes(currentIndex));
+    // Check if this is a pilot question
+    const isPilot = (gameMode === 'standard' && pilotIndices.includes(currentIndex));
 
     if (isCorrect) {
         btn.classList.add('correct');
@@ -262,7 +309,6 @@ function handleAnswer(btn, isCorrect, qData) {
 
         playSound('correct');
         speechBubble.innerText = praises[Math.floor(Math.random() * praises.length)];
-        // speechBubble.style.borderBottom = "4px solid var(--correct)"; // Removed
         face.style.borderColor = "var(--correct)";
         face.src = "assets/foreman-success.jpg";
 
@@ -291,7 +337,6 @@ function handleAnswer(btn, isCorrect, qData) {
         });
 
         speechBubble.innerText = roasts[Math.floor(Math.random() * roasts.length)];
-        // speechBubble.style.borderBottom = "4px solid var(--wrong)"; // Removed
         face.style.borderColor = "var(--wrong)";
         face.src = "assets/foreman-fail.jpg";
         document.getElementById('quiz-card').classList.add('shaking');
@@ -306,8 +351,8 @@ function handleAnswer(btn, isCorrect, qData) {
 
     // Show Explanation
     document.getElementById('explanation').style.display = 'block';
-    document.getElementById('code-text').innerText = qData.code_text;
-    document.getElementById('citation-text').innerText = qData.citation;
+    document.getElementById('code-text').innerText = qData.code_text || "";
+    document.getElementById('citation-text').innerText = qData.citation || "";
 
     // Show Next Button
     document.getElementById('next-btn').style.display = 'flex';
@@ -362,9 +407,12 @@ function finishGame(customMessage = null) {
 
     if (gameMode === 'standard') {
         // Calculate Score
-        // If 100Q mode, we only count non-pilot questions (80 total)
-        let totalScored = shiftLength;
-        if (shiftLength === 100) totalScored = 80;
+        // We only count non-pilot questions
+        const pilotCount = Math.floor(shiftLength * 0.2);
+        let totalScored = shiftLength - pilotCount;
+
+        // Safety check to avoid division by zero
+        if (totalScored <= 0) totalScored = 1;
 
         let percent = (correctCount / totalScored) * 100;
 
@@ -395,6 +443,7 @@ function finishGame(customMessage = null) {
     document.getElementById('opt-container').innerHTML = "";
     document.getElementById('explanation').style.display = 'none';
     document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('start-shift-btn').style.display = 'none';
 
     document.getElementById('foreman-speech').innerText = passed ? "Good work." : "Get out of my sight.";
     document.getElementById('foreman-speech').style.display = 'block';

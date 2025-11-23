@@ -1,0 +1,51 @@
+Validating: android/app/src/main/assets/public/all_questions.json
+
+✓ JSON syntax valid
+✓ Total questions loaded: 416
+
+
+============================================================
+VALIDATION RESULTS
+============================================================
+
+✗ CRITICAL ISSUES FOUND: 16
+  - Q3803601: Missing fields: distractors, code_text
+  - Q3803602: Missing fields: distractors, code_text
+  - Q3803603: Missing fields: distractors, code_text
+  - Q3803604: Missing fields: distractors, code_text
+  - Q3803605: Missing fields: distractors, code_text
+  - Q3803606: Missing fields: distractors, code_text
+  - Q3803607: Missing fields: distractors, code_text
+  - Q3803608: Missing fields: distractors, code_text
+  - Q3803609: Missing fields: distractors, code_text
+  - Q3803610: Missing fields: distractors, code_text
+  - Q3803611: Missing fields: distractors, code_text
+  - Q3803612: Missing fields: distractors, code_text
+  - Q3803613: Missing fields: distractors, code_text
+  - Q3803614: Missing fields: distractors, code_text
+  - Q3803615: Missing fields: distractors, code_text
+  - Q3803616: Missing fields: distractors, code_text
+
+⚠ WARNINGS: 16
+  - Q500211: Expected 3 distractors, got 1
+  - Q900802: Expected 3 distractors, got 2
+  - Q900803: Expected 3 distractors, got 2
+  - Q900804: Expected 3 distractors, got 2
+  - Q900805: Expected 3 distractors, got 2
+  - Q900808: Expected 3 distractors, got 2
+  - Q1201106: Expected 3 distractors, got 2
+  - Q1800211: Expected 3 distractors, got 1
+  - Q2101904: Expected 3 distractors, got 2
+  - Q2702503: Expected 3 distractors, got 2
+  - Q2702504: Expected 3 distractors, got 2
+  - Q4300412: Expected 3 distractors, got 2
+  - Q4400507: Expected 3 distractors, got 2
+  - Q4600008: Expected 3 distractors, got 1
+  - Q4600008: Marked as MN amendment but citation doesn't contain 'MN'
+  - Q4600019: Marked as MN amendment but citation doesn't contain 'MN'
+
+============================================================
+Questions validated: 416
+Unique IDs: 416
+============================================================
+
