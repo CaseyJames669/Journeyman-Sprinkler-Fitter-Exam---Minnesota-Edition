@@ -30,52 +30,56 @@
                     <source src="assets/Sudden Death is no joke.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+                <button class="option-btn" onclick="startGame('standard', 10)">10 Questions <small>(Quick
+                        Fix)</small></button>
+                <button class="option-btn" onclick="startGame('standard', 25)">25 Questions <small>(Service
+                        Call)</small></button>
+                <button class="option-btn" onclick="startGame('standard', 50)">50 Questions
+                    <small>(Rough-in)</small></button>
+                <button class="option-btn" onclick="startGame('standard', 100)">100 Questions <small>(Full
+                        Exam)</small></button>
+                <button class="option-btn" onclick="hideShiftSelection()" style="background: #555;">Back</button>
+            </div>
+        </div>
+
+        <!-- Question Card Overlay (Hidden initially) -->
+        <div class="card" id="quiz-card">
+            <div style="position: absolute; top: 10px; right: 10px; z-index: 100;">
+                <button id="mute-btn" onclick="toggleMute()"
+                    style="background:none; border:none; font-size: 1.5rem; cursor: pointer;">🔊</button>
             </div>
 
-            <!-- Feedback Bubble -->
-            <div class="bubble" id="foreman-speech" aria-live="polite">
-                "Get to work. I'm watching you."
+            <!-- Category Tag -->
+            <span class="category-tag" id="cat-tag" style="display: none;"></span>
+
+            <div class="question" id="q-text" tabindex="-1">Welcome to the job site. Try not to break anything.
             </div>
 
-            <!-- Main Menu Overlay -->
-            <div id="main-menu" class="menu-card">
-                <h1>Journeyman Sprinkler Fitter Exam</h1>
-                <h2>Minnesota Edition</h2>
-                <div class="menu-options">
-                    <button class="option-btn" onclick="startGame('standard')">Start Shift (Standard)</button>
-                    <button class="option-btn" onclick="startGame('sudden-death')">Sudden Death <small>(One Strike &
-                            You're Out)</small></button>
-                    <button class="option-btn" onclick="startGame('endless')">Endless Mode <small>(Work Until You
-                            Drop)</small></button>
-                </div>
+            <div class="options" id="opt-container">
+                <!-- Options will be injected here -->
             </div>
 
-            <!-- Question Card Overlay (Hidden initially) -->
-            <div class="card" id="quiz-card">
-                <!-- Category Tag Removed for Intro -->
-                <span class="category-tag" id="cat-tag" style="display: none;"></span>
-
-                <div class="question" id="q-text" tabindex="-1">Welcome to the job site. Try not to break anything.
-                </div>
-
-                <div class="options" id="opt-container">
-                    <!-- Options will be injected here -->
-                </div>
-
-                <div id="explanation">
-                    <span id="code-text"></span>
-                    <div id="citation-text"></div>
-                </div>
-
+            <div class="quiz-footer">
                 <!-- Continue Button for Story Mode -->
                 <button class="btn-next" id="continue-btn" onclick="startQuizFlow()">Continue ➜</button>
 
-                <button class="btn-next" id="next-btn" onclick="nextQuestion()">Next Question ➜</button>
+                <!-- Merged Next Button, Feedback & Explanation -->
+                <div class="explanation-controls">
+                    <div id="explanation" style="display: none;">
+                        <div id="foreman-speech" class="feedback-text"></div>
+                        <div id="explanation-content">
+                            <span id="code-text"></span>
+                            <div id="citation-text"></div>
+                        </div>
+                    </div>
+                    <button class="btn-next" id="next-btn" onclick="nextQuestion()" style="display: none;">
+                        <div class="next-label">NEXT QUESTION ➜</div>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-
-    <noscript>Please enable JavaScript to use this app.</noscript>
+    </div>
 
     <!-- Load Data First -->
     <script src="js/questions.js"></script>

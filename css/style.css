@@ -136,375 +136,624 @@ body {
     transform: translateY(0);
     transition: transform 0.3s ease-out;
     -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
-    max-height: 65vh;
-    overflow-y: auto;
-    padding-bottom: 3.5%;
-}
 
-/* Feedback Bubble - Transparent */
-.bubble {
-    position: absolute;
-    top: 16%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.12);
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    padding: 1.2em 1.4em;
-    border-radius: 14px;
-    text-align: center;
-    font-weight: 700;
-    font-size: clamp(0.95rem, 2.2vmin, 1.6rem);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    display: none;
-    animation: popIn 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
-    z-index: 15;
-    max-width: 70%;
-}
-
-.bubble:after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    margin-left: -10px;
-    border: 10px solid transparent;
-    border-top-color: rgba(255, 255, 255, 0.15);
-}
-
-.category-tag {
-    font-size: clamp(0.7rem, 1.5vmin, 1rem);
-    color: #aaa;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.question {
-    font-size: clamp(1rem, 2.5vmin, 1.8rem);
-    font-weight: 600;
-    margin-bottom: 20px;
-    line-height: 1.4;
-}
-
-.options {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 12px;
-    max-height: 40vh;
-    overflow-y: auto;
-    align-items: start;
-}
-
-.option-btn {
-    background: rgba(51, 51, 51, 0.78);
-    border: 2px solid #444;
-    padding: 12px;
-    border-radius: 6px;
-    color: var(--text);
-    text-align: left;
-    cursor: pointer;
-    transition: 0.18s;
-    font-size: clamp(0.85rem, 1.8vmin, 1.05rem);
-    font-weight: 500;
-    display: block;
-    width: 100%;
-}
-
-/* Entrance animations */
-@keyframes slideUp {
-    from {
-        transform: translateY(12px);
-        opacity: 0;
+    /* Quiz Footer (New Layout) */
+    .quiz-footer {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+        align-items: stretch;
     }
 
-    to {
+    @media (max-width: 600px) {
+        .quiz-footer {
+            flex-direction: column;
+        }
+    }
+
+    /* Animations */
+    @keyframes popIn {
+        from {
+            transform: scale(0.8) translateX(-50%);
+            opacity: 0;
+        }
+
+        to {
+            transform: scale(1) translateX(-50%);
+            opacity: 1;
+        }
+    }
+
+    @keyframes shake {
+
+        0%,
+        100% {
+            transform: translateX(0);
+        }
+
+        25% {
+            transform: translateX(-5px);
+        }
+
+        75% {
+            transform: translateX(5px);
+        }
+    }
+
+    .shaking {
+        animation: shake 0.4s ease-in-out;
+    }
+
+    /* Main Menu Styles */
+    .menu-card {
+        position: absolute;
+        bottom: 5%;
+        /* Move to bottom */
+        left: 50%;
+        transform: translateX(-50%);
+        /* Center horizontally only */
+        top: auto;
+        /* Remove top positioning */
+        width: 90%;
+        max-width: 1200px;
+        background: rgba(37, 37, 37, 0.90);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 2px solid var(--accent);
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.8);
+        z-index: 100;
+    }
+
+    .menu-card h1 {
+        color: var(--accent);
+        margin: 0;
+        font-size: clamp(1.2rem, 3vmin, 2rem);
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .menu-card h2 {
+        margin: 0;
+        font-size: clamp(0.8rem, 1.5vmin, 1.2rem);
+        color: #aaa;
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+
+    .menu-options {
+        display: flex;
+        flex-direction: row;
+        /* Horizontal layout */
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        /* Allow wrapping on small screens */
+    }
+
+    .menu-options .option-btn {
+        flex: 1;
+        min-width: 200px;
+        text-align: center;
+    }
+
+    .disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        filter: grayscale(1);
+        border-color: #555;
+    }
+
+    .disabled:hover {
+        background: rgba(51, 51, 51, 0.8);
+        border-color: #555;
+    }
+
+    /* Hidden by default for HUD and quiz card; JS will show them when the game starts */
+    #hud {
+        display: none;
+    }
+
+    #quiz-card {
+        display: none;
+    }
+
+    /* real disabled state for buttons */
+    button[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+        filter: grayscale(1);
+        border-color: #555;
+    }
+
+    /* Video Overlay */
+    #video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 999;
+        /* On top of everything */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sudden-death-video {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        z-index: 10;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
+        pointer-events: none;
+    }
+
+    .bank-account {
+        font-size: clamp(1.5rem, 4vmin, 3rem);
+        font-weight: 900;
+        color: var(--money);
+        font-family: 'Courier New', monospace;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .level-badge {
+        background: var(--accent);
+        color: black;
+        padding: 0.5em 1em;
+        border-radius: 4px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: clamp(0.8rem, 2vmin, 1.5rem);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Question Card Overlay */
+    .card {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: var(--card);
+        padding: 2% 2.5%;
+        box-sizing: border-box;
+        border-top: 4px solid var(--accent);
+        border-radius: 16px 16px 0 0;
+        box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.45);
+        z-index: 20;
         transform: translateY(0);
-        opacity: 1;
+        transition: transform 0.3s ease-out;
+        -webkit-backdrop-filter: blur(6px);
+
+        /* Quiz Footer (New Layout) */
+        .quiz-footer {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            align-items: stretch;
+        }
+
+        @media (max-width: 600px) {
+            .quiz-footer {
+                flex-direction: column;
+            }
+        }
+
+        /* Animations */
+        @keyframes popIn {
+            from {
+                transform: scale(0.8) translateX(-50%);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1) translateX(-50%);
+                opacity: 1;
+            }
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-5px);
+            }
+
+            75% {
+                transform: translateX(5px);
+            }
+        }
+
+        .shaking {
+            animation: shake 0.4s ease-in-out;
+        }
+
+        /* Main Menu Styles */
+        .menu-card {
+            position: absolute;
+            bottom: 5%;
+            /* Move to bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            /* Center horizontally only */
+            top: auto;
+            /* Remove top positioning */
+            width: 90%;
+            max-width: 1200px;
+            background: rgba(37, 37, 37, 0.90);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border: 2px solid var(--accent);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.8);
+            z-index: 100;
+        }
+
+        .menu-card h1 {
+            color: var(--accent);
+            margin: 0;
+            font-size: clamp(1.2rem, 3vmin, 2rem);
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .menu-card h2 {
+            margin: 0;
+            font-size: clamp(0.8rem, 1.5vmin, 1.2rem);
+            color: #aaa;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .menu-options {
+            display: flex;
+            flex-direction: row;
+            /* Horizontal layout */
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            /* Allow wrapping on small screens */
+        }
+
+        .menu-options .option-btn {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+        }
+
+        .disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            filter: grayscale(1);
+            border-color: #555;
+        }
+
+        .disabled:hover {
+            background: rgba(51, 51, 51, 0.8);
+            border-color: #555;
+        }
+
+        /* Hidden by default for HUD and quiz card; JS will show them when the game starts */
+        #hud {
+            display: none;
+        }
+
+        #quiz-card {
+            display: none;
+        }
+
+        /* real disabled state for buttons */
+        button[disabled] {
+            opacity: 0.5;
+            cursor: not-allowed;
+            filter: grayscale(1);
+            border-color: #555;
+        }
+
+        /* Video Overlay */
+        #video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 999;
+            /* On top of everything */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #sudden-death-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Quiz Footer (New Layout) */
+        .quiz-footer {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        /* Merged Next Button Styling */
+        #next-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 15px;
+            height: auto;
+            min-height: 60px;
+            gap: 8px;
+        }
+
+        #explanation-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 5px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 8px 0;
+        }
+
+        #code-text {
+            display: block;
+            font-family: 'Courier New', monospace;
+            color: #fff;
+            font-size: 0.95rem;
+            margin-bottom: 4px;
+            text-align: center;
+        }
+
+        #citation-text {
+            font-size: 0.85rem;
+            color: #ddd;
+            /* Lighter for visibility on button */
+            font-style: italic;
+            text-align: center;
+        }
+
+        .next-label {
+            font-weight: bold;
+        }
     }
-}
 
-@keyframes fadeUp {
-    from {
-        transform: translateY(8px);
-        opacity: 0;
+    /* Animations */
+    @keyframes popIn {
+        from {
+            transform: scale(0.8) translateX(-50%);
+            opacity: 0;
+        }
+
+        to {
+            transform: scale(1) translateX(-50%);
+            opacity: 1;
+        }
     }
 
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+    @keyframes shake {
 
-.card {
-    animation: slideUp 320ms cubic-bezier(0.2, 0.9, 0.2, 1) both;
-}
+        0%,
+        100% {
+            transform: translateX(0);
+        }
 
-.options .option-btn {
-    animation: fadeUp 360ms cubic-bezier(0.22, 1, 0.36, 1) both;
-    will-change: transform, opacity;
-}
+        25% {
+            transform: translateX(-5px);
+        }
 
-/* Stagger a few children for a nicer entrance (covers common counts) */
-.options .option-btn:nth-child(1) {
-    animation-delay: 40ms;
-}
-
-.options .option-btn:nth-child(2) {
-    animation-delay: 80ms;
-}
-
-.options .option-btn:nth-child(3) {
-    animation-delay: 120ms;
-}
-
-.options .option-btn:nth-child(4) {
-    animation-delay: 160ms;
-}
-
-.options .option-btn:nth-child(5) {
-    animation-delay: 200ms;
-}
-
-.options .option-btn:nth-child(6) {
-    animation-delay: 240ms;
-}
-
-.options .option-btn:nth-child(7) {
-    animation-delay: 280ms;
-}
-
-.options .option-btn:nth-child(8) {
-    animation-delay: 320ms;
-}
-
-.option-btn:hover,
-.option-btn:focus {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
-    transition: transform 180ms ease, box-shadow 180ms ease;
-}
-
-/* Respect reduced motion preferences */
-@media (prefers-reduced-motion: reduce) {
-
-    .card,
-    .options .option-btn {
-        animation: none !important;
-        transition: none !important;
-    }
-}
-
-.option-btn:hover {
-    background: #444;
-    border-color: #666;
-}
-
-/* States */
-.option-btn.correct {
-    background: rgba(0, 230, 118, 0.3);
-    border-color: var(--correct);
-    color: var(--correct);
-}
-
-.option-btn.wrong {
-    background: rgba(255, 82, 82, 0.3);
-    border-color: var(--wrong);
-    color: var(--wrong);
-}
-
-.option-btn.missed {
-    border: 2px dashed var(--correct);
-    opacity: 0.7;
-}
-
-/* Explanation */
-#explanation {
-    display: none;
-    margin-top: 20px;
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.5);
-    border-left: 4px solid var(--accent);
-    border-radius: 0 8px 8px 0;
-}
-
-#code-text {
-    font-family: 'Courier New', monospace;
-    font-size: 0.9rem;
-    color: #bbb;
-    margin-bottom: 5px;
-    display: block;
-}
-
-#citation-text {
-    font-size: 0.8rem;
-    color: var(--accent);
-    font-style: italic;
-}
-
-.btn-next {
-    width: 100%;
-    margin-top: 20px;
-    background: var(--accent);
-    color: #000;
-    border: none;
-    padding: 15px;
-    font-size: 1.1rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 8px;
-    display: none;
-    box-shadow: 0 4px 10px rgba(251, 192, 45, 0.4);
-}
-
-.btn-next:hover {
-    background: #ffca28;
-    transform: translateY(-2px);
-}
-
-/* Animations */
-@keyframes popIn {
-    from {
-        transform: scale(0.8) translateX(-50%);
-        opacity: 0;
+        75% {
+            transform: translateX(5px);
+        }
     }
 
-    to {
-        transform: scale(1) translateX(-50%);
-        opacity: 1;
-    }
-}
-
-@keyframes shake {
-
-    0%,
-    100% {
-        transform: translateX(0);
+    .shaking {
+        animation: shake 0.4s ease-in-out;
     }
 
-    25% {
-        transform: translateX(-5px);
+    /* Main Menu Styles */
+    .menu-card {
+        position: absolute;
+        bottom: 5%;
+        /* Move to bottom */
+        left: 50%;
+        transform: translateX(-50%);
+        /* Center horizontally only */
+        top: auto;
+        /* Remove top positioning */
+        width: 90%;
+        max-width: 1200px;
+        background: rgba(37, 37, 37, 0.90);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 2px solid var(--accent);
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.8);
+        z-index: 100;
     }
 
-    75% {
-        transform: translateX(5px);
+    .menu-card h1 {
+        color: var(--accent);
+        margin: 0;
+        font-size: clamp(1.2rem, 3vmin, 2rem);
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
-}
 
-.shaking {
-    animation: shake 0.4s ease-in-out;
-}
+    .menu-card h2 {
+        margin: 0;
+        font-size: clamp(0.8rem, 1.5vmin, 1.2rem);
+        color: #aaa;
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
 
-/* Main Menu Styles */
-.menu-card {
-    position: absolute;
-    bottom: 5%;
-    /* Move to bottom */
-    left: 50%;
-    transform: translateX(-50%);
-    /* Center horizontally only */
-    top: auto;
-    /* Remove top positioning */
-    width: 90%;
-    max-width: 1200px;
-    background: rgba(37, 37, 37, 0.90);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border: 2px solid var(--accent);
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.8);
-    z-index: 100;
-}
+    .menu-options {
+        display: flex;
+        flex-direction: row;
+        /* Horizontal layout */
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        /* Allow wrapping on small screens */
+    }
 
-.menu-card h1 {
-    color: var(--accent);
-    margin: 0;
-    font-size: clamp(1.2rem, 3vmin, 2rem);
-    text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+    .menu-options .option-btn {
+        flex: 1;
+        min-width: 200px;
+        text-align: center;
+    }
 
-.menu-card h2 {
-    margin: 0;
-    font-size: clamp(0.8rem, 1.5vmin, 1.2rem);
-    color: #aaa;
-    margin-bottom: 10px;
-    font-weight: normal;
-}
+    .disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        filter: grayscale(1);
+        border-color: #555;
+    }
 
-.menu-options {
-    display: flex;
-    flex-direction: row;
-    /* Horizontal layout */
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    /* Allow wrapping on small screens */
-}
+    .disabled:hover {
+        background: rgba(51, 51, 51, 0.8);
+        border-color: #555;
+    }
 
-.menu-options .option-btn {
-    flex: 1;
-    min-width: 200px;
-    text-align: center;
-}
+    /* Hidden by default for HUD and quiz card; JS will show them when the game starts */
+    #hud {
+        display: none;
+    }
 
-.disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    filter: grayscale(1);
-    border-color: #555;
-}
+    #quiz-card {
+        display: none;
+    }
 
-.disabled:hover {
-    background: rgba(51, 51, 51, 0.8);
-    border-color: #555;
-}
+    /* real disabled state for buttons */
+    button[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+        filter: grayscale(1);
+        border-color: #555;
+    }
 
-/* Hidden by default for HUD and quiz card; JS will show them when the game starts */
-#hud {
-    display: none;
-}
+    /* Video Overlay */
+    #video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 999;
+        /* On top of everything */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-#quiz-card {
-    display: none;
-}
+    #sudden-death-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-/* real disabled state for buttons */
-button[disabled] {
-    opacity: 0.5;
-    cursor: not-allowed;
-    filter: grayscale(1);
-    border-color: #555;
-}
+    /* Quiz Footer (New Layout) */
+    .quiz-footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
 
-/* Video Overlay */
-#video-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    z-index: 999;
-    /* On top of everything */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    /* Merged Next Button Styling */
+    #next-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 15px;
+        height: auto;
+        min-height: 60px;
+        gap: 8px;
+    }
 
-#sudden-death-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    #explanation-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 5px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 8px 0;
+    }
+
+    #code-text {
+        display: block;
+        font-family: 'Courier New', monospace;
+        color: #fff;
+        font-size: 0.95rem;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
+    #citation-text {
+        font-size: 0.85rem;
+        color: #ddd;
+        /* Lighter for visibility on button */
+        font-style: italic;
+        text-align: center;
+    }
+
+    .next-label {
+        font-weight: bold;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+
+    @media (max-width: 600px) {
+        #next-btn {
+            padding: 12px;
+        }
+    }
+
+    .explanation-controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    @media (max-width: 600px) {
+        .explanation-controls {
+            flex-direction: column;
+        }
+    }

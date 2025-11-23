@@ -1,6 +1,6 @@
 const questions = [
     {
-        "id": 3001,
+        "id": 103001,
         "category": "Advanced Trivia",
         "topic": "Anti-Freeze",
         "question": "In NEW systems (post-2012), can you use pure glycerin and mix it with water on site?",
@@ -14,7 +14,7 @@ const questions = [
         "code_text": "Antifreeze solutions... shall be listed."
     },
     {
-        "id": 3002,
+        "id": 103002,
         "category": "Advanced Trivia",
         "topic": "Backflow",
         "question": "Where does the Forward Flow Test of a backflow preventer take place?",
@@ -28,7 +28,7 @@ const questions = [
         "code_text": "Means shall be provided downstream... to forward flow test... at system demand."
     },
     {
-        "id": 3003,
+        "id": 103003,
         "category": "Advanced Trivia",
         "topic": "Hangers",
         "question": "Can you drive a lag screw into the side of a wood beam (horizontal)?",
@@ -42,7 +42,7 @@ const questions = [
         "code_text": "Coach screws... shall not be used for support of pipes larger than 4 in... (Side beam requires specific strap logic)."
     },
     {
-        "id": 101,
+        "id": 200101,
         "category": "NFPA 13 - Installation",
         "topic": "Coverage",
         "question": "What is the coverage area for Light Hazard heads (Standard Spray)?",
@@ -56,7 +56,7 @@ const questions = [
         "code_text": "Light Hazard Protection Area: 225 ft2."
     },
     {
-        "id": 102,
+        "id": 200102,
         "category": "NFPA 13 - Installation",
         "topic": "Coverage",
         "question": "What is the coverage area for Ordinary Hazard heads?",
@@ -70,7 +70,7 @@ const questions = [
         "code_text": "Ordinary Hazard Protection Area: 130 ft2."
     },
     {
-        "id": 103,
+        "id": 200103,
         "category": "NFPA 13 - Installation",
         "topic": "Coverage",
         "question": "What is the coverage area for Extra Hazard heads?",
@@ -84,7 +84,7 @@ const questions = [
         "code_text": "Extra Hazard Protection Area: 100 ft2."
     },
     {
-        "id": 104,
+        "id": 200104,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
         "question": "What is the maximum distance between hangers on 1\" schedule 40 pipe?",
@@ -98,10 +98,10 @@ const questions = [
         "code_text": "1 in: 12 ft."
     },
     {
-        "id": 105,
+        "id": 200105,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
-        "question": "What is the maximum distance between hangers on 1¼\" schedule 40 pipe?",
+        "question": "What is the maximum distance between hangers on 1\u00bc\" schedule 40 pipe?",
         "answer": "12 feet",
         "distractors": [
             "15 feet",
@@ -112,10 +112,10 @@ const questions = [
         "code_text": "1-1/4 in: 12 ft."
     },
     {
-        "id": 106,
+        "id": 200106,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
-        "question": "What is the maximum distance between hangers on 1½\" schedule 40 pipe?",
+        "question": "What is the maximum distance between hangers on 1\u00bd\" schedule 40 pipe?",
         "answer": "15 feet",
         "distractors": [
             "12 feet",
@@ -126,7 +126,7 @@ const questions = [
         "code_text": "1-1/2 in: 15 ft."
     },
     {
-        "id": 107,
+        "id": 200107,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
         "question": "Maximum unsupported length of pipe from end of 1\" pipe to last hanger?",
@@ -140,10 +140,10 @@ const questions = [
         "code_text": "1 in: 36 inches."
     },
     {
-        "id": 108,
+        "id": 200108,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
-        "question": "Maximum unsupported length of pipe from end of 1¼\" pipe to last hanger?",
+        "question": "Maximum unsupported length of pipe from end of 1\u00bc\" pipe to last hanger?",
         "answer": "48 inches",
         "distractors": [
             "36 inches",
@@ -154,10 +154,10 @@ const questions = [
         "code_text": "1-1/4 in: 48 inches."
     },
     {
-        "id": 109,
+        "id": 200109,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
-        "question": "Maximum unsupported length of pipe from end of 1½\" pipe to last hanger?",
+        "question": "Maximum unsupported length of pipe from end of 1\u00bd\" pipe to last hanger?",
         "answer": "60 inches",
         "distractors": [
             "48 inches",
@@ -168,79 +168,7 @@ const questions = [
         "code_text": "1-1/2 in or larger: 60 inches."
     },
     {
-        "id": 110,
-        "category": "NFPA 13 - Installation",
-        "topic": "Calculations",
-        "question": "In Ordinary Hazard (130 sq ft), if heads are 12'6\" apart on the line, what is the max distance between lines?",
-        "answer": "10.4 feet",
-        "math_logic": "130 / 12.5 = 10.4",
-        "distractors": [
-            "12.5 feet",
-            "15 feet",
-            "10 feet"
-        ],
-        "citation": "NFPA 13 (2016), Table 8.6.2.2.1(b)",
-        "code_text": "S x L = Area."
-    },
-    {
-        "id": 111,
-        "category": "NFPA 13 - Installation",
-        "topic": "Components",
-        "question": "What color is the glass bulb for Ordinary Temperature (135-170°F)?",
-        "answer": "Orange or Red",
-        "distractors": [
-            "Yellow",
-            "Blue",
-            "Green"
-        ],
-        "citation": "NFPA 13 (2016), Table 6.2.5.1",
-        "code_text": "135-170 F: Orange/Red."
-    },
-    {
-        "id": 112,
-        "category": "NFPA 13 - Installation",
-        "topic": "Components",
-        "question": "What color is the glass bulb for Intermediate Temperature (175-225°F)?",
-        "answer": "Yellow or Green",
-        "distractors": [
-            "Blue",
-            "Red",
-            "Purple"
-        ],
-        "citation": "NFPA 13 (2016), Table 6.2.5.1",
-        "code_text": "175-225 F: Yellow/Green."
-    },
-    {
-        "id": 113,
-        "category": "NFPA 13 - Installation",
-        "topic": "Components",
-        "question": "What color is the glass bulb for High Temperature (250-300°F)?",
-        "answer": "Blue",
-        "distractors": [
-            "Green",
-            "Purple",
-            "Red"
-        ],
-        "citation": "NFPA 13 (2016), Table 6.2.5.1",
-        "code_text": "250-300 F: Blue.",
-        "mnemonic": "Blue flame is hot."
-    },
-    {
-        "id": 114,
-        "category": "NFPA 13 - Installation",
-        "topic": "Components",
-        "question": "What color is the glass bulb for Extra High Temperature (325-375°F)?",
-        "answer": "Purple",
-        "distractors": [
-            "Black",
-            "Blue",
-            "Red"
-        ],
-        "citation": "NFPA 13 (2016), Table 6.2.5.1",
-        "code_text": "325-375 F: Purple."
-    },
-    {
-        "id": 115,
+        "id": 200115,
         "category": "NFPA 13 - Installation",
         "topic": "Pipe Schedule",
         "question": "In Light Hazard, how many sprinklers can be fed by a 1\" pipe?",
@@ -254,10 +182,10 @@ const questions = [
         "code_text": "1 in: 2 sprinklers."
     },
     {
-        "id": 116,
+        "id": 200116,
         "category": "NFPA 13 - Installation",
         "topic": "Pipe Schedule",
-        "question": "In Light Hazard, how many sprinklers can be fed by a 1½\" pipe?",
+        "question": "In Light Hazard, how many sprinklers can be fed by a 1\u00bd\" pipe?",
         "answer": "5 heads",
         "distractors": [
             "3 heads",
@@ -268,7 +196,7 @@ const questions = [
         "code_text": "1-1/2 in: 5 sprinklers."
     },
     {
-        "id": 117,
+        "id": 200117,
         "category": "NFPA 13 - Installation",
         "topic": "Clearance",
         "question": "Minimum distance between a standard sprinkler deflector and the top of storage?",
@@ -282,7 +210,7 @@ const questions = [
         "code_text": "Minimum of 18 in. clearance."
     },
     {
-        "id": 118,
+        "id": 200118,
         "category": "NFPA 13 - Installation",
         "topic": "Obstructions",
         "question": "Minimum distance a standard sprinkler must be from a wall?",
@@ -296,7 +224,7 @@ const questions = [
         "code_text": "Minimum of 4 in. from a wall."
     },
     {
-        "id": 119,
+        "id": 200119,
         "category": "NFPA 13 - Installation",
         "topic": "Spacing",
         "question": "Minimum distance between two standard sprinklers?",
@@ -310,35 +238,7 @@ const questions = [
         "code_text": "Spaced not less than 6 ft on center."
     },
     {
-        "id": 120,
-        "category": "NFPA 13 - Installation",
-        "topic": "Dry Systems",
-        "question": "Pitch required for branch lines in a dry system?",
-        "answer": "¼\" per 10 feet",
-        "distractors": [
-            "½\" per 10 feet",
-            "1/8\" per 10 feet",
-            "Level"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.16.2.3",
-        "code_text": "At least 1/4 in. per 10 ft for branch lines."
-    },
-    {
-        "id": 121,
-        "category": "NFPA 13 - Installation",
-        "topic": "Dry Systems",
-        "question": "Pitch required for mains in a dry system?",
-        "answer": "½\" per 10 feet",
-        "distractors": [
-            "¼\" per 10 feet",
-            "¾\" per 10 feet",
-            "1\" per 10 feet"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.16.2.3",
-        "code_text": "At least 1/2 in. per 10 ft for cross mains."
-    },
-    {
-        "id": 122,
+        "id": 200122,
         "category": "NFPA 13R - Residential",
         "topic": "Scope",
         "question": "NFPA 13R applies to residential buildings up to what height?",
@@ -352,7 +252,7 @@ const questions = [
         "code_text": "Up to and including four stories in height."
     },
     {
-        "id": 123,
+        "id": 200123,
         "category": "NFPA 13D - Residential",
         "topic": "Design",
         "question": "What is the water supply duration requirement for NFPA 13D?",
@@ -366,665 +266,7 @@ const questions = [
         "code_text": "Water demand rate times 10 minutes."
     },
     {
-        "id": 701,
-        "category": "Math \u0026 Formulas",
-        "topic": "Head Pressure",
-        "question": "Formula to convert Feet of Head to PSI?",
-        "answer": "Feet × 0.433 = PSI",
-        "distractors": [
-            "Feet × 2.31",
-            "Feet / 0.433",
-            "Feet × 0.5"
-        ],
-        "citation": "Hydraulics Basic",
-        "code_text": "1 ft of water column = 0.433 psi."
-    },
-    {
-        "id": 702,
-        "category": "Math \u0026 Formulas",
-        "topic": "Head Pressure",
-        "question": "Formula to convert PSI to Feet of Head?",
-        "answer": "PSI × 2.31 = Feet",
-        "distractors": [
-            "PSI / 2.31",
-            "PSI × 0.433",
-            "PSI × 12"
-        ],
-        "citation": "Hydraulics Basic",
-        "code_text": "1 psi = 2.31 ft of water column."
-    },
-    {
-        "id": 703,
-        "category": "Math \u0026 Formulas",
-        "topic": "Flow Formula",
-        "question": "What is the standard flow formula (K-Factor)?",
-        "answer": "Q = K × √P (Flow = K-factor × Square Root of Pressure)",
-        "distractors": [
-            "Q = K × P",
-            "P = K × √Q",
-            "Q = P / K"
-        ],
-        "citation": "NFPA 13 (2016), Section 23.4.2.1",
-        "code_text": "The flow from a sprinkler... shall be calculated using the formula Q=K√P."
-    },
-    {
-        "id": 704,
-        "category": "Math \u0026 Formulas",
-        "topic": "Friction Loss",
-        "question": "Hazen-Williams Formula: If pipe diameter DECREASES, what happens to friction loss?",
-        "answer": "Friction loss INCREASES drastically",
-        "distractors": [
-            "Friction loss decreases",
-            "Friction loss stays the same",
-            "Pressure increases"
-        ],
-        "citation": "Hydraulics Principle",
-        "code_text": "Smaller pipe = Higher velocity = Much higher friction loss."
-    },
-    {
-        "id": 705,
-        "category": "Math \u0026 Formulas",
-        "topic": "Simple Math",
-        "question": "How many gallons are in 1 cubic foot of water?",
-        "answer": "7.48 gallons",
-        "distractors": [
-            "8.34 gallons",
-            "12 gallons",
-            "6.5 gallons"
-        ],
-        "citation": "General Knowledge",
-        "code_text": "1 cubic foot = 7.48 gallons."
-    },
-    {
-        "id": 706,
-        "category": "Math \u0026 Formulas",
-        "topic": "Simple Math",
-        "question": "How much does 1 gallon of water weigh?",
-        "answer": "8.34 lbs",
-        "distractors": [
-            "10 lbs",
-            "7.48 lbs",
-            "6 lbs"
-        ],
-        "citation": "General Knowledge",
-        "code_text": "Standard weight of water."
-    },
-    {
-        "id": 707,
-        "category": "Math \u0026 Formulas",
-        "topic": "Coverage",
-        "question": "Formula for Sprinkler Coverage Area (Spacing)?",
-        "answer": "S × L (Distance along branch line × Distance between branch lines)",
-        "distractors": [
-            "S + L",
-            "S × L / 2",
-            "S × S"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.5.2.1",
-        "code_text": "The protection area... shall be determined by multiplying S dimension by L dimension."
-    },
-    {
-        "id": 708,
-        "category": "Math \u0026 Formulas",
-        "topic": "Calculations",
-        "question": "If the required density is 0.15 gpm/sq ft and the coverage area is 130 sq ft, what is the minimum flow (Q) ? ",
-        "answer": "19.5 gpm (0.15 × 130)",
-        "distractors": [
-            "25 gpm",
-            "15 gpm",
-            "13 gpm"
-        ],
-        "citation": "Hydraulics Basic",
-        "code_text": "Flow (Q) = Density × Area."
-    },
-    {
-        "id": 801,
-        "category": "MN Traps",
-        "topic": "FDC Height",
-        "question": "MN TRAP: What is the max height of an FDC in Minnesota?",
-        "answer": "48 inches (NFPA says \u0027per AHJ\u0027, MN says strictly 48\")",
-        "distractors": [
-            "60 inches",
-            "54 inches",
-            "42 inches"
-        ],
-        "citation": "MN Fire Code (2020) 912.2.2",
-        "code_text": "Max height 48 inches.",
-        "is_mn_amendment": true
-    },
-    {
-        "id": 802,
-        "category": "MN Traps",
-        "topic": "Valve Supervision",
-        "question": "MN TRAP: Does a small system (under 20 heads) require valve monitoring?",
-        "answer": "YES. (MN deletes the NFPA exception for small systems)",
-        "distractors": [
-            "No, if locked",
-            "No, if sealed open"
-        ],
-        "citation": "MN Fire Code (2020) 903.4",
-        "code_text": "MN Amendment deletes exception 1.",
-        "is_mn_amendment": true
-    },
-    {
-        "id": 803,
-        "category": "MN Traps",
-        "topic": "13R vs 13",
-        "question": "Common Mistake: Can you use NFPA 13R for a 4-story building with a basement sticking 50% out of the ground?",
-        "answer": "Maybe not - \u0027Grade Plane\u0027 definition is strict. 4 stories TOTAL.",
-        "distractors": [
-            "Yes, always",
-            "No, 13R is only for 3 stories"
-        ],
-        "citation": "NFPA 13R / IBC / MN Code",
-        "code_text": "13R limited to 4 stories above grade plane.",
-        "is_mn_amendment": false
-    },
-    {
-        "id": 804,
-        "category": "MN Traps",
-        "topic": "Bathrooms",
-        "question": "Common Mistake: Do you need sprinklers in a 50 sq ft bathroom in an NFPA 13 (Commercial) Hotel?",
-        "answer": "YES. (NFPA 13 requires them. NFPA 13R allows omission)",
-        "distractors": [
-            "No, it\u0027s small",
-            "Only if it has a shower"
-        ],
-        "citation": "NFPA 13 vs 13R",
-        "code_text": "NFPA 13 requires bathroom sprinklers. NFPA 13R permits omission if \u003c55 sq ft.",
-        "mnemonic": "Commercial (13) = Cover everything. Residential (13R) = Relaxed."
-    },
-    {
-        "id": 805,
-        "category": "MN Traps",
-        "topic": "License Renewal",
-        "question": "MN TRAP: If you fail to renew your license by June 30th, can you still work?",
-        "answer": "No, you are unlicensed immediately",
-        "distractors": [
-            "Yes, there is a 30 day grace period",
-            "Yes, if you pay a late fee"
-        ],
-        "citation": "MN Rules 7512",
-        "code_text": "License expires. No grace period for performing work.",
-        "is_mn_amendment": true
-    },
-    {
-        "id": 806,
-        "category": "MN Traps",
-        "topic": "Color Codes",
-        "question": "Common Mistake: What color are frame arms for \u0027High\u0027 temp (250-300)?",
-        "answer": "Blue (Same as the bulb)",
-        "distractors": [
-            "White",
-            "Red",
-            "Green"
-        ],
-        "citation": "NFPA 13 (2016) Table 6.2.5.1",
-        "code_text": "High Temp: Blue bulb / Blue frame."
-    },
-    {
-        "id": 807,
-        "category": "MN Traps",
-        "topic": "Color Codes",
-        "question": "Common Mistake: What color are frame arms for \u0027Extra High\u0027 temp (325-375)?",
-        "answer": "Red (Bulb is Purple)",
-        "distractors": [
-            "Purple",
-            "Black",
-            "Blue"
-        ],
-        "citation": "NFPA 13 (2016) Table 6.2.5.1",
-        "code_text": "Extra High: Purple bulb / Red frame. (This is the only one where bulb/frame don\u0027t match or aren\u0027t intuitive).",
-        "mnemonic": "Extra High = Red Alert (Frame)."
-    },
-    {
-        "id": 808,
-        "category": "MN Traps",
-        "topic": "Obstructions",
-        "question": "Common Mistake: Can you install a sprinkler 2 inches from a wall?",
-        "answer": "No, Minimum 4 inches",
-        "distractors": [
-            "Yes, allowed",
-            "Yes, if using a baffle"
-        ],
-        "citation": "NFPA 13 (2016) 8.6.3.2.3",
-        "code_text": "Minimum of 4 in. from a wall."
-    },
-    {
-        "id": 901,
-        "category": "NFPA 13 - Seismic",
-        "topic": "Bracing",
-        "question": "Lateral sway braces are spaced at a maximum of what distance?",
-        "answer": "40 feet",
-        "distractors": [
-            "20 feet",
-            "80 feet",
-            "50 feet"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.5.3.2",
-        "code_text": "Lateral sway bracing... shall be spaced at a maximum of 40 ft."
-    },
-    {
-        "id": 902,
-        "category": "NFPA 13 - Seismic",
-        "topic": "Bracing",
-        "question": "Longitudinal sway braces are spaced at a maximum of what distance?",
-        "answer": "80 feet",
-        "distractors": [
-            "40 feet",
-            "60 feet",
-            "100 feet"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.5.4",
-        "code_text": "Longitudinal sway bracing... spaced at a maximum of 80 ft."
-    },
-    {
-        "id": 903,
-        "category": "NFPA 13 - Seismic",
-        "topic": "Bracing",
-        "question": "A lateral brace must be within how many feet of the end of the pipe?",
-        "answer": "6 feet",
-        "distractors": [
-            "12 feet",
-            "4 feet",
-            "2 feet"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.5.3.2",
-        "code_text": "Distance between the last brace and the end of the pipe shall not exceed 6 ft."
-    },
-    {
-        "id": 904,
-        "category": "NFPA 13 - Seismic",
-        "topic": "Bracing",
-        "question": "A longitudinal brace must be within how many feet of the end of the pipe?",
-        "answer": "40 feet",
-        "distractors": [
-            "20 feet",
-            "80 feet",
-            "10 feet"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.5.4",
-        "code_text": "Distance between the last brace and the end of the pipe shall not exceed 40 ft."
-    },
-    {
-        "id": 905,
-        "category": "NFPA 13 - Seismic",
-        "topic": "4-Way Braces",
-        "question": "Where are 4-way sway braces required?",
-        "answer": "At the top of the riser",
-        "distractors": [
-            "At the bottom of the riser",
-            "Every 20 feet vertically",
-            "On all cross mains"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.5.5",
-        "code_text": "4-way sway braces shall be provided at the top of the riser."
-    },
-    {
-        "id": 906,
-        "category": "NFPA 13 - Seismic",
-        "topic": "Flexible Couplings",
-        "question": "On a riser, where should a flexible coupling be installed in a seismic zone?",
-        "answer": "Within 24 inches of the floor and within 12 inches of the ceiling",
-        "distractors": [
-            "Within 12 inches of floor only",
-            "Every 10 feet",
-            "At the midpoint only"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.2.3",
-        "code_text": "Flexible couplings shall be installed... within 24 in. of the floor... within 12 in. of the ceiling."
-    },
-    {
-        "id": 907,
-        "category": "NFPA 13 - Seismic",
-        "topic": "Clearance",
-        "question": "What is the required clearance for a pipe 4 inches or larger passing through a wall in a seismic zone?",
-        "answer": "2 inches",
-        "distractors": [
-            "1 inch",
-            "4 inches",
-            "1/2 inch"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.4",
-        "code_text": "Nominal pipe size 4 in. or larger... clearance of 2 in."
-    },
-    {
-        "id": 908,
-        "category": "NFPA 13 - Seismic",
-        "topic": "Restraint",
-        "question": "Branch lines need restraint (wraparound/clip) at the end if?",
-        "answer": "They move excessively or if wire/rod hangers are used in seismic zones",
-        "distractors": [
-            "Always",
-            "Only if \u003e 2 inches",
-            "Never"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.6",
-        "code_text": "Restraint of branch lines... shall be provided."
-    },
-    {
-        "id": 1001,
-        "category": "NFPA 24 - Underground",
-        "topic": "Thrust Blocks",
-        "question": "Thrust blocks are required at which locations?",
-        "answer": "Changes in direction (elbows/tees), dead ends, and reducers",
-        "distractors": [
-            "Every joint",
-            "Every 10 feet",
-            "Only at the riser flange"
-        ],
-        "citation": "NFPA 24 (2016), Section 10.8.1",
-        "code_text": "Thrust blocks... shall be required at all changes in direction... reducers... and dead ends."
-    },
-    {
-        "id": 1002,
-        "category": "NFPA 24 - Underground",
-        "topic": "Thrust Blocks",
-        "question": "Can concrete for a thrust block cover the bolts of the fitting?",
-        "answer": "No, bolts and joints must remain accessible",
-        "distractors": [
-            "Yes, to protect them",
-            "Yes, if wrapped in plastic",
-            "Only the bottom bolts"
-        ],
-        "citation": "NFPA 24 (2016), Section 10.8.2",
-        "code_text": "Thrust blocks shall be constructed so that joints and bolts are accessible."
-    },
-    {
-        "id": 1003,
-        "category": "NFPA 24 - Underground",
-        "topic": "Rodding",
-        "question": "When using threaded rod for restraining underground pipe, what size rod is required for pipe 4\" to 8\"?",
-        "answer": "5/8 inch",
-        "distractors": [
-            "1/2 inch",
-            "3/4 inch",
-            "1 inch"
-        ],
-        "citation": "NFPA 24 (2016), Section 10.8.3",
-        "code_text": "(Standard industry practice \u0026 table data often references 5/8\" for mid-range sizes)."
-    },
-    {
-        "id": 1004,
-        "category": "NFPA 24 - Underground",
-        "topic": "Flushing",
-        "question": "What is the minimum flow rate required to flush a 4-inch underground main?",
-        "answer": "390 gpm (or 10 ft/sec velocity)",
-        "distractors": [
-            "200 gpm",
-            "500 gpm",
-            "880 gpm"
-        ],
-        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
-        "code_text": "4 in pipe -\u003e 390 gpm (to achieve 10 ft/sec)."
-    },
-    {
-        "id": 1005,
-        "category": "NFPA 24 - Underground",
-        "topic": "Flushing",
-        "question": "What is the minimum flow rate required to flush a 6-inch underground main?",
-        "answer": "880 gpm",
-        "distractors": [
-            "500 gpm",
-            "1560 gpm",
-            "1000 gpm"
-        ],
-        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
-        "code_text": "6 in pipe -\u003e 880 gpm."
-    },
-    {
-        "id": 1006,
-        "category": "NFPA 24 - Underground",
-        "topic": "Testing",
-        "question": "Underground piping must be hydrostatically tested at what pressure?",
-        "answer": "200 psi or 50 psi in excess of working pressure",
-        "distractors": [
-            "150 psi",
-            "100 psi",
-            "250 psi"
-        ],
-        "citation": "NFPA 24 (2016), Section 10.10.2.2",
-        "code_text": "Test pressure shall be at least 200 psi."
-    },
-    {
-        "id": 1101,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Jockey Pump",
-        "question": "What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?",
-        "answer": "To make up for minor leaks and maintain pressure without running the main pump",
-        "distractors": [
-            "To help the main pump during a fire",
-            "To test the system",
-            "To prevent freezing"
-        ],
-        "citation": "NFPA 20 (2016), Section 4.25",
-        "code_text": "Pressure maintenance pumps... make up for allowable leakage."
-    },
-    {
-        "id": 1102,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Settings",
-        "question": "The Jockey Pump stop point should be set equal to what?",
-        "answer": "The pump churn pressure plus the minimum static supply pressure",
-        "distractors": [
-            "175 psi",
-            "The main pump start point",
-            "10 psi below churn"
-        ],
-        "citation": "NFPA 20 (2016), Annex A.14.2.6",
-        "code_text": "The stop point should equal the pump churn pressure plus the minimum static supply pressure."
-    },
-    {
-        "id": 1103,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Diesel Engines",
-        "question": "Fuel tanks for diesel fire pumps must be elevated so the supply connection is?",
-        "answer": "Not lower than the fuel pump on the engine",
-        "distractors": [
-            "Below the engine",
-            "At least 5 feet high",
-            "Buried underground"
-        ],
-        "citation": "NFPA 20 (2016), Section 11.4.1",
-        "code_text": "Located... so that the fuel supply connection... is not lower than the fuel transfer pump."
-    },
-    {
-        "id": 1104,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Diesel Engines",
-        "question": "How much fuel must a diesel fire pump tank hold?",
-        "answer": "1 gallon per horsepower + 5% expansion + 5% sump",
-        "distractors": [
-            "500 gallons minimum",
-            "2 gallons per HP",
-            "Enough for 24 hours"
-        ],
-        "citation": "NFPA 20 (2016), Section 11.4.3",
-        "code_text": "1 gal per hp, plus 5 percent volume for expansion and 5 percent volume for sump."
-    },
-    {
-        "id": 1105,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Pipe Sizing",
-        "question": "What is the minimum pipe size for the relief valve discharge on a 1000 gpm pump?",
-        "answer": "6 inch",
-        "distractors": [
-            "4 inch",
-            "8 inch",
-            "2 inch"
-        ],
-        "citation": "NFPA 20 (2016), Table 4.26(a)",
-        "code_text": "1000 gpm -\u003e Relief Valve Discharge 6 in."
-    },
-    {
-        "id": 1106,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Testing",
-        "question": "Does a jockey pump require a test header/hose valves?",
-        "answer": "No",
-        "distractors": [
-            "Yes",
-            "Only if over 20 gpm"
-        ],
-        "citation": "NFPA 20 (2016), Section 4.25",
-        "code_text": "Pressure maintenance pumps... shall not be required to have a test header."
-    },
-    {
-        "id": 1201,
-        "category": "Plan Reading",
-        "topic": "Symbols",
-        "question": "What does the symbol of a circle with a \u0027T\u0027 in the center typically represent?",
-        "answer": "Inspector\u0027s Test Connection",
-        "distractors": [
-            "Tee fitting",
-            "Thermostat",
-            "Transformer"
-        ],
-        "citation": "Trade Standard (NFPA 170)",
-        "code_text": "Standard fire safety symbols."
-    },
-    {
-        "id": 1202,
-        "category": "Plan Reading",
-        "topic": "Scales",
-        "question": "If a drawing is scaled at 1/8\" = 1\u00270\", what does a line measuring 2 inches on paper represent in reality?",
-        "answer": "16 feet",
-        "distractors": [
-            "8 feet",
-            "2 feet",
-            "32 feet"
-        ],
-        "citation": "Math Logic",
-        "code_text": "There are 8 eighths in an inch. 2 inches = 16 eighths. 16 x 1 ft = 16 ft."
-    },
-    {
-        "id": 1203,
-        "category": "Plan Reading",
-        "topic": "Views",
-        "question": "Which view shows the building as if you were looking down from above, with the roof removed?",
-        "answer": "Plan View",
-        "distractors": [
-            "Elevation View",
-            "Section View",
-            "Isometric View"
-        ],
-        "citation": "Trade Standard",
-        "code_text": "Plan View = Top down."
-    },
-    {
-        "id": 1204,
-        "category": "Plan Reading",
-        "topic": "Views",
-        "question": "Which view shows a vertical slice through the building to show heights of pipes?",
-        "answer": "Section View",
-        "distractors": [
-            "Plan View",
-            "Detail View",
-            "Reflected Ceiling Plan"
-        ],
-        "citation": "Trade Standard",
-        "code_text": "Section View = Slice through."
-    },
-    {
-        "id": 1205,
-        "category": "Plan Reading",
-        "topic": "Symbols",
-        "question": "On a sprinkler head symbol, what does \u0027SSU\u0027 stand for?",
-        "answer": "Standard Spray Upright",
-        "distractors": [
-            "Stainless Steel Unit",
-            "Side Spray Upward",
-            "Standard Sidewall Unit"
-        ],
-        "citation": "Trade Standard",
-        "code_text": "SSU = Standard Spray Upright."
-    },
-    {
-        "id": 1206,
-        "category": "Plan Reading",
-        "topic": "Symbols",
-        "question": "On a sprinkler head symbol, what does \u0027SSP\u0027 stand for?",
-        "answer": "Standard Spray Pendant",
-        "distractors": [
-            "Stainless Steel Pipe",
-            "Standard Spray Pressure",
-            "Side Spray Pendant"
-        ],
-        "citation": "Trade Standard",
-        "code_text": "SSP = Standard Spray Pendent."
-    },
-    {
-        "id": 1301,
-        "category": "General Knowledge",
-        "topic": "Materials",
-        "question": "What is the melting point of the solder in an ordinary temperature fusible link?",
-        "answer": "135°F to 170°F",
-        "distractors": [
-            "100°F",
-            "212°F",
-            "300°F"
-        ],
-        "citation": "NFPA 13 (2016), Table 6.2.5.1",
-        "code_text": "Ordinary classification range."
-    },
-    {
-        "id": 1302,
-        "category": "General Knowledge",
-        "topic": "Freezing",
-        "question": "Water filled piping must be maintained at a minimum temperature of?",
-        "answer": "40°F",
-        "distractors": [
-            "32°F",
-            "50°F",
-            "0°F"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.16.4.1.1",
-        "code_text": "Maintained at or above 40°F."
-    },
-    {
-        "id": 1303,
-        "category": "Safety - NFPA 10",
-        "topic": "Extinguishers",
-        "question": "What is the maximum travel distance to a Class A fire extinguisher?",
-        "answer": "75 feet",
-        "distractors": [
-            "50 feet",
-            "100 feet",
-            "25 feet"
-        ],
-        "citation": "NFPA 10",
-        "code_text": "75 ft travel distance for Class A."
-    },
-    {
-        "id": 1304,
-        "category": "Safety - NFPA 10",
-        "topic": "Extinguishers",
-        "question": "How often must fire extinguishers be visually inspected?",
-        "answer": "Monthly",
-        "distractors": [
-            "Annually",
-            "Weekly",
-            "Daily"
-        ],
-        "citation": "NFPA 10",
-        "code_text": "Inspection... at least monthly."
-    },
-    {
-        "id": 1305,
-        "category": "Safety",
-        "topic": "Electrical",
-        "question": "What is the minimum distance a ladder must be kept from energized power lines?",
-        "answer": "10 feet",
-        "distractors": [
-            "5 feet",
-            "2 feet",
-            "20 feet"
-        ],
-        "citation": "OSHA",
-        "code_text": "Minimum clearance distance of 10 feet."
-    },
-    {
-        "id": 1401,
+        "id": 201401,
         "category": "NFPA 13 - Storage",
         "topic": "Flue Space",
         "question": "In rack storage, what is the minimum required width for a transverse flue space?",
@@ -1038,11 +280,11 @@ const questions = [
         "code_text": "Nominal 6 in. transverse flue spaces... shall be provided."
     },
     {
-        "id": 1402,
+        "id": 201402,
         "category": "NFPA 13 - Storage",
         "topic": "ESFR",
         "question": "What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?",
-        "answer": "35 feet (with 40 ft roof height, varies by pressure)",
+        "answer": "35 feet",
         "distractors": [
             "20 feet",
             "50 feet",
@@ -1052,63 +294,7 @@ const questions = [
         "code_text": "Max. Ceiling/Roof Height: 35 ft for K-14."
     },
     {
-        "id": 1403,
-        "category": "NFPA 13 - Storage",
-        "topic": "In-Rack Sprinklers",
-        "question": "When installing in-rack sprinklers, what must be installed above the sprinkler to protect it from water discharge above?",
-        "answer": "A Water Shield",
-        "distractors": [
-            "A Heat Collector",
-            "A Wire Guard",
-            "A Baffle"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.15.17.3",
-        "code_text": "In-rack sprinklers... shall be equipped with water shields."
-    },
-    {
-        "id": 1404,
-        "category": "NFPA 13 - Storage",
-        "topic": "Pallet Storage",
-        "question": "Idle wood pallets stored indoors cannot exceed what height without sprinkler protection?",
-        "answer": "6 feet",
-        "distractors": [
-            "12 feet",
-            "4 feet",
-            "10 feet"
-        ],
-        "citation": "NFPA 13 (2016), Section 12.12.1.1",
-        "code_text": "Pallets shall not be stored higher than 6 ft."
-    },
-    {
-        "id": 1405,
-        "category": "NFPA 13 - Storage",
-        "topic": "Commodity Classes",
-        "question": "Which commodity class includes wood, paper, and natural fibers?",
-        "answer": "Class II or III (depending on packaging)",
-        "distractors": [
-            "Class I",
-            "Class IV",
-            "Group A Plastics"
-        ],
-        "citation": "NFPA 13 (2016), Section 5.6.3",
-        "code_text": "Class II commodities... wood crates... paper."
-    },
-    {
-        "id": 1406,
-        "category": "NFPA 13 - Storage",
-        "topic": "Plastics",
-        "question": "Expanded polystyrene (Styrofoam) is classified as what type of commodity?",
-        "answer": "Group A Plastic (Expanded)",
-        "distractors": [
-            "Class IV",
-            "Class III",
-            "Group B Plastic"
-        ],
-        "citation": "NFPA 13 (2016), Section 5.6.4.1",
-        "code_text": "Group A plastics... Expanded."
-    },
-    {
-        "id": 1501,
+        "id": 201501,
         "category": "NFPA 13 - Obstructions",
         "topic": "Three Times Rule",
         "question": "To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?",
@@ -1122,10 +308,10 @@ const questions = [
         "code_text": "Distance from the sprinkler... not less than three times the maximum vertical distance."
     },
     {
-        "id": 1502,
+        "id": 201502,
         "category": "NFPA 13 - Obstructions",
         "topic": "Vertical Obstructions",
-        "question": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head ? ",
+        "question": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?",
         "answer": "18 inches",
         "distractors": [
             "12 inches",
@@ -1133,1215 +319,10 @@ const questions = [
             "6 inches"
         ],
         "citation": "NFPA 13 (2016), Table 8.6.5.2.2",
-        "code_text": "Obstruction width 1 in to 4 in -\u003e Min distance below deflector: 18 in."
+        "code_text": "Obstruction width 1 in to 4 in -> Min distance below deflector: 18 in."
     },
     {
-        "id": 1503,
-        "category": "NFPA 13 - Obstructions",
-        "topic": "Privacy Curtains",
-        "question": "In a hospital, do privacy curtains with a 70% open mesh at the top require sprinklers in the cubicle?",
-        "answer": "No, if the mesh extends 22 inches down from the ceiling",
-        "distractors": [
-            "Yes, always",
-            "No, curtains are ignored",
-            "Only if curtains are fire retardant"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.15.13",
-        "code_text": "Sprinklers shall not be required... where... mesh is 70 percent open... extends 22 in. down."
-    },
-    {
-        "id": 1504,
-        "category": "NFPA 13 - Obstructions",
-        "topic": "Soffits",
-        "question": "A soffit exceeds 12 inches in width. Do you need a sprinkler underneath it?",
-        "answer": "Yes, unless it is tight to the wall and the wall is combustible",
-        "distractors": [
-            "No",
-            "Only if it exceeds 24 inches",
-            "Only in storage areas"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.15.8",
-        "code_text": "Sprinklers shall be required under soffits exceeding 12 in. in width."
-    },
-    {
-        "id": 1505,
-        "category": "NFPA 13 - Obstructions",
-        "topic": "Truss Construction",
-        "question": "When installing sprinklers in open web trusses, how far must the deflector be from the web member?",
-        "answer": "6 inches",
-        "distractors": [
-            "3 inches",
-            "12 inches",
-            "1 inch"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.6.5.2.1.3",
-        "code_text": "Sprinklers... shall be located at least 6 in. from truss chords or web members."
-    },
-    {
-        "id": 1601,
-        "category": "NFPA 24 - Flushing",
-        "topic": "Flow Rates",
-        "question": "What flow rate is required to flush a 4-inch underground main?",
-        "answer": "390 gpm",
-        "distractors": [
-            "200 gpm",
-            "500 gpm",
-            "880 gpm"
-        ],
-        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
-        "code_text": "4-inch: 390 gpm (velocity 10 ft/s)."
-    },
-    {
-        "id": 1602,
-        "category": "NFPA 24 - Flushing",
-        "topic": "Flow Rates",
-        "question": "What flow rate is required to flush a 6-inch underground main?",
-        "answer": "880 gpm",
-        "distractors": [
-            "500 gpm",
-            "1560 gpm",
-            "1000 gpm"
-        ],
-        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
-        "code_text": "6-inch: 880 gpm."
-    },
-    {
-        "id": 1603,
-        "category": "NFPA 24 - Flushing",
-        "topic": "Flow Rates",
-        "question": "What flow rate is required to flush an 8-inch underground main?",
-        "answer": "1560 gpm",
-        "distractors": [
-            "2000 gpm",
-            "880 gpm",
-            "1200 gpm"
-        ],
-        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
-        "code_text": "8-inch: 1560 gpm."
-    },
-    {
-        "id": 1604,
-        "category": "NFPA 13 - Acceptance",
-        "topic": "Hydrostatic Test",
-        "question": "What is the maximum allowable pressure drop during a 2-hour hydrostatic test?",
-        "answer": "0 psi (No visible leakage allowed)",
-        "distractors": [
-            "2 psi",
-            "5 psi",
-            "1.5 psi"
-        ],
-        "citation": "NFPA 13 (2016), Section 25.2.1.1",
-        "code_text": "No visible leakage... shall be permitted."
-    },
-    {
-        "id": 1605,
-        "category": "NFPA 13 - Acceptance",
-        "topic": "Papers",
-        "question": "Who must sign the Contractor\u0027s Material and Test Certificate?",
-        "answer": "The Installing Contractor and the Owner\u0027s Representative",
-        "distractors": [
-            "The Fire Marshall",
-            "The Architect",
-            "The General Contractor"
-        ],
-        "citation": "NFPA 13 (2016), Section 25.1",
-        "code_text": "Signed by both the installing contractor and the owner."
-    },
-    {
-        "id": 201,
-        "category": "NFPA 25 - ITM",
-        "topic": "Hydrants",
-        "question": "How often do you inspect private fire hydrants?",
-        "answer": "Annually and after each operation",
-        "distractors": [
-            "Quarterly",
-            "Every 3 years",
-            "Every 5 years"
-        ],
-        "citation": "NFPA 25 (2011), Section 7.3.2",
-        "code_text": "Inspected annually and after each operation."
-    },
-    {
-        "id": 202,
-        "category": "NFPA 25 - ITM",
-        "topic": "Standpipes",
-        "question": "How often is a flow test conducted on a standpipe system?",
-        "answer": "Every 5 years",
-        "distractors": [
-            "Annually",
-            "Every 3 years",
-            "Quarterly"
-        ],
-        "citation": "NFPA 25 (2011), Section 6.3.1",
-        "code_text": "Flow test shall be conducted every 5 years."
-    },
-    {
-        "id": 203,
-        "category": "NFPA 25 - ITM",
-        "topic": "Tanks",
-        "question": "How often do you check water level and air pressure in a pressure tank?",
-        "answer": "Monthly",
-        "distractors": [
-            "Weekly",
-            "Quarterly",
-            "Annually"
-        ],
-        "citation": "NFPA 25 (2011), Section 9.2.2",
-        "code_text": "Inspected monthly."
-    },
-    {
-        "id": 204,
-        "category": "NFPA 25 - ITM",
-        "topic": "Tanks",
-        "question": "How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?",
-        "answer": "Every 3 years",
-        "distractors": [
-            "Every 5 years",
-            "Annually",
-            "Every 10 years"
-        ],
-        "citation": "NFPA 25 (2011), Section 9.2.6",
-        "code_text": "Every 3 years."
-    },
-    {
-        "id": 205,
-        "category": "NFPA 25 - ITM",
-        "topic": "Pumps",
-        "question": "How long must a diesel fire pump run during a weekly test?",
-        "answer": "30 minutes",
-        "distractors": [
-            "10 minutes",
-            "15 minutes",
-            "60 minutes"
-        ],
-        "citation": "NFPA 25 (2011), Section 8.3.3",
-        "code_text": "Run a minimum of 30 minutes."
-    },
-    {
-        "id": 206,
-        "category": "NFPA 25 - ITM",
-        "topic": "Pumps",
-        "question": "How long must an electric fire pump run during a weekly test?",
-        "answer": "10 minutes",
-        "distractors": [
-            "30 minutes",
-            "5 minutes",
-            "15 minutes"
-        ],
-        "citation": "NFPA 25 (2011), Section 8.3.3",
-        "code_text": "Run a minimum of 10 minutes."
-    },
-    {
-        "id": 207,
-        "category": "MN Statutes \u0026 Rules",
-        "topic": "Licensing",
-        "is_mn_amendment": true,
-        "question": "When does a MN Sprinkler Fitter journeyman license expire?",
-        "answer": "June 30th",
-        "distractors": [
-            "December 31st",
-            "January 1st",
-            "Date of Issue"
-        ],
-        "citation": "MN Rules 7512.0200",
-        "code_text": "Expire on June 30 of each year."
-    },
-    {
-        "id": 208,
-        "category": "MN Statutes \u0026 Rules",
-        "topic": "Licensing",
-        "is_mn_amendment": true,
-        "question": "How many hours of experience are required to take the MN Journeyman exam?",
-        "answer": "8000 hours",
-        "distractors": [
-            "4000 hours",
-            "6000 hours",
-            "10000 hours"
-        ],
-        "citation": "MN Statutes 299M.03",
-        "code_text": "Minimum of 8000 hours."
-    },
-    {
-        "id": 209,
-        "category": "MN Statutes \u0026 Rules",
-        "topic": "Penalties",
-        "is_mn_amendment": true,
-        "question": "What is the fine for working without a license in MN?",
-        "answer": "Misdemeanor ($1,000 / 90 days)",
-        "distractors": [
-            "Felony",
-            "Gross Misdemeanor",
-            "$500 fine"
-        ],
-        "citation": "MN Statutes 299M.08",
-        "code_text": "Guilty of a misdemeanor."
-    },
-    {
-        "id": 210,
-        "category": "MN Statutes \u0026 Rules",
-        "topic": "Installation Amendments",
-        "is_mn_amendment": true,
-        "question": "MN requires FDCs to be located between what heights?",
-        "answer": "18\" and 48\"",
-        "distractors": [
-            "18\" and 36\"",
-            "24\" and 48\"",
-            "12\" and 60\""
-        ],
-        "citation": "MN Fire Code (2020), Section 912.2.2",
-        "code_text": "Not less than 18 inches and not more than 48 inches."
-    },
-    {
-        "id": 211,
-        "category": "MN Statutes \u0026 Rules",
-        "topic": "Installation Amendments",
-        "is_mn_amendment": true,
-        "question": "Can a control valve in a public area be unmonitored if it serves \u003c20 heads?",
-        "answer": "No (False)",
-        "distractors": [
-            "Yes (True)"
-        ],
-        "citation": "MN Fire Code (2020), Section 903.4",
-        "code_text": "MN deletes Exception 1. All valves must be monitored."
-    },
-    {
-        "id": 212,
-        "category": "NFPA 25 - ITM",
-        "topic": "Gauges",
-        "question": "How often are gauges on dry/preaction/deluge systems inspected?",
-        "answer": "Weekly",
-        "distractors": [
-            "Monthly",
-            "Quarterly",
-            "Daily"
-        ],
-        "citation": "NFPA 25 (2011), Section 5.2.4.2",
-        "code_text": "Gauges... shall be inspected weekly."
-    },
-    {
-        "id": 213,
-        "category": "NFPA 25 - ITM",
-        "topic": "Gauges",
-        "question": "How often are gauges on wet pipe systems inspected?",
-        "answer": "Monthly",
-        "distractors": [
-            "Weekly",
-            "Quarterly",
-            "Annually"
-        ],
-        "citation": "NFPA 25 (2011), Section 5.2.4.1",
-        "code_text": "Gauges... shall be inspected monthly."
-    },
-    {
-        "id": 214,
-        "category": "NFPA 25 - ITM",
-        "topic": "Sprinklers",
-        "question": "How often are sprinkler heads inspected from the floor level?",
-        "answer": "Annually",
-        "distractors": [
-            "Quarterly",
-            "Every 5 years",
-            "Monthly"
-        ],
-        "citation": "NFPA 25 (2011), Section 5.2.1",
-        "code_text": "Sprinklers shall be inspected... annually."
-    },
-    {
-        "id": 215,
-        "category": "NFPA 25 - ITM",
-        "topic": "Valves",
-        "question": "How often are supervisory alarm devices (tampers) tested?",
-        "answer": "Quarterly",
-        "distractors": [
-            "Annually",
-            "Semiannually",
-            "Monthly"
-        ],
-        "citation": "NFPA 25 (2011), Section 13.2.6",
-        "code_text": "Supervisory... devices shall be tested quarterly."
-    },
-    {
-        "id": 1701,
-        "category": "NFPA 72 - Alarms",
-        "topic": "Waterflow",
-        "question": "According to NFPA 72, a waterflow switch must initiate an alarm signal within how many seconds?",
-        "answer": "90 seconds",
-        "distractors": [
-            "60 seconds",
-            "5 minutes",
-            "30 seconds"
-        ],
-        "citation": "NFPA 72 (2016) / NFPA 13",
-        "code_text": "Waterflow... shall result in an alarm... within 90 seconds."
-    },
-    {
-        "id": 1702,
-        "category": "NFPA 13 - Electrical",
-        "topic": "Solenoid Valves",
-        "question": "Solenoid valves for preaction systems must be rated for what pressure?",
-        "answer": "175 psi (or the maximum system pressure)",
-        "distractors": [
-            "100 psi",
-            "150 psi",
-            "300 psi"
-        ],
-        "citation": "NFPA 13 (2016), Section 7.3.2.1.2",
-        "code_text": "Rated for the system pressure... typically 175 psi."
-    },
-    {
-        "id": 1703,
-        "category": "NFPA 25 - Electrical",
-        "topic": "Tamper Switches",
-        "question": "A supervisory switch (tamper) must signal if the valve is closed how many turns?",
-        "answer": "2 turns (or 1/5th of the travel)",
-        "distractors": [
-            "3 turns",
-            "1 turn",
-            "Half closed"
-        ],
-        "citation": "NFPA 72 / NFPA 25",
-        "code_text": "Off-normal signal... during the first two revolutions."
-    },
-    {
-        "id": 1704,
-        "category": "NFPA 13 - Electrical",
-        "topic": "Compressors",
-        "question": "Can a sprinkler air compressor be wired into a light circuit?",
-        "answer": "No, it requires a dedicated circuit",
-        "distractors": [
-            "Yes, if labeled",
-            "Yes, if 120V",
-            "Yes, in residential"
-        ],
-        "citation": "NFPA 70 (NEC) / Manufacturer Specs",
-        "code_text": "Permanent equipment usually requires dedicated circuits to prevent accidental disconnect."
-    },
-    {
-        "id": 1801,
-        "category": "Theory \u0026 Pathology",
-        "topic": "Corrosion",
-        "question": "What does Microbiologically Influenced Corrosion (MIC) typically smell like?",
-        "answer": "Rotten Eggs (Sulfur)",
-        "distractors": [
-            "Moldy bread",
-            "Burning rubber",
-            "Metallic iron"
-        ],
-        "citation": "Industry Standard / NFPA 25 Annex",
-        "code_text": "Sulfate-reducing bacteria often produce a distinct rotten egg odor.",
-        "mnemonic": "MIC smells sick."
-    },
-    {
-        "id": 1802,
-        "category": "NFPA 25 - ITM",
-        "topic": "Obstructions",
-        "question": "Which of the following is a \u0027trigger\u0027 requiring a comprehensive obstruction investigation?",
-        "answer": "Discharge of obstructive material during routine water tests",
-        "distractors": [
-            "Water pressure is 5 psi higher than normal",
-            "A single head is painted",
-            "Pump runs for 7 minutes"
-        ],
-        "citation": "NFPA 25 (2011), Section 14.2.1.4",
-        "code_text": "Obstructive material... during routine water tests... shall trigger an investigation."
-    },
-    {
-        "id": 1803,
-        "category": "Theory \u0026 Pathology",
-        "topic": "Corrosion",
-        "question": "Pin-hole leaks at the 6 o\u0027clock position on a horizontal main usually indicate what?",
-        "answer": "MIC or Acid Corrosion (sitting under sludge)",
-        "distractors": [
-            "High water pressure",
-            "Water hammer",
-            "Defective pipe seam"
-        ],
-        "citation": "Industry Standard",
-        "code_text": "Corrosion under deposits (sludge) typically attacks the bottom of the pipe."
-    },
-    {
-        "id": 1804,
-        "category": "NFPA 13 - Installation",
-        "topic": "Materials",
-        "question": "What type of reaction occurs when Copper pipe touches Steel pipe without a dielectric union?",
-        "answer": "Galvanic Corrosion",
-        "distractors": [
-            "Hydrolysis",
-            "Oxidation coupling",
-            "Thermal shock"
-        ],
-        "citation": "NFPA 13 (2016), Section 6.1.3",
-        "code_text": "Galvanic action... prevent contact between dissimilar metals."
-    },
-    {
-        "id": 1805,
-        "category": "NFPA 13 - Installation",
-        "topic": "Air Venting",
-        "question": "Why is a single air vent required on wet systems (2016 edition update)?",
-        "answer": "To reduce corrosion by removing trapped oxygen",
-        "distractors": [
-            "To prevent water hammer",
-            "To help the pump start",
-            "To allow faster drainage"
-        ],
-        "citation": "NFPA 13 (2016), Section 7.1.5",
-        "code_text": "A single air vent... shall be provided to vent air from the system."
-    },
-    {
-        "id": 1901,
-        "category": "NFPA 13 - Installation",
-        "topic": "Elevators",
-        "question": "When is a sprinkler required at the BOTTOM of an elevator shaft?",
-        "answer": "When combustible debris or fluids can accumulate",
-        "distractors": [
-            "Always",
-            "Only in hydraulic elevators",
-            "Never"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.15.5.5",
-        "code_text": "Sidewall spray sprinkler... not more than 2 ft above the floor of the pit."
-    },
-    {
-        "id": 1902,
-        "category": "NFPA 13 - Installation",
-        "topic": "Elevators",
-        "question": "If a sprinkler is installed at the top of an elevator shaft, what else is required?",
-        "answer": "Shunt Trip (to cut power to the elevator before water flows)",
-        "distractors": [
-            "A drain at the bottom",
-            "A smoke detector only",
-            "A stainless steel head"
-        ],
-        "citation": "ASME A17.1 / NFPA 13 (2016), Section 8.15.5.3",
-        "code_text": "The elevator power shutoff... shall be achieved prior to the application of water."
-    },
-    {
-        "id": 1903,
-        "category": "NFPA 13 - Installation",
-        "topic": "Chutes",
-        "question": "In a linen or trash chute, where are sprinklers required?",
-        "answer": "At the top and at alternate floor levels",
-        "distractors": [
-            "At the top only",
-            "At every floor level",
-            "At the bottom only"
-        ],
-        "citation": "NFPA 13 (2016), Section 21.15.2.2",
-        "code_text": "Installed at the top... and at alternate floor levels."
-    },
-    {
-        "id": 1904,
-        "category": "NFPA 13 - Installation",
-        "topic": "Vertical Shafts",
-        "question": "Do non-combustible, non-accessible vertical shafts require sprinklers?",
-        "answer": "No",
-        "distractors": [
-            "Yes, always",
-            "Yes, if over 2 stories"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.15.4",
-        "code_text": "Sprinklers shall not be required in noncombustible... shafts."
-    },
-    {
-        "id": 1905,
-        "category": "NFPA 13 - Installation",
-        "topic": "Stairways",
-        "question": "Where are sprinklers required in non-combustible stair shafts?",
-        "answer": "At the very top of the shaft and under the first landing above the bottom",
-        "distractors": [
-            "Under every landing",
-            "Only at the top",
-            "Only at the bottom"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.15.3.2",
-        "code_text": "Top of the shaft... and under the first landing above the bottom."
-    },
-    {
-        "id": 2001,
-        "category": "Pump Theory",
-        "topic": "Troubleshooting",
-        "question": "If a fire pump sounds like it is pumping gravel, what is happening?",
-        "answer": "Cavitation",
-        "distractors": [
-            "Water Hammer",
-            "Overheating",
-            "Overspeed"
-        ],
-        "citation": "General Pump Theory",
-        "code_text": "Cavitation: Formation and collapse of air bubbles due to low pressure/vacuum."
-    },
-    {
-        "id": 2002,
-        "category": "Pump Theory",
-        "topic": "Physics",
-        "question": "What causes Cavitation?",
-        "answer": "The suction supply cannot keep up with the pump demand (Starvation)",
-        "distractors": [
-            "Discharge pressure is too high",
-            "Pump is running backward",
-            "Impeller is too large"
-        ],
-        "citation": "NFPA 20 (2016), Annex A",
-        "code_text": "Occurs when net positive suction head available is less than required."
-    },
-    {
-        "id": 2003,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Definitions",
-        "question": "What is \u0027Churn\u0027 pressure?",
-        "answer": "The pressure created when the pump is running at rated speed with NO water flowing (0 gpm)",
-        "distractors": [
-            "The pressure at 150% flow",
-            "The minimum suction pressure",
-            "The pressure at the test header"
-        ],
-        "citation": "NFPA 20 (2016), Section 3.3",
-        "code_text": "Churn: Operation of the pump at no flow."
-    },
-    {
-        "id": 2004,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Testing",
-        "question": "Why do we verify the pump RPM during a flow test?",
-        "answer": "To verify the engine/motor is not slipping and meets the manufacturer curve",
-        "distractors": [
-            "To check the battery voltage",
-            "To ensure the relief valve works",
-            "To calculate friction loss"
-        ],
-        "citation": "NFPA 25 (2011), Section 8.3.3",
-        "code_text": "Speed... shall be recorded."
-    },
-    {
-        "id": 2005,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Logic",
-        "question": "If the pump starts but fails to build pressure, what is the most likely cause?",
-        "answer": "Pump is air-bound (needs venting) or rotating backwards",
-        "distractors": [
-            "Relief valve is closed",
-            "Discharge valve is closed",
-            "Jockey pump is off"
-        ],
-        "citation": "Troubleshooting Standard",
-        "code_text": "Air trapped in casing prevents centrifugal force from moving water."
-    },
-    {
-        "id": 2101,
-        "category": "NFPA 13 - Installation",
-        "topic": "Exposure Protection",
-        "question": "When using sprinklers to protect a glass window (Exposure Protection), how far from the glass must the head be?",
-        "answer": "Not more than 12 inches",
-        "distractors": [
-            "24 inches",
-            "6 inches",
-            "18 inches"
-        ],
-        "citation": "NFPA 13 (2016), Section 11.1.2",
-        "code_text": "Vertical distance... max 12 in."
-    },
-    {
-        "id": 2102,
-        "category": "NFPA 13 - Installation",
-        "topic": "Exposure Protection",
-        "question": "What is the maximum spacing between sprinklers protecting a window/cornice?",
-        "answer": "8 feet",
-        "distractors": [
-            "6 feet",
-            "10 feet",
-            "12 feet"
-        ],
-        "citation": "NFPA 13 (2016), Section 11.1.2",
-        "code_text": "Sprinklers shall be spaced not more than 8 ft apart."
-    },
-    {
-        "id": 2103,
-        "category": "NFPA 13 - Installation",
-        "topic": "Attics",
-        "question": "If using \u0027Specific Application Attic Sprinklers\u0027, what is the advantage?",
-        "answer": "They can cover wider spans and difficult roof pitches without extensive branch lines",
-        "distractors": [
-            "They are cheaper",
-            "They use less water",
-            "They don\u0027t require calc plates"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.4.9",
-        "code_text": "Specific application... permitted to be installed... in accordance with their listing."
-    },
-    {
-        "id": 2104,
-        "category": "NFPA 13 - Installation",
-        "topic": "Baffles",
-        "question": "When sprinklers are spaced closer than 6 feet, what must be installed?",
-        "answer": "A Baffle",
-        "distractors": [
-            "A check valve",
-            "A heat collector",
-            "A lower temp head"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.6.3.4.2",
-        "code_text": "Baffles shall be installed... to prevent cold soldering."
-    },
-    {
-        "id": 2105,
-        "category": "NFPA 13 - Installation",
-        "topic": "Baffles",
-        "question": "Dimensions of a baffle?",
-        "answer": "8 inches wide, 6 inches high",
-        "distractors": [
-            "12x12 inches",
-            "4x4 inches",
-            "Round disk"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.6.3.4.2",
-        "code_text": "8 in. wide and 6 in. high."
-    },
-    {
-        "id": 2201,
-        "category": "NFPA 13D - Residential",
-        "topic": "Garages",
-        "question": "In a single-family home (13D), are sprinklers required in the garage?",
-        "answer": "No (unless living space is above it or specific local amendment requires it)",
-        "distractors": [
-            "Yes, always",
-            "Only if heated",
-            "Only if attached"
-        ],
-        "citation": "NFPA 13D (2016), Section 8.3.4",
-        "code_text": "Sprinklers shall not be required in garages, open attached porches, carports, and similar structures."
-    },
-    {
-        "id": 2202,
-        "category": "NFPA 13D - Residential",
-        "topic": "Alarms",
-        "question": "Does an NFPA 13D system require a water flow alarm notification on the exterior of the house?",
-        "answer": "No (Unlike 13 and 13R)",
-        "distractors": [
-            "Yes, always",
-            "Yes, if over 20 heads",
-            "Yes, a strobe is required"
-        ],
-        "citation": "NFPA 13D (2016), Section 7.6",
-        "code_text": "Local waterflow alarms shall be provided... [Interior only is the standard minimum, though local AHJ may differ]."
-    },
-    {
-        "id": 2203,
-        "category": "NFPA 13R - Residential",
-        "topic": "Shadow Areas",
-        "question": "In NFPA 13R, what is the maximum \u0027shadow area\u0027 (dry spot) allowed in a compartment?",
-        "answer": "0 sq ft (The concept of allowable shadow area applies to 13D, not 13R)",
-        "distractors": [
-            "6 sq ft",
-            "12 sq ft",
-            "24 sq ft"
-        ],
-        "citation": "NFPA 13R vs 13D",
-        "code_text": "NFPA 13D allows small dry spots (shadows) up to specific limits. NFPA 13R generally requires full coverage similar to 13."
-    },
-    {
-        "id": 2204,
-        "category": "NFPA 13D - Residential",
-        "topic": "Spare Heads",
-        "question": "How many spare sprinklers are required for an NFPA 13D system?",
-        "answer": "2 sprinklers (minimum)",
-        "distractors": [
-            "6 sprinklers",
-            "12 sprinklers",
-            "None"
-        ],
-        "citation": "NFPA 13D (2016), Section 5.4",
-        "code_text": "A supply of at least two spare sprinklers... shall be available."
-    },
-    {
-        "id": 2205,
-        "category": "NFPA 13R - Residential",
-        "topic": "Attics",
-        "question": "Does NFPA 13R require sprinklers in a combustible attic (without storage/living space)?",
-        "answer": "No",
-        "distractors": [
-            "Yes, always",
-            "Yes, if the roof is wood",
-            "Only if draft stopped"
-        ],
-        "citation": "NFPA 13R (2016), Section 6.6.6",
-        "code_text": "Sprinklers shall not be required in attics... [provided conditions are met]."
-    },
-    {
-        "id": 2301,
-        "category": "NFPA 13 - Retrofit",
-        "topic": "Hydraulics",
-        "question": "When adding heads to an existing hydraulically calculated system, what must you verify?",
-        "answer": "That the new demand does not exceed the original system design limits",
-        "distractors": [
-            "You must always install a new riser",
-            "You must switch to pipe schedule",
-            "You must increase pipe size by one"
-        ],
-        "citation": "NFPA 13 (2016), Section 23.2",
-        "code_text": "Calculations... verification that the new work does not exceed the hydraulic limits."
-    },
-    {
-        "id": 2302,
-        "category": "NFPA 25 - Service",
-        "topic": "Testing",
-        "question": "If you replace a control valve on a system, what test must be performed?",
-        "answer": "A hydrostatic test at 200 psi (or working pressure) for 2 hours",
-        "distractors": [
-            "Just an operational test",
-            "A flow test",
-            "No test needed"
-        ],
-        "citation": "NFPA 25 (2011), Section 13.3.3.4",
-        "code_text": "Component replacement... shall be hydrostatically tested."
-    },
-    {
-        "id": 2303,
-        "category": "NFPA 13 - Retrofit",
-        "topic": "Compatibility",
-        "question": "Can you mix Standard Response and Quick Response sprinklers in the same compartment?",
-        "answer": "No",
-        "distractors": [
-            "Yes, if same temp",
-            "Yes, if same K-factor",
-            "Yes, if listed"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.3.3.2",
-        "code_text": "Sprinklers... shall not be mixed within a compartment."
-    },
-    {
-        "id": 2304,
-        "category": "NFPA 13 - Retrofit",
-        "topic": "Revamps",
-        "question": "When revamping a pipe schedule system, you remove a 1\" plug and extend the line. How many heads can be on that 1\" line in Light Hazard?",
-        "answer": "2 heads",
-        "distractors": [
-            "3 heads",
-            "1 head",
-            "5 heads"
-        ],
-        "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
-        "code_text": "1 in: 2 sprinklers."
-    },
-    {
-        "id": 2305,
-        "category": "NFPA 25 - Service",
-        "topic": "Emergency",
-        "question": "If you find a frozen pipe that has cracked, this is classified as what type of issue?",
-        "answer": "Impairment (Emergency)",
-        "distractors": [
-            "Deficiency (Critical)",
-            "Deficiency (Non-Critical)",
-            "Maintenance Item"
-        ],
-        "citation": "NFPA 25 (2011), Section 3.3.17",
-        "code_text": "Impairment: A condition where a... system... is out of order."
-    },
-    {
-        "id": 2401,
-        "category": "System Mechanics",
-        "topic": "Dry Valves",
-        "question": "What allows a dry pipe valve to hold back 100 psi of water with only 20 psi of air?",
-        "answer": "Surface Area Differential (The air clapper is much larger than the water clapper)",
-        "distractors": [
-            "A heavy spring",
-            "A hydraulic lock",
-            "An electric solenoid"
-        ],
-        "citation": "Industry Theory",
-        "code_text": "The surface area of the air side is roughly 5-6 times larger than the water side (Differential)."
-    },
-    {
-        "id": 2402,
-        "category": "System Mechanics",
-        "topic": "Accelerators",
-        "question": "What does an Accelerator do on a dry system?",
-        "answer": "It redirects air pressure to the intermediate chamber to force the clapper open faster",
-        "distractors": [
-            "It sucks air out of the system",
-            "It pumps water faster",
-            "It increases air pressure"
-        ],
-        "citation": "NFPA 13 / Theory",
-        "code_text": "Quick Opening Device: Accelerates the trip point by equalizing/redirecting pressure."
-    },
-    {
-        "id": 2403,
-        "category": "System Mechanics",
-        "topic": "Exhausters",
-        "question": "What is the difference between an Accelerator and an Exhauster?",
-        "answer": "An Exhauster vents air to the atmosphere; an Accelerator pushes the valve open",
-        "distractors": [
-            "They are the same",
-            "Exhausters are for wet systems",
-            "Accelerators are smaller"
-        ],
-        "citation": "Industry Theory",
-        "code_text": "Exhausters discharge system air to the atmosphere to lower pressure rapidly."
-    },
-    {
-        "id": 2404,
-        "category": "System Mechanics",
-        "topic": "Deluge",
-        "question": "Why are Deluge systems usually tripped by a separate detection system?",
-        "answer": "Because the sprinkler heads are open (no glass bulbs to break)",
-        "distractors": [
-            "Because they hold too much water",
-            "To save money",
-            "Because they use antifreeze"
-        ],
-        "citation": "NFPA 13 (2016), Section 7.3.1",
-        "code_text": "Deluge systems... employing open sprinklers."
-    },
-    {
-        "id": 2501,
-        "category": "Synthesis Scenario",
-        "topic": "Standpipes",
-        "question": "Scenario: You are hydro-testing a new Class I standpipe in a 4-story building. The working pressure is 160 psi.What pressure do you test at ? ",
-        "answer": "210 psi (50 psi over working pressure)",
-        "distractors": [
-            "200 psi",
-            "160 psi",
-            "250 psi"
-        ],
-        "citation": "NFPA 14 (2016), Section 11.4",
-        "code_text": "200 psi or 50 psi in excess of the working pressure, whichever is greater."
-    },
-    {
-        "id": 2502,
-        "category": "Synthesis Scenario",
-        "topic": "Pump Room",
-        "question": "Scenario: A diesel pump room is 30°F. Is this a deficiency?",
-        "answer": "Yes, it must be maintained at 40°F minimum (70°F is recommended for diesel engines)",
-        "distractors": [
-            "No, 30°F is safe from freezing flowing water",
-            "No, only electric pumps need heat",
-            "Yes, it must be 80°F"
-        ],
-        "citation": "NFPA 20 (2016), Section 11.6.5",
-        "code_text": "Temperature... shall be maintained at... 40°F (often 70°F for engine starting)."
-    },
-    {
-        "id": 2503,
-        "category": "Synthesis Scenario",
-        "topic": "Design",
-        "question": "Scenario: You are installing heads in a room with a 20-foot ceiling. The room contains high-piled plastic storage.Can you use a Standard Spray Upright ? ",
-        "answer": "No, you likely need a CMSA or ESFR head (Standard spray is limited in high storage)",
-        "distractors": [
-            "Yes, always",
-            "Yes, if spaced 6 feet apart"
-        ],
-        "citation": "NFPA 13 (2016), Storage Chapters",
-        "code_text": "Standard spray sprinklers have severe density/area penalties for high storage; Special Application heads are required."
-    },
-    {
-        "id": 2504,
-        "category": "Synthesis Scenario",
-        "topic": "MN Rules",
-        "question": "Scenario: An apprentice has worked 9000 hours but hasn\u0027t taken the test. Are they allowed to run a job site ? ",
-        "answer": "No, they are still an apprentice until they PASS the exam and get the license",
-        "distractors": [
-            "Yes, after 8000 hours they are effectively Journeymen",
-            "Yes, if the boss allows it"
-        ],
-        "citation": "MN Rules 7512",
-        "code_text": "Must hold a Journeyman certificate to perform work without direct supervision."
-    },
-    {
-        "id": 2505,
-        "category": "Synthesis Scenario",
-        "topic": "Obstruction",
-        "question": "Scenario: You are installing a pendant head. A 4-inch wide light fixture is 6 inches away from the head. How high above the bottom of the light must the deflector be ? ",
-        "answer": "1 inch or less (Beam Rule: 6 inches away / 3 = 2 inches max down?? No, check table)",
-        "distractors": [
-            "3 inches",
-            "Level with the bottom",
-            "4 inches"
-        ],
-        "citation": "NFPA 13 (2016), Figure 8.6.5.1.2(a)",
-        "code_text": "Logic: If you are 6 inches away, the \u0027Beam Rule\u0027 table dictates your vertical position. (Typically above the bottom)."
-    },
-    {
-        "id": 2601,
-        "category": "NFPA 14 - System Types",
-        "topic": "Definitions",
-        "question": "What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve ? ",
-        "answer": "Automatic Wet",
-        "distractors": [
-            "Automatic Dry",
-            "Semiautomatic Dry",
-            "Manual Wet"
-        ],
-        "citation": "NFPA 14 (2016), Section 3.3.17.1",
-        "code_text": "Automatic Wet: Contains water at all times... capable of supplying the system demand."
-    },
-    {
-        "id": 2602,
-        "category": "NFPA 14 - System Types",
-        "topic": "Definitions",
-        "question": "What is a standpipe system that contains air under pressure and admits water automatically when a hose valve is opened ? ",
-        "answer": "Automatic Dry",
-        "distractors": [
-            "Semiautomatic Dry",
-            "Manual Dry",
-            "Preaction"
-        ],
-        "citation": "NFPA 14 (2016), Section 3.3.17.2",
-        "code_text": "Automatic Dry: Contains air... admits water... when a hose valve is opened."
-    },
-    {
-        "id": 2603,
-        "category": "NFPA 14 - System Types",
-        "topic": "Definitions",
-        "question": "What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand ? ",
-        "answer": "Manual Dry",
-        "distractors": [
-            "Manual Wet",
-            "Semiautomatic",
-            "Class I"
-        ],
-        "citation": "NFPA 14 (2016), Section 3.3.17.4",
-        "code_text": "Manual Dry: Contains air... relies exclusively on the fire department connection."
-    },
-    {
-        "id": 2604,
-        "category": "NFPA 14 - System Types",
-        "topic": "Definitions",
-        "question": "What is a \u0027Manual Wet\u0027 standpipe?",
-        "answer": "A system full of water to prevent freezing/leaks, but relies on the Fire Department for pressure/flow",
-        "distractors": [
-            "A system with a small jockey pump",
-            "A system connected to a city main only",
-            "A system with a bucket"
-        ],
-        "citation": "NFPA 14 (2016), Section 3.3.17.5",
-        "code_text": "Manual Wet: Contains water... relies exclusively on the fire department connection to supply the system demand."
-    },
-    {
-        "id": 2605,
-        "category": "NFPA 14 - System Types",
-        "topic": "Devices",
-        "question": "What device allows water to flow into a Semiautomatic Dry standpipe?",
-        "answer": "Deluge Valve (activated by a remote device)",
-        "distractors": [
-            "Dry Pipe Valve",
-            "Check Valve",
-            "Butterfly Valve"
-        ],
-        "citation": "NFPA 14 (2016), Section 3.3.17.6",
-        "code_text": "Semiautomatic... admits water... when a remote control device activates a deluge valve."
-    },
-    {
-        "id": 301,
-        "category": "NFPA 14 - Standpipes",
-        "topic": "Flows",
-        "question": "Minimum flow rate for the most remote standpipe in a Class I system?",
-        "answer": "500 gpm",
-        "distractors": [
-            "250 gpm",
-            "100 gpm",
-            "750 gpm"
-        ],
-        "citation": "NFPA 14 (2016), Section 7.10.1.1.5",
-        "code_text": "Minimum flow rate... shall be 500 gpm."
-    },
-    {
-        "id": 302,
-        "category": "NFPA 14 - Standpipes",
-        "topic": "Flows",
-        "question": "Minimum flow rate for each *additional* standpipe in a Class I system?",
-        "answer": "250 gpm",
-        "distractors": [
-            "500 gpm",
-            "100 gpm",
-            "150 gpm"
-        ],
-        "citation": "NFPA 14 (2016), Section 7.10.1.1.5",
-        "code_text": "Additional standpipes shall be 250 gpm."
-    },
-    {
-        "id": 303,
-        "category": "NFPA 14 - Standpipes",
-        "topic": "Pressure",
-        "question": "Minimum residual pressure at the most remote 2½\" outlet?",
-        "answer": "100 psi",
-        "distractors": [
-            "65 psi",
-            "175 psi",
-            "150 psi"
-        ],
-        "citation": "NFPA 14 (2016), Section 7.8.1",
-        "code_text": "Minimum residual pressure of 100 psi."
-    },
-    {
-        "id": 304,
-        "category": "NFPA 14 - Standpipes",
-        "topic": "Pressure",
-        "question": "Minimum residual pressure for a Class II (1½\") outlet?",
-        "answer": "65 psi",
-        "distractors": [
-            "100 psi",
-            "50 psi",
-            "175 psi"
-        ],
-        "citation": "NFPA 14 (2016), Section 7.8.1",
-        "code_text": "Class II... minimum residual pressure of 65 psi."
-    },
-    {
-        "id": 305,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Components",
-        "question": "What fitting is used on the suction side of a pump to prevent air pockets?",
-        "answer": "Eccentric Reducer",
-        "distractors": [
-            "Concentric Reducer",
-            "Tee",
-            "90 Elbow"
-        ],
-        "citation": "NFPA 20 (2016), Section 4.15.6.3",
-        "code_text": "Connected with an eccentric tapered reducer."
-    },
-    {
-        "id": 306,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Components",
-        "question": "What fitting is used on the discharge side of a fire pump?",
-        "answer": "Concentric Reducer",
-        "distractors": [
-            "Eccentric Reducer",
-            "Check Valve only",
-            "Elbow"
-        ],
-        "citation": "NFPA 20 (2016), Section 4.15.6.4",
-        "code_text": "Concentric tapered reducer or increaser."
-    },
-    {
-        "id": 307,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Installation",
-        "question": "What is the minimum size for a sensing line (jockey/controller)?",
-        "answer": "½ inch non-ferrous",
-        "distractors": [
-            "¼ inch",
-            "1 inch",
-            "¾ inch"
-        ],
-        "citation": "NFPA 20 (2016), Section 4.31",
-        "code_text": "1/2 in. nominal nonferrous metal piping."
-    },
-    {
-        "id": 308,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Installation",
-        "question": "How far above the floor must current-carrying parts of a controller be?",
-        "answer": "12 inches",
-        "distractors": [
-            "6 inches",
-            "18 inches",
-            "24 inches"
-        ],
-        "citation": "NFPA 20 (2016), Section 10.4.2",
-        "code_text": "Not less than 12 in. above the floor."
-    },
-    {
-        "id": 309,
-        "category": "NFPA 22 - Tanks",
-        "topic": "Heating",
-        "question": "What is the minimum water temperature maintained in a water tank?",
-        "answer": "40°F",
-        "distractors": [
-            "32°F",
-            "50°F",
-            "70°F"
-        ],
-        "citation": "NFPA 22 (2013), Section 16.1",
-        "code_text": "Maintain the temperature... at not less than 40°F."
-    },
-    {
-        "id": 310,
-        "category": "NFPA 22 - Tanks",
-        "topic": "Installation",
-        "question": "What is the minimum clearance under a tank?",
-        "answer": "2 feet",
-        "distractors": [
-            "1 foot",
-            "3 feet",
-            "4 feet"
-        ],
-        "citation": "NFPA 22 (2013), Section 15.1.5",
-        "code_text": "Distance between the floor and any part of the tank shall be at least 2 ft."
-    },
-    {
-        "id": 311,
-        "category": "NFPA 24 - Underground",
-        "topic": "Depth",
-        "question": "Private fire mains under driveways must be buried how deep?",
-        "answer": "36 inches (or 1\u0027 below frost)",
-        "distractors": [
-            "24 inches",
-            "48 inches",
-            "18 inches"
-        ],
-        "citation": "NFPA 24 (2016), Section 10.4.2",
-        "code_text": "Not less than 3 ft (36 in)."
-    },
-    {
-        "id": 312,
-        "category": "NFPA 24 - Underground",
-        "topic": "Hydrants",
-        "question": "How close can a post indicator valve be to a building?",
-        "answer": "40 feet",
-        "distractors": [
-            "20 feet",
-            "10 feet",
-            "50 feet"
-        ],
-        "citation": "NFPA 24 (2016), Section 6.2.11",
-        "code_text": "Not less than 40 ft from buildings."
-    },
-    {
-        "id": 313,
-        "category": "OSHA / Safety",
-        "topic": "Trenching",
-        "question": "At what depth is a ladder required in a trench?",
-        "answer": "4 feet",
-        "distractors": [
-            "5 feet",
-            "3 feet",
-            "6 feet"
-        ],
-        "citation": "OSHA 1926.651",
-        "code_text": "Trenches 4 feet or deeper."
-    },
-    {
-        "id": 314,
-        "category": "OSHA / Safety",
-        "topic": "Trenching",
-        "question": "What is the max travel distance to a ladder in a trench?",
-        "answer": "25 feet",
-        "distractors": [
-            "50 feet",
-            "15 feet",
-            "100 feet"
-        ],
-        "citation": "OSHA 1926.651",
-        "code_text": "No more than 25 feet of lateral travel."
-    },
-    {
-        "id": 315,
-        "category": "NFPA 20 - Pumps",
-        "topic": "Relief Valves",
-        "question": "What size relief valve is required for a 2500 gpm pump?",
-        "answer": "¾ inch",
-        "distractors": [
-            "1 inch",
-            "½ inch",
-            "2 inch"
-        ],
-        "citation": "NFPA 20 (2016), Table 4.11.2",
-        "code_text": "2500 gpm -\u003e 3/4 in."
-    },
-    {
-        "id": 2701,
+        "id": 202701,
         "category": "NFPA 13 - Design",
         "topic": "Hazards",
         "question": "A Restaurant Seating Area is classified as what hazard?",
@@ -2355,7 +336,7 @@ const questions = [
         "code_text": "Light Hazard occupancies include... Restaurant seating areas."
     },
     {
-        "id": 2702,
+        "id": 202702,
         "category": "NFPA 13 - Design",
         "topic": "Hazards",
         "question": "A Restaurant Service Area (Kitchen) is classified as what hazard?",
@@ -2369,1097 +350,119 @@ const questions = [
         "code_text": "Ordinary Hazard Group 1... Restaurant service areas."
     },
     {
-        "id": 2703,
-        "category": "NFPA 13 - Design",
-        "topic": "Hazards",
-        "question": "A Parking Garage (Automobile Parking) is classified as what hazard?",
-        "answer": "Ordinary Hazard Group 1",
-        "distractors": [
-            "Light Hazard",
-            "Ordinary Hazard Group 2",
-            "Extra Hazard Group 1"
-        ],
-        "citation": "NFPA 13 (2016), Section A.5.3.2",
-        "code_text": "Ordinary Hazard Group 1... Car parking garages."
-    },
-    {
-        "id": 2704,
-        "category": "NFPA 13 - Design",
-        "topic": "Hazards",
-        "question": "A Mercantile (Department Store) is classified as what hazard?",
-        "answer": "Ordinary Hazard Group 2",
-        "distractors": [
-            "Ordinary Hazard Group 1",
-            "Light Hazard",
-            "Extra Hazard"
-        ],
-        "citation": "NFPA 13 (2016), Section A.5.3.3",
-        "code_text": "Ordinary Hazard Group 2... Mercantiles."
-    },
-    {
-        "id": 2705,
-        "category": "NFPA 13 - Design",
-        "topic": "Hazards",
-        "question": "Printing and Publishing plants are classified as what hazard?",
-        "answer": "Extra Hazard Group 1",
-        "distractors": [
-            "Ordinary Hazard Group 2",
-            "Extra Hazard Group 2",
-            "Light Hazard"
-        ],
-        "citation": "NFPA 13 (2016), Section A.5.4.1",
-        "code_text": "Extra Hazard Group 1... Printing and publishing."
-    },
-    {
-        "id": 2706,
-        "category": "NFPA 13 - Design",
-        "topic": "Hazards",
-        "question": "Plastics processing (solvent based) is classified as what hazard?",
-        "answer": "Extra Hazard Group 2",
-        "distractors": [
-            "Extra Hazard Group 1",
-            "Ordinary Hazard Group 2",
-            "Storage"
-        ],
-        "citation": "NFPA 13 (2016), Section A.5.4.2",
-        "code_text": "Extra Hazard Group 2... Plastics processing."
-    },
-    {
-        "id": 2801,
-        "category": "NFPA 20 - Electrical",
-        "topic": "Disconnects",
-        "question": "A fire pump controller must be dedicated to?",
-        "answer": "Only the fire pump motor (No other loads)",
-        "distractors": [
-            "The pump and the jockey pump",
-            "The pump and the pump room lights",
-            "The entire building"
-        ],
-        "citation": "NFPA 20 (2016), Section 10.1.2.1",
-        "code_text": "Controllers shall be specifically listed... for fire pump service."
-    },
-    {
-        "id": 2802,
-        "category": "NFPA 20 - Electrical",
-        "topic": "Phase Reversal",
-        "question": "What device protects the electric fire pump motor if the phases are reversed (causing backward rotation)?",
-        "answer": "Phase Reversal Monitor (in the Controller)",
-        "distractors": [
-            "A Check Valve",
-            "A Circuit Breaker",
-            "A Tachometer"
-        ],
-        "citation": "NFPA 20 (2016), Section 10.4.7",
-        "code_text": "Phase reversal... shall prevent starting of the motor."
-    },
-    {
-        "id": 2803,
-        "category": "NFPA 20 - Electrical",
-        "topic": "Transfer Switch",
-        "question": "If a building has a backup generator for the fire pump, what device is required to switch from normal power to generator power ? ",
-        "answer": "Automatic Transfer Switch",
-        "distractors": [
-            "Manual Knife Switch",
-            "Circuit Breaker",
-            "Jockey Controller"
-        ],
-        "citation": "NFPA 20 (2016), Section 10.8",
-        "code_text": "Power transfer switch... shall be listed for fire pump service."
-    },
-    {
-        "id": 2804,
-        "category": "NFPA 20 - Electrical",
-        "topic": "Location",
-        "question": "Fire pump controllers must be within sight of the motor. This typically means they are located within how many feet ? ",
-        "answer": "Sight is required (Code does not specify feet, but typically within 50 ft / same room)",
-        "distractors": [
-            "100 feet",
-            "200 feet",
-            "Anywhere in the building"
-        ],
-        "citation": "NFPA 20 (2016), Section 10.2.1",
-        "code_text": "Located as close as is practical to... and within sight of the motor."
-    },
-    {
-        "id": 2901,
-        "category": "OSHA - Safety",
-        "topic": "Confined Space",
-        "question": "A valve pit or water tank is considered what type of space?",
-        "answer": "Confined Space (Permit-Required if hazards exist)",
-        "distractors": [
-            "Open Air Space",
-            "Restricted Area",
-            "Standard Work Zone"
-        ],
-        "citation": "OSHA 1910.146",
-        "code_text": "Confined space: Large enough to enter, limited means of entry, not designed for continuous occupancy."
-    },
-    {
-        "id": 2902,
-        "category": "OSHA - Safety",
-        "topic": "Confined Space",
-        "question": "Before entering a Permit-Required Confined Space (like an empty pressure tank), what must be tested first ? ",
-        "answer": "Oxygen Content",
-        "distractors": [
-            "Flammability",
-            "Toxicity",
-            "Water Level"
-        ],
-        "citation": "OSHA 1910.146",
-        "code_text": "Atmospheric testing order: 1. Oxygen, 2. Flammable gases, 3. Toxic vapors."
-    },
-    {
-        "id": 2903,
-        "category": "OSHA - Safety",
-        "topic": "Excavation",
-        "question": "Spoil piles (dirt) must be kept how far back from the edge of a trench?",
-        "answer": "2 feet",
-        "distractors": [
-            "1 foot",
-            "4 feet",
-            "6 inches"
-        ],
-        "citation": "OSHA 1926.651",
-        "code_text": "Keep materials... at least 2 feet from the edge of excavations."
-    },
-    {
-        "id": 2904,
-        "category": "OSHA - Safety",
-        "topic": "PPE",
-        "question": "When is a \u0027Safety Monitor\u0027 (a person watching) allowed as the only fall protection?",
-        "answer": "Only on Low-Slope Roofs (and usually for roofing work, not fitters)",
-        "distractors": [
-            "Always",
-            "On steel erection",
-            "In trenches"
-        ],
-        "citation": "OSHA 1926.502",
-        "code_text": "Safety monitor systems... low-slope roofs."
-    },
-    {
-        "id": 3101,
+        "id": 300201,
         "category": "NFPA 25 - ITM",
-        "topic": "Main Drain",
-        "question": "What is the primary purpose of the main drain test?",
-        "answer": "To determine if there is a change in the water supply (obstruction or closed valve)",
+        "topic": "Hydrants",
+        "question": "How often do you inspect private fire hydrants?",
+        "answer": "Annually and after each operation",
         "distractors": [
-            "To flush the riser",
-            "To test the flow switch",
-            "To drain the system for service"
-        ],
-        "citation": "NFPA 25 (2011), Section 13.2.5",
-        "code_text": "A main drain test shall be conducted... to determine whether there has been a change in the condition of the water supply piping."
-    },
-    {
-        "id": 3102,
-        "category": "NFPA 25 - ITM",
-        "topic": "Gauges",
-        "question": "If a gauge is reading 0 psi on the system side of a check valve, what does this likely indicate?",
-        "answer": "The gauge is defective or the valve is closed/plugged (Deficiency)",
-        "distractors": [
-            "Normal operation",
-            "The pump is off",
-            "The system is drained"
-        ],
-        "citation": "NFPA 25 (2011), Section 13.2.7.1",
-        "code_text": "Gauges shall be inspected... to verify that they are in good condition and that normal water supply pressure is being maintained."
-    },
-    {
-        "id": 3103,
-        "category": "NFPA 25 - ITM",
-        "topic": "Sprinklers",
-        "question": "During an annual floor level inspection, you see a sprinkler heavily loaded with dust. What is the required action ? ",
-        "answer": "Replace the sprinkler (Cleaning is only allowed if the head is NOT painted/coated)",
-        "distractors": [
-            "Clean it with compressed air immediately",
-            "Clean it with water",
-            "Note it but do nothing"
-        ],
-        "citation": "NFPA 25 (2011), Section 5.2.1.1.1",
-        "code_text": "Sprinklers that are heavily loaded... shall be replaced or... cleaned [if not damaging]."
-    },
-    {
-        "id": 3104,
-        "category": "NFPA 25 - ITM",
-        "topic": "Valves",
-        "question": "How soon must a preaction/deluge valve be trip tested after installation?",
-        "answer": "Annually (Full flow)",
-        "distractors": [
+            "Quarterly",
             "Every 3 years",
-            "Quarterly",
-            "Monthly"
+            "Every 5 years"
         ],
-        "citation": "NFPA 25 (2011), Section 13.4.3.2.2",
-        "code_text": "Each deluge valve shall be trip tested annually at full flow."
+        "citation": "NFPA 25 (2011), Section 7.3.2",
+        "code_text": "Inspected annually and after each operation."
     },
     {
-        "id": 3105,
+        "id": 300202,
         "category": "NFPA 25 - ITM",
-        "topic": "FDC",
-        "question": "You inspect an FDC and find the swivel caps are missing. Is this a deficiency?",
-        "answer": "Yes, caps must be in place to prevent debris entry",
-        "distractors": [
-            "No, caps are optional",
-            "Only if inside the building",
-            "No, providing the swivel turns"
-        ],
-        "citation": "NFPA 25 (2011), Section 13.7.1",
-        "code_text": "Fire department connections... shall be inspected... [to ensure] plugs or caps are in place."
-    },
-    {
-        "id": 3106,
-        "category": "NFPA 25 - ITM",
-        "topic": "Antifreeze",
-        "question": "If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?",
-        "answer": "Drain and replace with new factory-premixed solution",
-        "distractors": [
-            "Add pure glycerin concentrate",
-            "Add water",
-            "Adjust the loop pressure"
-        ],
-        "citation": "NFPA 25 (2011), Section 5.3.4",
-        "code_text": "If the [solution] does not meet the requirements... the system shall be drained and filled with a factory premixed solution."
-    },
-    {
-        "id": 3201,
-        "category": "Specialty Valves",
-        "topic": "Dry Pipe Valve",
-        "question": "What is \u0027Columning\u0027 in a dry pipe valve?",
-        "answer": "When priming water level is too high, creating pressure that prevents the clapper from opening",
-        "distractors": [
-            "When the air pressure is too low",
-            "When the valve trips accidentally",
-            "When the accelerator fails"
-        ],
-        "citation": "Industry Theory / NFPA 13",
-        "code_text": "High priming water exerts hydraulic pressure on the top of the clapper, locking it shut."
-    },
-    {
-        "id": 3202,
-        "category": "Specialty Valves",
-        "topic": "Preaction",
-        "question": "In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?",
-        "answer": "Activation of a detection device AND loss of air pressure (sprinkler opening)",
-        "distractors": [
-            "Detection only",
-            "Loss of air only",
-            "Manual release only"
-        ],
-        "citation": "NFPA 13 (2016), Section 7.3.2.2",
-        "code_text": "Double interlock... admits water... only when... detection device [activates]... AND... automatic sprinkler[activates]."
-    },
-    {
-        "id": 3203,
-        "category": "Specialty Valves",
-        "topic": "Trim",
-        "question": "What is the purpose of the \u0027Ball Drip\u0027 (Automatic Drain) valve on the FDC piping?",
-        "answer": "To drain water between the check valve and the FDC to prevent freezing",
-        "distractors": [
-            "To drain the main riser",
-            "To test the pump",
-            "To allow air into the system"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.17.2.6",
-        "code_text": "An automatic drip valve... shall be installed... to drain the piping between the check valve and the fire department connection."
-    },
-    {
-        "id": 3204,
-        "category": "Specialty Valves",
-        "topic": "Dry Systems",
-        "question": "If a dry pipe valve trips but water does not reach the inspector\u0027s test within 60 seconds, what is the issue ? ",
-        "answer": "System volume is too large for the air/water supply (Needs an Accelerator)",
-        "distractors": [
-            "Water pressure is too high",
-            "Air pressure is too low",
-            "The valve is installed backward"
-        ],
-        "citation": "NFPA 13 (2016), Section 7.2.3.6",
-        "code_text": "Water must be delivered... in not more than 60 seconds. (If not, use QOD)."
-    },
-    {
-        "id": 3205,
-        "category": "Specialty Valves",
-        "topic": "Check Valves",
-        "question": "Where is a check valve required in the FDC piping?",
-        "answer": "At the connection to the system piping (to keep system water from flowing out the FDC)",
-        "distractors": [
-            "Inside the FDC itself",
-            "It is not required",
-            "At the city main"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.17.2.5",
-        "code_text": "A listed check valve shall be installed in each fire department connection."
-    },
-    {
-        "id": 3301,
-        "category": "NFPA 13 - Installation",
-        "topic": "Fittings",
-        "question": "When reducing pipe size, which fitting type is prohibited for drain ability?",
-        "answer": "Hex bushings (face-to-face bushings are banned; one-piece reducers preferred)",
-        "distractors": [
-            "Grooved reducers",
-            "Threaded elbows",
-            "Reducing tees"
-        ],
-        "citation": "NFPA 13 (2016), Section 6.5.4",
-        "code_text": "Bushings shall not be used... [unless standard fittings not available]."
-    },
-    {
-        "id": 3302,
-        "category": "NFPA 13 - Installation",
-        "topic": "Fittings",
-        "question": "Are you allowed to weld a tab onto a sprinkler pipe to hang it?",
-        "answer": "No, field welding is generally prohibited unless strictly certified",
-        "distractors": [
-            "Yes, always",
-            "Yes, on pipe larger than 2 inches",
-            "Yes, if galvanized"
-        ],
-        "citation": "NFPA 13 (2016), Section 6.5.2",
-        "code_text": "Field welding... shall not be permitted [without specific listing/procedures]."
-    },
-    {
-        "id": 3303,
-        "category": "NFPA 13 - Sprinklers",
-        "topic": "Positioning",
-        "question": "You are installing upright sprinklers on a pitched roof (4/12 pitch). How should the deflector be oriented ? ",
-        "answer": "Parallel to the roof pitch",
-        "distractors": [
-            "Horizontal to the floor",
-            "Perpendicular to the beam",
-            "Vertical"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.6.4.1.3",
-        "code_text": "Deflectors of sprinklers shall be... parallel to the ceiling, roof, or deck."
-    },
-    {
-        "id": 3304,
-        "category": "NFPA 13 - Sprinklers",
-        "topic": "Obstructions",
-        "question": "A pendant sprinkler is 5 inches from a wall. The wall has a 2-inch deep cabinet mounted on it. Is this allowed ? ",
-        "answer": "Yes, if the obstruction (cabinet) is below the deflector or meets the beam rule",
-        "distractors": [
-            "No, 4 inch rule applies to obstructions too",
-            "No, cabinets are not allowed",
-            "Yes, always"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.6.5.2",
-        "code_text": "Obstructions... against the wall... shall be permitted."
-    },
-    {
-        "id": 3305,
-        "category": "NFPA 13 - Sprinklers",
-        "topic": "Temperature",
-        "question": "What temperature sprinkler is required in an unventilated attic?",
-        "answer": "Intermediate (175-225°F)",
-        "distractors": [
-            "Ordinary (135-170°F)",
-            "High (250-300°F)",
-            "Extra High"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.3.2.5",
-        "code_text": "Sprinklers in unventilated attic spaces... shall be of the intermediate temperature classification."
-    },
-    {
-        "id": 3306,
-        "category": "NFPA 13 - Commissioning",
-        "topic": "Acceptance",
-        "question": "During the hydrostatic test, the pressure drops 2 psi in 2 hours due to temperature fluctuation. Is this a fail ? ",
-        "answer": "No, minor fluctuation due to temp is allowed, but NO visible leakage",
-        "distractors": [
-            "Yes, must be 0 psi drop",
-            "Yes, fail immediately",
-            "No, up to 10 psi is allowed"
-        ],
-        "citation": "NFPA 13 (2016), Section 25.2.1.1",
-        "code_text": "No visible leakage... (Pressure drop alone isn\u0027t always a fail, but visible water is)."
-    },
-    {
-        "id": 3401,
-        "category": "Contract Documents",
-        "topic": "Hierarchy",
-        "question": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence ? ",
-        "answer": "The Specifications (usually), or whichever is stricter (depending on contract language)",
-        "distractors": [
-            "The Drawings always",
-            "The verbal instructions",
-            "The NFPA code only"
-        ],
-        "citation": "General Construction Law / Trade Knowledge",
-        "code_text": "Specifications generally outline the quality and standards; Plans outline the quantity and location. Specs often govern in conflict."
-    },
-    {
-        "id": 3402,
-        "category": "Construction Drawings",
-        "topic": "Scale",
-        "question": "If a plan is drawn to 1/4\" = 1\u00270\" scale, and a pipe measures 3 inches long on the paper, how long is the pipe in reality ? ",
-        "answer": "12 feet",
-        "distractors": [
-            "3 feet",
-            "4 feet",
-            "10 feet"
-        ],
-        "citation": "Plan Reading Math",
-        "code_text": "There are 4 quarters in an inch. 3 inches = 12 quarters. 12 x 1 ft = 12 ft."
-    },
-    {
-        "id": 3403,
-        "category": "Construction Drawings",
-        "topic": "Symbols",
-        "question": "What does \u0027N.I.C.\u0027 usually stand for on a set of prints?",
-        "answer": "Not In Contract (Work not to be done by this trade)",
-        "distractors": [
-            "Not In Ceiling",
-            "No Internal Check",
-            "New Installation Code"
-        ],
-        "citation": "Blueprint Reading",
-        "code_text": "Standard abbreviation for scope of work limits."
-    },
-    {
-        "id": 3404,
-        "category": "NFPA 13 - Documentation",
-        "topic": "Plans",
-        "question": "Which of the following is REQUIRED to be shown on the hydraulic calculation sheets?",
-        "answer": "A graph sheet (N1.85 graph)",
-        "distractors": [
-            "A photo of the pump",
-            "The contractor\u0027s license number",
-            "The price of the pipe"
-        ],
-        "citation": "NFPA 13 (2016), Section 23.1",
-        "code_text": "Hydraulic calculations shall be prepared... and shall include... a graph sheet."
-    },
-    {
-        "id": 3405,
-        "category": "Construction Drawings",
-        "topic": "Layout",
-        "question": "On a reflected ceiling plan, what does \u0027AFF\u0027 mean?",
-        "answer": "Above Finished Floor",
-        "distractors": [
-            "After Final Finish",
-            "All Floors Finished",
-            "Above False Floor"
-        ],
-        "citation": "Blueprint Reading",
-        "code_text": "Standard elevation marker."
-    },
-    {
-        "id": 3501,
-        "category": "Materials Handling",
-        "topic": "CPVC",
-        "question": "How should CPVC pipe be stored at the job site?",
-        "answer": "Covered (protected from direct sunlight/UV) and flat to prevent warping",
-        "distractors": [
-            "In the sun to keep warm",
-            "Vertically leaning against a wall",
-            "Next to the diesel fuel"
-        ],
-        "citation": "Manufacturer Specs / NFPA 13",
-        "code_text": "UV exposure degrades plastic pipe over time."
-    },
-    {
-        "id": 3502,
-        "category": "Materials Handling",
-        "topic": "Steel Pipe",
-        "question": "When storing threaded steel pipe, what should be done to the threads?",
-        "answer": "Keep protective caps on or protect from impact damage",
-        "distractors": [
-            "Sand them down",
-            "Paint them immediately",
-            "Leave them exposed"
-        ],
-        "citation": "Trade Practice",
-        "code_text": "Damaged threads are the #1 cause of leaks in threaded systems."
-    },
-    {
-        "id": 3503,
-        "category": "Materials Handling",
-        "topic": "Rigging",
-        "question": "When lifting a bundle of pipe with a crane, what knot or hitch prevents the pipe from sliding out of the sling ? ",
-        "answer": "Double Wrap Choker Hitch",
-        "distractors": [
-            "Single vertical hitch",
-            "Square knot",
-            "Basket hitch"
-        ],
-        "citation": "OSHA / Rigging Basic",
-        "code_text": "Choker hitches tighten as the load is lifted; double wrap provides surface contact."
-    },
-    {
-        "id": 3504,
-        "category": "Materials Handling",
-        "topic": "Solvent Cement",
-        "question": "Solvent cement and primers are generally classified as?",
-        "answer": "Flammable and Volatile (Require ventilation)",
-        "distractors": [
-            "Inert",
-            "Non-toxic",
-            "Water-based"
-        ],
-        "citation": "SDS / Safety",
-        "code_text": "Vapors are heavier than air and flammable."
-    },
-    {
-        "id": 3505,
-        "category": "Materials Handling",
-        "topic": "Sprinklers",
-        "question": "If a glass bulb sprinkler is dropped on the floor during installation but looks fine, what must you do?",
-        "answer": "Discard and replace it (Invisible hairline cracks can cause failure later)",
-        "distractors": [
-            "Install it if it looks okay",
-            "Test it with a lighter",
-            "Use it as a spare"
-        ],
-        "citation": "NFPA 13 (2016), Section 6.2.6.4",
-        "code_text": "Sprinklers that have been dropped... shall not be returned to storage or installed."
-    },
-    {
-        "id": 3601,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Distance between hangers (1\" Steel)?",
-        "answer": "12 feet",
-        "distractors": [
-            "10 feet",
-            "15 feet",
-            "8 feet"
-        ],
-        "citation": "NFPA 13 Table 9.2.2.1(a)"
-    },
-    {
-        "id": 3602,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Distance between hangers (1-1/4\" Steel)?",
-        "answer": "12 feet",
-        "distractors": [
-            "15 feet",
-            "10 feet",
-            "14 feet"
-        ],
-        "citation": "NFPA 13 Table 9.2.2.1(a)"
-    },
-    {
-        "id": 3603,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Distance between hangers (1-1/2\" Steel)?",
-        "answer": "15 feet",
-        "distractors": [
-            "12 feet",
-            "10 feet",
-            "20 feet"
-        ],
-        "citation": "NFPA 13 Table 9.2.2.1(a)"
-    },
-    {
-        "id": 3604,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Max distance from wall (Standard Head)?",
-        "answer": "7.5 feet (1/2 of 15)",
-        "distractors": [
-            "6 feet",
-            "10 feet",
-            "5 feet"
-        ],
-        "citation": "NFPA 13 (Light Hazard SSU/SSP)"
-    },
-    {
-        "id": 3605,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Max distance from wall (Extended Coverage)?",
-        "answer": "10 feet (1/2 of 20) - Check Listing",
-        "distractors": [
-            "8 feet",
-            "12 feet",
-            "14 feet"
-        ],
-        "citation": "NFPA 13"
-    },
-    {
-        "id": 3606,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "MN FDC Height?",
-        "answer": "18\" to 48\"",
-        "distractors": [
-            "12\" to 36\"",
-            "24\" to 60\"",
-            "18\" to 36\""
-        ],
-        "citation": "MSFC 912.2.2"
-    },
-    {
-        "id": 3607,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Friction Loss C-Factor (Steel Wet)?",
-        "answer": "120",
-        "distractors": [
-            "100",
-            "140",
-            "150"
-        ],
-        "citation": "NFPA 13"
-    },
-    {
-        "id": 3608,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Friction Loss C-Factor (Steel Dry)?",
-        "answer": "100",
-        "distractors": [
-            "120",
-            "140",
-            "150"
-        ],
-        "citation": "NFPA 13"
-    },
-    {
-        "id": 3609,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Max time for water to reach inspector's test (Dry)?",
-        "answer": "60 seconds",
-        "distractors": [
-            "90 seconds",
-            "30 seconds",
-            "120 seconds"
-        ],
-        "citation": "NFPA 13"
-    },
-    {
-        "id": 3610,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Hydrostatic Test Pressure?",
-        "answer": "200 psi (or +50)",
-        "distractors": [
-            "150 psi",
-            "175 psi",
-            "250 psi"
-        ],
-        "citation": "NFPA 13"
-    },
-    {
-        "id": 3611,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Air Test Pressure (24 hour)?",
-        "answer": "40 psi",
-        "distractors": [
-            "20 psi",
-            "50 psi",
-            "100 psi"
-        ],
-        "citation": "NFPA 13"
-    },
-    {
-        "id": 3612,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Weekly Pump Run (Electric)?",
-        "answer": "10 minutes",
-        "distractors": [
-            "30 minutes",
-            "5 minutes",
-            "1 hour"
-        ],
-        "citation": "NFPA 25"
-    },
-    {
-        "id": 3613,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Weekly Pump Run (Diesel)?",
-        "answer": "30 minutes",
-        "distractors": [
-            "10 minutes",
-            "15 minutes",
-            "1 hour"
-        ],
-        "citation": "NFPA 25"
-    },
-    {
-        "id": 3614,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Main Drain Test Frequency?",
-        "answer": "Annually",
-        "distractors": [
-            "Quarterly",
-            "Monthly",
-            "Every 5 Years"
-        ],
-        "citation": "NFPA 25"
-    },
-    {
-        "id": 3615,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Flow Test Standpipe Frequency?",
-        "answer": "5 Years",
-        "distractors": [
-            "Annually",
-            "Every 3 Years",
-            "Every 10 Years"
-        ],
-        "citation": "NFPA 25"
-    },
-    {
-        "id": 3616,
-        "category": "Rapid Review",
-        "topic": "Numbers",
-        "question": "Deflector distance below beam (if 6\" away)?",
-        "answer": "1\" max above bottom (consult table)",
-        "distractors": [
-            "2\" max above bottom",
-            "Level with bottom",
-            "4\" max above bottom"
-        ],
-        "citation": "NFPA 13 Beam Rule"
-    },
-    {
-        "id": 124,
-        "category": "NFPA 13 - Installation",
-        "topic": "Hangers - Copper",
-        "question": "What is the maximum distance between hangers on 1\" copper tube?",
-        "answer": "8 feet",
-        "distractors": [
-            "12 feet",
-            "6 feet",
-            "10 feet"
-        ],
-        "citation": "NFPA 13 (2016), Table 9.2.2.1(b)",
-        "code_text": "1 in. Copper: 8 ft."
-    },
-    {
-        "id": 125,
-        "category": "NFPA 13 - Installation",
-        "topic": "Hangers - Copper",
-        "question": "What is the maximum distance between hangers on 1½\" copper tube?",
-        "answer": "10 feet",
-        "distractors": [
-            "12 feet",
-            "8 feet",
-            "15 feet"
-        ],
-        "citation": "NFPA 13 (2016), Table 9.2.2.1(b)",
-        "code_text": "1-1/2 in. Copper: 10 ft."
-    },
-    {
-        "id": 126,
-        "category": "NFPA 13 - Installation",
-        "topic": "Hangers - CPVC",
-        "question": "What is the maximum distance between hangers on ¾\" CPVC?",
-        "answer": "5 ft 6 in",
-        "distractors": [
-            "6 feet",
-            "4 feet",
-            "5 feet"
-        ],
-        "citation": "NFPA 13 (2016), Table 9.2.2.1(c)",
-        "code_text": "3/4 in. CPVC: 5 ft 6 in."
-    },
-    {
-        "id": 127,
-        "category": "NFPA 13 - Installation",
-        "topic": "Hangers - CPVC",
-        "question": "What is the maximum distance between hangers on 1\" CPVC?",
-        "answer": "6 feet",
-        "distractors": [
-            "5 ft 6 in",
-            "7 feet",
-            "8 feet"
-        ],
-        "citation": "NFPA 13 (2016), Table 9.2.2.1(c)",
-        "code_text": "1 in. CPVC: 6 ft."
-    },
-    {
-        "id": 128,
-        "category": "NFPA 13 - Installation",
-        "topic": "Trapeze Hangers",
-        "question": "What is the minimum size pipe allowed for a trapeze member spanning 5 feet or less?",
-        "answer": "1 inch",
-        "distractors": [
-            "¾ inch",
-            "1¼ inch",
-            "½ inch"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.1.1.7",
-        "code_text": "Trapeze members... 1 in. nominal or larger."
-    },
-    {
-        "id": 129,
-        "category": "NFPA 13 - Installation",
-        "topic": "Obstructions",
-        "question": "How large must a ceiling fan be to be considered an obstruction requiring a sprinkler above/below?",
-        "answer": "60 inches diameter",
-        "distractors": [
-            "48 inches",
-            "36 inches",
-            "72 inches"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.5.5.3",
-        "code_text": "HVLS fans... greater than 60 in. in diameter."
-    },
-    {
-        "id": 130,
-        "category": "NFPA 13 - Installation",
-        "topic": "Obstructions",
-        "question": "Standard sprinklers must be located at least how far from a continuous obstruction (like a beam) to avoid \u0027skipping\u0027 ? ",
-        "answer": "3 times the depth of the obstruction",
-        "distractors": [
-            "2 times the depth",
-            "4 times the depth",
-            "18 inches"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.6.5.1.2",
-        "code_text": "Beam rule: Horizontal distance... not less than three times the vertical distance."
-    },
-    {
-        "id": 131,
-        "category": "NFPA 13 - Installation",
-        "topic": "Obstructions",
-        "question": "What is the maximum distance a sprinkler deflector can be located above the bottom of a solid obstruction (Beam Rule) ? ",
-        "answer": "Zero (Maximum distance is defined by distance away)",
-        "distractors": [
-            "4 inches",
-            "6 inches",
-            "12 inches"
-        ],
-        "citation": "NFPA 13 (2016), Figure 8.6.5.1.2(a)",
-        "code_text": "The \u0027Beam Rule\u0027 defines max distance above bottom of beam based on horizontal distance away."
-    },
-    {
-        "id": 132,
-        "category": "NFPA 13 - Installation",
-        "topic": "System Components",
-        "question": "When are return bends required for pendant sprinklers?",
-        "answer": "In dry systems or systems with raw water",
-        "distractors": [
-            "In all wet systems",
-            "In light hazard systems",
-            "When pressure exceeds 100 psi"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.15.18.2",
-        "code_text": "Installed on return bends where... raw water source... or Dry systems."
-    },
-    {
-        "id": 133,
-        "category": "NFPA 13 - Installation",
-        "topic": "Seismic",
-        "question": "In a seismic zone, what is the maximum clearance allowed around a pipe penetrating a wall (without a flexible coupling)?",
-        "answer": "Large enough to avoid contact (1-2 inches depending on size)",
-        "distractors": [
-            "Seal tight with caulk",
-            "No clearance needed",
-            "6 inches"
-        ],
-        "citation": "NFPA 13 (2016), Section 9.3.4",
-        "code_text": "1 in. clearance for pipe 1in-3.5in; 2 in. clearance for pipe 4in+."
-    },
-    {
-        "id": 134,
-        "category": "NFPA 13 - Installation",
-        "topic": "Dry Systems",
-        "question": "A quick-opening device (QOD) is required on a dry system when the capacity exceeds?",
-        "answer": "500 gallons",
-        "distractors": [
-            "750 gallons",
-            "300 gallons",
-            "1000 gallons"
-        ],
-        "citation": "NFPA 13 (2016), Section 7.2.3.4",
-        "code_text": "A quick-opening device shall be provided for dry pipe systems having a capacity of more than 500 gal."
-    },
-    {
-        "id": 135,
-        "category": "NFPA 13 - Installation",
-        "topic": "System Types",
-        "question": "Which system requires a supplemental detection system to activate?",
-        "answer": "Preaction",
-        "distractors": [
-            "Dry Pipe",
-            "Wet Pipe",
-            "Antifreeze"
-        ],
-        "citation": "NFPA 13 (2016), Section 7.3.2.1",
-        "code_text": "The preaction valve shall be actuated by... a supplemental fire detection system."
-    },
-    {
-        "id": 136,
-        "category": "NFPA 13 - Installation",
-        "topic": "Antifreeze",
-        "question": "What is the maximum capacity of an antifreeze system piping loop?",
-        "answer": "40 gallons",
-        "distractors": [
-            "50 gallons",
-            "100 gallons",
-            "20 gallons"
-        ],
-        "citation": "NFPA 13 (2016), Section 7.6.2.3",
-        "code_text": "Capacity... shall not exceed 40 gal."
-    },
-    {
-        "id": 137,
-        "category": "NFPA 13 - Installation",
-        "topic": "Valves",
-        "question": "Post Indicator Valves (PIV) must be set so the top of the post is how high above grade?",
-        "answer": "32 to 40 inches",
-        "distractors": [
-            "24 to 36 inches",
-            "36 to 48 inches",
-            "18 to 24 inches"
-        ],
-        "citation": "NFPA 24 (2016), Section 6.3.3",
-        "code_text": "32 in. to 40 in. above final grade."
-    },
-    {
-        "id": 138,
-        "category": "NFPA 13 - Installation",
-        "topic": "Safety/Signs",
-        "question": "What is the minimum letter height for hydraulic design information signs?",
-        "answer": "¼ inch (Title: 1 inch)",
-        "distractors": [
-            "½ inch",
-            "1 inch",
-            "1/8 inch"
-        ],
-        "citation": "NFPA 13 (2016), Section 25.5.2",
-        "code_text": "Data on the sign... shall be a minimum of 1/4 in. high."
-    },
-    {
-        "id": 4001,
-        "category": "Jobsite Logic",
-        "topic": "Fittings",
-        "question": "You\u0027re putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it, or are you just hand - tightening it like a prom date ? ",
-        "answer": "Approximately 3 threads exposed (Standard makeup)",
-        "distractors": [
-            "No threads, bury it to the hilt",
-            "Half the threads, good enough for Friday",
-            "Just one thread, I\u0027m weak"
-        ],
-        "citation": "Trade Practice",
-        "code_text": "Proper thread engagement usually leaves ~3 threads exposed. Don\u0027t strip it."
-    },
-    {
-        "id": 4002,
-        "category": "Jobsite Logic",
-        "topic": "Valves",
-        "question": "What is the \u0027Ball Drip\u0027 actually for? (And no, it\u0027s not for what you think it is).",
-        "answer": "Draining the FDC so it doesn\u0027t freeze and crack",
-        "distractors": [
-            "Lubricating the ball bearings",
-            "Letting the air out of the system",
-            "It\u0027s just a fancy name for a check valve"
-        ],
-        "citation": "NFPA 13 (2016), Section 8.17.2.6",
-        "code_text": "Automatic drip valve... to drain the piping."
-    },
-    {
-        "id": 4003,
-        "category": "Jobsite Logic",
-        "topic": "Lubrication",
-        "question": "When you\u0027re mating a gasket, what do you use? Don\u0027t say spit.",
-        "answer": "A listed lubricant compatible with the gasket",
-        "distractors": [
-            "Spit and a prayer",
-            "Grease from the truck axle",
-            "Pipe Dope"
-        ],
-        "citation": "Manufacturer Instructions",
-        "code_text": "Use only lubricant supplied by the manufacturer."
-    },
-    {
-        "id": 4004,
-        "category": "Jobsite Logic",
-        "topic": "Slang",
-        "question": "The foreman tells you to grab a \u0027Widow Maker.\u0027 What is he asking for?",
-        "answer": "An extension ladder (or sometimes a specific dangerous electrical disconnect)",
-        "distractors": [
-            "A pipe wrench with a cheater bar",
-            "The biggest hammer in the truck",
-            "A 220v cord with bare ends"
-        ],
-        "citation": "Jobsite Slang",
-        "code_text": "Slang varies, but usually refers to tools that kill you if you respect them least."
-    },
-    {
-        "id": 4005,
-        "category": "Jobsite Logic",
-        "topic": "Pipe Prep",
-        "question": "You just cut a piece of threaded pipe. If you don\u0027t ream the inside, what are you?",
-        "answer": "A turbulent flow creator (and a lazy fitter)",
-        "distractors": [
-            "Efficient",
-            "Saving time",
-            "Ready for the weekend"
-        ],
-        "citation": "NFPA 13 (2016), Section 6.5.1.3",
-        "code_text": "Pipe ends shall be reamed or burrs removed."
-    },
-    {
-        "id": 216,
-        "category": "NFPA 25 - ITM",
-        "topic": "Gauges",
-        "question": "How often should gauges be replaced or tested against a calibrated gauge?",
+        "topic": "Standpipes",
+        "question": "How often is a flow test conducted on a standpipe system?",
         "answer": "Every 5 years",
         "distractors": [
             "Annually",
             "Every 3 years",
-            "Every 10 years"
+            "Quarterly"
         ],
-        "citation": "NFPA 25 (2011), Section 5.3.2",
-        "code_text": "Gauges shall be replaced every 5 years or tested."
+        "citation": "NFPA 25 (2011), Section 6.3.1",
+        "code_text": "Flow test shall be conducted every 5 years."
     },
     {
-        "id": 217,
+        "id": 300203,
         "category": "NFPA 25 - ITM",
-        "topic": "Sprinklers",
-        "question": "How often must standard response sprinklers be tested or replaced (after initial service)?",
-        "answer": "50 years",
+        "topic": "Tanks",
+        "question": "How often do you check water level and air pressure in a pressure tank?",
+        "answer": "Monthly",
         "distractors": [
-            "20 years",
-            "75 years",
-            "10 years"
+            "Weekly",
+            "Quarterly",
+            "Annually"
         ],
-        "citation": "NFPA 25 (2011), Section 5.3.1.1.1",
-        "code_text": "Sprinklers... shall be replaced or representative samples tested... at 50 years."
+        "citation": "NFPA 25 (2011), Section 9.2.2",
+        "code_text": "Inspected monthly."
     },
     {
-        "id": 218,
+        "id": 300204,
         "category": "NFPA 25 - ITM",
-        "topic": "Sprinklers",
-        "question": "How often are Quick Response sprinklers tested (after initial 20 years)?",
-        "answer": "Every 10 years",
+        "topic": "Tanks",
+        "question": "How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?",
+        "answer": "Every 3 years",
         "distractors": [
             "Every 5 years",
-            "Every 20 years",
-            "Every 50 years"
+            "Annually",
+            "Every 10 years"
         ],
-        "citation": "NFPA 25 (2011), Section 5.3.1.1.1.3",
-        "code_text": "Tested at 10-year intervals."
+        "citation": "NFPA 25 (2011), Section 9.2.6",
+        "code_text": "Every 3 years."
     },
     {
-        "id": 219,
+        "id": 300205,
         "category": "NFPA 25 - ITM",
-        "topic": "Sprinklers",
-        "question": "Dry sprinklers must be tested or replaced after how many years?",
-        "answer": "10 years",
+        "topic": "Pumps",
+        "question": "How long must a diesel fire pump run during a weekly test?",
+        "answer": "30 minutes",
         "distractors": [
-            "20 years",
-            "5 years",
-            "50 years"
+            "10 minutes",
+            "15 minutes",
+            "60 minutes"
         ],
-        "citation": "NFPA 25 (2011), Section 5.3.1.1.1.6",
-        "code_text": "Dry sprinklers... tested or replaced after 10 years."
+        "citation": "NFPA 25 (2011), Section 8.3.3",
+        "code_text": "Run a minimum of 30 minutes."
     },
     {
-        "id": 220,
+        "id": 300206,
+        "category": "NFPA 25 - ITM",
+        "topic": "Pumps",
+        "question": "How long must an electric fire pump run during a weekly test?",
+        "answer": "10 minutes",
+        "distractors": [
+            "30 minutes",
+            "5 minutes",
+            "15 minutes"
+        ],
+        "citation": "NFPA 25 (2011), Section 8.3.3",
+        "code_text": "Run a minimum of 10 minutes."
+    },
+    {
+        "id": 300212,
+        "category": "NFPA 25 - ITM",
+        "topic": "Gauges",
+        "question": "How often are gauges on dry/preaction/deluge systems inspected?",
+        "answer": "Weekly",
+        "distractors": [
+            "Monthly",
+            "Quarterly",
+            "Daily"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.2.4.2",
+        "code_text": "Gauges... shall be inspected weekly."
+    },
+    {
+        "id": 300213,
+        "category": "NFPA 25 - ITM",
+        "topic": "Gauges",
+        "question": "How often are gauges on wet pipe systems inspected?",
+        "answer": "Monthly",
+        "distractors": [
+            "Weekly",
+            "Quarterly",
+            "Annually"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.2.4.1",
+        "code_text": "Gauges... shall be inspected monthly."
+    },
+    {
+        "id": 300220,
         "category": "NFPA 25 - ITM",
         "topic": "Valves",
         "question": "How often must you operate and clean a Dry Pipe Valve?",
@@ -3473,7 +476,7 @@ const questions = [
         "code_text": "Each dry pipe valve shall be trip tested annually."
     },
     {
-        "id": 221,
+        "id": 300221,
         "category": "NFPA 25 - ITM",
         "topic": "Valves",
         "question": "How often is a full flow trip test required for a Dry Pipe Valve?",
@@ -3487,21 +490,7 @@ const questions = [
         "code_text": "A full flow trip test... shall be conducted at least once every 3 years."
     },
     {
-        "id": 222,
-        "category": "NFPA 25 - ITM",
-        "topic": "Internal Pipe Inspection",
-        "question": "How often is an internal assessment of piping required (for obstruction)?",
-        "answer": "Every 5 years",
-        "distractors": [
-            "Every 3 years",
-            "Annually",
-            "Every 10 years"
-        ],
-        "citation": "NFPA 25 (2011), Section 14.2.1",
-        "code_text": "Assessment of the internal condition... shall be conducted... every 5 years."
-    },
-    {
-        "id": 223,
+        "id": 300223,
         "category": "NFPA 25 - ITM",
         "topic": "FDC",
         "question": "How often is the interior of the FDC piping inspected (hydrostatic test)?",
@@ -3515,7 +504,7 @@ const questions = [
         "code_text": "Piping... shall be hydrostatically tested at 150 psi... every 5 years."
     },
     {
-        "id": 224,
+        "id": 300224,
         "category": "NFPA 25 - ITM",
         "topic": "Backflow",
         "question": "How often must a backflow preventer be forward flow tested?",
@@ -3529,7 +518,3953 @@ const questions = [
         "code_text": "All backflow preventers... shall be tested annually... under forward flow conditions."
     },
     {
-        "id": 225,
+        "id": 303101,
+        "category": "NFPA 25 - ITM",
+        "topic": "Main Drain",
+        "question": "What is the primary purpose of the main drain test?",
+        "answer": "To determine if there is a change in the water supply (obstruction or closed valve)",
+        "distractors": [
+            "To flush the riser",
+            "To test the flow switch",
+            "To drain the system for service"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.2.5",
+        "code_text": "A main drain test shall be conducted... to determine whether there has been a change in the condition of the water supply piping."
+    },
+    {
+        "id": 303106,
+        "category": "NFPA 25 - ITM",
+        "topic": "Antifreeze",
+        "question": "If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?",
+        "answer": "Drain and replace with new factory-premixed solution",
+        "distractors": [
+            "Add pure glycerin concentrate",
+            "Add water",
+            "Adjust the loop pressure"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.3.4",
+        "code_text": "If the [solution] does not meet the requirements... the system shall be drained and filled with a factory premixed solution."
+    },
+    {
+        "id": 400301,
+        "category": "NFPA 14 - Standpipes",
+        "topic": "Flows",
+        "question": "Minimum flow rate for the most remote standpipe in a Class I system?",
+        "answer": "500 gpm",
+        "distractors": [
+            "250 gpm",
+            "100 gpm",
+            "750 gpm"
+        ],
+        "citation": "NFPA 14 (2016), Section 7.10.1.1.5",
+        "code_text": "Minimum flow rate... shall be 500 gpm."
+    },
+    {
+        "id": 400302,
+        "category": "NFPA 14 - Standpipes",
+        "topic": "Flows",
+        "question": "Minimum flow rate for each *additional* standpipe in a Class I system?",
+        "answer": "250 gpm",
+        "distractors": [
+            "500 gpm",
+            "100 gpm",
+            "150 gpm"
+        ],
+        "citation": "NFPA 14 (2016), Section 7.10.1.1.5",
+        "code_text": "Additional standpipes shall be 250 gpm."
+    },
+    {
+        "id": 400303,
+        "category": "NFPA 14 - Standpipes",
+        "topic": "Pressure",
+        "question": "Minimum residual pressure at the most remote 2\u00bd\" outlet?",
+        "answer": "100 psi",
+        "distractors": [
+            "65 psi",
+            "175 psi",
+            "150 psi"
+        ],
+        "citation": "NFPA 14 (2016), Section 7.8.1",
+        "code_text": "Minimum residual pressure of 100 psi."
+    },
+    {
+        "id": 400305,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Components",
+        "question": "What fitting is used on the suction side of a pump to prevent air pockets?",
+        "answer": "Eccentric Reducer",
+        "distractors": [
+            "Concentric Reducer",
+            "Tee",
+            "90 Elbow"
+        ],
+        "citation": "NFPA 20 (2016), Section 4.15.6.3",
+        "code_text": "Connected with an eccentric tapered reducer."
+    },
+    {
+        "id": 400311,
+        "category": "NFPA 24 - Underground",
+        "topic": "Depth",
+        "question": "Private fire mains under driveways must be buried how deep?",
+        "answer": "36 inches (or 1' below frost)",
+        "distractors": [
+            "24 inches",
+            "48 inches",
+            "18 inches"
+        ],
+        "citation": "NFPA 24 (2016), Section 10.4.2",
+        "code_text": "Not less than 3 ft (36 in)."
+    },
+    {
+        "id": 401001,
+        "category": "NFPA 24 - Underground",
+        "topic": "Thrust Blocks",
+        "question": "Thrust blocks are required at which locations?",
+        "answer": "Changes in direction (elbows/tees), dead ends, and reducers",
+        "distractors": [
+            "Every joint",
+            "Every 10 feet",
+            "Only at the riser flange"
+        ],
+        "citation": "NFPA 24 (2016), Section 10.8.1",
+        "code_text": "Thrust blocks... shall be required at all changes in direction... reducers... and dead ends."
+    },
+    {
+        "id": 401004,
+        "category": "NFPA 24 - Underground",
+        "topic": "Flushing",
+        "question": "What is the minimum flow rate required to flush a 4-inch underground main?",
+        "answer": "390 gpm",
+        "distractors": [
+            "200 gpm",
+            "500 gpm",
+            "880 gpm"
+        ],
+        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+        "code_text": "4 in pipe -> 390 gpm (to achieve 10 ft/sec)."
+    },
+    {
+        "id": 401101,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Jockey Pump",
+        "question": "What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?",
+        "answer": "To make up for minor leaks and maintain pressure without running the main pump",
+        "distractors": [
+            "To help the main pump during a fire",
+            "To test the system",
+            "To prevent freezing"
+        ],
+        "citation": "NFPA 20 (2016), Section 4.25",
+        "code_text": "Pressure maintenance pumps... make up for allowable leakage."
+    },
+    {
+        "id": 401103,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Diesel Engines",
+        "question": "Fuel tanks for diesel fire pumps must be elevated so the supply connection is?",
+        "answer": "Not lower than the fuel pump on the engine",
+        "distractors": [
+            "Below the engine",
+            "At least 5 feet high",
+            "Buried underground"
+        ],
+        "citation": "NFPA 20 (2016), Section 11.4.1",
+        "code_text": "Located... so that the fuel supply connection... is not lower than the fuel transfer pump."
+    },
+    {
+        "id": 402601,
+        "category": "NFPA 14 - System Types",
+        "topic": "Definitions",
+        "question": "What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?",
+        "answer": "Automatic Wet",
+        "distractors": [
+            "Automatic Dry",
+            "Semiautomatic Dry",
+            "Manual Wet"
+        ],
+        "citation": "NFPA 14 (2016), Section 3.3.17.1",
+        "code_text": "Automatic Wet: Contains water at all times... capable of supplying the system demand."
+    },
+    {
+        "id": 402603,
+        "category": "NFPA 14 - System Types",
+        "topic": "Definitions",
+        "question": "What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?",
+        "answer": "Manual Dry",
+        "distractors": [
+            "Manual Wet",
+            "Semiautomatic",
+            "Class I"
+        ],
+        "citation": "NFPA 14 (2016), Section 3.3.17.4",
+        "code_text": "Manual Dry: Contains air... relies exclusively on the fire department connection."
+    },
+    {
+        "id": 403201,
+        "category": "Specialty Valves",
+        "topic": "Dry Pipe Valve",
+        "question": "What is 'Columning' in a dry pipe valve?",
+        "answer": "When priming water level is too high, creating pressure that prevents the clapper from opening",
+        "distractors": [
+            "When the air pressure is too low",
+            "When the valve trips accidentally",
+            "When the accelerator fails"
+        ],
+        "citation": "Industry Theory / NFPA 13",
+        "code_text": "High priming water exerts hydraulic pressure on the top of the clapper, locking it shut."
+    },
+    {
+        "id": 403202,
+        "category": "Specialty Valves",
+        "topic": "Preaction",
+        "question": "In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?",
+        "answer": "Activation of a detection device AND loss of air pressure (sprinkler opening)",
+        "distractors": [
+            "Detection only",
+            "Loss of air only",
+            "Manual release only"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.3.2.2",
+        "code_text": "Double interlock... admits water... only when... detection device [activates]... AND... automatic sprinkler [activates]."
+    },
+    {
+        "id": 403203,
+        "category": "Specialty Valves",
+        "topic": "Trim",
+        "question": "What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?",
+        "answer": "To drain water between the check valve and the FDC to prevent freezing",
+        "distractors": [
+            "To drain the main riser",
+            "To test the pump",
+            "To allow air into the system"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.17.2.6",
+        "code_text": "An automatic drip valve... shall be installed... to drain the piping between the check valve and the fire department connection."
+    },
+    {
+        "id": 500207,
+        "category": "MN Statutes & Rules",
+        "topic": "Licensing",
+        "is_mn_amendment": true,
+        "question": "When does a MN Sprinkler Fitter journeyman license expire?",
+        "answer": "June 30th",
+        "distractors": [
+            "December 31st",
+            "January 1st",
+            "Date of Issue"
+        ],
+        "citation": "MN Rules 7512.0200",
+        "code_text": "Expire on June 30 of each year."
+    },
+    {
+        "id": 500208,
+        "category": "MN Statutes & Rules",
+        "topic": "Licensing",
+        "is_mn_amendment": true,
+        "question": "How many hours of experience are required to take the MN Journeyman exam?",
+        "answer": "8000 hours",
+        "distractors": [
+            "4000 hours",
+            "6000 hours",
+            "10000 hours"
+        ],
+        "citation": "MN Statutes 299M.03",
+        "code_text": "Minimum of 8000 hours."
+    },
+    {
+        "id": 500209,
+        "category": "MN Statutes & Rules",
+        "topic": "Penalties",
+        "is_mn_amendment": true,
+        "question": "What is the fine for working without a license in MN?",
+        "answer": "Misdemeanor ($1,000 / 90 days)",
+        "distractors": [
+            "Felony",
+            "Gross Misdemeanor",
+            "$500 fine"
+        ],
+        "citation": "MN Statutes 299M.08",
+        "code_text": "Guilty of a misdemeanor."
+    },
+    {
+        "id": 500210,
+        "category": "MN Statutes & Rules",
+        "topic": "Installation Amendments",
+        "is_mn_amendment": true,
+        "question": "MN requires FDCs to be located between what heights?",
+        "answer": "18\" and 48\"",
+        "distractors": [
+            "18\" and 36\"",
+            "24\" and 48\"",
+            "12\" and 60\""
+        ],
+        "citation": "MN Fire Code (2020), Section 912.2.2",
+        "code_text": "Not less than 18 inches and not more than 48 inches."
+    },
+    {
+        "id": 500211,
+        "category": "MN Statutes & Rules",
+        "topic": "Installation Amendments",
+        "is_mn_amendment": true,
+        "question": "Can a control valve in a public area be unmonitored if it serves <20 heads?",
+        "answer": "No (False)",
+        "distractors": [
+            "Yes (True)"
+        ],
+        "citation": "MN Fire Code (2020), Section 903.4",
+        "code_text": "MN deletes Exception 1. All valves must be monitored."
+    },
+    {
+        "id": 500313,
+        "category": "OSHA / Safety",
+        "topic": "Trenching",
+        "question": "At what depth is a ladder required in a trench?",
+        "answer": "4 feet",
+        "distractors": [
+            "5 feet",
+            "3 feet",
+            "6 feet"
+        ],
+        "citation": "OSHA 1926.651",
+        "code_text": "Trenches 4 feet or deeper."
+    },
+    {
+        "id": 500314,
+        "category": "OSHA / Safety",
+        "topic": "Trenching",
+        "question": "What is the max travel distance to a ladder in a trench?",
+        "answer": "25 feet",
+        "distractors": [
+            "50 feet",
+            "15 feet",
+            "100 feet"
+        ],
+        "citation": "OSHA 1926.651",
+        "code_text": "No more than 25 feet of lateral travel."
+    },
+    {
+        "id": 500401,
+        "category": "MN Statutes & Rules",
+        "topic": "Licensing",
+        "is_mn_amendment": true,
+        "question": "Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?",
+        "answer": "No, they must work for a licensed Contractor",
+        "distractors": [
+            "Yes, if insured",
+            "Yes, for small jobs",
+            "Yes, if they have a Master license"
+        ],
+        "citation": "MN Statutes 299M",
+        "code_text": "Only a licensed Fire Protection Contractor may contract to perform work."
+    },
+    {
+        "id": 500404,
+        "category": "OSHA / Safety",
+        "topic": "Ladders",
+        "question": "What is the proper ratio for leaning an extension ladder against a wall?",
+        "answer": "4:1 (1 foot out for every 4 feet up)",
+        "distractors": [
+            "2:1",
+            "1:1",
+            "3:1"
+        ],
+        "citation": "OSHA 1926.1053",
+        "code_text": "Angle of inclination... one-quarter of the working length."
+    },
+    {
+        "id": 503401,
+        "category": "Contract Documents",
+        "topic": "Hierarchy",
+        "question": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?",
+        "answer": "The Specifications (usually), or whichever is stricter",
+        "distractors": [
+            "The Drawings always",
+            "The verbal instructions",
+            "The NFPA code only"
+        ],
+        "citation": "General Construction Law / Trade Knowledge",
+        "code_text": "Specifications generally outline the quality and standards; Plans outline the quantity and location. Specs often govern in conflict."
+    },
+    {
+        "id": 503403,
+        "category": "Construction Drawings",
+        "topic": "Symbols",
+        "question": "What does 'N.I.C.' usually stand for on a set of prints?",
+        "answer": "Not In Contract (Work not to be done by this trade)",
+        "distractors": [
+            "Not In Ceiling",
+            "No Internal Check",
+            "New Installation Code"
+        ],
+        "citation": "Blueprint Reading",
+        "code_text": "Standard abbreviation for scope of work limits."
+    },
+    {
+        "id": 600110,
+        "category": "NFPA 13 - Installation",
+        "topic": "Calculations",
+        "question": "In Ordinary Hazard (130 sq ft), if heads are 12\u20196\" apart on the line, what is the max distance between lines?",
+        "answer": "10.4 feet",
+        "math_logic": "130 / 12.5 = 10.4",
+        "distractors": [
+            "12.5 feet",
+            "15 feet",
+            "10 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 8.6.2.2.1(b)",
+        "code_text": "S x L = Area."
+    },
+    {
+        "id": 600111,
+        "category": "NFPA 13 - Installation",
+        "topic": "Components",
+        "question": "What color is the glass bulb for Ordinary Temperature (135-170\u00b0F)?",
+        "answer": "Orange or Red",
+        "distractors": [
+            "Yellow",
+            "Blue",
+            "Green"
+        ],
+        "citation": "NFPA 13 (2016), Table 6.2.5.1",
+        "code_text": "135-170 F: Orange/Red."
+    },
+    {
+        "id": 600113,
+        "category": "NFPA 13 - Installation",
+        "topic": "Components",
+        "question": "What color is the glass bulb for High Temperature (250-300\u00b0F)?",
+        "answer": "Blue",
+        "distractors": [
+            "Green",
+            "Purple",
+            "Red"
+        ],
+        "citation": "NFPA 13 (2016), Table 6.2.5.1",
+        "code_text": "250-300 F: Blue.",
+        "mnemonic": "Blue flame is hot."
+    },
+    {
+        "id": 600114,
+        "category": "NFPA 13 - Installation",
+        "topic": "Components",
+        "question": "What color is the glass bulb for Extra High Temperature (325-375\u00b0F)?",
+        "answer": "Purple",
+        "distractors": [
+            "Black",
+            "Blue",
+            "Red"
+        ],
+        "citation": "NFPA 13 (2016), Table 6.2.5.1",
+        "code_text": "325-375 F: Purple."
+    },
+    {
+        "id": 600501,
+        "category": "Hydraulics / Math",
+        "topic": "C-Factors",
+        "question": "What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?",
+        "answer": "120",
+        "distractors": [
+            "100",
+            "140",
+            "150"
+        ],
+        "citation": "NFPA 13 (2016), Table 23.4.3.1.1",
+        "code_text": "Steel (new) = 120."
+    },
+    {
+        "id": 600502,
+        "category": "Hydraulics / Math",
+        "topic": "C-Factors",
+        "question": "What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?",
+        "answer": "100",
+        "distractors": [
+            "120",
+            "150",
+            "140"
+        ],
+        "citation": "NFPA 13 (2016), Table 23.4.3.1.1",
+        "code_text": "Steel (dry/preaction) = 100. (Lower because corrosion increases friction)."
+    },
+    {
+        "id": 600505,
+        "category": "Hydraulics / Math",
+        "topic": "Pressure",
+        "question": "What is the pressure of a column of water 1 foot high (Head pressure)?",
+        "answer": "0.433 psi",
+        "distractors": [
+            "1 psi",
+            "2.31 psi",
+            "0.5 psi"
+        ],
+        "citation": "General Hydraulics Principle",
+        "code_text": "1 ft of head = 0.433 psi."
+    },
+    {
+        "id": 600506,
+        "category": "Hydraulics / Math",
+        "topic": "Pressure",
+        "question": "How many feet of water column (Head) equal 1 psi?",
+        "answer": "2.31 feet",
+        "distractors": [
+            "1 foot",
+            "0.433 feet",
+            "10 feet"
+        ],
+        "citation": "General Hydraulics Principle",
+        "code_text": "1 psi = 2.31 ft of head."
+    },
+    {
+        "id": 601801,
+        "category": "Theory & Pathology",
+        "topic": "Corrosion",
+        "question": "What does Microbiologically Influenced Corrosion (MIC) typically smell like?",
+        "answer": "Rotten Eggs (Sulfur)",
+        "distractors": [
+            "Moldy bread",
+            "Burning rubber",
+            "Metallic iron"
+        ],
+        "citation": "Industry Standard / NFPA 25 Annex",
+        "code_text": "Sulfate-reducing bacteria often produce a distinct rotten egg odor.",
+        "mnemonic": "MIC smells sick."
+    },
+    {
+        "id": 604001,
+        "category": "Jobsite Logic",
+        "topic": "Fittings",
+        "question": "You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it?",
+        "answer": "Approximately 3 threads exposed",
+        "distractors": [
+            "No threads",
+            "Half the threads",
+            "Just one thread"
+        ],
+        "citation": "Trade Practice",
+        "code_text": "Proper thread engagement usually leaves ~3 threads exposed."
+    },
+    {
+        "id": 604002,
+        "category": "Jobsite Logic",
+        "topic": "Valves",
+        "question": "What is the 'Ball Drip' actually for?",
+        "answer": "Draining the FDC so it doesn't freeze and crack",
+        "distractors": [
+            "Lubricating the ball bearings",
+            "Letting the air out of the system",
+            "It's just a fancy name for a check valve"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.17.2.6",
+        "code_text": "Automatic drip valve... to drain the piping."
+    },
+    {
+        "id": 700101,
+        "category": "NFPA 13 - Installation",
+        "topic": "Coverage",
+        "question": "What is the coverage area for Light Hazard heads (Standard Spray)?",
+        "answer": "225 square feet",
+        "distractors": [
+            "130 sq ft",
+            "200 sq ft",
+            "400 sq ft"
+        ],
+        "citation": "NFPA 13 (2016), Table 8.6.2.2.1(a)",
+        "code_text": "Light Hazard Protection Area: 225 ft2."
+    },
+    {
+        "id": 700102,
+        "category": "NFPA 13 - Installation",
+        "topic": "Coverage",
+        "question": "What is the coverage area for Ordinary Hazard heads?",
+        "answer": "130 square feet",
+        "distractors": [
+            "100 sq ft",
+            "225 sq ft",
+            "196 sq ft"
+        ],
+        "citation": "NFPA 13 (2016), Table 8.6.2.2.1(b)",
+        "code_text": "Ordinary Hazard Protection Area: 130 ft2."
+    },
+    {
+        "id": 700103,
+        "category": "NFPA 13 - Installation",
+        "topic": "Coverage",
+        "question": "What is the coverage area for Extra Hazard heads?",
+        "answer": "100 square feet",
+        "distractors": [
+            "130 sq ft",
+            "90 sq ft",
+            "64 sq ft"
+        ],
+        "citation": "NFPA 13 (2016), Table 8.6.2.2.1(c)",
+        "code_text": "Extra Hazard Protection Area: 100 ft2."
+    },
+    {
+        "id": 700104,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers",
+        "question": "What is the maximum distance between hangers on 1\" schedule 40 pipe?",
+        "answer": "12 feet",
+        "distractors": [
+            "10 feet",
+            "15 feet",
+            "8 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+        "code_text": "1 in: 12 ft."
+    },
+    {
+        "id": 700105,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers",
+        "question": "What is the maximum distance between hangers on 1\u00bc\" schedule 40 pipe?",
+        "answer": "12 feet",
+        "distractors": [
+            "15 feet",
+            "10 feet",
+            "14 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+        "code_text": "1-1/4 in: 12 ft."
+    },
+    {
+        "id": 700106,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers",
+        "question": "What is the maximum distance between hangers on 1\u00bd\" schedule 40 pipe?",
+        "answer": "15 feet",
+        "distractors": [
+            "12 feet",
+            "10 feet",
+            "20 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.2.1(a)",
+        "code_text": "1-1/2 in: 15 ft."
+    },
+    {
+        "id": 700107,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers",
+        "question": "Maximum unsupported length of pipe from end of 1\" pipe to last hanger?",
+        "answer": "36 inches",
+        "distractors": [
+            "48 inches",
+            "24 inches",
+            "12 inches"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.3.4",
+        "code_text": "1 in: 36 inches."
+    },
+    {
+        "id": 700108,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers",
+        "question": "Maximum unsupported length of pipe from end of 1\u00bc\" pipe to last hanger?",
+        "answer": "48 inches",
+        "distractors": [
+            "36 inches",
+            "60 inches",
+            "24 inches"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.3.4",
+        "code_text": "1-1/4 in: 48 inches."
+    },
+    {
+        "id": 700109,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers",
+        "question": "Maximum unsupported length of pipe from end of 1\u00bd\" pipe to last hanger?",
+        "answer": "60 inches",
+        "distractors": [
+            "48 inches",
+            "36 inches",
+            "72 inches"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.3.4",
+        "code_text": "1-1/2 in or larger: 60 inches."
+    },
+    {
+        "id": 700110,
+        "category": "NFPA 13 - Installation",
+        "topic": "Calculations",
+        "question": "In Ordinary Hazard (130 sq ft), if heads are 12\u20196\" apart on the line, what is the max distance between lines?",
+        "answer": "10.4 feet",
+        "math_logic": "130 / 12.5 = 10.4",
+        "distractors": [
+            "12.5 feet",
+            "15 feet",
+            "10 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 8.6.2.2.1(b)",
+        "code_text": "S x L = Area."
+    },
+    {
+        "id": 700111,
+        "category": "NFPA 13 - Installation",
+        "topic": "Components",
+        "question": "What color is the glass bulb for Ordinary Temperature (135-170\u00b0F)?",
+        "answer": "Orange or Red",
+        "distractors": [
+            "Yellow",
+            "Blue",
+            "Green"
+        ],
+        "citation": "NFPA 13 (2016), Table 6.2.5.1",
+        "code_text": "135-170 F: Orange/Red."
+    },
+    {
+        "id": 700112,
+        "category": "NFPA 13 - Installation",
+        "topic": "Components",
+        "question": "What color is the glass bulb for Intermediate Temperature (175-225\u00b0F)?",
+        "answer": "Yellow or Green",
+        "distractors": [
+            "Blue",
+            "Red",
+            "Purple"
+        ],
+        "citation": "NFPA 13 (2016), Table 6.2.5.1",
+        "code_text": "175-225 F: Yellow/Green."
+    },
+    {
+        "id": 700113,
+        "category": "NFPA 13 - Installation",
+        "topic": "Components",
+        "question": "What color is the glass bulb for High Temperature (250-300\u00b0F)?",
+        "answer": "Blue",
+        "distractors": [
+            "Green",
+            "Purple",
+            "Red"
+        ],
+        "citation": "NFPA 13 (2016), Table 6.2.5.1",
+        "code_text": "250-300 F: Blue.",
+        "mnemonic": "Blue flame is hot."
+    },
+    {
+        "id": 700114,
+        "category": "NFPA 13 - Installation",
+        "topic": "Components",
+        "question": "What color is the glass bulb for Extra High Temperature (325-375\u00b0F)?",
+        "answer": "Purple",
+        "distractors": [
+            "Black",
+            "Blue",
+            "Red"
+        ],
+        "citation": "NFPA 13 (2016), Table 6.2.5.1",
+        "code_text": "325-375 F: Purple."
+    },
+    {
+        "id": 700115,
+        "category": "NFPA 13 - Installation",
+        "topic": "Pipe Schedule",
+        "question": "In Light Hazard, how many sprinklers can be fed by a 1\" pipe?",
+        "answer": "2 heads",
+        "distractors": [
+            "1 head",
+            "3 heads",
+            "5 heads"
+        ],
+        "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
+        "code_text": "1 in: 2 sprinklers."
+    },
+    {
+        "id": 700116,
+        "category": "NFPA 13 - Installation",
+        "topic": "Pipe Schedule",
+        "question": "In Light Hazard, how many sprinklers can be fed by a 1\u00bd\" pipe?",
+        "answer": "5 heads",
+        "distractors": [
+            "3 heads",
+            "10 heads",
+            "2 heads"
+        ],
+        "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
+        "code_text": "1-1/2 in: 5 sprinklers."
+    },
+    {
+        "id": 700117,
+        "category": "NFPA 13 - Installation",
+        "topic": "Clearance",
+        "question": "Minimum distance between a standard sprinkler deflector and the top of storage?",
+        "answer": "18 inches",
+        "distractors": [
+            "12 inches",
+            "24 inches",
+            "36 inches"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.5.6",
+        "code_text": "Minimum of 18 in. clearance."
+    },
+    {
+        "id": 700118,
+        "category": "NFPA 13 - Installation",
+        "topic": "Obstructions",
+        "question": "Minimum distance a standard sprinkler must be from a wall?",
+        "answer": "4 inches",
+        "distractors": [
+            "6 inches",
+            "3 inches",
+            "1 inch"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.3.2.3",
+        "code_text": "Minimum of 4 in. from a wall."
+    },
+    {
+        "id": 700119,
+        "category": "NFPA 13 - Installation",
+        "topic": "Spacing",
+        "question": "Minimum distance between two standard sprinklers?",
+        "answer": "6 feet",
+        "distractors": [
+            "8 feet",
+            "4 feet",
+            "10 feet"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.3.4",
+        "code_text": "Spaced not less than 6 ft on center."
+    },
+    {
+        "id": 700120,
+        "category": "NFPA 13 - Installation",
+        "topic": "Dry Systems",
+        "question": "Pitch required for branch lines in a dry system?",
+        "answer": "\u00bc\" per 10 feet",
+        "distractors": [
+            "\u00bd\" per 10 feet",
+            "1/8\" per 10 feet",
+            "Level"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.16.2.3",
+        "code_text": "At least 1/4 in. per 10 ft for branch lines."
+    },
+    {
+        "id": 700121,
+        "category": "NFPA 13 - Installation",
+        "topic": "Dry Systems",
+        "question": "Pitch required for mains in a dry system?",
+        "answer": "\u00bd\" per 10 feet",
+        "distractors": [
+            "\u00bc\" per 10 feet",
+            "\u00be\" per 10 feet",
+            "1\" per 10 feet"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.16.2.3",
+        "code_text": "At least 1/2 in. per 10 ft for cross mains."
+    },
+    {
+        "id": 700122,
+        "category": "NFPA 13R - Residential",
+        "topic": "Scope",
+        "question": "NFPA 13R applies to residential buildings up to what height?",
+        "answer": "4 Stories",
+        "distractors": [
+            "3 Stories",
+            "6 Stories",
+            "High Rise"
+        ],
+        "citation": "NFPA 13R (2016), Section 1.1",
+        "code_text": "Up to and including four stories in height."
+    },
+    {
+        "id": 700123,
+        "category": "NFPA 13D - Residential",
+        "topic": "Design",
+        "question": "What is the water supply duration requirement for NFPA 13D?",
+        "answer": "10 minutes",
+        "distractors": [
+            "30 minutes",
+            "7 minutes",
+            "60 minutes"
+        ],
+        "citation": "NFPA 13D (2016), Section 6.1.2",
+        "code_text": "Water demand rate times 10 minutes."
+    },
+    {
+        "id": 800701,
+        "category": "Math & Formulas",
+        "topic": "Head Pressure",
+        "question": "Formula to convert Feet of Head to PSI?",
+        "answer": "Feet \u00d7 0.433 = PSI",
+        "distractors": [
+            "Feet \u00d7 2.31",
+            "Feet / 0.433",
+            "Feet \u00d7 0.5"
+        ],
+        "citation": "Hydraulics Basic",
+        "code_text": "1 ft of water column = 0.433 psi."
+    },
+    {
+        "id": 800702,
+        "category": "Math & Formulas",
+        "topic": "Head Pressure",
+        "question": "Formula to convert PSI to Feet of Head?",
+        "answer": "PSI \u00d7 2.31 = Feet",
+        "distractors": [
+            "PSI / 2.31",
+            "PSI \u00d7 0.433",
+            "PSI \u00d7 12"
+        ],
+        "citation": "Hydraulics Basic",
+        "code_text": "1 psi = 2.31 ft of water column."
+    },
+    {
+        "id": 800703,
+        "category": "Math & Formulas",
+        "topic": "Flow Formula",
+        "question": "What is the standard flow formula (K-Factor)?",
+        "answer": "Q = K \u00d7 \u221aP  (Flow = K-factor \u00d7 Square Root of Pressure)",
+        "distractors": [
+            "Q = K \u00d7 P",
+            "P = K \u00d7 \u221aQ",
+            "Q = P / K"
+        ],
+        "citation": "NFPA 13 (2016), Section 23.4.2.1",
+        "code_text": "The flow from a sprinkler... shall be calculated using the formula Q=K\u221aP."
+    },
+    {
+        "id": 800704,
+        "category": "Math & Formulas",
+        "topic": "Friction Loss",
+        "question": "Hazen-Williams Formula: If pipe diameter DECREASES, what happens to friction loss?",
+        "answer": "Friction loss INCREASES drastically",
+        "distractors": [
+            "Friction loss decreases",
+            "Friction loss stays the same",
+            "Pressure increases"
+        ],
+        "citation": "Hydraulics Principle",
+        "code_text": "Smaller pipe = Higher velocity = Much higher friction loss."
+    },
+    {
+        "id": 800705,
+        "category": "Math & Formulas",
+        "topic": "Simple Math",
+        "question": "How many gallons are in 1 cubic foot of water?",
+        "answer": "7.48 gallons",
+        "distractors": [
+            "8.34 gallons",
+            "12 gallons",
+            "6.5 gallons"
+        ],
+        "citation": "General Knowledge",
+        "code_text": "1 cubic foot = 7.48 gallons."
+    },
+    {
+        "id": 800706,
+        "category": "Math & Formulas",
+        "topic": "Simple Math",
+        "question": "How much does 1 gallon of water weigh?",
+        "answer": "8.34 lbs",
+        "distractors": [
+            "10 lbs",
+            "7.48 lbs",
+            "6 lbs"
+        ],
+        "citation": "General Knowledge",
+        "code_text": "Standard weight of water."
+    },
+    {
+        "id": 800707,
+        "category": "Math & Formulas",
+        "topic": "Coverage",
+        "question": "Formula for Sprinkler Coverage Area (Spacing)?",
+        "answer": "S \u00d7 L (Distance along branch line \u00d7 Distance between branch lines)",
+        "distractors": [
+            "S + L",
+            "S \u00d7 L / 2",
+            "S \u00d7 S"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.5.2.1",
+        "code_text": "The protection area... shall be determined by multiplying S dimension by L dimension."
+    },
+    {
+        "id": 800708,
+        "category": "Math & Formulas",
+        "topic": "Calculations",
+        "question": "If the required density is 0.15 gpm/sq ft and the coverage area is 130 sq ft, what is the minimum flow (Q)?",
+        "answer": "19.5 gpm (0.15 \u00d7 130)",
+        "distractors": [
+            "25 gpm",
+            "15 gpm",
+            "13 gpm"
+        ],
+        "citation": "Hydraulics Basic",
+        "code_text": "Flow (Q) = Density \u00d7 Area."
+    },
+    {
+        "id": 900801,
+        "category": "MN Traps",
+        "topic": "FDC Height",
+        "question": "MN TRAP: What is the max height of an FDC in Minnesota?",
+        "answer": "48 inches (NFPA says 'per AHJ', MN says strictly 48\")",
+        "distractors": [
+            "60 inches",
+            "54 inches",
+            "42 inches"
+        ],
+        "citation": "MN Fire Code (2020) 912.2.2",
+        "code_text": "Max height 48 inches.",
+        "is_mn_amendment": true
+    },
+    {
+        "id": 900802,
+        "category": "MN Traps",
+        "topic": "Valve Supervision",
+        "question": "MN TRAP: Does a small system (under 20 heads) require valve monitoring?",
+        "answer": "YES. (MN deletes the NFPA exception for small systems)",
+        "distractors": [
+            "No, if locked",
+            "No, if sealed open"
+        ],
+        "citation": "MN Fire Code (2020) 903.4",
+        "code_text": "MN Amendment deletes exception 1.",
+        "is_mn_amendment": true
+    },
+    {
+        "id": 900803,
+        "category": "MN Traps",
+        "topic": "13R vs 13",
+        "question": "Common Mistake: Can you use NFPA 13R for a 4-story building with a basement sticking 50% out of the ground?",
+        "answer": "Maybe not - 'Grade Plane' definition is strict. 4 stories TOTAL.",
+        "distractors": [
+            "Yes, always",
+            "No, 13R is only for 3 stories"
+        ],
+        "citation": "NFPA 13R / IBC / MN Code",
+        "code_text": "13R limited to 4 stories above grade plane.",
+        "is_mn_amendment": false
+    },
+    {
+        "id": 900804,
+        "category": "MN Traps",
+        "topic": "Bathrooms",
+        "question": "Common Mistake: Do you need sprinklers in a 50 sq ft bathroom in an NFPA 13 (Commercial) Hotel?",
+        "answer": "YES. (NFPA 13 requires them. NFPA 13R allows omission)",
+        "distractors": [
+            "No, it's small",
+            "Only if it has a shower"
+        ],
+        "citation": "NFPA 13 vs 13R",
+        "code_text": "NFPA 13 requires bathroom sprinklers. NFPA 13R permits omission if <55 sq ft.",
+        "mnemonic": "Commercial (13) = Cover everything. Residential (13R) = Relaxed."
+    },
+    {
+        "id": 900805,
+        "category": "MN Traps",
+        "topic": "License Renewal",
+        "question": "MN TRAP: If you fail to renew your license by June 30th, can you still work?",
+        "answer": "No, you are unlicensed immediately",
+        "distractors": [
+            "Yes, there is a 30 day grace period",
+            "Yes, if you pay a late fee"
+        ],
+        "citation": "MN Rules 7512",
+        "code_text": "License expires. No grace period for performing work.",
+        "is_mn_amendment": true
+    },
+    {
+        "id": 900806,
+        "category": "MN Traps",
+        "topic": "Color Codes",
+        "question": "Common Mistake: What color are frame arms for 'High' temp (250-300)?",
+        "answer": "Blue (Same as the bulb)",
+        "distractors": [
+            "White",
+            "Red",
+            "Green"
+        ],
+        "citation": "NFPA 13 (2016) Table 6.2.5.1",
+        "code_text": "High Temp: Blue bulb / Blue frame."
+    },
+    {
+        "id": 900807,
+        "category": "MN Traps",
+        "topic": "Color Codes",
+        "question": "Common Mistake: What color are frame arms for 'Extra High' temp (325-375)?",
+        "answer": "Red (Bulb is Purple)",
+        "distractors": [
+            "Purple",
+            "Black",
+            "Blue"
+        ],
+        "citation": "NFPA 13 (2016) Table 6.2.5.1",
+        "code_text": "Extra High: Purple bulb / Red frame. (This is the only one where bulb/frame don't match or aren't intuitive).",
+        "mnemonic": "Extra High = Red Alert (Frame)."
+    },
+    {
+        "id": 900808,
+        "category": "MN Traps",
+        "topic": "Obstructions",
+        "question": "Common Mistake: Can you install a sprinkler 2 inches from a wall?",
+        "answer": "No, Minimum 4 inches",
+        "distractors": [
+            "Yes, allowed",
+            "Yes, if using a baffle"
+        ],
+        "citation": "NFPA 13 (2016) 8.6.3.2.3",
+        "code_text": "Minimum of 4 in. from a wall."
+    },
+    {
+        "id": 1000901,
+        "category": "NFPA 13 - Seismic",
+        "topic": "Bracing",
+        "question": "Lateral sway braces are spaced at a maximum of what distance?",
+        "answer": "40 feet",
+        "distractors": [
+            "20 feet",
+            "80 feet",
+            "50 feet"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.5.3.2",
+        "code_text": "Lateral sway bracing... shall be spaced at a maximum of 40 ft."
+    },
+    {
+        "id": 1000902,
+        "category": "NFPA 13 - Seismic",
+        "topic": "Bracing",
+        "question": "Longitudinal sway braces are spaced at a maximum of what distance?",
+        "answer": "80 feet",
+        "distractors": [
+            "40 feet",
+            "60 feet",
+            "100 feet"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.5.4",
+        "code_text": "Longitudinal sway bracing... spaced at a maximum of 80 ft."
+    },
+    {
+        "id": 1000903,
+        "category": "NFPA 13 - Seismic",
+        "topic": "Bracing",
+        "question": "A lateral brace must be within how many feet of the end of the pipe?",
+        "answer": "6 feet",
+        "distractors": [
+            "12 feet",
+            "4 feet",
+            "2 feet"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.5.3.2",
+        "code_text": "Distance between the last brace and the end of the pipe shall not exceed 6 ft."
+    },
+    {
+        "id": 1000904,
+        "category": "NFPA 13 - Seismic",
+        "topic": "Bracing",
+        "question": "A longitudinal brace must be within how many feet of the end of the pipe?",
+        "answer": "40 feet",
+        "distractors": [
+            "20 feet",
+            "80 feet",
+            "10 feet"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.5.4",
+        "code_text": "Distance between the last brace and the end of the pipe shall not exceed 40 ft."
+    },
+    {
+        "id": 1000905,
+        "category": "NFPA 13 - Seismic",
+        "topic": "4-Way Braces",
+        "question": "Where are 4-way sway braces required?",
+        "answer": "At the top of the riser",
+        "distractors": [
+            "At the bottom of the riser",
+            "Every 20 feet vertically",
+            "On all cross mains"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.5.5",
+        "code_text": "4-way sway braces shall be provided at the top of the riser."
+    },
+    {
+        "id": 1000906,
+        "category": "NFPA 13 - Seismic",
+        "topic": "Flexible Couplings",
+        "question": "On a riser, where should a flexible coupling be installed in a seismic zone?",
+        "answer": "Within 24 inches of the floor and within 12 inches of the ceiling",
+        "distractors": [
+            "Within 12 inches of floor only",
+            "Every 10 feet",
+            "At the midpoint only"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.2.3",
+        "code_text": "Flexible couplings shall be installed... within 24 in. of the floor... within 12 in. of the ceiling."
+    },
+    {
+        "id": 1000907,
+        "category": "NFPA 13 - Seismic",
+        "topic": "Clearance",
+        "question": "What is the required clearance for a pipe 4 inches or larger passing through a wall in a seismic zone?",
+        "answer": "2 inches",
+        "distractors": [
+            "1 inch",
+            "4 inches",
+            "1/2 inch"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.4",
+        "code_text": "Nominal pipe size 4 in. or larger... clearance of 2 in."
+    },
+    {
+        "id": 1000908,
+        "category": "NFPA 13 - Seismic",
+        "topic": "Restraint",
+        "question": "Branch lines need restraint (wraparound/clip) at the end if?",
+        "answer": "They move excessively or if wire/rod hangers are used in seismic zones",
+        "distractors": [
+            "Always",
+            "Only if > 2 inches",
+            "Never"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.6",
+        "code_text": "Restraint of branch lines... shall be provided."
+    },
+    {
+        "id": 1101001,
+        "category": "NFPA 24 - Underground",
+        "topic": "Thrust Blocks",
+        "question": "Thrust blocks are required at which locations?",
+        "answer": "Changes in direction (elbows/tees), dead ends, and reducers",
+        "distractors": [
+            "Every joint",
+            "Every 10 feet",
+            "Only at the riser flange"
+        ],
+        "citation": "NFPA 24 (2016), Section 10.8.1",
+        "code_text": "Thrust blocks... shall be required at all changes in direction... reducers... and dead ends."
+    },
+    {
+        "id": 1101002,
+        "category": "NFPA 24 - Underground",
+        "topic": "Thrust Blocks",
+        "question": "Can concrete for a thrust block cover the bolts of the fitting?",
+        "answer": "No, bolts and joints must remain accessible",
+        "distractors": [
+            "Yes, to protect them",
+            "Yes, if wrapped in plastic",
+            "Only the bottom bolts"
+        ],
+        "citation": "NFPA 24 (2016), Section 10.8.2",
+        "code_text": "Thrust blocks shall be constructed so that joints and bolts are accessible."
+    },
+    {
+        "id": 1101003,
+        "category": "NFPA 24 - Underground",
+        "topic": "Rodding",
+        "question": "When using threaded rod for restraining underground pipe, what size rod is required for pipe 4\" to 8\"?",
+        "answer": "5/8 inch",
+        "distractors": [
+            "1/2 inch",
+            "3/4 inch",
+            "1 inch"
+        ],
+        "citation": "NFPA 24 (2016), Section 10.8.3",
+        "code_text": "(Standard industry practice & table data often references 5/8\" for mid-range sizes)."
+    },
+    {
+        "id": 1101004,
+        "category": "NFPA 24 - Underground",
+        "topic": "Flushing",
+        "question": "What is the minimum flow rate required to flush a 4-inch underground main?",
+        "answer": "390 gpm (or 10 ft/sec velocity)",
+        "distractors": [
+            "200 gpm",
+            "500 gpm",
+            "880 gpm"
+        ],
+        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+        "code_text": "4 in pipe -> 390 gpm (to achieve 10 ft/sec)."
+    },
+    {
+        "id": 1101005,
+        "category": "NFPA 24 - Underground",
+        "topic": "Flushing",
+        "question": "What is the minimum flow rate required to flush a 6-inch underground main?",
+        "answer": "880 gpm",
+        "distractors": [
+            "500 gpm",
+            "1560 gpm",
+            "1000 gpm"
+        ],
+        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+        "code_text": "6 in pipe -> 880 gpm."
+    },
+    {
+        "id": 1101006,
+        "category": "NFPA 24 - Underground",
+        "topic": "Testing",
+        "question": "Underground piping must be hydrostatically tested at what pressure?",
+        "answer": "200 psi or 50 psi in excess of working pressure",
+        "distractors": [
+            "150 psi",
+            "100 psi",
+            "250 psi"
+        ],
+        "citation": "NFPA 24 (2016), Section 10.10.2.2",
+        "code_text": "Test pressure shall be at least 200 psi."
+    },
+    {
+        "id": 1201101,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Jockey Pump",
+        "question": "What is the primary purpose of a Jockey Pump (Pressure Maintenance Pump)?",
+        "answer": "To make up for minor leaks and maintain pressure without running the main pump",
+        "distractors": [
+            "To help the main pump during a fire",
+            "To test the system",
+            "To prevent freezing"
+        ],
+        "citation": "NFPA 20 (2016), Section 4.25",
+        "code_text": "Pressure maintenance pumps... make up for allowable leakage."
+    },
+    {
+        "id": 1201102,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Settings",
+        "question": "The Jockey Pump stop point should be set equal to what?",
+        "answer": "The pump churn pressure plus the minimum static supply pressure",
+        "distractors": [
+            "175 psi",
+            "The main pump start point",
+            "10 psi below churn"
+        ],
+        "citation": "NFPA 20 (2016), Annex A.14.2.6",
+        "code_text": "The stop point should equal the pump churn pressure plus the minimum static supply pressure."
+    },
+    {
+        "id": 1201103,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Diesel Engines",
+        "question": "Fuel tanks for diesel fire pumps must be elevated so the supply connection is?",
+        "answer": "Not lower than the fuel pump on the engine",
+        "distractors": [
+            "Below the engine",
+            "At least 5 feet high",
+            "Buried underground"
+        ],
+        "citation": "NFPA 20 (2016), Section 11.4.1",
+        "code_text": "Located... so that the fuel supply connection... is not lower than the fuel transfer pump."
+    },
+    {
+        "id": 1201104,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Diesel Engines",
+        "question": "How much fuel must a diesel fire pump tank hold?",
+        "answer": "1 gallon per horsepower + 5% expansion + 5% sump",
+        "distractors": [
+            "500 gallons minimum",
+            "2 gallons per HP",
+            "Enough for 24 hours"
+        ],
+        "citation": "NFPA 20 (2016), Section 11.4.3",
+        "code_text": "1 gal per hp, plus 5 percent volume for expansion and 5 percent volume for sump."
+    },
+    {
+        "id": 1201105,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Pipe Sizing",
+        "question": "What is the minimum pipe size for the relief valve discharge on a 1000 gpm pump?",
+        "answer": "6 inch",
+        "distractors": [
+            "4 inch",
+            "8 inch",
+            "2 inch"
+        ],
+        "citation": "NFPA 20 (2016), Table 4.26(a)",
+        "code_text": "1000 gpm -> Relief Valve Discharge 6 in."
+    },
+    {
+        "id": 1201106,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Testing",
+        "question": "Does a jockey pump require a test header/hose valves?",
+        "answer": "No",
+        "distractors": [
+            "Yes",
+            "Only if over 20 gpm"
+        ],
+        "citation": "NFPA 20 (2016), Section 4.25",
+        "code_text": "Pressure maintenance pumps... shall not be required to have a test header."
+    },
+    {
+        "id": 1301201,
+        "category": "Plan Reading",
+        "topic": "Symbols",
+        "question": "What does the symbol of a circle with a 'T' in the center typically represent?",
+        "answer": "Inspector's Test Connection",
+        "distractors": [
+            "Tee fitting",
+            "Thermostat",
+            "Transformer"
+        ],
+        "citation": "Trade Standard (NFPA 170)",
+        "code_text": "Standard fire safety symbols."
+    },
+    {
+        "id": 1301202,
+        "category": "Plan Reading",
+        "topic": "Scales",
+        "question": "If a drawing is scaled at 1/8\" = 1'0\", what does a line measuring 2 inches on paper represent in reality?",
+        "answer": "16 feet",
+        "distractors": [
+            "8 feet",
+            "2 feet",
+            "32 feet"
+        ],
+        "citation": "Math Logic",
+        "code_text": "There are 8 eighths in an inch. 2 inches = 16 eighths. 16 x 1 ft = 16 ft."
+    },
+    {
+        "id": 1301203,
+        "category": "Plan Reading",
+        "topic": "Views",
+        "question": "Which view shows the building as if you were looking down from above, with the roof removed?",
+        "answer": "Plan View",
+        "distractors": [
+            "Elevation View",
+            "Section View",
+            "Isometric View"
+        ],
+        "citation": "Trade Standard",
+        "code_text": "Plan View = Top down."
+    },
+    {
+        "id": 1301204,
+        "category": "Plan Reading",
+        "topic": "Views",
+        "question": "Which view shows a vertical slice through the building to show heights of pipes?",
+        "answer": "Section View",
+        "distractors": [
+            "Plan View",
+            "Detail View",
+            "Reflected Ceiling Plan"
+        ],
+        "citation": "Trade Standard",
+        "code_text": "Section View = Slice through."
+    },
+    {
+        "id": 1301205,
+        "category": "Plan Reading",
+        "topic": "Symbols",
+        "question": "On a sprinkler head symbol, what does 'SSU' stand for?",
+        "answer": "Standard Spray Upright",
+        "distractors": [
+            "Stainless Steel Unit",
+            "Side Spray Upward",
+            "Standard Sidewall Unit"
+        ],
+        "citation": "Trade Standard",
+        "code_text": "SSU = Standard Spray Upright."
+    },
+    {
+        "id": 1301206,
+        "category": "Plan Reading",
+        "topic": "Symbols",
+        "question": "On a sprinkler head symbol, what does 'SSP' stand for?",
+        "answer": "Standard Spray Pendant",
+        "distractors": [
+            "Stainless Steel Pipe",
+            "Standard Spray Pressure",
+            "Side Spray Pendant"
+        ],
+        "citation": "Trade Standard",
+        "code_text": "SSP = Standard Spray Pendent."
+    },
+    {
+        "id": 1401301,
+        "category": "General Knowledge",
+        "topic": "Materials",
+        "question": "What is the melting point of the solder in an ordinary temperature fusible link?",
+        "answer": "135\u00b0F to 170\u00b0F",
+        "distractors": [
+            "100\u00b0F",
+            "212\u00b0F",
+            "300\u00b0F"
+        ],
+        "citation": "NFPA 13 (2016), Table 6.2.5.1",
+        "code_text": "Ordinary classification range."
+    },
+    {
+        "id": 1401302,
+        "category": "General Knowledge",
+        "topic": "Freezing",
+        "question": "Water filled piping must be maintained at a minimum temperature of?",
+        "answer": "40\u00b0F",
+        "distractors": [
+            "32\u00b0F",
+            "50\u00b0F",
+            "0\u00b0F"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.16.4.1.1",
+        "code_text": "Maintained at or above 40\u00b0F."
+    },
+    {
+        "id": 1401303,
+        "category": "Safety - NFPA 10",
+        "topic": "Extinguishers",
+        "question": "What is the maximum travel distance to a Class A fire extinguisher?",
+        "answer": "75 feet",
+        "distractors": [
+            "50 feet",
+            "100 feet",
+            "25 feet"
+        ],
+        "citation": "NFPA 10",
+        "code_text": "75 ft travel distance for Class A."
+    },
+    {
+        "id": 1401304,
+        "category": "Safety - NFPA 10",
+        "topic": "Extinguishers",
+        "question": "How often must fire extinguishers be visually inspected?",
+        "answer": "Monthly",
+        "distractors": [
+            "Annually",
+            "Weekly",
+            "Daily"
+        ],
+        "citation": "NFPA 10",
+        "code_text": "Inspection... at least monthly."
+    },
+    {
+        "id": 1401305,
+        "category": "Safety",
+        "topic": "Electrical",
+        "question": "What is the minimum distance a ladder must be kept from energized power lines?",
+        "answer": "10 feet",
+        "distractors": [
+            "5 feet",
+            "2 feet",
+            "20 feet"
+        ],
+        "citation": "OSHA",
+        "code_text": "Minimum clearance distance of 10 feet."
+    },
+    {
+        "id": 1501401,
+        "category": "NFPA 13 - Storage",
+        "topic": "Flue Space",
+        "question": "In rack storage, what is the minimum required width for a transverse flue space?",
+        "answer": "6 inches",
+        "distractors": [
+            "3 inches",
+            "12 inches",
+            "4 inches"
+        ],
+        "citation": "NFPA 13 (2016), Section 16.1.9",
+        "code_text": "Nominal 6 in. transverse flue spaces... shall be provided."
+    },
+    {
+        "id": 1501402,
+        "category": "NFPA 13 - Storage",
+        "topic": "ESFR",
+        "question": "What is the maximum ceiling height generally permitted for K-14 ESFR sprinklers protecting Class I-IV commodities?",
+        "answer": "35 feet (with 40 ft roof height, varies by pressure)",
+        "distractors": [
+            "20 feet",
+            "50 feet",
+            "45 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 8.12.2.2.1",
+        "code_text": "Max. Ceiling/Roof Height: 35 ft for K-14."
+    },
+    {
+        "id": 1501403,
+        "category": "NFPA 13 - Storage",
+        "topic": "In-Rack Sprinklers",
+        "question": "When installing in-rack sprinklers, what must be installed above the sprinkler to protect it from water discharge above?",
+        "answer": "A Water Shield",
+        "distractors": [
+            "A Heat Collector",
+            "A Wire Guard",
+            "A Baffle"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.15.17.3",
+        "code_text": "In-rack sprinklers... shall be equipped with water shields."
+    },
+    {
+        "id": 1501404,
+        "category": "NFPA 13 - Storage",
+        "topic": "Pallet Storage",
+        "question": "Idle wood pallets stored indoors cannot exceed what height without sprinkler protection?",
+        "answer": "6 feet",
+        "distractors": [
+            "12 feet",
+            "4 feet",
+            "10 feet"
+        ],
+        "citation": "NFPA 13 (2016), Section 12.12.1.1",
+        "code_text": "Pallets shall not be stored higher than 6 ft."
+    },
+    {
+        "id": 1501405,
+        "category": "NFPA 13 - Storage",
+        "topic": "Commodity Classes",
+        "question": "Which commodity class includes wood, paper, and natural fibers?",
+        "answer": "Class II or III (depending on packaging)",
+        "distractors": [
+            "Class I",
+            "Class IV",
+            "Group A Plastics"
+        ],
+        "citation": "NFPA 13 (2016), Section 5.6.3",
+        "code_text": "Class II commodities... wood crates... paper."
+    },
+    {
+        "id": 1501406,
+        "category": "NFPA 13 - Storage",
+        "topic": "Plastics",
+        "question": "Expanded polystyrene (Styrofoam) is classified as what type of commodity?",
+        "answer": "Group A Plastic (Expanded)",
+        "distractors": [
+            "Class IV",
+            "Class III",
+            "Group B Plastic"
+        ],
+        "citation": "NFPA 13 (2016), Section 5.6.4.1",
+        "code_text": "Group A plastics... Expanded."
+    },
+    {
+        "id": 1601501,
+        "category": "NFPA 13 - Obstructions",
+        "topic": "Three Times Rule",
+        "question": "To avoid an obstruction (Beam Rule), how far must the sprinkler be from the side of the beam?",
+        "answer": "At least 3 times the vertical distance down to the bottom of the obstruction",
+        "distractors": [
+            "2 times the distance",
+            "4 times the distance",
+            "18 inches"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.5.1.2",
+        "code_text": "Distance from the sprinkler... not less than three times the maximum vertical distance."
+    },
+    {
+        "id": 1601502,
+        "category": "NFPA 13 - Obstructions",
+        "topic": "Vertical Obstructions",
+        "question": "If a pipe 3 inches wide is running directly under a sprinkler, how far down must the obstruction be to not require a new head?",
+        "answer": "18 inches",
+        "distractors": [
+            "12 inches",
+            "24 inches",
+            "6 inches"
+        ],
+        "citation": "NFPA 13 (2016), Table 8.6.5.2.2",
+        "code_text": "Obstruction width 1 in to 4 in -> Min distance below deflector: 18 in."
+    },
+    {
+        "id": 1601503,
+        "category": "NFPA 13 - Obstructions",
+        "topic": "Privacy Curtains",
+        "question": "In a hospital, do privacy curtains with a 70% open mesh at the top require sprinklers in the cubicle?",
+        "answer": "No, if the mesh extends 22 inches down from the ceiling",
+        "distractors": [
+            "Yes, always",
+            "No, curtains are ignored",
+            "Only if curtains are fire retardant"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.15.13",
+        "code_text": "Sprinklers shall not be required... where... mesh is 70 percent open... extends 22 in. down."
+    },
+    {
+        "id": 1601504,
+        "category": "NFPA 13 - Obstructions",
+        "topic": "Soffits",
+        "question": "A soffit exceeds 12 inches in width. Do you need a sprinkler underneath it?",
+        "answer": "Yes, unless it is tight to the wall and the wall is combustible",
+        "distractors": [
+            "No",
+            "Only if it exceeds 24 inches",
+            "Only in storage areas"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.15.8",
+        "code_text": "Sprinklers shall be required under soffits exceeding 12 in. in width."
+    },
+    {
+        "id": 1601505,
+        "category": "NFPA 13 - Obstructions",
+        "topic": "Truss Construction",
+        "question": "When installing sprinklers in open web trusses, how far must the deflector be from the web member?",
+        "answer": "6 inches",
+        "distractors": [
+            "3 inches",
+            "12 inches",
+            "1 inch"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.5.2.1.3",
+        "code_text": "Sprinklers... shall be located at least 6 in. from truss chords or web members."
+    },
+    {
+        "id": 1701601,
+        "category": "NFPA 24 - Flushing",
+        "topic": "Flow Rates",
+        "question": "What flow rate is required to flush a 4-inch underground main?",
+        "answer": "390 gpm",
+        "distractors": [
+            "200 gpm",
+            "500 gpm",
+            "880 gpm"
+        ],
+        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+        "code_text": "4-inch: 390 gpm (velocity 10 ft/s)."
+    },
+    {
+        "id": 1701602,
+        "category": "NFPA 24 - Flushing",
+        "topic": "Flow Rates",
+        "question": "What flow rate is required to flush a 6-inch underground main?",
+        "answer": "880 gpm",
+        "distractors": [
+            "500 gpm",
+            "1560 gpm",
+            "1000 gpm"
+        ],
+        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+        "code_text": "6-inch: 880 gpm."
+    },
+    {
+        "id": 1701603,
+        "category": "NFPA 24 - Flushing",
+        "topic": "Flow Rates",
+        "question": "What flow rate is required to flush an 8-inch underground main?",
+        "answer": "1560 gpm",
+        "distractors": [
+            "2000 gpm",
+            "880 gpm",
+            "1200 gpm"
+        ],
+        "citation": "NFPA 24 (2016), Table 10.10.2.1.3",
+        "code_text": "8-inch: 1560 gpm."
+    },
+    {
+        "id": 1701604,
+        "category": "NFPA 13 - Acceptance",
+        "topic": "Hydrostatic Test",
+        "question": "What is the maximum allowable pressure drop during a 2-hour hydrostatic test?",
+        "answer": "0 psi (No visible leakage allowed)",
+        "distractors": [
+            "2 psi",
+            "5 psi",
+            "1.5 psi"
+        ],
+        "citation": "NFPA 13 (2016), Section 25.2.1.1",
+        "code_text": "No visible leakage... shall be permitted."
+    },
+    {
+        "id": 1701605,
+        "category": "NFPA 13 - Acceptance",
+        "topic": "Papers",
+        "question": "Who must sign the Contractor's Material and Test Certificate?",
+        "answer": "The Installing Contractor and the Owner's Representative",
+        "distractors": [
+            "The Fire Marshall",
+            "The Architect",
+            "The General Contractor"
+        ],
+        "citation": "NFPA 13 (2016), Section 25.1",
+        "code_text": "Signed by both the installing contractor and the owner."
+    },
+    {
+        "id": 1800201,
+        "category": "NFPA 25 - ITM",
+        "topic": "Hydrants",
+        "question": "How often do you inspect private fire hydrants?",
+        "answer": "Annually and after each operation",
+        "distractors": [
+            "Quarterly",
+            "Every 3 years",
+            "Every 5 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 7.3.2",
+        "code_text": "Inspected annually and after each operation."
+    },
+    {
+        "id": 1800202,
+        "category": "NFPA 25 - ITM",
+        "topic": "Standpipes",
+        "question": "How often is a flow test conducted on a standpipe system?",
+        "answer": "Every 5 years",
+        "distractors": [
+            "Annually",
+            "Every 3 years",
+            "Quarterly"
+        ],
+        "citation": "NFPA 25 (2011), Section 6.3.1",
+        "code_text": "Flow test shall be conducted every 5 years."
+    },
+    {
+        "id": 1800203,
+        "category": "NFPA 25 - ITM",
+        "topic": "Tanks",
+        "question": "How often do you check water level and air pressure in a pressure tank?",
+        "answer": "Monthly",
+        "distractors": [
+            "Weekly",
+            "Quarterly",
+            "Annually"
+        ],
+        "citation": "NFPA 25 (2011), Section 9.2.2",
+        "code_text": "Inspected monthly."
+    },
+    {
+        "id": 1800204,
+        "category": "NFPA 25 - ITM",
+        "topic": "Tanks",
+        "question": "How often is the INTERIOR of a pressure tank inspected (if no corrosion protection)?",
+        "answer": "Every 3 years",
+        "distractors": [
+            "Every 5 years",
+            "Annually",
+            "Every 10 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 9.2.6",
+        "code_text": "Every 3 years."
+    },
+    {
+        "id": 1800205,
+        "category": "NFPA 25 - ITM",
+        "topic": "Pumps",
+        "question": "How long must a diesel fire pump run during a weekly test?",
+        "answer": "30 minutes",
+        "distractors": [
+            "10 minutes",
+            "15 minutes",
+            "60 minutes"
+        ],
+        "citation": "NFPA 25 (2011), Section 8.3.3",
+        "code_text": "Run a minimum of 30 minutes."
+    },
+    {
+        "id": 1800206,
+        "category": "NFPA 25 - ITM",
+        "topic": "Pumps",
+        "question": "How long must an electric fire pump run during a weekly test?",
+        "answer": "10 minutes",
+        "distractors": [
+            "30 minutes",
+            "5 minutes",
+            "15 minutes"
+        ],
+        "citation": "NFPA 25 (2011), Section 8.3.3",
+        "code_text": "Run a minimum of 10 minutes."
+    },
+    {
+        "id": 1800207,
+        "category": "MN Statutes & Rules",
+        "topic": "Licensing",
+        "is_mn_amendment": true,
+        "question": "When does a MN Sprinkler Fitter journeyman license expire?",
+        "answer": "June 30th",
+        "distractors": [
+            "December 31st",
+            "January 1st",
+            "Date of Issue"
+        ],
+        "citation": "MN Rules 7512.0200",
+        "code_text": "Expire on June 30 of each year."
+    },
+    {
+        "id": 1800208,
+        "category": "MN Statutes & Rules",
+        "topic": "Licensing",
+        "is_mn_amendment": true,
+        "question": "How many hours of experience are required to take the MN Journeyman exam?",
+        "answer": "8000 hours",
+        "distractors": [
+            "4000 hours",
+            "6000 hours",
+            "10000 hours"
+        ],
+        "citation": "MN Statutes 299M.03",
+        "code_text": "Minimum of 8000 hours."
+    },
+    {
+        "id": 1800209,
+        "category": "MN Statutes & Rules",
+        "topic": "Penalties",
+        "is_mn_amendment": true,
+        "question": "What is the fine for working without a license in MN?",
+        "answer": "Misdemeanor ($1,000 / 90 days)",
+        "distractors": [
+            "Felony",
+            "Gross Misdemeanor",
+            "$500 fine"
+        ],
+        "citation": "MN Statutes 299M.08",
+        "code_text": "Guilty of a misdemeanor."
+    },
+    {
+        "id": 1800210,
+        "category": "MN Statutes & Rules",
+        "topic": "Installation Amendments",
+        "is_mn_amendment": true,
+        "question": "MN requires FDCs to be located between what heights?",
+        "answer": "18\" and 48\"",
+        "distractors": [
+            "18\" and 36\"",
+            "24\" and 48\"",
+            "12\" and 60\""
+        ],
+        "citation": "MN Fire Code (2020), Section 912.2.2",
+        "code_text": "Not less than 18 inches and not more than 48 inches."
+    },
+    {
+        "id": 1800211,
+        "category": "MN Statutes & Rules",
+        "topic": "Installation Amendments",
+        "is_mn_amendment": true,
+        "question": "Can a control valve in a public area be unmonitored if it serves <20 heads?",
+        "answer": "No (False)",
+        "distractors": [
+            "Yes (True)"
+        ],
+        "citation": "MN Fire Code (2020), Section 903.4",
+        "code_text": "MN deletes Exception 1. All valves must be monitored."
+    },
+    {
+        "id": 1800212,
+        "category": "NFPA 25 - ITM",
+        "topic": "Gauges",
+        "question": "How often are gauges on dry/preaction/deluge systems inspected?",
+        "answer": "Weekly",
+        "distractors": [
+            "Monthly",
+            "Quarterly",
+            "Daily"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.2.4.2",
+        "code_text": "Gauges... shall be inspected weekly."
+    },
+    {
+        "id": 1800213,
+        "category": "NFPA 25 - ITM",
+        "topic": "Gauges",
+        "question": "How often are gauges on wet pipe systems inspected?",
+        "answer": "Monthly",
+        "distractors": [
+            "Weekly",
+            "Quarterly",
+            "Annually"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.2.4.1",
+        "code_text": "Gauges... shall be inspected monthly."
+    },
+    {
+        "id": 1800214,
+        "category": "NFPA 25 - ITM",
+        "topic": "Sprinklers",
+        "question": "How often are sprinkler heads inspected from the floor level?",
+        "answer": "Annually",
+        "distractors": [
+            "Quarterly",
+            "Every 5 years",
+            "Monthly"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.2.1",
+        "code_text": "Sprinklers shall be inspected... annually."
+    },
+    {
+        "id": 1800215,
+        "category": "NFPA 25 - ITM",
+        "topic": "Valves",
+        "question": "How often are supervisory alarm devices (tampers) tested?",
+        "answer": "Quarterly",
+        "distractors": [
+            "Annually",
+            "Semiannually",
+            "Monthly"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.2.6",
+        "code_text": "Supervisory... devices shall be tested quarterly."
+    },
+    {
+        "id": 1901701,
+        "category": "NFPA 72 - Alarms",
+        "topic": "Waterflow",
+        "question": "According to NFPA 72, a waterflow switch must initiate an alarm signal within how many seconds?",
+        "answer": "90 seconds",
+        "distractors": [
+            "60 seconds",
+            "5 minutes",
+            "30 seconds"
+        ],
+        "citation": "NFPA 72 (2016) / NFPA 13",
+        "code_text": "Waterflow... shall result in an alarm... within 90 seconds."
+    },
+    {
+        "id": 1901702,
+        "category": "NFPA 13 - Electrical",
+        "topic": "Solenoid Valves",
+        "question": "Solenoid valves for preaction systems must be rated for what pressure?",
+        "answer": "175 psi (or the maximum system pressure)",
+        "distractors": [
+            "100 psi",
+            "150 psi",
+            "300 psi"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.3.2.1.2",
+        "code_text": "Rated for the system pressure... typically 175 psi."
+    },
+    {
+        "id": 1901703,
+        "category": "NFPA 25 - Electrical",
+        "topic": "Tamper Switches",
+        "question": "A supervisory switch (tamper) must signal if the valve is closed how many turns?",
+        "answer": "2 turns (or 1/5th of the travel)",
+        "distractors": [
+            "3 turns",
+            "1 turn",
+            "Half closed"
+        ],
+        "citation": "NFPA 72 / NFPA 25",
+        "code_text": "Off-normal signal... during the first two revolutions."
+    },
+    {
+        "id": 1901704,
+        "category": "NFPA 13 - Electrical",
+        "topic": "Compressors",
+        "question": "Can a sprinkler air compressor be wired into a light circuit?",
+        "answer": "No, it requires a dedicated circuit",
+        "distractors": [
+            "Yes, if labeled",
+            "Yes, if 120V",
+            "Yes, in residential"
+        ],
+        "citation": "NFPA 70 (NEC) / Manufacturer Specs",
+        "code_text": "Permanent equipment usually requires dedicated circuits to prevent accidental disconnect."
+    },
+    {
+        "id": 2001801,
+        "category": "Theory & Pathology",
+        "topic": "Corrosion",
+        "question": "What does Microbiologically Influenced Corrosion (MIC) typically smell like?",
+        "answer": "Rotten Eggs (Sulfur)",
+        "distractors": [
+            "Moldy bread",
+            "Burning rubber",
+            "Metallic iron"
+        ],
+        "citation": "Industry Standard / NFPA 25 Annex",
+        "code_text": "Sulfate-reducing bacteria often produce a distinct rotten egg odor.",
+        "mnemonic": "MIC smells sick."
+    },
+    {
+        "id": 2001802,
+        "category": "NFPA 25 - ITM",
+        "topic": "Obstructions",
+        "question": "Which of the following is a 'trigger' requiring a comprehensive obstruction investigation?",
+        "answer": "Discharge of obstructive material during routine water tests",
+        "distractors": [
+            "Water pressure is 5 psi higher than normal",
+            "A single head is painted",
+            "Pump runs for 7 minutes"
+        ],
+        "citation": "NFPA 25 (2011), Section 14.2.1.4",
+        "code_text": "Obstructive material... during routine water tests... shall trigger an investigation."
+    },
+    {
+        "id": 2001803,
+        "category": "Theory & Pathology",
+        "topic": "Corrosion",
+        "question": "Pin-hole leaks at the 6 o'clock position on a horizontal main usually indicate what?",
+        "answer": "MIC or Acid Corrosion (sitting under sludge)",
+        "distractors": [
+            "High water pressure",
+            "Water hammer",
+            "Defective pipe seam"
+        ],
+        "citation": "Industry Standard",
+        "code_text": "Corrosion under deposits (sludge) typically attacks the bottom of the pipe."
+    },
+    {
+        "id": 2001804,
+        "category": "NFPA 13 - Installation",
+        "topic": "Materials",
+        "question": "What type of reaction occurs when Copper pipe touches Steel pipe without a dielectric union?",
+        "answer": "Galvanic Corrosion",
+        "distractors": [
+            "Hydrolysis",
+            "Oxidation coupling",
+            "Thermal shock"
+        ],
+        "citation": "NFPA 13 (2016), Section 6.1.3",
+        "code_text": "Galvanic action... prevent contact between dissimilar metals."
+    },
+    {
+        "id": 2001805,
+        "category": "NFPA 13 - Installation",
+        "topic": "Air Venting",
+        "question": "Why is a single air vent required on wet systems (2016 edition update)?",
+        "answer": "To reduce corrosion by removing trapped oxygen",
+        "distractors": [
+            "To prevent water hammer",
+            "To help the pump start",
+            "To allow faster drainage"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.1.5",
+        "code_text": "A single air vent... shall be provided to vent air from the system."
+    },
+    {
+        "id": 2101901,
+        "category": "NFPA 13 - Installation",
+        "topic": "Elevators",
+        "question": "When is a sprinkler required at the BOTTOM of an elevator shaft?",
+        "answer": "When combustible debris or fluids can accumulate",
+        "distractors": [
+            "Always",
+            "Only in hydraulic elevators",
+            "Never"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.15.5.5",
+        "code_text": "Sidewall spray sprinkler... not more than 2 ft above the floor of the pit."
+    },
+    {
+        "id": 2101902,
+        "category": "NFPA 13 - Installation",
+        "topic": "Elevators",
+        "question": "If a sprinkler is installed at the top of an elevator shaft, what else is required?",
+        "answer": "Shunt Trip (to cut power to the elevator before water flows)",
+        "distractors": [
+            "A drain at the bottom",
+            "A smoke detector only",
+            "A stainless steel head"
+        ],
+        "citation": "ASME A17.1 / NFPA 13 (2016), Section 8.15.5.3",
+        "code_text": "The elevator power shutoff... shall be achieved prior to the application of water."
+    },
+    {
+        "id": 2101903,
+        "category": "NFPA 13 - Installation",
+        "topic": "Chutes",
+        "question": "In a linen or trash chute, where are sprinklers required?",
+        "answer": "At the top and at alternate floor levels",
+        "distractors": [
+            "At the top only",
+            "At every floor level",
+            "At the bottom only"
+        ],
+        "citation": "NFPA 13 (2016), Section 21.15.2.2",
+        "code_text": "Installed at the top... and at alternate floor levels."
+    },
+    {
+        "id": 2101904,
+        "category": "NFPA 13 - Installation",
+        "topic": "Vertical Shafts",
+        "question": "Do non-combustible, non-accessible vertical shafts require sprinklers?",
+        "answer": "No",
+        "distractors": [
+            "Yes, always",
+            "Yes, if over 2 stories"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.15.4",
+        "code_text": "Sprinklers shall not be required in noncombustible... shafts."
+    },
+    {
+        "id": 2101905,
+        "category": "NFPA 13 - Installation",
+        "topic": "Stairways",
+        "question": "Where are sprinklers required in non-combustible stair shafts?",
+        "answer": "At the very top of the shaft and under the first landing above the bottom",
+        "distractors": [
+            "Under every landing",
+            "Only at the top",
+            "Only at the bottom"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.15.3.2",
+        "code_text": "Top of the shaft... and under the first landing above the bottom."
+    },
+    {
+        "id": 2202001,
+        "category": "Pump Theory",
+        "topic": "Troubleshooting",
+        "question": "If a fire pump sounds like it is pumping gravel, what is happening?",
+        "answer": "Cavitation",
+        "distractors": [
+            "Water Hammer",
+            "Overheating",
+            "Overspeed"
+        ],
+        "citation": "General Pump Theory",
+        "code_text": "Cavitation: Formation and collapse of air bubbles due to low pressure/vacuum."
+    },
+    {
+        "id": 2202002,
+        "category": "Pump Theory",
+        "topic": "Physics",
+        "question": "What causes Cavitation?",
+        "answer": "The suction supply cannot keep up with the pump demand (Starvation)",
+        "distractors": [
+            "Discharge pressure is too high",
+            "Pump is running backward",
+            "Impeller is too large"
+        ],
+        "citation": "NFPA 20 (2016), Annex A",
+        "code_text": "Occurs when net positive suction head available is less than required."
+    },
+    {
+        "id": 2202003,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Definitions",
+        "question": "What is 'Churn' pressure?",
+        "answer": "The pressure created when the pump is running at rated speed with NO water flowing (0 gpm)",
+        "distractors": [
+            "The pressure at 150% flow",
+            "The minimum suction pressure",
+            "The pressure at the test header"
+        ],
+        "citation": "NFPA 20 (2016), Section 3.3",
+        "code_text": "Churn: Operation of the pump at no flow."
+    },
+    {
+        "id": 2202004,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Testing",
+        "question": "Why do we verify the pump RPM during a flow test?",
+        "answer": "To verify the engine/motor is not slipping and meets the manufacturer curve",
+        "distractors": [
+            "To check the battery voltage",
+            "To ensure the relief valve works",
+            "To calculate friction loss"
+        ],
+        "citation": "NFPA 25 (2011), Section 8.3.3",
+        "code_text": "Speed... shall be recorded."
+    },
+    {
+        "id": 2202005,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Logic",
+        "question": "If the pump starts but fails to build pressure, what is the most likely cause?",
+        "answer": "Pump is air-bound (needs venting) or rotating backwards",
+        "distractors": [
+            "Relief valve is closed",
+            "Discharge valve is closed",
+            "Jockey pump is off"
+        ],
+        "citation": "Troubleshooting Standard",
+        "code_text": "Air trapped in casing prevents centrifugal force from moving water."
+    },
+    {
+        "id": 2302101,
+        "category": "NFPA 13 - Installation",
+        "topic": "Exposure Protection",
+        "question": "When using sprinklers to protect a glass window (Exposure Protection), how far from the glass must the head be?",
+        "answer": "Not more than 12 inches",
+        "distractors": [
+            "24 inches",
+            "6 inches",
+            "18 inches"
+        ],
+        "citation": "NFPA 13 (2016), Section 11.1.2",
+        "code_text": "Vertical distance... max 12 in."
+    },
+    {
+        "id": 2302102,
+        "category": "NFPA 13 - Installation",
+        "topic": "Exposure Protection",
+        "question": "What is the maximum spacing between sprinklers protecting a window/cornice?",
+        "answer": "8 feet",
+        "distractors": [
+            "6 feet",
+            "10 feet",
+            "12 feet"
+        ],
+        "citation": "NFPA 13 (2016), Section 11.1.2",
+        "code_text": "Sprinklers shall be spaced not more than 8 ft apart."
+    },
+    {
+        "id": 2302103,
+        "category": "NFPA 13 - Installation",
+        "topic": "Attics",
+        "question": "If using 'Specific Application Attic Sprinklers', what is the advantage?",
+        "answer": "They can cover wider spans and difficult roof pitches without extensive branch lines",
+        "distractors": [
+            "They are cheaper",
+            "They use less water",
+            "They don't require calc plates"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.4.9",
+        "code_text": "Specific application... permitted to be installed... in accordance with their listing."
+    },
+    {
+        "id": 2302104,
+        "category": "NFPA 13 - Installation",
+        "topic": "Baffles",
+        "question": "When sprinklers are spaced closer than 6 feet, what must be installed?",
+        "answer": "A Baffle",
+        "distractors": [
+            "A check valve",
+            "A heat collector",
+            "A lower temp head"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.3.4.2",
+        "code_text": "Baffles shall be installed... to prevent cold soldering."
+    },
+    {
+        "id": 2302105,
+        "category": "NFPA 13 - Installation",
+        "topic": "Baffles",
+        "question": "Dimensions of a baffle?",
+        "answer": "8 inches wide, 6 inches high",
+        "distractors": [
+            "12x12 inches",
+            "4x4 inches",
+            "Round disk"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.3.4.2",
+        "code_text": "8 in. wide and 6 in. high."
+    },
+    {
+        "id": 2402201,
+        "category": "NFPA 13D - Residential",
+        "topic": "Garages",
+        "question": "In a single-family home (13D), are sprinklers required in the garage?",
+        "answer": "No (unless living space is above it or specific local amendment requires it)",
+        "distractors": [
+            "Yes, always",
+            "Only if heated",
+            "Only if attached"
+        ],
+        "citation": "NFPA 13D (2016), Section 8.3.4",
+        "code_text": "Sprinklers shall not be required in garages, open attached porches, carports, and similar structures."
+    },
+    {
+        "id": 2402202,
+        "category": "NFPA 13D - Residential",
+        "topic": "Alarms",
+        "question": "Does an NFPA 13D system require a water flow alarm notification on the exterior of the house?",
+        "answer": "No (Unlike 13 and 13R)",
+        "distractors": [
+            "Yes, always",
+            "Yes, if over 20 heads",
+            "Yes, a strobe is required"
+        ],
+        "citation": "NFPA 13D (2016), Section 7.6",
+        "code_text": "Local waterflow alarms shall be provided... [Interior only is the standard minimum, though local AHJ may differ]."
+    },
+    {
+        "id": 2402203,
+        "category": "NFPA 13R - Residential",
+        "topic": "Shadow Areas",
+        "question": "In NFPA 13R, what is the maximum 'shadow area' (dry spot) allowed in a compartment?",
+        "answer": "0 sq ft (The concept of allowable shadow area applies to 13D, not 13R)",
+        "distractors": [
+            "6 sq ft",
+            "12 sq ft",
+            "24 sq ft"
+        ],
+        "citation": "NFPA 13R vs 13D",
+        "code_text": "NFPA 13D allows small dry spots (shadows) up to specific limits. NFPA 13R generally requires full coverage similar to 13."
+    },
+    {
+        "id": 2402204,
+        "category": "NFPA 13D - Residential",
+        "topic": "Spare Heads",
+        "question": "How many spare sprinklers are required for an NFPA 13D system?",
+        "answer": "2 sprinklers (minimum)",
+        "distractors": [
+            "6 sprinklers",
+            "12 sprinklers",
+            "None"
+        ],
+        "citation": "NFPA 13D (2016), Section 5.4",
+        "code_text": "A supply of at least two spare sprinklers... shall be available."
+    },
+    {
+        "id": 2402205,
+        "category": "NFPA 13R - Residential",
+        "topic": "Attics",
+        "question": "Does NFPA 13R require sprinklers in a combustible attic (without storage/living space)?",
+        "answer": "No",
+        "distractors": [
+            "Yes, always",
+            "Yes, if the roof is wood",
+            "Only if draft stopped"
+        ],
+        "citation": "NFPA 13R (2016), Section 6.6.6",
+        "code_text": "Sprinklers shall not be required in attics... [provided conditions are met]."
+    },
+    {
+        "id": 2502301,
+        "category": "NFPA 13 - Retrofit",
+        "topic": "Hydraulics",
+        "question": "When adding heads to an existing hydraulically calculated system, what must you verify?",
+        "answer": "That the new demand does not exceed the original system design limits",
+        "distractors": [
+            "You must always install a new riser",
+            "You must switch to pipe schedule",
+            "You must increase pipe size by one"
+        ],
+        "citation": "NFPA 13 (2016), Section 23.2",
+        "code_text": "Calculations... verification that the new work does not exceed the hydraulic limits."
+    },
+    {
+        "id": 2502302,
+        "category": "NFPA 25 - Service",
+        "topic": "Testing",
+        "question": "If you replace a control valve on a system, what test must be performed?",
+        "answer": "A hydrostatic test at 200 psi (or working pressure) for 2 hours",
+        "distractors": [
+            "Just an operational test",
+            "A flow test",
+            "No test needed"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.3.3.4",
+        "code_text": "Component replacement... shall be hydrostatically tested."
+    },
+    {
+        "id": 2502303,
+        "category": "NFPA 13 - Retrofit",
+        "topic": "Compatibility",
+        "question": "Can you mix Standard Response and Quick Response sprinklers in the same compartment?",
+        "answer": "No",
+        "distractors": [
+            "Yes, if same temp",
+            "Yes, if same K-factor",
+            "Yes, if listed"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.3.3.2",
+        "code_text": "Sprinklers... shall not be mixed within a compartment."
+    },
+    {
+        "id": 2502304,
+        "category": "NFPA 13 - Retrofit",
+        "topic": "Revamps",
+        "question": "When revamping a pipe schedule system, you remove a 1\" plug and extend the line. How many heads can be on that 1\" line in Light Hazard?",
+        "answer": "2 heads",
+        "distractors": [
+            "3 heads",
+            "1 head",
+            "5 heads"
+        ],
+        "citation": "NFPA 13 (2016), Table 23.5.2.2.1",
+        "code_text": "1 in: 2 sprinklers."
+    },
+    {
+        "id": 2502305,
+        "category": "NFPA 25 - Service",
+        "topic": "Emergency",
+        "question": "If you find a frozen pipe that has cracked, this is classified as what type of issue?",
+        "answer": "Impairment (Emergency)",
+        "distractors": [
+            "Deficiency (Critical)",
+            "Deficiency (Non-Critical)",
+            "Maintenance Item"
+        ],
+        "citation": "NFPA 25 (2011), Section 3.3.17",
+        "code_text": "Impairment: A condition where a... system... is out of order."
+    },
+    {
+        "id": 2602401,
+        "category": "System Mechanics",
+        "topic": "Dry Valves",
+        "question": "What allows a dry pipe valve to hold back 100 psi of water with only 20 psi of air?",
+        "answer": "Surface Area Differential (The air clapper is much larger than the water clapper)",
+        "distractors": [
+            "A heavy spring",
+            "A hydraulic lock",
+            "An electric solenoid"
+        ],
+        "citation": "Industry Theory",
+        "code_text": "The surface area of the air side is roughly 5-6 times larger than the water side (Differential)."
+    },
+    {
+        "id": 2602402,
+        "category": "System Mechanics",
+        "topic": "Accelerators",
+        "question": "What does an Accelerator do on a dry system?",
+        "answer": "It redirects air pressure to the intermediate chamber to force the clapper open faster",
+        "distractors": [
+            "It sucks air out of the system",
+            "It pumps water faster",
+            "It increases air pressure"
+        ],
+        "citation": "NFPA 13 / Theory",
+        "code_text": "Quick Opening Device: Accelerates the trip point by equalizing/redirecting pressure."
+    },
+    {
+        "id": 2602403,
+        "category": "System Mechanics",
+        "topic": "Exhausters",
+        "question": "What is the difference between an Accelerator and an Exhauster?",
+        "answer": "An Exhauster vents air to the atmosphere; an Accelerator pushes the valve open",
+        "distractors": [
+            "They are the same",
+            "Exhausters are for wet systems",
+            "Accelerators are smaller"
+        ],
+        "citation": "Industry Theory",
+        "code_text": "Exhausters discharge system air to the atmosphere to lower pressure rapidly."
+    },
+    {
+        "id": 2602404,
+        "category": "System Mechanics",
+        "topic": "Deluge",
+        "question": "Why are Deluge systems usually tripped by a separate detection system?",
+        "answer": "Because the sprinkler heads are open (no glass bulbs to break)",
+        "distractors": [
+            "Because they hold too much water",
+            "To save money",
+            "Because they use antifreeze"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.3.1",
+        "code_text": "Deluge systems... employing open sprinklers."
+    },
+    {
+        "id": 2702501,
+        "category": "Synthesis Scenario",
+        "topic": "Standpipes",
+        "question": "Scenario: You are hydro-testing a new Class I standpipe in a 4-story building. The working pressure is 160 psi. What pressure do you test at?",
+        "answer": "210 psi (50 psi over working pressure)",
+        "distractors": [
+            "200 psi",
+            "160 psi",
+            "250 psi"
+        ],
+        "citation": "NFPA 14 (2016), Section 11.4",
+        "code_text": "200 psi or 50 psi in excess of the working pressure, whichever is greater."
+    },
+    {
+        "id": 2702502,
+        "category": "Synthesis Scenario",
+        "topic": "Pump Room",
+        "question": "Scenario: A diesel pump room is 30\u00b0F. Is this a deficiency?",
+        "answer": "Yes, it must be maintained at 40\u00b0F minimum (70\u00b0F is recommended for diesel engines)",
+        "distractors": [
+            "No, 30\u00b0F is safe from freezing flowing water",
+            "No, only electric pumps need heat",
+            "Yes, it must be 80\u00b0F"
+        ],
+        "citation": "NFPA 20 (2016), Section 11.6.5",
+        "code_text": "Temperature... shall be maintained at... 40\u00b0F (often 70\u00b0F for engine starting)."
+    },
+    {
+        "id": 2702503,
+        "category": "Synthesis Scenario",
+        "topic": "Design",
+        "question": "Scenario: You are installing heads in a room with a 20-foot ceiling. The room contains high-piled plastic storage. Can you use a Standard Spray Upright?",
+        "answer": "No, you likely need a CMSA or ESFR head (Standard spray is limited in high storage)",
+        "distractors": [
+            "Yes, always",
+            "Yes, if spaced 6 feet apart"
+        ],
+        "citation": "NFPA 13 (2016), Storage Chapters",
+        "code_text": "Standard spray sprinklers have severe density/area penalties for high storage; Special Application heads are required."
+    },
+    {
+        "id": 2702504,
+        "category": "Synthesis Scenario",
+        "topic": "MN Rules",
+        "question": "Scenario: An apprentice has worked 9000 hours but hasn't taken the test. Are they allowed to run a job site?",
+        "answer": "No, they are still an apprentice until they PASS the exam and get the license",
+        "distractors": [
+            "Yes, after 8000 hours they are effectively Journeymen",
+            "Yes, if the boss allows it"
+        ],
+        "citation": "MN Rules 7512",
+        "code_text": "Must hold a Journeyman certificate to perform work without direct supervision."
+    },
+    {
+        "id": 2702505,
+        "category": "Synthesis Scenario",
+        "topic": "Obstruction",
+        "question": "Scenario: You are installing a pendant head. A 4-inch wide light fixture is 6 inches away from the head. How high above the bottom of the light must the deflector be?",
+        "answer": "1 inch or less (Beam Rule: 6 inches away / 3 = 2 inches max down?? No, check table)",
+        "distractors": [
+            "3 inches",
+            "Level with the bottom",
+            "4 inches"
+        ],
+        "citation": "NFPA 13 (2016), Figure 8.6.5.1.2(a)",
+        "code_text": "Logic: If you are 6 inches away, the 'Beam Rule' table dictates your vertical position. (Typically above the bottom)."
+    },
+    {
+        "id": 2802601,
+        "category": "NFPA 14 - System Types",
+        "topic": "Definitions",
+        "question": "What is a standpipe system that is attached to a water supply capable of supplying the system demand at all times and requires no action other than opening a hose valve?",
+        "answer": "Automatic Wet",
+        "distractors": [
+            "Automatic Dry",
+            "Semiautomatic Dry",
+            "Manual Wet"
+        ],
+        "citation": "NFPA 14 (2016), Section 3.3.17.1",
+        "code_text": "Automatic Wet: Contains water at all times... capable of supplying the system demand."
+    },
+    {
+        "id": 2802602,
+        "category": "NFPA 14 - System Types",
+        "topic": "Definitions",
+        "question": "What is a standpipe system that contains air under pressure and admits water automatically when a hose valve is opened?",
+        "answer": "Automatic Dry",
+        "distractors": [
+            "Semiautomatic Dry",
+            "Manual Dry",
+            "Preaction"
+        ],
+        "citation": "NFPA 14 (2016), Section 3.3.17.2",
+        "code_text": "Automatic Dry: Contains air... admits water... when a hose valve is opened."
+    },
+    {
+        "id": 2802603,
+        "category": "NFPA 14 - System Types",
+        "topic": "Definitions",
+        "question": "What is a standpipe system that relies exclusively on the Fire Department Connection (FDC) to supply the water demand?",
+        "answer": "Manual Dry",
+        "distractors": [
+            "Manual Wet",
+            "Semiautomatic",
+            "Class I"
+        ],
+        "citation": "NFPA 14 (2016), Section 3.3.17.4",
+        "code_text": "Manual Dry: Contains air... relies exclusively on the fire department connection."
+    },
+    {
+        "id": 2802604,
+        "category": "NFPA 14 - System Types",
+        "topic": "Definitions",
+        "question": "What is a 'Manual Wet' standpipe?",
+        "answer": "A system full of water to prevent freezing/leaks, but relies on the Fire Department for pressure/flow",
+        "distractors": [
+            "A system with a small jockey pump",
+            "A system connected to a city main only",
+            "A system with a bucket"
+        ],
+        "citation": "NFPA 14 (2016), Section 3.3.17.5",
+        "code_text": "Manual Wet: Contains water... relies exclusively on the fire department connection to supply the system demand."
+    },
+    {
+        "id": 2802605,
+        "category": "NFPA 14 - System Types",
+        "topic": "Devices",
+        "question": "What device allows water to flow into a Semiautomatic Dry standpipe?",
+        "answer": "Deluge Valve (activated by a remote device)",
+        "distractors": [
+            "Dry Pipe Valve",
+            "Check Valve",
+            "Butterfly Valve"
+        ],
+        "citation": "NFPA 14 (2016), Section 3.3.17.6",
+        "code_text": "Semiautomatic... admits water... when a remote control device activates a deluge valve."
+    },
+    {
+        "id": 2900301,
+        "category": "NFPA 14 - Standpipes",
+        "topic": "Flows",
+        "question": "Minimum flow rate for the most remote standpipe in a Class I system?",
+        "answer": "500 gpm",
+        "distractors": [
+            "250 gpm",
+            "100 gpm",
+            "750 gpm"
+        ],
+        "citation": "NFPA 14 (2016), Section 7.10.1.1.5",
+        "code_text": "Minimum flow rate... shall be 500 gpm."
+    },
+    {
+        "id": 2900302,
+        "category": "NFPA 14 - Standpipes",
+        "topic": "Flows",
+        "question": "Minimum flow rate for each *additional* standpipe in a Class I system?",
+        "answer": "250 gpm",
+        "distractors": [
+            "500 gpm",
+            "100 gpm",
+            "150 gpm"
+        ],
+        "citation": "NFPA 14 (2016), Section 7.10.1.1.5",
+        "code_text": "Additional standpipes shall be 250 gpm."
+    },
+    {
+        "id": 2900303,
+        "category": "NFPA 14 - Standpipes",
+        "topic": "Pressure",
+        "question": "Minimum residual pressure at the most remote 2\u00bd\" outlet?",
+        "answer": "100 psi",
+        "distractors": [
+            "65 psi",
+            "175 psi",
+            "150 psi"
+        ],
+        "citation": "NFPA 14 (2016), Section 7.8.1",
+        "code_text": "Minimum residual pressure of 100 psi."
+    },
+    {
+        "id": 2900304,
+        "category": "NFPA 14 - Standpipes",
+        "topic": "Pressure",
+        "question": "Minimum residual pressure for a Class II (1\u00bd\") outlet?",
+        "answer": "65 psi",
+        "distractors": [
+            "100 psi",
+            "50 psi",
+            "175 psi"
+        ],
+        "citation": "NFPA 14 (2016), Section 7.8.1",
+        "code_text": "Class II... minimum residual pressure of 65 psi."
+    },
+    {
+        "id": 2900305,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Components",
+        "question": "What fitting is used on the suction side of a pump to prevent air pockets?",
+        "answer": "Eccentric Reducer",
+        "distractors": [
+            "Concentric Reducer",
+            "Tee",
+            "90 Elbow"
+        ],
+        "citation": "NFPA 20 (2016), Section 4.15.6.3",
+        "code_text": "Connected with an eccentric tapered reducer."
+    },
+    {
+        "id": 2900306,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Components",
+        "question": "What fitting is used on the discharge side of a fire pump?",
+        "answer": "Concentric Reducer",
+        "distractors": [
+            "Eccentric Reducer",
+            "Check Valve only",
+            "Elbow"
+        ],
+        "citation": "NFPA 20 (2016), Section 4.15.6.4",
+        "code_text": "Concentric tapered reducer or increaser."
+    },
+    {
+        "id": 2900307,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Installation",
+        "question": "What is the minimum size for a sensing line (jockey/controller)?",
+        "answer": "\u00bd inch non-ferrous",
+        "distractors": [
+            "\u00bc inch",
+            "1 inch",
+            "\u00be inch"
+        ],
+        "citation": "NFPA 20 (2016), Section 4.31",
+        "code_text": "1/2 in. nominal nonferrous metal piping."
+    },
+    {
+        "id": 2900308,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Installation",
+        "question": "How far above the floor must current-carrying parts of a controller be?",
+        "answer": "12 inches",
+        "distractors": [
+            "6 inches",
+            "18 inches",
+            "24 inches"
+        ],
+        "citation": "NFPA 20 (2016), Section 10.4.2",
+        "code_text": "Not less than 12 in. above the floor."
+    },
+    {
+        "id": 2900309,
+        "category": "NFPA 22 - Tanks",
+        "topic": "Heating",
+        "question": "What is the minimum water temperature maintained in a water tank?",
+        "answer": "40\u00b0F",
+        "distractors": [
+            "32\u00b0F",
+            "50\u00b0F",
+            "70\u00b0F"
+        ],
+        "citation": "NFPA 22 (2013), Section 16.1",
+        "code_text": "Maintain the temperature... at not less than 40\u00b0F."
+    },
+    {
+        "id": 2900310,
+        "category": "NFPA 22 - Tanks",
+        "topic": "Installation",
+        "question": "What is the minimum clearance under a tank?",
+        "answer": "2 feet",
+        "distractors": [
+            "1 foot",
+            "3 feet",
+            "4 feet"
+        ],
+        "citation": "NFPA 22 (2013), Section 15.1.5",
+        "code_text": "Distance between the floor and any part of the tank shall be at least 2 ft."
+    },
+    {
+        "id": 2900311,
+        "category": "NFPA 24 - Underground",
+        "topic": "Depth",
+        "question": "Private fire mains under driveways must be buried how deep?",
+        "answer": "36 inches (or 1' below frost)",
+        "distractors": [
+            "24 inches",
+            "48 inches",
+            "18 inches"
+        ],
+        "citation": "NFPA 24 (2016), Section 10.4.2",
+        "code_text": "Not less than 3 ft (36 in)."
+    },
+    {
+        "id": 2900312,
+        "category": "NFPA 24 - Underground",
+        "topic": "Hydrants",
+        "question": "How close can a post indicator valve be to a building?",
+        "answer": "40 feet",
+        "distractors": [
+            "20 feet",
+            "10 feet",
+            "50 feet"
+        ],
+        "citation": "NFPA 24 (2016), Section 6.2.11",
+        "code_text": "Not less than 40 ft from buildings."
+    },
+    {
+        "id": 2900313,
+        "category": "OSHA / Safety",
+        "topic": "Trenching",
+        "question": "At what depth is a ladder required in a trench?",
+        "answer": "4 feet",
+        "distractors": [
+            "5 feet",
+            "3 feet",
+            "6 feet"
+        ],
+        "citation": "OSHA 1926.651",
+        "code_text": "Trenches 4 feet or deeper."
+    },
+    {
+        "id": 2900314,
+        "category": "OSHA / Safety",
+        "topic": "Trenching",
+        "question": "What is the max travel distance to a ladder in a trench?",
+        "answer": "25 feet",
+        "distractors": [
+            "50 feet",
+            "15 feet",
+            "100 feet"
+        ],
+        "citation": "OSHA 1926.651",
+        "code_text": "No more than 25 feet of lateral travel."
+    },
+    {
+        "id": 2900315,
+        "category": "NFPA 20 - Pumps",
+        "topic": "Relief Valves",
+        "question": "What size relief valve is required for a 2500 gpm pump?",
+        "answer": "\u00be inch",
+        "distractors": [
+            "1 inch",
+            "\u00bd inch",
+            "2 inch"
+        ],
+        "citation": "NFPA 20 (2016), Table 4.11.2",
+        "code_text": "2500 gpm -> 3/4 in."
+    },
+    {
+        "id": 3002701,
+        "category": "NFPA 13 - Design",
+        "topic": "Hazards",
+        "question": "A Restaurant Seating Area is classified as what hazard?",
+        "answer": "Light Hazard",
+        "distractors": [
+            "Ordinary Hazard Group 1",
+            "Ordinary Hazard Group 2",
+            "Extra Hazard"
+        ],
+        "citation": "NFPA 13 (2016), Section A.5.3.1",
+        "code_text": "Light Hazard occupancies include... Restaurant seating areas."
+    },
+    {
+        "id": 3002702,
+        "category": "NFPA 13 - Design",
+        "topic": "Hazards",
+        "question": "A Restaurant Service Area (Kitchen) is classified as what hazard?",
+        "answer": "Ordinary Hazard Group 1",
+        "distractors": [
+            "Light Hazard",
+            "Ordinary Hazard Group 2",
+            "Extra Hazard"
+        ],
+        "citation": "NFPA 13 (2016), Section A.5.3.2",
+        "code_text": "Ordinary Hazard Group 1... Restaurant service areas."
+    },
+    {
+        "id": 3002703,
+        "category": "NFPA 13 - Design",
+        "topic": "Hazards",
+        "question": "A Parking Garage (Automobile Parking) is classified as what hazard?",
+        "answer": "Ordinary Hazard Group 1",
+        "distractors": [
+            "Light Hazard",
+            "Ordinary Hazard Group 2",
+            "Extra Hazard Group 1"
+        ],
+        "citation": "NFPA 13 (2016), Section A.5.3.2",
+        "code_text": "Ordinary Hazard Group 1... Car parking garages."
+    },
+    {
+        "id": 3002704,
+        "category": "NFPA 13 - Design",
+        "topic": "Hazards",
+        "question": "A Mercantile (Department Store) is classified as what hazard?",
+        "answer": "Ordinary Hazard Group 2",
+        "distractors": [
+            "Ordinary Hazard Group 1",
+            "Light Hazard",
+            "Extra Hazard"
+        ],
+        "citation": "NFPA 13 (2016), Section A.5.3.3",
+        "code_text": "Ordinary Hazard Group 2... Mercantiles."
+    },
+    {
+        "id": 3002705,
+        "category": "NFPA 13 - Design",
+        "topic": "Hazards",
+        "question": "Printing and Publishing plants are classified as what hazard?",
+        "answer": "Extra Hazard Group 1",
+        "distractors": [
+            "Ordinary Hazard Group 2",
+            "Extra Hazard Group 2",
+            "Light Hazard"
+        ],
+        "citation": "NFPA 13 (2016), Section A.5.4.1",
+        "code_text": "Extra Hazard Group 1... Printing and publishing."
+    },
+    {
+        "id": 3002706,
+        "category": "NFPA 13 - Design",
+        "topic": "Hazards",
+        "question": "Plastics processing (solvent based) is classified as what hazard?",
+        "answer": "Extra Hazard Group 2",
+        "distractors": [
+            "Extra Hazard Group 1",
+            "Ordinary Hazard Group 2",
+            "Storage"
+        ],
+        "citation": "NFPA 13 (2016), Section A.5.4.2",
+        "code_text": "Extra Hazard Group 2... Plastics processing."
+    },
+    {
+        "id": 3102801,
+        "category": "NFPA 20 - Electrical",
+        "topic": "Disconnects",
+        "question": "A fire pump controller must be dedicated to?",
+        "answer": "Only the fire pump motor (No other loads)",
+        "distractors": [
+            "The pump and the jockey pump",
+            "The pump and the pump room lights",
+            "The entire building"
+        ],
+        "citation": "NFPA 20 (2016), Section 10.1.2.1",
+        "code_text": "Controllers shall be specifically listed... for fire pump service."
+    },
+    {
+        "id": 3102802,
+        "category": "NFPA 20 - Electrical",
+        "topic": "Phase Reversal",
+        "question": "What device protects the electric fire pump motor if the phases are reversed (causing backward rotation)?",
+        "answer": "Phase Reversal Monitor (in the Controller)",
+        "distractors": [
+            "A Check Valve",
+            "A Circuit Breaker",
+            "A Tachometer"
+        ],
+        "citation": "NFPA 20 (2016), Section 10.4.7",
+        "code_text": "Phase reversal... shall prevent starting of the motor."
+    },
+    {
+        "id": 3102803,
+        "category": "NFPA 20 - Electrical",
+        "topic": "Transfer Switch",
+        "question": "If a building has a backup generator for the fire pump, what device is required to switch from normal power to generator power?",
+        "answer": "Automatic Transfer Switch",
+        "distractors": [
+            "Manual Knife Switch",
+            "Circuit Breaker",
+            "Jockey Controller"
+        ],
+        "citation": "NFPA 20 (2016), Section 10.8",
+        "code_text": "Power transfer switch... shall be listed for fire pump service."
+    },
+    {
+        "id": 3102804,
+        "category": "NFPA 20 - Electrical",
+        "topic": "Location",
+        "question": "Fire pump controllers must be within sight of the motor. This typically means they are located within how many feet?",
+        "answer": "Sight is required (Code does not specify feet, but typically within 50 ft / same room)",
+        "distractors": [
+            "100 feet",
+            "200 feet",
+            "Anywhere in the building"
+        ],
+        "citation": "NFPA 20 (2016), Section 10.2.1",
+        "code_text": "Located as close as is practical to... and within sight of the motor."
+    },
+    {
+        "id": 3202901,
+        "category": "OSHA - Safety",
+        "topic": "Confined Space",
+        "question": "A valve pit or water tank is considered what type of space?",
+        "answer": "Confined Space (Permit-Required if hazards exist)",
+        "distractors": [
+            "Open Air Space",
+            "Restricted Area",
+            "Standard Work Zone"
+        ],
+        "citation": "OSHA 1910.146",
+        "code_text": "Confined space: Large enough to enter, limited means of entry, not designed for continuous occupancy."
+    },
+    {
+        "id": 3202902,
+        "category": "OSHA - Safety",
+        "topic": "Confined Space",
+        "question": "Before entering a Permit-Required Confined Space (like an empty pressure tank), what must be tested first?",
+        "answer": "Oxygen Content",
+        "distractors": [
+            "Flammability",
+            "Toxicity",
+            "Water Level"
+        ],
+        "citation": "OSHA 1910.146",
+        "code_text": "Atmospheric testing order: 1. Oxygen, 2. Flammable gases, 3. Toxic vapors."
+    },
+    {
+        "id": 3202903,
+        "category": "OSHA - Safety",
+        "topic": "Excavation",
+        "question": "Spoil piles (dirt) must be kept how far back from the edge of a trench?",
+        "answer": "2 feet",
+        "distractors": [
+            "1 foot",
+            "4 feet",
+            "6 inches"
+        ],
+        "citation": "OSHA 1926.651",
+        "code_text": "Keep materials... at least 2 feet from the edge of excavations."
+    },
+    {
+        "id": 3202904,
+        "category": "OSHA - Safety",
+        "topic": "PPE",
+        "question": "When is a 'Safety Monitor' (a person watching) allowed as the only fall protection?",
+        "answer": "Only on Low-Slope Roofs (and usually for roofing work, not fitters)",
+        "distractors": [
+            "Always",
+            "On steel erection",
+            "In trenches"
+        ],
+        "citation": "OSHA 1926.502",
+        "code_text": "Safety monitor systems... low-slope roofs."
+    },
+    {
+        "id": 3303101,
+        "category": "NFPA 25 - ITM",
+        "topic": "Main Drain",
+        "question": "What is the primary purpose of the main drain test?",
+        "answer": "To determine if there is a change in the water supply (obstruction or closed valve)",
+        "distractors": [
+            "To flush the riser",
+            "To test the flow switch",
+            "To drain the system for service"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.2.5",
+        "code_text": "A main drain test shall be conducted... to determine whether there has been a change in the condition of the water supply piping."
+    },
+    {
+        "id": 3303102,
+        "category": "NFPA 25 - ITM",
+        "topic": "Gauges",
+        "question": "If a gauge is reading 0 psi on the system side of a check valve, what does this likely indicate?",
+        "answer": "The gauge is defective or the valve is closed/plugged (Deficiency)",
+        "distractors": [
+            "Normal operation",
+            "The pump is off",
+            "The system is drained"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.2.7.1",
+        "code_text": "Gauges shall be inspected... to verify that they are in good condition and that normal water supply pressure is being maintained."
+    },
+    {
+        "id": 3303103,
+        "category": "NFPA 25 - ITM",
+        "topic": "Sprinklers",
+        "question": "During an annual floor level inspection, you see a sprinkler heavily loaded with dust. What is the required action?",
+        "answer": "Replace the sprinkler (Cleaning is only allowed if the head is NOT painted/coated)",
+        "distractors": [
+            "Clean it with compressed air immediately",
+            "Clean it with water",
+            "Note it but do nothing"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.2.1.1.1",
+        "code_text": "Sprinklers that are heavily loaded... shall be replaced or... cleaned [if not damaging]."
+    },
+    {
+        "id": 3303104,
+        "category": "NFPA 25 - ITM",
+        "topic": "Valves",
+        "question": "How soon must a preaction/deluge valve be trip tested after installation?",
+        "answer": "Annually (Full flow)",
+        "distractors": [
+            "Every 3 years",
+            "Quarterly",
+            "Monthly"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.4.3.2.2",
+        "code_text": "Each deluge valve shall be trip tested annually at full flow."
+    },
+    {
+        "id": 3303105,
+        "category": "NFPA 25 - ITM",
+        "topic": "FDC",
+        "question": "You inspect an FDC and find the swivel caps are missing. Is this a deficiency?",
+        "answer": "Yes, caps must be in place to prevent debris entry",
+        "distractors": [
+            "No, caps are optional",
+            "Only if inside the building",
+            "No, providing the swivel turns"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.7.1",
+        "code_text": "Fire department connections... shall be inspected... [to ensure] plugs or caps are in place."
+    },
+    {
+        "id": 3303106,
+        "category": "NFPA 25 - ITM",
+        "topic": "Antifreeze",
+        "question": "If an antifreeze solution test reveals the freeze point is too high (unsafe), what must be done?",
+        "answer": "Drain and replace with new factory-premixed solution",
+        "distractors": [
+            "Add pure glycerin concentrate",
+            "Add water",
+            "Adjust the loop pressure"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.3.4",
+        "code_text": "If the [solution] does not meet the requirements... the system shall be drained and filled with a factory premixed solution."
+    },
+    {
+        "id": 3403201,
+        "category": "Specialty Valves",
+        "topic": "Dry Pipe Valve",
+        "question": "What is 'Columning' in a dry pipe valve?",
+        "answer": "When priming water level is too high, creating pressure that prevents the clapper from opening",
+        "distractors": [
+            "When the air pressure is too low",
+            "When the valve trips accidentally",
+            "When the accelerator fails"
+        ],
+        "citation": "Industry Theory / NFPA 13",
+        "code_text": "High priming water exerts hydraulic pressure on the top of the clapper, locking it shut."
+    },
+    {
+        "id": 3403202,
+        "category": "Specialty Valves",
+        "topic": "Preaction",
+        "question": "In a Double Interlock Preaction system, what two events must occur for water to enter the pipe?",
+        "answer": "Activation of a detection device AND loss of air pressure (sprinkler opening)",
+        "distractors": [
+            "Detection only",
+            "Loss of air only",
+            "Manual release only"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.3.2.2",
+        "code_text": "Double interlock... admits water... only when... detection device [activates]... AND... automatic sprinkler [activates]."
+    },
+    {
+        "id": 3403203,
+        "category": "Specialty Valves",
+        "topic": "Trim",
+        "question": "What is the purpose of the 'Ball Drip' (Automatic Drain) valve on the FDC piping?",
+        "answer": "To drain water between the check valve and the FDC to prevent freezing",
+        "distractors": [
+            "To drain the main riser",
+            "To test the pump",
+            "To allow air into the system"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.17.2.6",
+        "code_text": "An automatic drip valve... shall be installed... to drain the piping between the check valve and the fire department connection."
+    },
+    {
+        "id": 3403204,
+        "category": "Specialty Valves",
+        "topic": "Dry Systems",
+        "question": "If a dry pipe valve trips but water does not reach the inspector's test within 60 seconds, what is the issue?",
+        "answer": "System volume is too large for the air/water supply (Needs an Accelerator)",
+        "distractors": [
+            "Water pressure is too high",
+            "Air pressure is too low",
+            "The valve is installed backward"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.2.3.6",
+        "code_text": "Water must be delivered... in not more than 60 seconds. (If not, use QOD)."
+    },
+    {
+        "id": 3403205,
+        "category": "Specialty Valves",
+        "topic": "Check Valves",
+        "question": "Where is a check valve required in the FDC piping?",
+        "answer": "At the connection to the system piping (to keep system water from flowing out the FDC)",
+        "distractors": [
+            "Inside the FDC itself",
+            "It is not required",
+            "At the city main"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.17.2.5",
+        "code_text": "A listed check valve shall be installed in each fire department connection."
+    },
+    {
+        "id": 3503301,
+        "category": "NFPA 13 - Installation",
+        "topic": "Fittings",
+        "question": "When reducing pipe size, which fitting type is prohibited for drain ability?",
+        "answer": "Hex bushings (face-to-face bushings are banned; one-piece reducers preferred)",
+        "distractors": [
+            "Grooved reducers",
+            "Threaded elbows",
+            "Reducing tees"
+        ],
+        "citation": "NFPA 13 (2016), Section 6.5.4",
+        "code_text": "Bushings shall not be used... [unless standard fittings not available]."
+    },
+    {
+        "id": 3503302,
+        "category": "NFPA 13 - Installation",
+        "topic": "Fittings",
+        "question": "Are you allowed to weld a tab onto a sprinkler pipe to hang it?",
+        "answer": "No, field welding is generally prohibited unless strictly certified",
+        "distractors": [
+            "Yes, always",
+            "Yes, on pipe larger than 2 inches",
+            "Yes, if galvanized"
+        ],
+        "citation": "NFPA 13 (2016), Section 6.5.2",
+        "code_text": "Field welding... shall not be permitted [without specific listing/procedures]."
+    },
+    {
+        "id": 3503303,
+        "category": "NFPA 13 - Sprinklers",
+        "topic": "Positioning",
+        "question": "You are installing upright sprinklers on a pitched roof (4/12 pitch). How should the deflector be oriented?",
+        "answer": "Parallel to the roof pitch",
+        "distractors": [
+            "Horizontal to the floor",
+            "Perpendicular to the beam",
+            "Vertical"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.4.1.3",
+        "code_text": "Deflectors of sprinklers shall be... parallel to the ceiling, roof, or deck."
+    },
+    {
+        "id": 3503304,
+        "category": "NFPA 13 - Sprinklers",
+        "topic": "Obstructions",
+        "question": "A pendant sprinkler is 5 inches from a wall. The wall has a 2-inch deep cabinet mounted on it. Is this allowed?",
+        "answer": "Yes, if the obstruction (cabinet) is below the deflector or meets the beam rule",
+        "distractors": [
+            "No, 4 inch rule applies to obstructions too",
+            "No, cabinets are not allowed",
+            "Yes, always"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.5.2",
+        "code_text": "Obstructions... against the wall... shall be permitted."
+    },
+    {
+        "id": 3503305,
+        "category": "NFPA 13 - Sprinklers",
+        "topic": "Temperature",
+        "question": "What temperature sprinkler is required in an unventilated attic?",
+        "answer": "Intermediate (175-225\u00b0F)",
+        "distractors": [
+            "Ordinary (135-170\u00b0F)",
+            "High (250-300\u00b0F)",
+            "Extra High"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.3.2.5",
+        "code_text": "Sprinklers in unventilated attic spaces... shall be of the intermediate temperature classification."
+    },
+    {
+        "id": 3503306,
+        "category": "NFPA 13 - Commissioning",
+        "topic": "Acceptance",
+        "question": "During the hydrostatic test, the pressure drops 2 psi in 2 hours due to temperature fluctuation. Is this a fail?",
+        "answer": "No, minor fluctuation due to temp is allowed, but NO visible leakage",
+        "distractors": [
+            "Yes, must be 0 psi drop",
+            "Yes, fail immediately",
+            "No, up to 10 psi is allowed"
+        ],
+        "citation": "NFPA 13 (2016), Section 25.2.1.1",
+        "code_text": "No visible leakage... (Pressure drop alone isn't always a fail, but visible water is)."
+    },
+    {
+        "id": 3603401,
+        "category": "Contract Documents",
+        "topic": "Hierarchy",
+        "question": "If the Installation Drawings (Plans) and the Written Specifications differ, which one typically takes precedence?",
+        "answer": "The Specifications (usually), or whichever is stricter (depending on contract language)",
+        "distractors": [
+            "The Drawings always",
+            "The verbal instructions",
+            "The NFPA code only"
+        ],
+        "citation": "General Construction Law / Trade Knowledge",
+        "code_text": "Specifications generally outline the quality and standards; Plans outline the quantity and location. Specs often govern in conflict."
+    },
+    {
+        "id": 3603402,
+        "category": "Construction Drawings",
+        "topic": "Scale",
+        "question": "If a plan is drawn to 1/4\" = 1'0\" scale, and a pipe measures 3 inches long on the paper, how long is the pipe in reality?",
+        "answer": "12 feet",
+        "distractors": [
+            "3 feet",
+            "4 feet",
+            "10 feet"
+        ],
+        "citation": "Plan Reading Math",
+        "code_text": "There are 4 quarters in an inch. 3 inches = 12 quarters. 12 x 1 ft = 12 ft."
+    },
+    {
+        "id": 3603403,
+        "category": "Construction Drawings",
+        "topic": "Symbols",
+        "question": "What does 'N.I.C.' usually stand for on a set of prints?",
+        "answer": "Not In Contract (Work not to be done by this trade)",
+        "distractors": [
+            "Not In Ceiling",
+            "No Internal Check",
+            "New Installation Code"
+        ],
+        "citation": "Blueprint Reading",
+        "code_text": "Standard abbreviation for scope of work limits."
+    },
+    {
+        "id": 3603404,
+        "category": "NFPA 13 - Documentation",
+        "topic": "Plans",
+        "question": "Which of the following is REQUIRED to be shown on the hydraulic calculation sheets?",
+        "answer": "A graph sheet (N1.85 graph)",
+        "distractors": [
+            "A photo of the pump",
+            "The contractor's license number",
+            "The price of the pipe"
+        ],
+        "citation": "NFPA 13 (2016), Section 23.1",
+        "code_text": "Hydraulic calculations shall be prepared... and shall include... a graph sheet."
+    },
+    {
+        "id": 3603405,
+        "category": "Construction Drawings",
+        "topic": "Layout",
+        "question": "On a reflected ceiling plan, what does 'AFF' mean?",
+        "answer": "Above Finished Floor",
+        "distractors": [
+            "After Final Finish",
+            "All Floors Finished",
+            "Above False Floor"
+        ],
+        "citation": "Blueprint Reading",
+        "code_text": "Standard elevation marker."
+    },
+    {
+        "id": 3703501,
+        "category": "Materials Handling",
+        "topic": "CPVC",
+        "question": "How should CPVC pipe be stored at the job site?",
+        "answer": "Covered (protected from direct sunlight/UV) and flat to prevent warping",
+        "distractors": [
+            "In the sun to keep warm",
+            "Vertically leaning against a wall",
+            "Next to the diesel fuel"
+        ],
+        "citation": "Manufacturer Specs / NFPA 13",
+        "code_text": "UV exposure degrades plastic pipe over time."
+    },
+    {
+        "id": 3703502,
+        "category": "Materials Handling",
+        "topic": "Steel Pipe",
+        "question": "When storing threaded steel pipe, what should be done to the threads?",
+        "answer": "Keep protective caps on or protect from impact damage",
+        "distractors": [
+            "Sand them down",
+            "Paint them immediately",
+            "Leave them exposed"
+        ],
+        "citation": "Trade Practice",
+        "code_text": "Damaged threads are the #1 cause of leaks in threaded systems."
+    },
+    {
+        "id": 3703503,
+        "category": "Materials Handling",
+        "topic": "Rigging",
+        "question": "When lifting a bundle of pipe with a crane, what knot or hitch prevents the pipe from sliding out of the sling?",
+        "answer": "Double Wrap Choker Hitch",
+        "distractors": [
+            "Single vertical hitch",
+            "Square knot",
+            "Basket hitch"
+        ],
+        "citation": "OSHA / Rigging Basic",
+        "code_text": "Choker hitches tighten as the load is lifted; double wrap provides surface contact."
+    },
+    {
+        "id": 3703504,
+        "category": "Materials Handling",
+        "topic": "Solvent Cement",
+        "question": "Solvent cement and primers are generally classified as?",
+        "answer": "Flammable and Volatile (Require ventilation)",
+        "distractors": [
+            "Inert",
+            "Non-toxic",
+            "Water-based"
+        ],
+        "citation": "SDS / Safety",
+        "code_text": "Vapors are heavier than air and flammable."
+    },
+    {
+        "id": 3703505,
+        "category": "Materials Handling",
+        "topic": "Sprinklers",
+        "question": "If a glass bulb sprinkler is dropped on the floor during installation but looks fine, what must you do?",
+        "answer": "Discard and replace it (Invisible hairline cracks can cause failure later)",
+        "distractors": [
+            "Install it if it looks okay",
+            "Test it with a lighter",
+            "Use it as a spare"
+        ],
+        "citation": "NFPA 13 (2016), Section 6.2.6.4",
+        "code_text": "Sprinklers that have been dropped... shall not be returned to storage or installed."
+    },
+    {
+        "id": 3803601,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Distance between hangers (1\" Steel)?",
+        "answer": "12 feet",
+        "citation": "NFPA 13 Table 9.2.2.1(a)"
+    },
+    {
+        "id": 3803602,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Distance between hangers (1-1/4\" Steel)?",
+        "answer": "12 feet",
+        "citation": "NFPA 13 Table 9.2.2.1(a)"
+    },
+    {
+        "id": 3803603,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Distance between hangers (1-1/2\" Steel)?",
+        "answer": "15 feet",
+        "citation": "NFPA 13 Table 9.2.2.1(a)"
+    },
+    {
+        "id": 3803604,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Max distance from wall (Standard Head)?",
+        "answer": "7.5 feet (1/2 of 15)",
+        "citation": "NFPA 13 (Light Hazard SSU/SSP)"
+    },
+    {
+        "id": 3803605,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Max distance from wall (Extended Coverage)?",
+        "answer": "10 feet (1/2 of 20) - Check Listing",
+        "citation": "NFPA 13"
+    },
+    {
+        "id": 3803606,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "MN FDC Height?",
+        "answer": "18\" to 48\"",
+        "citation": "MSFC 912.2.2"
+    },
+    {
+        "id": 3803607,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Friction Loss C-Factor (Steel Wet)?",
+        "answer": "120",
+        "citation": "NFPA 13"
+    },
+    {
+        "id": 3803608,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Friction Loss C-Factor (Steel Dry)?",
+        "answer": "100",
+        "citation": "NFPA 13"
+    },
+    {
+        "id": 3803609,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Max time for water to reach inspector's test (Dry)?",
+        "answer": "60 seconds",
+        "citation": "NFPA 13"
+    },
+    {
+        "id": 3803610,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Hydrostatic Test Pressure?",
+        "answer": "200 psi (or +50)",
+        "citation": "NFPA 13"
+    },
+    {
+        "id": 3803611,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Air Test Pressure (24 hour)?",
+        "answer": "40 psi",
+        "citation": "NFPA 13"
+    },
+    {
+        "id": 3803612,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Weekly Pump Run (Electric)?",
+        "answer": "10 minutes",
+        "citation": "NFPA 25"
+    },
+    {
+        "id": 3803613,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Weekly Pump Run (Diesel)?",
+        "answer": "30 minutes",
+        "citation": "NFPA 25"
+    },
+    {
+        "id": 3803614,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Main Drain Test Frequency?",
+        "answer": "Annually",
+        "citation": "NFPA 25"
+    },
+    {
+        "id": 3803615,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Flow Test Standpipe Frequency?",
+        "answer": "5 Years",
+        "citation": "NFPA 25"
+    },
+    {
+        "id": 3803616,
+        "category": "Rapid Review",
+        "topic": "Numbers",
+        "question": "Deflector distance below beam (if 6\" away)?",
+        "answer": "1\" max above bottom (consult table)",
+        "citation": "NFPA 13 Beam Rule"
+    },
+    {
+        "id": 3900124,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers - Copper",
+        "question": "What is the maximum distance between hangers on 1\" copper tube?",
+        "answer": "8 feet",
+        "distractors": [
+            "12 feet",
+            "6 feet",
+            "10 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.2.1(b)",
+        "code_text": "1 in. Copper: 8 ft."
+    },
+    {
+        "id": 3900125,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers - Copper",
+        "question": "What is the maximum distance between hangers on 1\u00bd\" copper tube?",
+        "answer": "10 feet",
+        "distractors": [
+            "12 feet",
+            "8 feet",
+            "15 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.2.1(b)",
+        "code_text": "1-1/2 in. Copper: 10 ft."
+    },
+    {
+        "id": 3900126,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers - CPVC",
+        "question": "What is the maximum distance between hangers on \u00be\" CPVC?",
+        "answer": "5 ft 6 in",
+        "distractors": [
+            "6 feet",
+            "4 feet",
+            "5 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.2.1(c)",
+        "code_text": "3/4 in. CPVC: 5 ft 6 in."
+    },
+    {
+        "id": 3900127,
+        "category": "NFPA 13 - Installation",
+        "topic": "Hangers - CPVC",
+        "question": "What is the maximum distance between hangers on 1\" CPVC?",
+        "answer": "6 feet",
+        "distractors": [
+            "5 ft 6 in",
+            "7 feet",
+            "8 feet"
+        ],
+        "citation": "NFPA 13 (2016), Table 9.2.2.1(c)",
+        "code_text": "1 in. CPVC: 6 ft."
+    },
+    {
+        "id": 3900128,
+        "category": "NFPA 13 - Installation",
+        "topic": "Trapeze Hangers",
+        "question": "What is the minimum size pipe allowed for a trapeze member spanning 5 feet or less?",
+        "answer": "1 inch",
+        "distractors": [
+            "\u00be inch",
+            "1\u00bc inch",
+            "\u00bd inch"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.1.1.7",
+        "code_text": "Trapeze members... 1 in. nominal or larger."
+    },
+    {
+        "id": 3900129,
+        "category": "NFPA 13 - Installation",
+        "topic": "Obstructions",
+        "question": "How large must a ceiling fan be to be considered an obstruction requiring a sprinkler above/below?",
+        "answer": "60 inches diameter",
+        "distractors": [
+            "48 inches",
+            "36 inches",
+            "72 inches"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.5.5.3",
+        "code_text": "HVLS fans... greater than 60 in. in diameter."
+    },
+    {
+        "id": 3900130,
+        "category": "NFPA 13 - Installation",
+        "topic": "Obstructions",
+        "question": "Standard sprinklers must be located at least how far from a continuous obstruction (like a beam) to avoid 'skipping'?",
+        "answer": "3 times the depth of the obstruction",
+        "distractors": [
+            "2 times the depth",
+            "4 times the depth",
+            "18 inches"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.6.5.1.2",
+        "code_text": "Beam rule: Horizontal distance... not less than three times the vertical distance."
+    },
+    {
+        "id": 3900131,
+        "category": "NFPA 13 - Installation",
+        "topic": "Obstructions",
+        "question": "What is the maximum distance a sprinkler deflector can be located above the bottom of a solid obstruction (Beam Rule)?",
+        "answer": "Zero (Maximum distance is defined by distance away)",
+        "distractors": [
+            "4 inches",
+            "6 inches",
+            "12 inches"
+        ],
+        "citation": "NFPA 13 (2016), Figure 8.6.5.1.2(a)",
+        "code_text": "The 'Beam Rule' defines max distance above bottom of beam based on horizontal distance away."
+    },
+    {
+        "id": 3900132,
+        "category": "NFPA 13 - Installation",
+        "topic": "System Components",
+        "question": "When are return bends required for pendant sprinklers?",
+        "answer": "In dry systems or systems with raw water",
+        "distractors": [
+            "In all wet systems",
+            "In light hazard systems",
+            "When pressure exceeds 100 psi"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.15.18.2",
+        "code_text": "Installed on return bends where... raw water source... or Dry systems."
+    },
+    {
+        "id": 3900133,
+        "category": "NFPA 13 - Installation",
+        "topic": "Seismic",
+        "question": "In a seismic zone, what is the maximum clearance allowed around a pipe penetrating a wall (without a flexible coupling)?",
+        "answer": "Large enough to avoid contact (1-2 inches depending on size)",
+        "distractors": [
+            "Seal tight with caulk",
+            "No clearance needed",
+            "6 inches"
+        ],
+        "citation": "NFPA 13 (2016), Section 9.3.4",
+        "code_text": "1 in. clearance for pipe 1in-3.5in; 2 in. clearance for pipe 4in+."
+    },
+    {
+        "id": 3900134,
+        "category": "NFPA 13 - Installation",
+        "topic": "Dry Systems",
+        "question": "A quick-opening device (QOD) is required on a dry system when the capacity exceeds?",
+        "answer": "500 gallons",
+        "distractors": [
+            "750 gallons",
+            "300 gallons",
+            "1000 gallons"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.2.3.4",
+        "code_text": "A quick-opening device shall be provided for dry pipe systems having a capacity of more than 500 gal."
+    },
+    {
+        "id": 3900135,
+        "category": "NFPA 13 - Installation",
+        "topic": "System Types",
+        "question": "Which system requires a supplemental detection system to activate?",
+        "answer": "Preaction",
+        "distractors": [
+            "Dry Pipe",
+            "Wet Pipe",
+            "Antifreeze"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.3.2.1",
+        "code_text": "The preaction valve shall be actuated by... a supplemental fire detection system."
+    },
+    {
+        "id": 3900136,
+        "category": "NFPA 13 - Installation",
+        "topic": "Antifreeze",
+        "question": "What is the maximum capacity of an antifreeze system piping loop?",
+        "answer": "40 gallons",
+        "distractors": [
+            "50 gallons",
+            "100 gallons",
+            "20 gallons"
+        ],
+        "citation": "NFPA 13 (2016), Section 7.6.2.3",
+        "code_text": "Capacity... shall not exceed 40 gal."
+    },
+    {
+        "id": 3900137,
+        "category": "NFPA 13 - Installation",
+        "topic": "Valves",
+        "question": "Post Indicator Valves (PIV) must be set so the top of the post is how high above grade?",
+        "answer": "32 to 40 inches",
+        "distractors": [
+            "24 to 36 inches",
+            "36 to 48 inches",
+            "18 to 24 inches"
+        ],
+        "citation": "NFPA 24 (2016), Section 6.3.3",
+        "code_text": "32 in. to 40 in. above final grade."
+    },
+    {
+        "id": 3900138,
+        "category": "NFPA 13 - Installation",
+        "topic": "Safety/Signs",
+        "question": "What is the minimum letter height for hydraulic design information signs?",
+        "answer": "\u00bc inch (Title: 1 inch)",
+        "distractors": [
+            "\u00bd inch",
+            "1 inch",
+            "1/8 inch"
+        ],
+        "citation": "NFPA 13 (2016), Section 25.5.2",
+        "code_text": "Data on the sign... shall be a minimum of 1/4 in. high."
+    },
+    {
+        "id": 4004001,
+        "category": "Jobsite Logic",
+        "topic": "Fittings",
+        "question": "You're putting a nipple in a tight spot. How many threads should you be seeing if you actually tightened it, or are you just hand-tightening it like a prom date?",
+        "answer": "Approximately 3 threads exposed (Standard makeup)",
+        "distractors": [
+            "No threads, bury it to the hilt",
+            "Half the threads, good enough for Friday",
+            "Just one thread, I'm weak"
+        ],
+        "citation": "Trade Practice",
+        "code_text": "Proper thread engagement usually leaves ~3 threads exposed. Don't strip it."
+    },
+    {
+        "id": 4004002,
+        "category": "Jobsite Logic",
+        "topic": "Valves",
+        "question": "What is the 'Ball Drip' actually for? (And no, it's not for what you think it is).",
+        "answer": "Draining the FDC so it doesn't freeze and crack",
+        "distractors": [
+            "Lubricating the ball bearings",
+            "Letting the air out of the system",
+            "It's just a fancy name for a check valve"
+        ],
+        "citation": "NFPA 13 (2016), Section 8.17.2.6",
+        "code_text": "Automatic drip valve... to drain the piping."
+    },
+    {
+        "id": 4004003,
+        "category": "Jobsite Logic",
+        "topic": "Lubrication",
+        "question": "When you're mating a gasket, what do you use? Don't say spit.",
+        "answer": "A listed lubricant compatible with the gasket",
+        "distractors": [
+            "Spit and a prayer",
+            "Grease from the truck axle",
+            "Pipe Dope"
+        ],
+        "citation": "Manufacturer Instructions",
+        "code_text": "Use only lubricant supplied by the manufacturer."
+    },
+    {
+        "id": 4004004,
+        "category": "Jobsite Logic",
+        "topic": "Slang",
+        "question": "The foreman tells you to grab a 'Widow Maker.' What is he asking for?",
+        "answer": "An extension ladder (or sometimes a specific dangerous electrical disconnect)",
+        "distractors": [
+            "A pipe wrench with a cheater bar",
+            "The biggest hammer in the truck",
+            "A 220v cord with bare ends"
+        ],
+        "citation": "Jobsite Slang",
+        "code_text": "Slang varies, but usually refers to tools that kill you if you respect them least."
+    },
+    {
+        "id": 4004005,
+        "category": "Jobsite Logic",
+        "topic": "Pipe Prep",
+        "question": "You just cut a piece of threaded pipe. If you don't ream the inside, what are you?",
+        "answer": "A turbulent flow creator (and a lazy fitter)",
+        "distractors": [
+            "Efficient",
+            "Saving time",
+            "Ready for the weekend"
+        ],
+        "citation": "NFPA 13 (2016), Section 6.5.1.3",
+        "code_text": "Pipe ends shall be reamed or burrs removed."
+    },
+    {
+        "id": 4100216,
+        "category": "NFPA 25 - ITM",
+        "topic": "Gauges",
+        "question": "How often should gauges be replaced or tested against a calibrated gauge?",
+        "answer": "Every 5 years",
+        "distractors": [
+            "Annually",
+            "Every 3 years",
+            "Every 10 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.3.2",
+        "code_text": "Gauges shall be replaced every 5 years or tested."
+    },
+    {
+        "id": 4100217,
+        "category": "NFPA 25 - ITM",
+        "topic": "Sprinklers",
+        "question": "How often must standard response sprinklers be tested or replaced (after initial service)?",
+        "answer": "50 years",
+        "distractors": [
+            "20 years",
+            "75 years",
+            "10 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.3.1.1.1",
+        "code_text": "Sprinklers... shall be replaced or representative samples tested... at 50 years."
+    },
+    {
+        "id": 4100218,
+        "category": "NFPA 25 - ITM",
+        "topic": "Sprinklers",
+        "question": "How often are Quick Response sprinklers tested (after initial 20 years)?",
+        "answer": "Every 10 years",
+        "distractors": [
+            "Every 5 years",
+            "Every 20 years",
+            "Every 50 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.3.1.1.1.3",
+        "code_text": "Tested at 10-year intervals."
+    },
+    {
+        "id": 4100219,
+        "category": "NFPA 25 - ITM",
+        "topic": "Sprinklers",
+        "question": "Dry sprinklers must be tested or replaced after how many years?",
+        "answer": "10 years",
+        "distractors": [
+            "20 years",
+            "5 years",
+            "50 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 5.3.1.1.1.6",
+        "code_text": "Dry sprinklers... tested or replaced after 10 years."
+    },
+    {
+        "id": 4100220,
+        "category": "NFPA 25 - ITM",
+        "topic": "Valves",
+        "question": "How often must you operate and clean a Dry Pipe Valve?",
+        "answer": "Annually",
+        "distractors": [
+            "Quarterly",
+            "Every 3 years",
+            "Semi-Annually"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.4.4.2",
+        "code_text": "Each dry pipe valve shall be trip tested annually."
+    },
+    {
+        "id": 4100221,
+        "category": "NFPA 25 - ITM",
+        "topic": "Valves",
+        "question": "How often is a full flow trip test required for a Dry Pipe Valve?",
+        "answer": "Every 3 years",
+        "distractors": [
+            "Annually",
+            "Every 5 years",
+            "Every 10 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.4.4.2.2",
+        "code_text": "A full flow trip test... shall be conducted at least once every 3 years."
+    },
+    {
+        "id": 4100222,
+        "category": "NFPA 25 - ITM",
+        "topic": "Internal Pipe Inspection",
+        "question": "How often is an internal assessment of piping required (for obstruction)?",
+        "answer": "Every 5 years",
+        "distractors": [
+            "Every 3 years",
+            "Annually",
+            "Every 10 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 14.2.1",
+        "code_text": "Assessment of the internal condition... shall be conducted... every 5 years."
+    },
+    {
+        "id": 4100223,
+        "category": "NFPA 25 - ITM",
+        "topic": "FDC",
+        "question": "How often is the interior of the FDC piping inspected (hydrostatic test)?",
+        "answer": "Every 5 years",
+        "distractors": [
+            "Quarterly",
+            "Annually",
+            "Every 3 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.7.4",
+        "code_text": "Piping... shall be hydrostatically tested at 150 psi... every 5 years."
+    },
+    {
+        "id": 4100224,
+        "category": "NFPA 25 - ITM",
+        "topic": "Backflow",
+        "question": "How often must a backflow preventer be forward flow tested?",
+        "answer": "Annually",
+        "distractors": [
+            "Quarterly",
+            "Every 5 years",
+            "Every 3 years"
+        ],
+        "citation": "NFPA 25 (2011), Section 13.6.2",
+        "code_text": "All backflow preventers... shall be tested annually... under forward flow conditions."
+    },
+    {
+        "id": 4100225,
         "category": "NFPA 25 - ITM",
         "topic": "Antifreeze",
         "question": "How often must antifreeze solution be tested?",
@@ -3543,7 +4478,7 @@ const questions = [
         "code_text": "Antifreeze solutions shall be tested annually."
     },
     {
-        "id": 226,
+        "id": 4100226,
         "category": "NFPA 25 - ITM",
         "topic": "Alarms",
         "question": "How often are Vane-type (paddle) waterflow switches tested?",
@@ -3557,7 +4492,7 @@ const questions = [
         "code_text": "Vane-type and pressure switch-type... shall be tested semiannually."
     },
     {
-        "id": 227,
+        "id": 4100227,
         "category": "NFPA 25 - ITM",
         "topic": "Alarms",
         "question": "How often are Mechanical waterflow alarms (gongs) tested?",
@@ -3571,7 +4506,7 @@ const questions = [
         "code_text": "Mechanical waterflow... devices shall be tested quarterly."
     },
     {
-        "id": 228,
+        "id": 4100228,
         "category": "MN Rules - Licensing",
         "topic": "Apprentices",
         "is_mn_amendment": true,
@@ -3586,7 +4521,7 @@ const questions = [
         "code_text": "Registrations... expire on June 30 of each year."
     },
     {
-        "id": 229,
+        "id": 4100229,
         "category": "MN Rules - Licensing",
         "topic": "Ratios",
         "is_mn_amendment": true,
@@ -3601,7 +4536,7 @@ const questions = [
         "code_text": "Direct supervision required."
     },
     {
-        "id": 230,
+        "id": 4100230,
         "category": "NFPA 25 - ITM",
         "topic": "Valves",
         "question": "How often should control valves be operated through their full range of motion?",
@@ -3615,7 +4550,7 @@ const questions = [
         "code_text": "Each control valve shall be operated annually through its full range."
     },
     {
-        "id": 139,
+        "id": 4200139,
         "category": "NFPA 13 - Installation",
         "topic": "Calculations",
         "question": "How much weight does water add to 4\" schedule 40 pipe (approx per foot)?",
@@ -3629,7 +4564,7 @@ const questions = [
         "code_text": "Standard calculation: 4-inch pipe holds approx 0.66 gallons per foot x 8.34 lbs/gal."
     },
     {
-        "id": 140,
+        "id": 4200140,
         "category": "NFPA 13 - Installation",
         "topic": "Spare Heads",
         "question": "Where must the list of spare sprinklers be stored?",
@@ -3643,7 +4578,7 @@ const questions = [
         "code_text": "A list of the sprinklers installed... shall be posted in the sprinkler cabinet."
     },
     {
-        "id": 141,
+        "id": 4200141,
         "category": "NFPA 13 - Installation",
         "topic": "System Components",
         "question": "Are heat collectors (plates to catch heat) allowed to be used to lower the sprinkler activation time?",
@@ -3657,7 +4592,7 @@ const questions = [
         "code_text": "Heat collectors... shall not be used."
     },
     {
-        "id": 142,
+        "id": 4200142,
         "category": "NFPA 13 - Installation",
         "topic": "Flexible Drops",
         "question": "What is the maximum length of a flexible sprinkler hose fitting (drop) before it must be supported?",
@@ -3671,10 +4606,10 @@ const questions = [
         "code_text": "Flexible hose... shall not exceed 6 ft in length."
     },
     {
-        "id": 143,
+        "id": 4200143,
         "category": "NFPA 13 - Installation",
         "topic": "Valves",
-        "question": "Where must the Inspector\u0027s Test Connection be located on a wet system?",
+        "question": "Where must the Inspector's Test Connection be located on a wet system?",
         "answer": "At the most remote point (or where it tests the flow switch)",
         "distractors": [
             "At the riser",
@@ -3685,10 +4620,10 @@ const questions = [
         "code_text": "The test connection shall be arranged to test the waterflow alarm."
     },
     {
-        "id": 144,
+        "id": 4200144,
         "category": "NFPA 13 - Installation",
         "topic": "Valves",
-        "question": "Where must the Inspector\u0027s Test Connection be located on a dry system?",
+        "question": "Where must the Inspector's Test Connection be located on a dry system?",
         "answer": "At the most remote point of the system",
         "distractors": [
             "At the riser",
@@ -3699,10 +4634,10 @@ const questions = [
         "code_text": "On dry pipe systems... the test connection shall be located at the most remote point of the most remote branch line."
     },
     {
-        "id": 145,
+        "id": 4200145,
         "category": "NFPA 13 - Installation",
         "topic": "Pressure",
-        "question": "If a system\u0027s working pressure is 200 psi, what pressure must it be hydrostatically tested at?",
+        "question": "If a system's working pressure is 200 psi, what pressure must it be hydrostatically tested at?",
         "answer": "250 psi",
         "distractors": [
             "200 psi",
@@ -3713,21 +4648,21 @@ const questions = [
         "code_text": "Tested at... 50 psi in excess of the normal working pressure."
     },
     {
-        "id": 146,
+        "id": 4200146,
         "category": "NFPA 13 - Installation",
         "topic": "Drains",
         "question": "How do you size the main drain for a 3\" riser?",
-        "answer": "1¼ inch",
+        "answer": "1\u00bc inch",
         "distractors": [
-            "¾ inch",
+            "\u00be inch",
             "2 inch",
             "1 inch"
         ],
         "citation": "NFPA 13 (2016), Table 16.10.4.2",
-        "code_text": "2-1/2 to 3-1/2 in riser -\u003e 1-1/4 in drain."
+        "code_text": "2-1/2 to 3-1/2 in riser -> 1-1/4 in drain."
     },
     {
-        "id": 147,
+        "id": 4200147,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
         "question": "What is the minimum clearance between a hanger and an upright sprinkler?",
@@ -3741,7 +4676,7 @@ const questions = [
         "code_text": "Minimum distance... shall be 3 in."
     },
     {
-        "id": 148,
+        "id": 4200148,
         "category": "NFPA 13 - Installation",
         "topic": "Components",
         "question": "What is the typical water-to-air ratio of a differential dry pipe valve?",
@@ -3755,10 +4690,10 @@ const questions = [
         "code_text": "Differential valves typically operate on a 5:1 or 6:1 ratio (Air pressure is lower than water pressure)."
     },
     {
-        "id": 149,
+        "id": 4200149,
         "category": "NFPA 13 - Installation",
         "topic": "Obstructions",
-        "question": "If a sprinkler is installed less than 1 foot from a heat source (unit heater), what temperature rating is required ? ",
+        "question": "If a sprinkler is installed less than 1 foot from a heat source (unit heater), what temperature rating is required?",
         "answer": "High Temperature",
         "distractors": [
             "Intermediate",
@@ -3766,13 +4701,13 @@ const questions = [
             "Extra High"
         ],
         "citation": "NFPA 13 (2016), Table 8.3.2.5(c)",
-        "code_text": "Unit heater... 7 ft or less -\u003e High Temp."
+        "code_text": "Unit heater... 7 ft or less -> High Temp."
     },
     {
-        "id": 150,
+        "id": 4200150,
         "category": "NFPA 22 - Tanks",
         "topic": "Components",
-        "question": "What is the name of the plate installed at the bottom of a suction tank to prevent air from entering the pump ? ",
+        "question": "What is the name of the plate installed at the bottom of a suction tank to prevent air from entering the pump?",
         "answer": "Anti-vortex plate",
         "distractors": [
             "Deflector plate",
@@ -3783,8 +4718,8 @@ const questions = [
         "code_text": "Anti-vortex plate assembly... located at a distance above the bottom of the tank."
     },
     {
-        "id": 401,
-        "category": "MN Statutes \u0026 Rules",
+        "id": 4300401,
+        "category": "MN Statutes & Rules",
         "topic": "Licensing",
         "is_mn_amendment": true,
         "question": "Can a Journeyman Sprinkler Fitter contract for work directly with a building owner?",
@@ -3798,11 +4733,11 @@ const questions = [
         "code_text": "Only a licensed Fire Protection Contractor may contract to perform work."
     },
     {
-        "id": 402,
-        "category": "MN Statutes \u0026 Rules",
+        "id": 4300402,
+        "category": "MN Statutes & Rules",
         "topic": "Licensing",
         "is_mn_amendment": true,
-        "question": "Where must the Contractor\u0027s license number be displayed?",
+        "question": "Where must the Contractor's license number be displayed?",
         "answer": "On all vehicles, signage, and advertising",
         "distractors": [
             "Only in the office",
@@ -3813,7 +4748,7 @@ const questions = [
         "code_text": "Displayed on all vehicles... and all proposals/contracts."
     },
     {
-        "id": 403,
+        "id": 4300403,
         "category": "OSHA / Safety",
         "topic": "Personal Protective Equipment",
         "question": "When is hearing protection required by OSHA?",
@@ -3827,7 +4762,7 @@ const questions = [
         "code_text": "Action level of 85 dB."
     },
     {
-        "id": 404,
+        "id": 4300404,
         "category": "OSHA / Safety",
         "topic": "Ladders",
         "question": "What is the proper ratio for leaning an extension ladder against a wall?",
@@ -3841,7 +4776,7 @@ const questions = [
         "code_text": "Angle of inclination... one-quarter of the working length."
     },
     {
-        "id": 405,
+        "id": 4300405,
         "category": "OSHA / Safety",
         "topic": "Fall Protection",
         "question": "At what height is fall protection generally required in construction?",
@@ -3855,7 +4790,7 @@ const questions = [
         "code_text": "Walking/working surfaces 6 feet or more above a lower level."
     },
     {
-        "id": 406,
+        "id": 4300406,
         "category": "NFPA 13 - Installation",
         "topic": "Signage",
         "question": "Where must the hydraulic design information sign be placed?",
@@ -3869,7 +4804,7 @@ const questions = [
         "code_text": "Permanently marked... secured to the system riser."
     },
     {
-        "id": 407,
+        "id": 4300407,
         "category": "NFPA 13 - Installation",
         "topic": "Piping",
         "question": "When joining pipe with threaded unions, what is the maximum pipe size allowed?",
@@ -3883,7 +4818,7 @@ const questions = [
         "code_text": "Unions... shall not be used on pipe 2 in. or larger."
     },
     {
-        "id": 408,
+        "id": 4300408,
         "category": "NFPA 25 - ITM",
         "topic": "Obstruction Investigation",
         "question": "If rust or scale is found during an internal inspection, what is the next required step?",
@@ -3897,7 +4832,7 @@ const questions = [
         "code_text": "If foreign material... is found... an obstruction investigation shall be conducted."
     },
     {
-        "id": 409,
+        "id": 4300409,
         "category": "NFPA 13 - Installation",
         "topic": "Protection",
         "question": "What must be installed on sprinklers subject to mechanical injury (e.g., low gym ceilings)?",
@@ -3911,7 +4846,7 @@ const questions = [
         "code_text": "Sprinklers... shall be protected with listed guards."
     },
     {
-        "id": 410,
+        "id": 4300410,
         "category": "NFPA 13 - Installation",
         "topic": "Expansion",
         "question": "How much clearance is required around a pipe penetrating a platform/floor (non-seismic)?",
@@ -3925,7 +4860,7 @@ const questions = [
         "code_text": "Clearance is primarily mandated for Seismic zones. In non-seismic, sleeves are required but specific gaps are less defined."
     },
     {
-        "id": 411,
+        "id": 4300411,
         "category": "NFPA 13 - Installation",
         "topic": "Seismic",
         "question": "What is the maximum distance from the end of the pipe to the last lateral sway brace?",
@@ -3939,7 +4874,7 @@ const questions = [
         "code_text": "The distance between the last brace... and the end of the pipe shall not exceed 6 ft."
     },
     {
-        "id": 412,
+        "id": 4300412,
         "category": "MN Rules - Licensing",
         "topic": "Fees",
         "is_mn_amendment": true,
@@ -3953,7 +4888,7 @@ const questions = [
         "code_text": "Licenses are non-transferable."
     },
     {
-        "id": 501,
+        "id": 4400501,
         "category": "Hydraulics / Math",
         "topic": "C-Factors",
         "question": "What is the Hazen-Williams C-Factor for new Schedule 40 Steel Pipe (Wet System)?",
@@ -3967,7 +4902,7 @@ const questions = [
         "code_text": "Steel (new) = 120."
     },
     {
-        "id": 502,
+        "id": 4400502,
         "category": "Hydraulics / Math",
         "topic": "C-Factors",
         "question": "What is the Hazen-Williams C-Factor for Dry or Preaction Steel Pipe?",
@@ -3981,7 +4916,7 @@ const questions = [
         "code_text": "Steel (dry/preaction) = 100. (Lower because corrosion increases friction)."
     },
     {
-        "id": 503,
+        "id": 4400503,
         "category": "Hydraulics / Math",
         "topic": "C-Factors",
         "question": "What is the Hazen-Williams C-Factor for CPVC or Copper tube?",
@@ -3995,10 +4930,10 @@ const questions = [
         "code_text": "Copper / Plastic = 150."
     },
     {
-        "id": 504,
+        "id": 4400504,
         "category": "Hydraulics / Math",
         "topic": "Friction Loss",
-        "question": "When calculating friction loss, a fitting (like an elbow) is converted into feet of pipe. What is this called ? ",
+        "question": "When calculating friction loss, a fitting (like an elbow) is converted into feet of pipe. What is this called?",
         "answer": "Equivalent Length",
         "distractors": [
             "Hydraulic Length",
@@ -4009,7 +4944,7 @@ const questions = [
         "code_text": "Friction loss... shall be calculated using the equivalent length."
     },
     {
-        "id": 505,
+        "id": 4400505,
         "category": "Hydraulics / Math",
         "topic": "Pressure",
         "question": "What is the pressure of a column of water 1 foot high (Head pressure)?",
@@ -4023,7 +4958,7 @@ const questions = [
         "code_text": "1 ft of head = 0.433 psi."
     },
     {
-        "id": 506,
+        "id": 4400506,
         "category": "Hydraulics / Math",
         "topic": "Pressure",
         "question": "How many feet of water column (Head) equal 1 psi?",
@@ -4037,10 +4972,10 @@ const questions = [
         "code_text": "1 psi = 2.31 ft of head."
     },
     {
-        "id": 507,
+        "id": 4400507,
         "category": "Hydraulics / Math",
         "topic": "Calculations",
-        "question": "If a gauge at the bottom of a 100-foot riser reads 50 psi, and the gauge at the top reads 6.7 psi, is this normal ? (Static pressure) ",
+        "question": "If a gauge at the bottom of a 100-foot riser reads 50 psi, and the gauge at the top reads 6.7 psi, is this normal? (Static pressure)",
         "answer": "Yes (100 ft / 2.31 = 43.3 psi loss due to elevation)",
         "distractors": [
             "No, the gauge is broken",
@@ -4050,7 +4985,7 @@ const questions = [
         "code_text": "Elevation loss: 0.433 psi per foot of elevation."
     },
     {
-        "id": 508,
+        "id": 4400508,
         "category": "Hydraulics / Math",
         "topic": "Calculations",
         "question": "What happens to friction loss if you double the flow (GPM) through the same size pipe?",
@@ -4064,7 +4999,7 @@ const questions = [
         "code_text": "Friction loss is proportional to the square of the flow rate (conceptually)."
     },
     {
-        "id": 509,
+        "id": 4400509,
         "category": "NFPA 13 - Installation",
         "topic": "Hydraulic Signs",
         "question": "Which of the following is NOT required on a hydraulic information sign?",
@@ -4078,7 +5013,7 @@ const questions = [
         "code_text": "Required: Location, Density, Area, Hose Allowance, Supply data."
     },
     {
-        "id": 510,
+        "id": 4400510,
         "category": "NFPA 20 - Pumps",
         "topic": "Sizing",
         "question": "A fire pump must be able to provide 150% of rated flow at what percent of rated pressure?",
@@ -4092,7 +5027,7 @@ const questions = [
         "code_text": "No less than 65 percent of total rated head at 150 percent of rated flow."
     },
     {
-        "id": 601,
+        "id": 4500601,
         "category": "Definitions",
         "topic": "Valves",
         "question": "What is a valve that has components that show if the valve is open or closed?",
@@ -4103,10 +5038,10 @@ const questions = [
             "Relief Valve"
         ],
         "citation": "NFPA 13 (2016), Section 3.6.4 (Definitions)",
-        "code_text": "A valve that has components that show... the open or closed position (e.g., OS\u0026Y, Butterfly)."
+        "code_text": "A valve that has components that show... the open or closed position (e.g., OS&Y, Butterfly)."
     },
     {
-        "id": 602,
+        "id": 4500602,
         "category": "Definitions",
         "topic": "Heads",
         "question": "What is a sprinkler where the frame arms are mounted above the deflector called?",
@@ -4120,7 +5055,7 @@ const questions = [
         "code_text": "Pendent: A sprinkler designed to be installed... so that the water stream is directed downward."
     },
     {
-        "id": 603,
+        "id": 4500603,
         "category": "Definitions",
         "topic": "Heads",
         "question": "What is a sprinkler designed to be installed on the wall and discharge water horizontally?",
@@ -4134,7 +5069,7 @@ const questions = [
         "code_text": "Sidewall: A sprinkler having special deflectors... to discharge... outward from the wall."
     },
     {
-        "id": 604,
+        "id": 4500604,
         "category": "NFPA 13 - Installation",
         "topic": "Positioning",
         "question": "How far can a sprinkler deflector be located down from the peak of a pitched roof?",
@@ -4148,7 +5083,7 @@ const questions = [
         "code_text": "Not more than 3 ft vertically down from the peak."
     },
     {
-        "id": 605,
+        "id": 4500605,
         "category": "NFPA 25 - ITM",
         "topic": "Impairments",
         "question": "If a system is out of service for more than how many hours must the Fire Department be notified?",
@@ -4159,10 +5094,10 @@ const questions = [
             "48 hours"
         ],
         "citation": "NFPA 25 (2011), Section 15.5.2",
-        "code_text": "Where a... system is out of service for more than 10 hours (NOTE: MN Fire Code often amends this to 8 or 4 hours depending on local AHJ, stick to standard or MN amendment if listed).Standard 2011 NFPA 25 says 10 hours, MN FC 901.7 says \u0027Where required\u0027."
+        "code_text": "Where a... system is out of service for more than 10 hours (NOTE: MN Fire Code often amends this to 8 or 4 hours depending on local AHJ, stick to standard or MN amendment if listed). Standard 2011 NFPA 25 says 10 hours, MN FC 901.7 says 'Where required'."
     },
     {
-        "id": 606,
+        "id": 4500606,
         "category": "NFPA 13 - Installation",
         "topic": "Testing",
         "question": "During a hydrostatic test, if the weather is freezing, can air be used?",
@@ -4176,10 +5111,10 @@ const questions = [
         "code_text": "Interim air test... permitted... 40 psi."
     },
     {
-        "id": 607,
+        "id": 4500607,
         "category": "NFPA 13 - Installation",
         "topic": "Piping",
-        "question": "When can you use \u0027bushings\u0027 to change pipe size?",
+        "question": "When can you use 'bushings' to change pipe size?",
         "answer": "Only when standard fittings are not available (and never face-to-face)",
         "distractors": [
             "Always",
@@ -4190,7 +5125,7 @@ const questions = [
         "code_text": "Bushings shall not be used... exceptions exist but are restrictive."
     },
     {
-        "id": 608,
+        "id": 4500608,
         "category": "NFPA 13 - Installation",
         "topic": "Heads",
         "question": "What happens if you paint a sprinkler head?",
@@ -4204,7 +5139,7 @@ const questions = [
         "code_text": "Sprinklers... painted... shall be replaced."
     },
     {
-        "id": 609,
+        "id": 4500609,
         "category": "NFPA 13 - Installation",
         "topic": "Obstructions",
         "question": "If installing sprinklers under a garage door in the open position, what type of sprinkler is often used?",
@@ -4218,7 +5153,7 @@ const questions = [
         "code_text": "Garage doors... sprinklers shall be permitted to be located under."
     },
     {
-        "id": 610,
+        "id": 4500610,
         "category": "NFPA 25 - ITM",
         "topic": "Signage",
         "question": "How often is the hydraulic design information sign inspected?",
@@ -4232,7 +5167,7 @@ const questions = [
         "code_text": "Hydraulic nameplate... shall be inspected annually."
     },
     {
-        "id": 611,
+        "id": 4500611,
         "category": "NFPA 13 - Installation",
         "topic": "Drains",
         "question": "Where do all sprinkler system drains discharge to?",
@@ -4246,7 +5181,7 @@ const questions = [
         "code_text": "Discharge... to outside or to a drain connection."
     },
     {
-        "id": 1,
+        "id": 4600001,
         "category": "NFPA 25 - Inspection, Testing, Maintenance",
         "topic": "Frequencies",
         "is_mn_amendment": false,
@@ -4263,7 +5198,7 @@ const questions = [
         "mnemonic": "Hydrants are outside; check them once a year before winter."
     },
     {
-        "id": 2,
+        "id": 4600002,
         "category": "NFPA 13R - Residential",
         "topic": "Scope",
         "is_mn_amendment": false,
@@ -4279,9 +5214,9 @@ const questions = [
         "code_text": "This standard shall cover... residential occupancies up to and including four stories in height."
     },
     {
-        "id": 3,
+        "id": 4600003,
         "category": "NFPA 13 - Installation",
-        "topic": "Spacing \u0026 Layout",
+        "topic": "Spacing & Layout",
         "is_mn_amendment": false,
         "difficulty": "Medium",
         "question": "What is the coverage area for Ordinary Hazard heads (Standard Spray)?",
@@ -4295,9 +5230,9 @@ const questions = [
         "code_text": "[Table 8.6.2.2.1(b)] Ordinary Hazard... Protection Area: 130 ft2."
     },
     {
-        "id": 4,
+        "id": 4600004,
         "category": "NFPA 13 - Installation",
-        "topic": "Spacing \u0026 Layout",
+        "topic": "Spacing & Layout",
         "is_mn_amendment": false,
         "difficulty": "Medium",
         "question": "What is the coverage area for Light Hazard heads (Standard Spray)?",
@@ -4311,12 +5246,12 @@ const questions = [
         "code_text": "[Table 8.6.2.2.1(a)] Light Hazard... Protection Area: 225 ft2."
     },
     {
-        "id": 5,
+        "id": 4600005,
         "category": "NFPA 13 - Installation",
         "topic": "Calculations",
         "is_mn_amendment": false,
         "difficulty": "Hard",
-        "question": "In Ordinary Hazard, if heads are 12'6\" apart along the branch line, what is the max distance between lines ? ",
+        "question": "In Ordinary Hazard, if heads are 12\u20196\" apart along the branch line, what is the max distance between lines?",
         "answer": "10.4 feet",
         "math_logic": "Max Area (130) / Actual Spacing (12.5) = 10.4 ft",
         "distractors": [
@@ -4328,12 +5263,12 @@ const questions = [
         "code_text": "S x L = Area. 130 sq ft max."
     },
     {
-        "id": 6,
+        "id": 4600006,
         "category": "NFPA 13 - Installation",
         "topic": "Components",
         "is_mn_amendment": false,
         "difficulty": "Medium",
-        "question": "What are the GLASS BULB colors for Extra High temperature rating (325-375°F)?",
+        "question": "What are the GLASS BULB colors for Extra High temperature rating (325-375\u00b0F)?",
         "answer": "Purple",
         "distractors": [
             "Red",
@@ -4341,11 +5276,11 @@ const questions = [
             "Black"
         ],
         "citation": "NFPA 13 (2016 Edition), Table 6.2.5.1",
-        "code_text": "325-375°F: Purple",
+        "code_text": "325\u2013375\u00b0F: Purple",
         "mnemonic": "Purple is extra hot (like Ultraviolet)."
     },
     {
-        "id": 7,
+        "id": 4600007,
         "category": "NFPA 13 - Installation",
         "topic": "Components",
         "is_mn_amendment": false,
@@ -4358,12 +5293,12 @@ const questions = [
             "Blue"
         ],
         "citation": "NFPA 13 (2016 Edition), Table 6.2.5.1",
-        "code_text": "Extra High (325-375°F) ...Color Code: Purple(Glass Bulb) / Red(Frame Arms).",
+        "code_text": "Extra High (325\u2013375\u00b0F)... Color Code: Purple (Glass Bulb) / Red (Frame Arms).",
         "mnemonic": "Frame arms are painted Red for danger/hot."
     },
     {
-        "id": 8,
-        "category": "MN Statutes \u0026 Rules",
+        "id": 4600008,
+        "category": "MN Statutes & Rules",
         "topic": "Code Enforcement",
         "is_mn_amendment": true,
         "difficulty": "Medium",
@@ -4376,7 +5311,7 @@ const questions = [
         "code_text": "MN deletes Exception 1 for limited area systems. All valves must be supervised."
     },
     {
-        "id": 9,
+        "id": 4600009,
         "category": "NFPA 25 - Inspection, Testing, Maintenance",
         "topic": "Frequencies",
         "is_mn_amendment": false,
@@ -4389,18 +5324,18 @@ const questions = [
             "Quarterly"
         ],
         "citation": "NFPA 25 (2011 Edition), Section 9.2.6",
-        "code_text": "The interior of pressure tanks shall be inspected every 3 years... [or] 5 years where... corrosion protection[is used]."
+        "code_text": "The interior of pressure tanks shall be inspected every 3 years... [or] 5 years where... corrosion protection [is used]."
     },
     {
-        "id": 10,
+        "id": 4600010,
         "category": "NFPA 14 - Standpipes",
         "topic": "System Design",
         "is_mn_amendment": false,
         "difficulty": "Medium",
-        "question": "What pipe sizes can feed 1½\" hose lines for runs over 80 feet?",
-        "answer": "1½\"",
+        "question": "What pipe sizes can feed 1\u00bd\" hose lines for runs over 80 feet?",
+        "answer": "1\u00bd\"",
         "distractors": [
-            "1¼\"",
+            "1\u00bc\"",
             "1\"",
             "2\""
         ],
@@ -4408,12 +5343,12 @@ const questions = [
         "code_text": "Runs over 80 ft: 1-1/2 inch pipe."
     },
     {
-        "id": 11,
+        "id": 4600011,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
         "is_mn_amendment": false,
         "difficulty": "Hard",
-        "question": "What is the maximum unsupported length of pipe from the end of a 1¼\" pipe to the last hanger?",
+        "question": "What is the maximum unsupported length of pipe from the end of a 1\u00bc\" pipe to the last hanger?",
         "answer": "48 inches (4 feet)",
         "distractors": [
             "36 inches",
@@ -4424,7 +5359,7 @@ const questions = [
         "code_text": "1-1/4 in: 48 inches."
     },
     {
-        "id": 12,
+        "id": 4600012,
         "category": "NFPA 13D - Residential",
         "topic": "Water Supply",
         "is_mn_amendment": false,
@@ -4440,12 +5375,12 @@ const questions = [
         "code_text": "Water demand rate times 10 minutes."
     },
     {
-        "id": 13,
+        "id": 4600013,
         "category": "NFPA 13 - Installation",
         "topic": "System Components",
         "is_mn_amendment": false,
         "difficulty": "Hard",
-        "question": "Why must a check valve with a 3/32\" hole in the Clapper be installed in the riser below the test valve in freezer spaces ? ",
+        "question": "Why must a check valve with a 3/32\" hole in the Clapper be installed in the riser below the test valve in freezer spaces?",
         "answer": "To prevent evaporation of priming water",
         "distractors": [
             "To allow for thermal expansion",
@@ -4456,7 +5391,7 @@ const questions = [
         "code_text": "To prevent the evaporation of the priming water."
     },
     {
-        "id": 14,
+        "id": 4600014,
         "category": "NFPA 13 - Installation",
         "topic": "Alarms",
         "is_mn_amendment": false,
@@ -4472,7 +5407,7 @@ const questions = [
         "code_text": "Shall include a 5-minute limit retard."
     },
     {
-        "id": 15,
+        "id": 4600015,
         "category": "NFPA 14 - Standpipes",
         "topic": "System Design",
         "is_mn_amendment": false,
@@ -4488,7 +5423,7 @@ const questions = [
         "code_text": "Minimum flow rate for the hydraulically most remote standpipe shall be 500 gpm."
     },
     {
-        "id": 16,
+        "id": 4600016,
         "category": "NFPA 22 - Tanks",
         "topic": "Installation",
         "is_mn_amendment": false,
@@ -4504,12 +5439,12 @@ const questions = [
         "code_text": "Capable of filling the tank in not more than 8 hours."
     },
     {
-        "id": 17,
-        "category": "MN Statutes \u0026 Rules",
+        "id": 4600017,
+        "category": "MN Statutes & Rules",
         "topic": "Licensing",
         "is_mn_amendment": true,
         "difficulty": "Medium",
-        "question": "What is the fine for working in Minnesota without a journeyman\u0027s license?",
+        "question": "What is the fine for working in Minnesota without a journeyman's license?",
         "answer": "Misdemeanor, up to $1,000 / 90 days",
         "distractors": [
             "Gross Misdemeanor",
@@ -4521,7 +5456,7 @@ const questions = [
         "mnemonic": "1000 bucks or 3 months vacation."
     },
     {
-        "id": 18,
+        "id": 4600018,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
         "is_mn_amendment": false,
@@ -4537,8 +5472,8 @@ const questions = [
         "code_text": "1 in: 12 ft."
     },
     {
-        "id": 19,
-        "category": "MN Statutes \u0026 Rules",
+        "id": 4600019,
+        "category": "MN Statutes & Rules",
         "topic": "FDC",
         "is_mn_amendment": true,
         "difficulty": "Medium",
@@ -4553,7 +5488,7 @@ const questions = [
         "code_text": "Not less than 18 inches... and not more than 48 inches."
     },
     {
-        "id": 20,
+        "id": 4600020,
         "category": "NFPA 25 - Inspection, Testing, Maintenance",
         "topic": "Pumps",
         "is_mn_amendment": false,
@@ -4569,15 +5504,15 @@ const questions = [
         "code_text": "The diesel pump shall run a minimum of 30 minutes."
     },
     {
-        "id": 21,
+        "id": 4600021,
         "category": "NFPA 13 - Installation",
         "topic": "Dry Systems",
         "is_mn_amendment": false,
         "difficulty": "Medium",
         "question": "What is the required pitch for branch lines in a dry system?",
-        "answer": "¼\" per 10 feet",
+        "answer": "\u00bc\" per 10 feet",
         "distractors": [
-            "½\" per 10 feet",
+            "\u00bd\" per 10 feet",
             "1/8\" per 10 feet",
             "1\" per 10 feet"
         ],
@@ -4585,13 +5520,13 @@ const questions = [
         "code_text": "Dry pipe systems shall be pitched at least 1/4 in. per 10 ft for branch lines."
     },
     {
-        "id": 22,
+        "id": 4600022,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
         "is_mn_amendment": false,
         "difficulty": "Medium",
         "question": "What is the maximum pipe size a toggle hanger can support?",
-        "answer": "1½\"",
+        "answer": "1\u00bd\"",
         "distractors": [
             "1\"",
             "2\"",
@@ -4601,7 +5536,7 @@ const questions = [
         "code_text": "Toggle hangers... 1-1/2 in. or smaller."
     },
     {
-        "id": 23,
+        "id": 4600023,
         "category": "NFPA 13 - Installation",
         "topic": "System Design",
         "is_mn_amendment": false,
@@ -4617,7 +5552,7 @@ const questions = [
         "code_text": "Branch lines shall not exceed eight sprinklers on either side of a cross main."
     },
     {
-        "id": 24,
+        "id": 4600024,
         "category": "NFPA 13 - Installation",
         "topic": "Obstructions",
         "is_mn_amendment": false,
@@ -4633,7 +5568,7 @@ const questions = [
         "code_text": "Sprinklers shall be located a minimum of 4 in. from a wall."
     },
     {
-        "id": 25,
+        "id": 4600025,
         "category": "Safety - OSHA",
         "topic": "Trenching",
         "is_mn_amendment": false,
@@ -4649,7 +5584,7 @@ const questions = [
         "code_text": "Require no more than 25 feet of lateral travel."
     },
     {
-        "id": 26,
+        "id": 4600026,
         "category": "NFPA 13 - Installation",
         "topic": "Drains",
         "is_mn_amendment": false,
@@ -4657,15 +5592,15 @@ const questions = [
         "question": "What is the required main drain size for a 4\" riser?",
         "answer": "2 inch",
         "distractors": [
-            "1¼ inch",
-            "¾ inch",
+            "1\u00bc inch",
+            "\u00be inch",
             "3 inch"
         ],
         "citation": "NFPA 13 (2016 Edition), Table 16.10.4.2",
-        "code_text": "4 inch and larger -\u003e 2 inch drain."
+        "code_text": "4 inch and larger -> 2 inch drain."
     },
     {
-        "id": 27,
+        "id": 4600027,
         "category": "NFPA 13 - Installation",
         "topic": "Testing",
         "is_mn_amendment": false,
@@ -4681,7 +5616,7 @@ const questions = [
         "code_text": "Tested at 200 psi... for 2 hours."
     },
     {
-        "id": 28,
+        "id": 4600028,
         "category": "NFPA 13 - Installation",
         "topic": "FDC",
         "is_mn_amendment": false,
@@ -4697,7 +5632,7 @@ const questions = [
         "code_text": "Exception: Systems with 20 or fewer sprinklers."
     },
     {
-        "id": 29,
+        "id": 4600029,
         "category": "NFPA 20 - Pumps",
         "topic": "Installation",
         "is_mn_amendment": false,
@@ -4713,7 +5648,7 @@ const questions = [
         "code_text": "Connected with an eccentric tapered reducer... to avoid air pockets."
     },
     {
-        "id": 30,
+        "id": 4600030,
         "category": "NFPA 13 - Installation",
         "topic": "System Design",
         "is_mn_amendment": false,
@@ -4729,7 +5664,7 @@ const questions = [
         "code_text": "Light Hazard: 52,000 ft2."
     },
     {
-        "id": 31,
+        "id": 4600031,
         "category": "NFPA 25 - Inspection, Testing, Maintenance",
         "topic": "Tanks",
         "is_mn_amendment": false,
@@ -4745,7 +5680,7 @@ const questions = [
         "code_text": "Water level and air pressure... shall be inspected monthly."
     },
     {
-        "id": 32,
+        "id": 4600032,
         "category": "NFPA 13 - Installation",
         "topic": "Dry Systems",
         "is_mn_amendment": false,
@@ -4761,8 +5696,8 @@ const questions = [
         "code_text": "Leakage... shall not exceed 1.5 psi (0.1 bar) during the 24-hour period."
     },
     {
-        "id": 33,
-        "category": "MN Statutes \u0026 Rules",
+        "id": 4600033,
+        "category": "MN Statutes & Rules",
         "topic": "Licensing",
         "is_mn_amendment": true,
         "difficulty": "Medium",
@@ -4777,7 +5712,7 @@ const questions = [
         "code_text": "A minimum of 8000 hours of practical experience."
     },
     {
-        "id": 34,
+        "id": 4600034,
         "category": "NFPA 13 - Installation",
         "topic": "Valves",
         "is_mn_amendment": false,
@@ -4793,23 +5728,23 @@ const questions = [
         "code_text": "Valves shall not close in less than 5 seconds."
     },
     {
-        "id": 35,
+        "id": 4600035,
         "category": "NFPA 13 - Installation",
         "topic": "Hangers",
         "is_mn_amendment": false,
         "difficulty": "Medium",
         "question": "What size rod is required for hanging 10-inch and 12-inch pipe?",
-        "answer": "â…\"",
+        "answer": "\u215d\"",
         "distractors": [
-            "½\"",
-            "¾\"",
+            "\u00bd\"",
+            "\u00be\"",
             "1\""
         ],
         "citation": "NFPA 13 (2016 Edition), Table 9.1.2.1",
-        "code_text": "10 in and 12 in -\u003e 5/8 in."
+        "code_text": "10 in and 12 in -> 5/8 in."
     },
     {
-        "id": 36,
+        "id": 4600036,
         "category": "NFPA 13 - Installation",
         "topic": "Spare Heads",
         "is_mn_amendment": false,
@@ -4825,7 +5760,7 @@ const questions = [
         "code_text": "300-1000 heads: 12 spare sprinklers."
     },
     {
-        "id": 37,
+        "id": 4600037,
         "category": "NFPA 24 - Underground",
         "topic": "Depth",
         "is_mn_amendment": false,
@@ -4841,7 +5776,7 @@ const questions = [
         "code_text": "Not less than 3 ft (36 in)."
     },
     {
-        "id": 38,
+        "id": 4600038,
         "category": "NFPA 13 - Installation",
         "topic": "Pressure",
         "is_mn_amendment": false,
@@ -4857,7 +5792,7 @@ const questions = [
         "code_text": "Rated for... not less than 175 psi."
     },
     {
-        "id": 39,
+        "id": 4600039,
         "category": "NFPA 20 - Pumps",
         "topic": "Controllers",
         "is_mn_amendment": false,
@@ -4873,7 +5808,7 @@ const questions = [
         "code_text": "Current-carrying parts are not less than 12 in. above the floor."
     },
     {
-        "id": 40,
+        "id": 4600040,
         "category": "NFPA 13 - Installation",
         "topic": "System Design",
         "is_mn_amendment": false,
@@ -4888,5 +5823,4 @@ const questions = [
         "citation": "NFPA 13 (2016 Edition), Table 8.12.2.2.1",
         "code_text": "ESFR Protection Area: 100 ft2."
     }
-]
-    ;
+];
